@@ -4,11 +4,146 @@
 \label{Chapter4} % For referencing the chapter elsewhere, use \ref{Chapter1} 
 
 \section{Evaluation}
-Analyze our changes again with the gartner layer model 
+%How effective are the solutions? %Which is more effective?
 
-Since the layers of an IoT system are neither standartized nor clear depending on the things included in the network system, a layered approach can only be striven for in the execution of a PoC. 
+
+To evaluate the quality of the changes we made, 
+we evaluated the room with the same criterias we picked when judging the room before the changes.
+
+\subsection{Layer Analysis}
+Refering to \ref{fig:gartnerIoT} again, we analyzed the existing architecture of the escape room in respect to the changes we made.
+\begin{description}
+	\item[Device Layer]\hfill \\
+	      We didn't make many changes to the Device Layer, as we had instructions not to interfere with the existing structure of the room.
+	      Except to adding a prototype implementing the new communication structure, the existing riddles and the gateway Adafruit Feather 32u4 were not manipulated in any way.
+	\item[Communication Layer]\hfill \\
+	      The Devices do still communicate with RFM69HCW modules and the LowPowerLab-libary via radio communication,
+	      however, the new web-server functionalities could expand the communication for the software-side of the room. If the Server-PC gets a steady W-Lan connecection.
+	      An overview from anywhere within the network could be achieved.
+	\item[Information Layer]\hfill \\
+	      A postgreSQL database was added to the architecture for filtering and overview purposes.
+	      A middleware-implementation using the database and socket.io was established to connect to a front-end using react.
+	      For newer Riddles, an advanced communication protocol was developed where a user can use defined strings to trigger events on the device.
+	      As the new system should be compatible with the old one, the basis of the communication architecture was not meant to change completely.
+	      Instead,we expanded the given system of strings separated by “/” to trigger more actions.
+	\item[Function Layer]\hfill \\
+	      The incoming strings are now translated and send to a web interface.
+	      Depending on the string, they trigger a database-query and are interpreted and saved in the database, or update an existing entry.
+	      Additionally, The incoming strings are now filtered before they reach the tcpclient(Unity)by the database to ensure proper trigger assignment.
+	\item[Process Layer]\hfill \\
+	      The process layer received the most changes.
+	      We now have a web interface showing the existing riddles, enabling an immediate interaction with them, and providing a scalable overview about the room.
+
+\end{description}
+
+\subsection{Workload critera}
+We analyzed the changed amounts of workload again. 
+We didn't have the possibilty to test our findings, so the listed views are highly subjective 
+and should only be interpeted as the authors impressions, backed by our research.
+\subsubsection{Cognitive Work}
+The cognitive work needed to develop parts 
+of the software and hardware is expected to be considerably lower with the changes we made.
+In the following, we compare our prior concerns to our perception now.
+\begin{enumerate}
+    \item The user no longer needs to understand the transport protocol in detail
+    \begin{enumerate}
+        \item 
+        He still needs to Set-Up the RFM69HCW with an Arduino or an Adafruit Feather, 
+        which requires drivers and maybe another libary, but has thorough instructions through a documentation
+        \item doesn't need to understand the communication LowPowerLab libary if he uses the designed template
+        \item doesn't need to look up the other riddles NodeIDs as he can look them up in the WebInterface
+    \end{enumerate}   
+    \item understand Arduino-coding 
+    \item understand working with the "Switch-Case"-scenario used for communication (with instructions)
+\end{enumerate}  
+Process Layer:
+\begin{enumerate}
+    \item understand Javascript to make changes in the Server (in a cleaned up, documented and component-based code with improved readability)
+    \item 
+    We were instructed not to change the Unity application, so the problem of Unity-programming still exists. 
+    It would be easier to change though, by replacing the TCP connection with a Socket.io connection. 
+    There are multiple client implementations for Unity available \parencite{socketioUnity1, socketioUnity2,socketioUnity3}
+    That reportedly work (at least) up to the current version of Unity. 
+    Since the Unity version in the escape room won't be upgraded regularily, deprecation issues should not arise.
+    \item understand Javascript and HTML to make changes to the React-front-end (also component-based) 
+\end{enumerate}  
+\subsubsection{Visual Work}
+We didn't have the time to research web-design to an extend where we could state confidentely that our design is especially user-friendly.
+Alternatively though, the website offers an improved version of the prior window with an integrated translation of the incoming codes.
+It also offers a lot more information and possibilites to interact with the enviroment, which reduces the workload in other areas.
+\subsubsection{Memory Work}
+The memory work is reduced immensely, especially for new riddles. 
+The user has the possibility to save it's values as buttons so that he only needs to interact with an abstraction of the machine-code.
+\begin{itemize}
+    \item [Buttons] By clicking buttons instead of remembering the strings, the user can take the shortest way to activate a functionality
+    \item [Information Display] By displaying all riddle information in one place, the user can gain a better understanding of the riddles functionalities
+    \item [Automatisation] 
+    We automated tasks like activating the feedback mode of the riddles and sending 
+    and starting the applications in the right order
+\end{itemize}
+\subsubsection{Physical Work}
+The web server reduced the physical interaction needed to work with the room. 
+A user can access the room remotely and doesn't need to start the applications manually.
+\subsection{Limitations}
+Even though we, to our judgement, achieved our set goals, 
+we should mentions the limitations our project might have suffered from.
+
+We were working with an already existing project which we were instructed not to change from it's core. 
+Instead of designing a new architecture by scratch, we acted therefore within the given frame. 
+An architecture from scratch would e.g. have used a simpler communication system for the Arduinos and would have changed 
+the Unity communication to an event-based, more dynamic protocol.  
+
+Due to the current Unity communication, resetting the riddles depending on their assignement
+is currently not possible, and riddles might be involuntary resetted on activating a trigger in Unity.
+
+The code of the project was build within a 3-month period by the single, unexperienced author.
+The most thorough research can not replace hands-on experience, 
+just like the most motivated person can usually not substitute the intertwined ideas a team can develop over a course of time.
+
+Because of the tight schedule, we didn't have the time to evaluate the user-experience with the new system so we can only estimate the value our framework produces.
+Also, we weren't able to include a lot of features listed in the "Big Picture"-section below.
+A more finished product would have been desirable.
+
+%kritik: Unerfahren (alles selber beigebracht), begrenzter Zeitrahmen, alleine alles bauen
+%Pro: Ziel erreicht, raum ist einfacher als vorher 
+%Nur eingeschränkt umfragen gemacht, qualitative interviews 
+%Subjektive view
+% Aber: dadurch das bestehendes system nicht verändert werden durfte einige unschöne aspekte
+% ein set up von vorne hätte eine direkte statt eine indirekte w-lan verbindung bringen können,
+% das kommunizieren über den serial port ist fehleranfällig allein bei der übertragung
+%Wir haben überlastung der arduinos bei zu vielen sendebefehlen erlebt, das heißt die funk funktionen sind nur begrenzt skalierbar
+%Didn't include security mechanism like password authentification
+%Node Editor for combining buttons would be cool (Button 1 to Button with that code)
+\subsection{Big Picture}
+This section is meant to list possible ways to expand the build framework.
+\begin{enumerate}
+    \item [Fully Event-Based-Processing] 
+    By replacing the TCP-Connection to Unity with a Socket.io client, 
+    one could take the entire processing to the Node.js server. Since the Node.js server handles the database-queries,
+    the events would scale dynamically. Developers wouldn't need to change the Unity code manually everytime a riddle is added. 
+    Possible use cases are:
+    \begin{enumerate}
+        \item Resetting the room could be implemented by selecting all riddledetails with "Finish" as an infovalue when Unity sends a "resetRiddles" event.
+        \item 
+        Resetting the riddle that activated an event in Unity could be implemented by storing the incoming "Finish" 
+        value and retrieving it's fitting "Reset" value with the ID of the string.
+    \end{enumerate}
+    \item [Node Editor]
+    Developing the Front-End further, one could implement a node-editor to create reaction-chains. 
+    Such a reaction chain could be that a riddle changes the color of the floor when it's finished by combining two buttons. 
+    The data already exists as a json in the front-end, but creating a flexible drag-and-drop interface with the internal processing 
+    went beyond the scope of the project. 
+    \item [Securty] 
+    Within the scope of this project, we didn't include security protection like password authentification and encryption.
+    Since the web server is hosted in a local network in a password protected enviroment we didn't prioritize an authentification system.
+    Another aspect was that an escape room doesn't contain privacy sensitive data in our point of view.
+\end{enumerate}
+We could have used an external rasperry with an integrated gateway module
 \section{Conclusion}
 ...
+%Summarize all main points and insights/discoveries
 
 
 
+%Since the layers of an IoT system are neither standartized nor clear depending on the things included in the network system,
+%a layered approach can only be striven for in the execution of a PoC.

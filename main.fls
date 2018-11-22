@@ -336,12 +336,12 @@ INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/adobe/palatino/pplr8t.vf
 OUTPUT Chapters/Chapter2.aux
 INPUT Chapters/Chapter2.tex
 INPUT Chapters/Chapter2.tex
-INPUT Figures/oldEscapeUml.png
-INPUT ./Figures/oldEscapeUml.png
-INPUT ./Figures/oldEscapeUml.png
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/palatino/pplb8t.tfm
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/vf/adobe/palatino/pplb8t.vf
 INPUT /usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm
+INPUT Figures/oldEscapeUml.png
+INPUT ./Figures/oldEscapeUml.png
+INPUT ./Figures/oldEscapeUml.png
 INPUT Figures/workload.png
 INPUT ./Figures/workload.png
 INPUT ./Figures/workload.png

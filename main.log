@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.8.15)  22 NOV 2018 10:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.8.15)  22 NOV 2018 17:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1630,79 +1630,80 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 3.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 11.
-<Figures/gartnerIoT.png, id=222, 690.58pt x 682.55pt>
+<Figures/gartnerIoT.png, id=262, 690.58pt x 682.55pt>
 File: Figures/gartnerIoT.png Graphic file (type png)
 <use Figures/gartnerIoT.png>
-Package pdftex.def Info: Figures/gartnerIoT.png  used on input line 53.
+Package pdftex.def Info: Figures/gartnerIoT.png  used on input line 54.
 (pdftex.def)             Requested size: 517.93373pt x 511.91125pt.
 1: section
 [1
 
 
 ]
-Overfull \hbox (12.00024pt too wide) in paragraph at lines 61--71
+Overfull \hbox (12.00024pt too wide) in paragraph at lines 62--72
 \T1/ppl/m/n/10.95 Front-End for our im-ple-men-ta-tion we used Re-ac-tjs which is an Open-Source Javascript-
  []
 
 
-Overfull \hbox (20.56253pt too wide) in paragraph at lines 72--74
+Overfull \hbox (20.56253pt too wide) in paragraph at lines 73--75
 \T1/ppl/m/n/10.95 spon-si-bil-i-ties. Com-po-nents com-bine the HTMl-markup and Javscript-functionality
  []
 
 [2 <./Figures/gartnerIoT.png>]
 
-LaTeX Warning: Citation 'gogleTrendNode' on page 3 undefined on input line 102.
+LaTeX Warning: Citation 'gogleTrendNode' on page 3 undefined on input line 103.
 
 
-LaTeX Warning: Citation 'nodeLearningcurve' on page 3 undefined on input line 105.
+LaTeX Warning: Citation 'nodeLearningcurve' on page 3 undefined on input line 106.
 
 
-Overfull \hbox (19.37001pt too wide) in paragraph at lines 99--114
+Overfull \hbox (19.37001pt too wide) in paragraph at lines 100--115
 \T1/ppl/m/n/10.95 We used Node.js for our back-end. Node.js is an open-source, cross-plattform, javascript-
  []
 
 
-Overfull \hbox (13.8729pt too wide) in paragraph at lines 99--114
+Overfull \hbox (13.8729pt too wide) in paragraph at lines 100--115
 \T1/ppl/m/n/10.95 learn-ing costs. Node.js is es-ti-mated to have a high learn-ing curve ([]).
  []
 
-[3]
 
-LaTeX Warning: Citation 'arduinoIDEDownload' on page 4 undefined on input line 117.
+LaTeX Warning: Citation 'arduinoIDEDownload' on page 3 undefined on input line 118.
 
-) [4]
+[3]) [4]
 \openout2 = `Chapters/Chapter2.aux'.
 
  (./Chapters/Chapter2.tex
 Chapter 2.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 7.
 
-Overfull \hbox (6.04408pt too wide) in paragraph at lines 11--14
+Overfull \hbox (6.04408pt too wide) in paragraph at lines 13--16
 \T1/ppl/m/n/10.95 depending sen-sors for each rid-dle. The Gate-way de-vice was an Adafruit Feather
  []
 
 
-LaTeX Warning: Citation 'LowPowerlab' on page 5 undefined on input line 18.
+LaTeX Warning: Citation 'LowPowerlab' on page 5 undefined on input line 20.
 
 
-LaTeX Warning: Citation 'Radiohead' on page 5 undefined on input line 18.
+LaTeX Warning: Citation 'Radiohead' on page 5 undefined on input line 20.
 
 
-Overfull \hbox (1.77303pt too wide) in paragraph at lines 14--24
+Overfull \hbox (1.77303pt too wide) in paragraph at lines 16--26
 \T1/ppl/m/n/10.95 The Com-mu-ni-ca-tion within the room was set-up with RFM69HCW Transceiver
  []
 
 
-Overfull \hbox (17.3877pt too wide) in paragraph at lines 14--24
+Overfull \hbox (17.3877pt too wide) in paragraph at lines 16--26
 \T1/ppl/m/n/10.95 and setup Transceiver. They do pack-e-ti-za-tion, er-ror cor-rec-tion and auto-retransmit
  []
 
 
-Overfull \hbox (53.0086pt too wide) in paragraph at lines 14--24
+Overfull \hbox (53.0086pt too wide) in paragraph at lines 16--26
 \T1/ppl/m/n/10.95 There are two open-source libaries for the RFM69HCW, the Low-Pow-er-lab ([])
  []
 
 
-Overfull \hbox (7.52234pt too wide) in paragraph at lines 24--28
+Overfull \hbox (7.52234pt too wide) in paragraph at lines 26--30
 \T1/ppl/m/n/10.95 The In-for-ma-tion Layer was build around a sim-ple Event Model: the Transceivers
  []
 
@@ -1712,50 +1713,43 @@ Overfull \hbox (7.52234pt too wide) in paragraph at lines 24--28
 
 
 ]
-<Figures/oldEscapeUml.png, id=268, 1231.9626pt x 798.8244pt>
+<Figures/oldEscapeUml.png, id=308, 1231.9626pt x 798.8244pt>
 File: Figures/oldEscapeUml.png Graphic file (type png)
 <use Figures/oldEscapeUml.png>
-Package pdftex.def Info: Figures/oldEscapeUml.png  used on input line 39.
+Package pdftex.def Info: Figures/oldEscapeUml.png  used on input line 41.
 (pdftex.def)             Requested size: 923.9697pt x 599.11684pt.
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 58.
 
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 58.
-
-
-Overfull \hbox (18.31839pt too wide) in paragraph at lines 59--67
+Overfull \hbox (18.31839pt too wide) in paragraph at lines 61--69
 \T1/ppl/m/n/10.95 which would re-quire in-ter-ac-tion with the Device-Layer (if they wanted to add hardware-
  []
 
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 68.
-
 [6 <./Figures/oldEscapeUml.png>]
-Overfull \hbox (5.13528pt too wide) in paragraph at lines 86--88
+Overfull \hbox (5.13528pt too wide) in paragraph at lines 88--90
 []\T1/ppl/m/n/10.95 understand C# and Low-Level-Socket com-mu-ni-ca-tion to make changes in Unity
  []
 
 [7]
-<Figures/workload.png, id=295, 277.035pt x 217.7736pt>
+Overfull \hbox (9.93079pt too wide) in paragraph at lines 135--136
+[]\T1/ppl/m/n/10.95 Retrieving in-for-ma-tion from the room must work au-to-mat-i-cally, there-fore should
+ []
+
+<Figures/workload.png, id=337, 277.035pt x 217.7736pt>
 File: Figures/workload.png Graphic file (type png)
 <use Figures/workload.png>
-Package pdftex.def Info: Figures/workload.png  used on input line 124.
+Package pdftex.def Info: Figures/workload.png  used on input line 145.
 (pdftex.def)             Requested size: 138.51715pt x 108.88652pt.
 ) [8 <./Figures/workload.png>]
 \openout2 = `Chapters/Chapter3.aux'.
 
  (./Chapters/Chapter3.tex
 Chapter 3.
-<Figures/PoC.png, id=304, 437.9562pt x 532.389pt>
+<Figures/PoC.png, id=348, 437.9562pt x 532.389pt>
 File: Figures/PoC.png Graphic file (type png)
 <use Figures/PoC.png>
-Package pdftex.def Info: Figures/PoC.png  used on input line 15.
+Package pdftex.def Info: Figures/PoC.png  used on input line 22.
 (pdftex.def)             Requested size: 437.95512pt x 532.3877pt.
 
-Overfull \hbox (6.97362pt too wide) in paragraph at lines 31--40
+Overfull \hbox (6.97362pt too wide) in paragraph at lines 38--47
 \T1/ppl/m/n/10.95 "receive-chararray-to-string" struc-ture. The tem-plate is de-v-ided into 3 parts: "Ground-
  []
 
@@ -1765,70 +1759,94 @@ Overfull \hbox (6.97362pt too wide) in paragraph at lines 31--40
 
 
 ]
-<Figures/registerRiddle.png, id=310, 369.38pt x 309.155pt>
+<Figures/registerRiddle.png, id=354, 369.38pt x 309.155pt>
 File: Figures/registerRiddle.png Graphic file (type png)
 <use Figures/registerRiddle.png>
-Package pdftex.def Info: Figures/registerRiddle.png  used on input line 55.
+Package pdftex.def Info: Figures/registerRiddle.png  used on input line 62.
 (pdftex.def)             Requested size: 277.03432pt x 231.86568pt.
  [10 <./Figures/PoC.png>]
-Overfull \hbox (3.19696pt too wide) in paragraph at lines 79--83
+Overfull \hbox (3.19696pt too wide) in paragraph at lines 96--100
 \T1/ppl/m/n/10.95 database and han-dling. We used the "pg-promise" libary ([][][]\T1/ppl/m/it/10.95 pg-promise[][]\T1/ppl/m/n/10.95 ) for our database
  []
 
 [11 <./Figures/registerRiddle.png>]
 
-LaTeX Warning: Citation 'MSDN' on page 12 undefined on input line 98.
+LaTeX Warning: Citation 'MSDN' on page 12 undefined on input line 115.
 
-<Figures/backendOverview.png, id=330, 724.7075pt x 581.17125pt>
+<Figures/backendOverview.png, id=374, 724.7075pt x 581.17125pt>
 File: Figures/backendOverview.png Graphic file (type png)
 <use Figures/backendOverview.png>
-Package pdftex.def Info: Figures/backendOverview.png  used on input line 120.
+Package pdftex.def Info: Figures/backendOverview.png  used on input line 126.
 (pdftex.def)             Requested size: 543.5293pt x 435.87737pt.
-[12] [13 <./Figures/backendOverview.png>]
-<Figures/frontendOverview.png, id=348, 734.745pt x 610.28pt>
+[12 <./Figures/backendOverview.png>]
+<Figures/frontendOverview.png, id=384, 734.745pt x 610.28pt>
 File: Figures/frontendOverview.png Graphic file (type png)
 <use Figures/frontendOverview.png>
-Package pdftex.def Info: Figures/frontendOverview.png  used on input line 162.
+Package pdftex.def Info: Figures/frontendOverview.png  used on input line 168.
 (pdftex.def)             Requested size: 551.05739pt x 457.70888pt.
-) [14 <./Figures/frontendOverview.png>]
+) [13] [14 <./Figures/frontendOverview.png>]
 \openout2 = `Chapters/Chapter4.aux'.
 
  (./Chapters/Chapter4.tex
 Chapter 4.
-)
+
+Overfull \hbox (31.754pt too wide) in paragraph at lines 19--23
+\T1/ppl/m/n/10.95 The De-vices do still com-mu-ni-cate with RFM69HCW mod-ules and the LowPowerLab-
+ []
+
+
+Overfull \hbox (3.25053pt too wide) in paragraph at lines 23--29
+\T1/ppl/m/n/10.95 A post-greSQL database was added to the ar-chi-tec-ture for fil-ter-ing and overview
+ []
+
 1: section
 [15
 
 
 
 ]
+
+LaTeX Warning: Citation 'socketioUnity1' on page 16 undefined on input line 65.
+
+
+LaTeX Warning: Citation 'socketioUnity2' on page 16 undefined on input line 65.
+
+
+LaTeX Warning: Citation 'socketioUnity3' on page 16 undefined on input line 65.
+
+[16]
+Overfull \hbox (2.35309pt too wide) in paragraph at lines 128--130
+[]\T1/ppl/m/n/10.95 Resetting the rid-dle that ac-ti-vated an event in Unity could be im-ple-mented
+ []
+
+[17]) [18]
 \openout2 = `Appendices/AppendixA.aux'.
 
- (./Appendices/AppendixA.tex [16
-
-
-
-]
+ (./Appendices/AppendixA.tex
 Appendix A.
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 11.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 ))
 1: section
-[17] [18
+[19
+
+
+
+] [20
 
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 259.
 
 1: section
-[19]
+[21]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 259.
  (./main.aux (./Chapters/Chapter1.aux) (./Chapters/Chapter2.aux) (./Chapters/Chapter3.aux) (./Chapters/Chapter4.aux) (./Appendices/AppendixA.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 259.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 259.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 3A28084579A530806DAF4BABF5238EC4;4423.
+(rerunfilecheck)             Checksum: 3EC36BFA532B58C67EB678FB9CED5712;5707.
 
 
 LaTeX Warning: There were undefined references.
@@ -1846,18 +1864,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33777 strings out of 492649
- 689079 string characters out of 6129622
- 917777 words of memory out of 5000000
- 37204 multiletter control sequences out of 15000+600000
+ 33812 strings out of 492649
+ 689435 string characters out of 6129622
+ 918737 words of memory out of 5000000
+ 37214 multiletter control sequences out of 15000+600000
  576839 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,19n,81p,10413b,1982s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 58i,20n,81p,10413b,2093s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (33 pages, 672680 bytes).
+Output written on main.pdf (35 pages, 683365 bytes).
 PDF statistics:
- 427 PDF objects out of 1000 (max. 8388607)
- 368 compressed objects within 4 object streams
- 111 named destinations out of 1000 (max. 500000)
- 316 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 496 PDF objects out of 1000 (max. 8388607)
+ 434 compressed objects within 5 object streams
+ 137 named destinations out of 1000 (max. 500000)
+ 396 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,8 +1,10 @@
 % Chapter Template
 \chapter{Project Overview5-10p} % Main chapter title
-
+%What is the problem and its effects?
 \label{Chapter2} % For referencing the chapter elsewhere, use \ref{Chapter1} 
+\section{Analysis}
 
+\subsection{Layer Analysis}
 %----------------------------------------------------------------------------------------
 %	SECTION 1
 %----------------------------------------------------------------------------------------
@@ -54,8 +56,8 @@ Refering to \ref{fig:gartnerIoT}, we analyzed the existing architecture of the e
     \label{fig:c++window}
 \end{figure}
 
+\subsection{Workload analysis}
 %SECTION TWOOO
-\subsection{Analysis}
 In 2009, Kim Goodwin stated that 
 „Interactive products and services tend to require four different types of work from users: 
 cognitive, visual, memory, and physical“ \parencite{designDigitalAge} 
@@ -111,12 +113,31 @@ Since an escape room is made for customers who expect the illusion of in this ca
 it wouldn't fit to have hardware with "do not touch" signs all over the place lying around.
 
 \subsubsection{Consequences}
-//da fehlt noch viel
-
 This analysis showed the projects strengths and weaknesses. The next step was to estimate the workload and possibilities 
-we had with our limited resources to change the project for the better. 
+we had with our limited resources to improve the project for future developers. 
 As mentioned earlier, IoT-Projects typically follow a SoA %Reference to abkürzung!
 to keep the project flexible and expandable. 
+We orientad our goals with that architecture in mind and planned to keep whatever 
+we implement loosely coupled to encourage improving a specific module of the project.
+The cognitive and memory work required form a developer were the most critical points 
+where one might spend a lot of time or might decide not to join the project at all because of time planning reasons.
+As a consequence, we looked for ways to reduce those workloads.
+To reduce cognitive (C) work, the process of learning and discovering the project must be simplified.
+To reduce the memory (M) work, the amount of commands to remember to control the room must be reduced and the start-up of the room must be simplified.
+After discussing possible ways, we decided on a few specific tasks:
+\begin{enumerate}
+    \item Developing a web interface that would:
+    \begin{itemize}
+        \item Enable more overview and control for the existing riddles (M)
+        \item Ease the testing process for new riddles by displaying them dynamically (C)
+        \item Allow remote access (P) and control (C) within the lokal w-lan enviroment 
+    \end{itemize}
+    \item Retrieving information from the room must work automatically, therefore should the feedback mode be enabled on start-up (M)
+    \item Providing a thorough documentation for future developers  (C/M) 
+\end{enumerate}
+
+We summarized our goals for improvement in the different areas in \ref{fig:workload}.
+
 %ergänzen!
 
 \begin{figure}[th]

@@ -1,12 +1,19 @@
 % Chapter Template
 
 \chapter{Implementation 10} % Main chapter title
-
+%Possible solutions (in the context)
 \label{Chapter3} % For referencing the chapter elsewhere, use \ref{Chapter1} 
 
 After introducing the project, we will now talk about our implementation.
-We tried to keep our architecture loosely coupled, so that the e.g. the communication to Unity would work even if a connection to the webserver failed.
 Our implementation used the aforementioned tools as well as some smaller libaries that will be explained in the following section.
+\section{Architecture}
+We tried to integrate a SoA, so that our components would be self-contained and reusable. 
+For example, the communication to Unity would still work if a connection to the webserver failed.
+The Tcp and Serial connection whre set-up in a general way (send/receive all). 
+As a consequence, the processing of the data would happen in another component.
+The front-end connection received it's own namespace for socket.io events so front-end relevant data 
+would only be proccessed in it's set namespace component.
+%picture of our architecture
 \section{Prototyping}
 Our reasearch inspired us to try Rapid Prototyping in our project. 
 We designed a Proof of Concept for each stage \ref{fig:PoC} of our implementation.
@@ -71,8 +78,18 @@ We wanted the code to be changeable to provide different difficulties.
 Moreover would the riddle possess static  "won", "lost", and "reset"-values to track and control the riddle's state.
 
 \section{Back-End}
+We normalized our database with two tables, one for the riddledetails shown only when the riddle is clicked, and another for listing the general information.
+We used the relational model to manage our database. 
+In the relational model, related records are linked by a key predicate common to all. 
+In our project, we found that two tables fit our needs. 
+One table manages the location, name and other general information about the riddle displayed in the main view, 
+whereas the other one is responsible for saving and editing the information displayed in the pop-up window. 
+This seperation simplifies database changes, clearifying the tasks happening on the Node.js server.
+The Node.js server connects the information when sending to the front-end by assigning the details with the riddle's id to the corresponding riddle. 
 
-\subsection{Web server}
+\section{Middleware}
+
+\subsection{Web Server}
 It quickly became apperant that our back-end web server would use Node.js due to the reasons mentioned above.
 The decisive factor for this decision was that it would be easier to develop and understand a web server programmed in the same language as the front-end.
 
@@ -103,17 +120,6 @@ It took us roughly a week to implement the desired functionalites.
 At the end of the project, we decided to revisit our C\# code and tried to implement it in Javascript.
 The same functionalites took us about 6 hours to implement, though we did by then have intermediate experience in Javascript and started our C\# implementation with Unity-C\#-Knowledge.
 In our perception, the Async-capabilities of Node.js showed a tremendous advantage compared to the threading difficulties wie experienced with the .NET project.
-
-\section{Database}
-We normalized our database with two tables, one for the riddledetails shown only when the riddle is clicked, and another for listing the general information.
-We used the relational model to manage our database. 
-In the relational model, related records are linked by a key predicate common to all. 
-In our project, we found that two tables fit our needs. 
-One table manages the location, name and other general information about the riddle displayed in the main view, 
-whereas the other one is responsible for saving and editing the information displayed in the pop-up window. 
-This seperation simplifies database changes, clearifying the tasks happening on the Node.js server.
-The Node.js server connects the information when sending to the front-end by assigning the details with the riddle's id to the corresponding riddle. 
-
 
 \begin{figure}[th]
 	\centering
@@ -164,5 +170,6 @@ To increase the general overview for a supervisor, the color of a riddle would c
 	\caption[FrontViewTable]{Overview about our front-view challenges.}
 	\label{fig:FrontViewTable}
 \end{figure}
+
 
 
