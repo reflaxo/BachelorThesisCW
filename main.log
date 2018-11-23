@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.8.15)  23 NOV 2018 13:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.8.15)  23 NOV 2018 13:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1488,4 +1488,379 @@ Package biblatex Warning: BibTeX reported the following issues
 
 
 Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 
+(biblatex)                with 'createReactApp':
+(biblatex)                - Invalid format of field 'urldate'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'reactStructure':
+(biblatex)                - Invalid format of field 'urldate'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'reactDND':
+(biblatex)                - Invalid format of field 'urldate'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'socketioClients':
+(biblatex)                - Invalid format of field 'urldate'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'stackOverflowSurvey':
+(biblatex)                - Invalid format of field 'urldate'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'reactjsUsers':
+(biblatex)                - Invalid format of field 'urldate'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'pg-promise':
+(biblatex)                - Invalid format of field 'urldate'.
+
+
+Package biblatex Warning: BibTeX reported the following issues
+(biblatex)                with 'verizon':
+(biblatex)                - Invalid format of field 'urldate'.
+
+)
+Package biblatex Info: Reference section=0 on input line 90.
+Package biblatex Info: Reference segment=0 on input line 90.
+\AtBeginShipoutBox=\box55
+Package hyperref Info: Link coloring ON on input line 90.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count420
+)
+LaTeX Info: Redefining \ref on input line 90.
+LaTeX Info: Redefining \pageref on input line 90.
+LaTeX Info: Redefining \nameref on input line 90.
+ (./main.out) (./main.out)
+\@outlinefile=\write5
+\openout5 = `main.out'.
+
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 90.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1ppl.fd
+File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
+)
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 90.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omlzplm.fd
+File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
+)
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 90.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omszplm.fd
+File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
+)
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 90.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omxzplm.fd
+File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
+)
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 90.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1zplm.fd
+File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
+)
+1: section
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <20.74> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 108.
+[1
+
+
+
+{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2
+
+]
+--------------------
+ Declaration of Authorship
+--------------------
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 148.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omsppl.fd
+File: omsppl.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 148.
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--154
+
+ []
+
+1: section
+[3] [4
+
+] [5] [6
+
+]
+--------------------
+ Abstract
+--------------------
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 179.
+1: section
+[7] [8
+
+]
+--------------------
+ Acknowledgements
+--------------------
+1: section
+[9] [10
+
+]
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 196.
+ (./main.toc
+1: section
+[11])
+\tf@toc=\write6
+\openout6 = `main.toc'.
+
+ [12] (./main.lof)
+\tf@lof=\write7
+\openout7 = `main.lof'.
+
+
+1: section
+[13
+
+] [14
+
+]
+1: section
+[15] [16
+
+]
+--------------------
+ Dedicatory
+--------------------
+1: section
+[17] [18
+
+]
+1: section
+\openout2 = `Chapters/Chapter1.aux'.
+
+(./Chapters/Chapter1.tex
+Chapter 1.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 3.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 8.
+)
+1: section
+[1
+
+
+]
+\openout2 = `Chapters/Chapter2.aux'.
+
+ (./Chapters/Chapter2.tex [2
+
+
+
+]
+Chapter 2.
+<Figures/gartnerIoT.png, id=301, 690.58pt x 682.55pt>
+File: Figures/gartnerIoT.png Graphic file (type png)
+<use Figures/gartnerIoT.png>
+Package pdftex.def Info: Figures/gartnerIoT.png  used on input line 11.
+(pdftex.def)             Requested size: 517.93373pt x 511.91125pt.
+1: section
+[3 <./Figures/gartnerIoT.png>]
+Overfull \hbox (20.56253pt too wide) in paragraph at lines 30--32
+\T1/ppl/m/n/10.95 spon-si-bil-i-ties. Com-po-nents com-bine the HTMl-markup and Javscript-functionality
+ []
+
+[4]
+
+LaTeX Warning: Citation 'gogleTrendNode' on page 5 undefined on input line 59.
+
+
+LaTeX Warning: Citation 'nodeLearningcurve' on page 5 undefined on input line 62.
+
+
+Overfull \hbox (33.98781pt too wide) in paragraph at lines 57--71
+\T1/ppl/m/n/10.95 49.6% it is this years "Most Pop-u-lar Frame-work, Libary or Tool" on this years Stackoverflow-
+ []
+
+
+LaTeX Warning: Citation 'arduinoIDEDownload' on page 5 undefined on input line 74.
+
+[5]) [6]
+\openout2 = `Chapters/Chapter3.aux'.
+
+ (./Chapters/Chapter3.tex
+Chapter 3.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 7.
+
+Overfull \hbox (3.7775pt too wide) in paragraph at lines 13--16
+\T1/ppl/m/n/10.95 depending sen-sors for each rid-dle. The gate-way de-vice was an Adafruit Feather
+ []
+
+
+LaTeX Warning: Citation 'LowPowerlab' on page 7 undefined on input line 20.
+
+
+LaTeX Warning: Citation 'Radiohead' on page 7 undefined on input line 20.
+
+
+Overfull \hbox (17.3877pt too wide) in paragraph at lines 16--26
+\T1/ppl/m/n/10.95 and setup Transceiver. They do pack-e-ti-za-tion, er-ror cor-rec-tion and auto-retransmit
+ []
+
+
+Overfull \hbox (53.0086pt too wide) in paragraph at lines 16--26
+\T1/ppl/m/n/10.95 There are two open-source libaries for the RFM69HCW, the Low-Pow-er-lab ([])
+ []
+
+
+Overfull \hbox (5.38702pt too wide) in paragraph at lines 26--30
+\T1/ppl/m/n/10.95 The In-for-ma-tion Layer was build around a sim-ple event model: the Transceivers
+ []
+
+1: section
+[7
+
+
+
+]
+<Figures/oldEscapeUml.png, id=341, 1231.9626pt x 798.8244pt>
+File: Figures/oldEscapeUml.png Graphic file (type png)
+<use Figures/oldEscapeUml.png>
+Package pdftex.def Info: Figures/oldEscapeUml.png  used on input line 41.
+(pdftex.def)             Requested size: 923.9697pt x 599.11684pt.
+ [8 <./Figures/oldEscapeUml.png>]
+Overfull \hbox (7.05153pt too wide) in paragraph at lines 89--91
+[]\T1/ppl/m/n/10.95 Understand C# and Low-Level-Socket com-mu-ni-ca-tion to make changes in Unity
+ []
+
+[9]
+Overfull \hbox (9.93079pt too wide) in paragraph at lines 141--142
+[]\T1/ppl/m/n/10.95 Retrieving in-for-ma-tion from the room must work au-to-mat-i-cally, there-fore should
+ []
+
+<Figures/workload.png, id=367, 277.035pt x 217.7736pt>
+File: Figures/workload.png Graphic file (type png)
+<use Figures/workload.png>
+Package pdftex.def Info: Figures/workload.png  used on input line 151.
+(pdftex.def)             Requested size: 138.51715pt x 108.88652pt.
+) [10] [11 <./Figures/workload.png>]
+\openout2 = `Chapters/Chapter4.aux'.
+
+ (./Chapters/Chapter4.tex [12
+
+
+
+]
+Chapter 4.
+<Figures/PoC.png, id=385, 437.9562pt x 532.389pt>
+File: Figures/PoC.png Graphic file (type png)
+<use Figures/PoC.png>
+Package pdftex.def Info: Figures/PoC.png  used on input line 25.
+(pdftex.def)             Requested size: 437.95512pt x 532.3877pt.
+1: section
+[13]
+Overfull \hbox (1.35075pt too wide) in paragraph at lines 51--54
+[]\T1/ppl/m/n/10.95 The "Rid-dle-func-tion-al-ity" sec-tion should con-tain the rid-dles func-tion-al-i-ties seper-
+ []
+
+[14 <./Figures/PoC.png>]
+<Figures/registerRiddle.png, id=396, 369.38pt x 309.155pt>
+File: Figures/registerRiddle.png Graphic file (type png)
+<use Figures/registerRiddle.png>
+Package pdftex.def Info: Figures/registerRiddle.png  used on input line 72.
+(pdftex.def)             Requested size: 277.03432pt x 231.86568pt.
+ [15 <./Figures/registerRiddle.png>]
+Overfull \hbox (3.19696pt too wide) in paragraph at lines 108--110
+\T1/ppl/m/n/10.95 database and han-dling. We used the "pg-promise" libary ([][][]\T1/ppl/m/it/10.95 pg-promise[][]\T1/ppl/m/n/10.95 ) for our database
+ []
+
+[16]
+
+LaTeX Warning: Citation 'MSDN' on page 17 undefined on input line 130.
+
+<Figures/backendOverview.png, id=414, 724.7075pt x 581.17125pt>
+File: Figures/backendOverview.png Graphic file (type png)
+<use Figures/backendOverview.png>
+Package pdftex.def Info: Figures/backendOverview.png  used on input line 141.
+(pdftex.def)             Requested size: 543.5293pt x 435.87737pt.
+[17 <./Figures/backendOverview.png>]
+Overfull \hbox (7.63756pt too wide) in paragraph at lines 164--168
+[]\T1/ppl/m/n/10.95 When a user dropped a rid-dle into a "Video" field (and saved), the rid-dle's "Finish"-
+ []
+
+
+Overfull \hbox (13.80742pt too wide) in paragraph at lines 164--168
+\T1/ppl/m/n/10.95 command would be re-as-signed on in-put to the cor-re-spond-ing Video-Trigger-command.
+ []
+
+<Figures/frontendOverview.png, id=424, 734.745pt x 610.28pt>
+File: Figures/frontendOverview.png Graphic file (type png)
+<use Figures/frontendOverview.png>
+Package pdftex.def Info: Figures/frontendOverview.png  used on input line 189.
+(pdftex.def)             Requested size: 551.05739pt x 457.70888pt.
+) [18] [19 <./Figures/frontendOverview.png>]
+\openout2 = `Appendices/AppendixA.aux'.
+
+ (./Appendices/AppendixA.tex [20
+
+
+
+]
+Appendix A.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 11.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+))
+1: section
+[21] [22
+
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 257.
+
+1: section
+[23]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 257.
+ (./main.aux (./Chapters/Chapter1.aux) (./Chapters/Chapter2.aux) (./Chapters/Chapter3.aux) (./Chapters/Chapter4.aux) (./Appendices/AppendixA.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 257.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 257.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 1B0F352C1491FEF595BD854E3AD27A1D;4360.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+
+Package biblatex Warning: Please (re)run BibTeX on the file(s):
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to 'main.run.xml'.
+\openout1 = `main.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 33794 strings out of 492649
+ 689197 string characters out of 6129622
+ 918749 words of memory out of 5000000
+ 37204 multiletter control sequences out of 15000+600000
+ 576839 words of font info for 91 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 56i,19n,81p,10413b,2421s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on main.pdf (41 pages, 678621 bytes).
+PDF statistics:
+ 508 PDF objects out of 1000 (max. 8388607)
+ 440 compressed objects within 5 object streams
+ 123 named destinations out of 1000 (max. 500000)
+ 308 words of extra memory for PDF output out of 10000 (max. 10000000)
+

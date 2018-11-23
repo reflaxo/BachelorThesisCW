@@ -87,7 +87,7 @@ The documentation we provided explains the template in further detail.
 
 For our prototype, we used an Arduino Uno with a RFM69HCW module, a keypad, and an I2C-display. 
 The riddle would be to guess a code and enter it. 
-We wanted the code to be changeable to provide different difficulties. 
+The use case would be that a riddle could to provide different difficulties by adjusting the codes length. 
 Moreover would the riddle possess static  "won", "lost", and "reset"-values to track and control the riddle's state.
 %prototype pic
 \section{Back-End}
@@ -124,7 +124,7 @@ Since the front-end allowed a reassignement of the messages that would trigger a
 We decided to filter the relevant "Finish"-serialmessages through a PostgreSQL-database, which is compatible with different languages and frameworks.
 Additionaly, we needed to implement a connection from the serial port to our socket.io connection.
 
-First, we wanted to use the existing C++-server for our architecture but discovered quickly that understanding and extending the existing code would probably take longer than recreating the features.
+First, we tried to use the existing C++-server for our architecture but discovered quickly that understanding and extending the existing code would probably take longer than recreating the features.
 
 Then, because many developers of our target group were proficient in C\# from Unity development, we tried to implement the functionalites with a .NET WPF-App.
 This proved to be difficult, as it required multi-threading and communication between the threads. Both are well documented at the MSDN \parencite{MSDN}, 
@@ -157,7 +157,7 @@ We discovered GIT-difficulties with the modules and were thankful that we could 
 For our file-structure, we used the recommended approach to group by filetype \parencite{reactStructure} in combination with the Create-React-App-structure.
 %Fig: Our File structure front end
 
-Starting out, we wanted to implement a node-editor to connect riddles in all thinkable ways. 
+Starting out, it was planned to implement a node-editor to connect riddles in all thinkable ways. 
 When we listed our wished functionalities (Changeable riddleassignments with "Single", "AND" and "OR" connections to the Unity-Events) we decided that a drag-and-drop table would supply those functionalites (Changeable assignements, OR connections) without creating a difficult User-Interface.
 We used the React-dnd libary \parencite{reactDND} to implement the drag-and-drop functionality in React. Currently, it works only on PC since we thought that would be a more popular use case, but adding a mobile implementation for the module is possible.
 
@@ -169,7 +169,7 @@ Whenever "Riddle2" would now signal it's finished, the "Finish"-code of "Riddle1
 If a Riddle was newly registered, it would be named "NewRiddle" and appear in the "Unassigned Riddles"-List on the web interface.
 We designed an "Edit"-function which enabled changing the name of the riddle and deleting it in case it got corrupted (or deleted in real-life).
 
-Another aspect was the popup-window for the riddles. We wanted it to show enough information, yet keep it simple. 
+Another aspect was the popup-window for the riddles. It was planned to show enough information, yet keep it simple. 
 Consequently, our layout for the popup-window was designed flexibly to adapt to a desirable output depending on the usecase:
 
 Each variable would be displayed in respect to it's in the Arduino defined values. 
