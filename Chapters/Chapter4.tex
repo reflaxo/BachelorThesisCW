@@ -103,7 +103,7 @@ The most thorough research can not replace hands-on experience,
 just like the most motivated person can usually not substitute the intertwined ideas a team can develop over a course of time.
 
 Because of the tight schedule, we didn't have the time to evaluate the user-experience with the new system so we can only estimate the value our framework produces.
-Also, we weren't able to include a lot of features listed in the "Big Picture"-section below.
+Also, we weren't able to include a lot of features, listed in the "Big Picture"-section below.
 A more finished product would have been desirable.
 
 %kritik: Unerfahren (alles selber beigebracht), begrenzter Zeitrahmen, alleine alles bauen
@@ -117,12 +117,14 @@ A more finished product would have been desirable.
 %Didn't include security mechanism like password authentification
 %Node Editor for combining buttons would be cool (Button 1 to Button with that code)
 \subsection{Big Picture}
-This section is meant to list possible ways to expand the build framework.
+This section is meant to list possible ways to expand the built framework.
 \begin{description}
     \item [Fully Event-Based-Processing]\hfill \\ 
     By replacing the TCP-Connection to Unity with a Socket.io client, 
-    one could take the entire processing to the Node.js server. Since the Node.js server handles the database-queries,
-    the events would scale dynamically. Developers wouldn't need to change the Unity code manually everytime a riddle is added. 
+    one could take the entire processing to the Node.js server. 
+    Since the Node.js server handles the database-queries,
+    the events would scale dynamically. 
+    Developers wouldn't need to change the Unity code manually everytime a riddle is added. 
     Possible use cases are:
     \begin{enumerate}
         \item Resetting the room could be implemented by selecting all riddledetails with "Finish" as an infovalue when Unity sends a "resetRiddles" event.
@@ -139,8 +141,12 @@ This section is meant to list possible ways to expand the build framework.
     Within the scope of this project, we didn't include security protection like password authentification and encryption.
     Since the web server is hosted in a local network in a password protected enviroment we didn't prioritize an authentification system.
     Another aspect was that an escape room doesn't contain privacy sensitive data in our point of view.
+    \item [Component Isolation]\hfill \\
+    Though we tried to keep the components separated, there is always room for improvement. 
+    Especially the Node.js middleware shows room for further splitting and transparency.
 \end{description}
-We could have used an external rasperry with an integrated gateway module
+
+
 \section{Conclusion}
 ...
 %Summarize all main points and insights/discoveries
