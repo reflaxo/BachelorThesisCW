@@ -60,7 +60,7 @@ In the following, research concerning the development for our project is listed 
 //Proof of concept, MvP, Rapid Prototyping
 \section{Front-End}
 //Should I talk about other options too? (also in the following sections)
- Reactjs is an Open-Source Javascript-Libary.
+Reactjs is an Open-Source Javascript-Libary.
 After developing Reactjs in 2011, Facebook soon discovered that it's performance was faster than other implementations of its' kind and made it Open-Source in 2015. 
 At present, React is used by major companies for their front-end like Airbnb, Netflix and Reddit \parencite{reactjsUsers}. 
 In this years' Stackoverflow-Survey, React came third in "Most Popular Framework, libary or Tool" \parencite{stackOverflowSurvey}. 
@@ -109,16 +109,25 @@ A downside is, that it doesn't allow vertical scaling by increasing the number o
 On CPU-intensive applications, that might become a problem - but modules like IPC or pm2 can add that functionality.
 Node.Js commands are non-blocking and execute concurrently or in parallel. 
 It's build on the Google V8 JavaScript engine which compiles Javascript to machine code instead of interpreting it in real time. 
-That makes it faster than other engines.
-There are thousands of open-source libaries and web frameworks. 
+That makes it faster than (some) other engines.
+There are thousands of open-source libaries and web frameworks available for Node.js. 
 \section{Device}
 %Talk about Arduino implementation
-Arduino is a micro-controller-company from italy which was founded in 2005. It's is completely Open-Source and supplies everyone with it's own IDE \parencite{arduinoIDEDownload}.
-The IDE works with nearly all micro-processors on the market, % gegeben the developer published a %entsprechende libary.
-The Arduino (and comperable micro-processors) are programmed in C. 
+Arduino is a microcontroller-company from italy which was founded in 2005. 
+It is is completely open source and provides it's own Integrated Development Enviroment(IDE) \parencite{arduinoIDEDownload}.
+The IDE works with nearly all microprocessors on the market. 
+The IDE recommends a structure for all Arduino programs:
+\begin{description}
+    \item [Initialization]
+    Prior to any function, libaries and necessary variables are declared within an Arduino program.
+    \item [setup()]
+    The setup-function is the first function called in any Arduino-program.
+    \item [loop()]
+\end{description}
+The Arduino (and comperable microprocessors) are programmed in C.
 \section{Back-End}
 %Talk about postgres
-We decided to use PostgreSQL for our database-back-end. Postgres is a light-weight open-source object-relational database system. 
+Postgres is a light-weight open-source object-relational database system. 
 Companies like Netflix, Spotify or Instagram \parencite{postgresUsers} rely on the flexible database system which allows SQl and noSQL design.
 It's easy to set-up and maintain. 
 
