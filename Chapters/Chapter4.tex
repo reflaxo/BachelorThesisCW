@@ -53,19 +53,19 @@ In the following, we compare our prior concerns to our perception now.
         \item doesn't need to understand the communication LowPowerLab libary if he uses the designed template
         \item doesn't need to look up the other riddles NodeIDs as he can look them up in the WebInterface
     \end{enumerate}   
-    \item understand Arduino-coding 
-    \item understand working with the "Switch-Case"-scenario used for communication (with instructions)
+    \item Understand Arduino-coding 
+    \item Understand working with the "Switch-Case"-scenario used for communication (with instructions)
 \end{enumerate}  
 Process Layer:
 \begin{enumerate}
-    \item understand Javascript to make changes in the Server (in a cleaned up, documented and component-based code with improved readability)
+    \item Understand Javascript to make changes in the Server (in a cleaned up, documented and component-based code with improved readability)
     \item 
     We were instructed not to change the Unity application, so the problem of Unity-programming still exists. 
     It would be easier to change though, by replacing the TCP connection with a Socket.io connection. 
     There are multiple client implementations for Unity available \parencite{socketioUnity1, socketioUnity2,socketioUnity3}
     That reportedly work (at least) up to the current version of Unity. 
     Since the Unity version in the escape room won't be upgraded regularily, deprecation issues should not arise.
-    \item understand Javascript and HTML to make changes to the React-front-end (also component-based) 
+    \item Understand Javascript and HTML to make changes to the React-front-end (also component-based) 
 \end{enumerate}  
 \subsubsection{Visual Work}
 We didn't have the time to research web-design to an extend where we could state confidentely that our design is especially user-friendly.
@@ -74,15 +74,17 @@ It also offers a lot more information and possibilites to interact with the envi
 \subsubsection{Memory Work}
 The memory work is reduced immensely, especially for new riddles. 
 The user has the possibility to save it's values as buttons so that he only needs to interact with an abstraction of the machine-code.
-\begin{itemize}
-    \item [Buttons] By clicking buttons instead of remembering the strings, the user can take the shortest way to activate a functionality
-    \item [Information Display] By displaying all riddle information in one place, the user can gain a better understanding of the riddles functionalities
-    \item [Automatisation] 
+\begin{description}
+    \item [Buttons] \hfill \\
+    By clicking buttons instead of remembering the strings, the user can take the shortest way to activate a functionality
+    \item [Information Display] \hfill \\
+    By displaying all riddle information in one place, the user can gain a better understanding of the riddles functionalities
+    \item [Automatisation] \hfill \\
     We automated tasks like activating the feedback mode of the riddles and sending 
     and starting the applications in the right order
-\end{itemize}
+\end{description}
 \subsubsection{Physical Work}
-The web server reduced the physical interaction needed to work with the room. 
+The web server reduced the physical interaction needed to work with the room  silghtly. 
 A user can access the room remotely and doesn't need to start the applications manually.
 \subsection{Limitations}
 Even though we, to our judgement, achieved our set goals, 
@@ -116,8 +118,8 @@ A more finished product would have been desirable.
 %Node Editor for combining buttons would be cool (Button 1 to Button with that code)
 \subsection{Big Picture}
 This section is meant to list possible ways to expand the build framework.
-\begin{enumerate}
-    \item [Fully Event-Based-Processing] 
+\begin{description}
+    \item [Fully Event-Based-Processing]\hfill \\ 
     By replacing the TCP-Connection to Unity with a Socket.io client, 
     one could take the entire processing to the Node.js server. Since the Node.js server handles the database-queries,
     the events would scale dynamically. Developers wouldn't need to change the Unity code manually everytime a riddle is added. 
@@ -128,16 +130,16 @@ This section is meant to list possible ways to expand the build framework.
         Resetting the riddle that activated an event in Unity could be implemented by storing the incoming "Finish" 
         value and retrieving it's fitting "Reset" value with the ID of the string.
     \end{enumerate}
-    \item [Node Editor]
+    \item [Node Editor]\hfill \\
     Developing the Front-End further, one could implement a node-editor to create reaction-chains. 
     Such a reaction chain could be that a riddle changes the color of the floor when it's finished by combining two buttons. 
     The data already exists as a json in the front-end, but creating a flexible drag-and-drop interface with the internal processing 
     went beyond the scope of the project. 
-    \item [Securty] 
+    \item [Securty] \hfill \\
     Within the scope of this project, we didn't include security protection like password authentification and encryption.
     Since the web server is hosted in a local network in a password protected enviroment we didn't prioritize an authentification system.
     Another aspect was that an escape room doesn't contain privacy sensitive data in our point of view.
-\end{enumerate}
+\end{description}
 We could have used an external rasperry with an integrated gateway module
 \section{Conclusion}
 ...
