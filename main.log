@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.8.15)  23 NOV 2018 13:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.8.15)  23 NOV 2018 13:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1286,7 +1286,7 @@ LaTeX Warning: Label `fig:FrontViewTable' multiply defined.
 
 LaTeX Warning: Label `fig:FrontViewTable' multiply defined.
 
-) (./Appendices/AppendixA.aux))
+) (./Chapters/Chapter5.aux) (./Appendices/AppendixA.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 90.
@@ -1664,7 +1664,7 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
 
 ]
 Chapter 2.
-<Figures/gartnerIoT.png, id=301, 690.58pt x 682.55pt>
+<Figures/gartnerIoT.png, id=357, 690.58pt x 682.55pt>
 File: Figures/gartnerIoT.png Graphic file (type png)
 <use Figures/gartnerIoT.png>
 Package pdftex.def Info: Figures/gartnerIoT.png  used on input line 11.
@@ -1729,7 +1729,7 @@ Overfull \hbox (5.38702pt too wide) in paragraph at lines 26--30
 
 
 ]
-<Figures/oldEscapeUml.png, id=341, 1231.9626pt x 798.8244pt>
+<Figures/oldEscapeUml.png, id=396, 1231.9626pt x 798.8244pt>
 File: Figures/oldEscapeUml.png Graphic file (type png)
 <use Figures/oldEscapeUml.png>
 Package pdftex.def Info: Figures/oldEscapeUml.png  used on input line 41.
@@ -1744,7 +1744,7 @@ Overfull \hbox (9.93079pt too wide) in paragraph at lines 141--142
 []\T1/ppl/m/n/10.95 Retrieving in-for-ma-tion from the room must work au-to-mat-i-cally, there-fore should
  []
 
-<Figures/workload.png, id=367, 277.035pt x 217.7736pt>
+<Figures/workload.png, id=422, 277.035pt x 217.7736pt>
 File: Figures/workload.png Graphic file (type png)
 <use Figures/workload.png>
 Package pdftex.def Info: Figures/workload.png  used on input line 151.
@@ -1758,7 +1758,7 @@ Package pdftex.def Info: Figures/workload.png  used on input line 151.
 
 ]
 Chapter 4.
-<Figures/PoC.png, id=385, 437.9562pt x 532.389pt>
+<Figures/PoC.png, id=441, 437.9562pt x 532.389pt>
 File: Figures/PoC.png Graphic file (type png)
 <use Figures/PoC.png>
 Package pdftex.def Info: Figures/PoC.png  used on input line 25.
@@ -1770,7 +1770,7 @@ Overfull \hbox (1.35075pt too wide) in paragraph at lines 51--54
  []
 
 [14 <./Figures/PoC.png>]
-<Figures/registerRiddle.png, id=396, 369.38pt x 309.155pt>
+<Figures/registerRiddle.png, id=452, 369.38pt x 309.155pt>
 File: Figures/registerRiddle.png Graphic file (type png)
 <use Figures/registerRiddle.png>
 Package pdftex.def Info: Figures/registerRiddle.png  used on input line 72.
@@ -1784,7 +1784,7 @@ Overfull \hbox (3.19696pt too wide) in paragraph at lines 108--110
 
 LaTeX Warning: Citation 'MSDN' on page 17 undefined on input line 130.
 
-<Figures/backendOverview.png, id=414, 724.7075pt x 581.17125pt>
+<Figures/backendOverview.png, id=469, 724.7075pt x 581.17125pt>
 File: Figures/backendOverview.png Graphic file (type png)
 <use Figures/backendOverview.png>
 Package pdftex.def Info: Figures/backendOverview.png  used on input line 141.
@@ -1799,15 +1799,55 @@ Overfull \hbox (13.80742pt too wide) in paragraph at lines 164--168
 \T1/ppl/m/n/10.95 command would be re-as-signed on in-put to the cor-re-spond-ing Video-Trigger-command.
  []
 
-<Figures/frontendOverview.png, id=424, 734.745pt x 610.28pt>
+<Figures/frontendOverview.png, id=479, 734.745pt x 610.28pt>
 File: Figures/frontendOverview.png Graphic file (type png)
 <use Figures/frontendOverview.png>
 Package pdftex.def Info: Figures/frontendOverview.png  used on input line 189.
 (pdftex.def)             Requested size: 551.05739pt x 457.70888pt.
 ) [18] [19 <./Figures/frontendOverview.png>]
+\openout2 = `Chapters/Chapter5.aux'.
+
+ (./Chapters/Chapter5.tex [20
+
+
+
+]
+Chapter 5.
+
+Overfull \hbox (31.754pt too wide) in paragraph at lines 19--23
+\T1/ppl/m/n/10.95 The De-vices do still com-mu-ni-cate with RFM69HCW mod-ules and the LowPowerLab-
+ []
+
+
+Overfull \hbox (3.25053pt too wide) in paragraph at lines 23--29
+\T1/ppl/m/n/10.95 A post-greSQL database was added to the ar-chi-tec-ture for fil-ter-ing and overview
+ []
+
+1: section
+[21]
+
+LaTeX Warning: Citation 'socketioUnity1' on page 22 undefined on input line 65.
+
+
+LaTeX Warning: Citation 'socketioUnity2' on page 22 undefined on input line 65.
+
+
+LaTeX Warning: Citation 'socketioUnity3' on page 22 undefined on input line 65.
+
+[22] [23]
+Overfull \hbox (0.17381pt too wide) in paragraph at lines 105--108
+\T1/ppl/m/n/10.95 pro-duces. Also, we weren't able to in-clude a lot of fea-tures, listed in the "Big Picture"-
+ []
+
+
+Overfull \hbox (2.35309pt too wide) in paragraph at lines 132--134
+[]\T1/ppl/m/n/10.95 Resetting the rid-dle that ac-ti-vated an event in Unity could be im-ple-mented
+ []
+
+[24]) [25]
 \openout2 = `Appendices/AppendixA.aux'.
 
- (./Appendices/AppendixA.tex [20
+ (./Appendices/AppendixA.tex [26
 
 
 
@@ -1818,20 +1858,20 @@ LaTeX Font Info:    Try loading font information for T1+cmtt on input line 11.
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 ))
 1: section
-[21] [22
+[27] [28
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 257.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 258.
 
 1: section
-[23]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 257.
- (./main.aux (./Chapters/Chapter1.aux) (./Chapters/Chapter2.aux) (./Chapters/Chapter3.aux) (./Chapters/Chapter4.aux) (./Appendices/AppendixA.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 257.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 257.
+[29]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 258.
+ (./main.aux (./Chapters/Chapter1.aux) (./Chapters/Chapter2.aux) (./Chapters/Chapter3.aux) (./Chapters/Chapter4.aux) (./Chapters/Chapter5.aux) (./Appendices/AppendixA.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 258.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 258.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 1B0F352C1491FEF595BD854E3AD27A1D;4360.
+(rerunfilecheck)             Checksum: 4F8E0FDB3B48BC4BB261E748F3B2D0F6;5778.
 
 
 LaTeX Warning: There were undefined references.
@@ -1849,18 +1889,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33794 strings out of 492649
- 689197 string characters out of 6129622
+ 33843 strings out of 492649
+ 689788 string characters out of 6129622
  918749 words of memory out of 5000000
- 37204 multiletter control sequences out of 15000+600000
+ 37218 multiletter control sequences out of 15000+600000
  576839 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,19n,81p,10413b,2421s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (41 pages, 678621 bytes).
+Output written on main.pdf (47 pages, 689615 bytes).
 PDF statistics:
- 508 PDF objects out of 1000 (max. 8388607)
- 440 compressed objects within 5 object streams
- 123 named destinations out of 1000 (max. 500000)
- 308 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 607 PDF objects out of 1000 (max. 8388607)
+ 532 compressed objects within 6 object streams
+ 151 named destinations out of 1000 (max. 500000)
+ 396 words of extra memory for PDF output out of 10000 (max. 10000000)
 

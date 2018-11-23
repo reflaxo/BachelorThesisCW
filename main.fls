@@ -197,6 +197,8 @@ INPUT Chapters/Chapter3.aux
 INPUT Chapters/Chapter3.aux
 INPUT Chapters/Chapter4.aux
 INPUT Chapters/Chapter4.aux
+INPUT Chapters/Chapter5.aux
+INPUT Chapters/Chapter5.aux
 INPUT Appendices/AppendixA.aux
 INPUT Appendices/AppendixA.aux
 OUTPUT main.aux
@@ -369,6 +371,9 @@ INPUT ./Figures/backendOverview.png
 INPUT Figures/frontendOverview.png
 INPUT ./Figures/frontendOverview.png
 INPUT ./Figures/frontendOverview.png
+OUTPUT Chapters/Chapter5.aux
+INPUT Chapters/Chapter5.tex
+INPUT Chapters/Chapter5.tex
 OUTPUT Appendices/AppendixA.aux
 INPUT Appendices/AppendixA.tex
 INPUT Appendices/AppendixA.tex
@@ -384,6 +389,8 @@ INPUT Chapters/Chapter3.aux
 INPUT Chapters/Chapter3.aux
 INPUT Chapters/Chapter4.aux
 INPUT Chapters/Chapter4.aux
+INPUT Chapters/Chapter5.aux
+INPUT Chapters/Chapter5.aux
 INPUT Appendices/AppendixA.aux
 INPUT Appendices/AppendixA.aux
 INPUT ./main.out
