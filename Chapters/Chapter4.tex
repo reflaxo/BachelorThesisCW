@@ -34,6 +34,8 @@ which provides the bare functionalites but lacks in design and more extensive fe
 Since the room consisted of microcontroller-driven-riddles only at the time of this thesis, we decided to design a prototype and a template for integration of future microcontroller-driven-riddles.
 %Fig: Arduino verkabelung für prototype
 
+\subsection{Template}
+
 The template was designed to simplify the process of developing a riddle.
 The escape room provided in it's prior form no support for new riddle-developers. 
 We decided to modify the existing communication protocol, but had to be careful not to impact communication to the existing riddles.
@@ -46,26 +48,43 @@ In contrast to the existing puzzles though, we decided to separate the code into
  %Chararrays are smaller than strings hence faster for radio-communication.
 The template is devided into 3 parts: "Groundwork", "Riddlefunctionality" and "Remote Functionality". 
 
-The "Groundwork" section should be filled with libaries, variables and definitions. 
+\begin{description}
+	\item [Groundwork]
+	Section to be filled with libaries, variables and definitions. 
+	\item [Riddle Functionality]
+	To contain the riddles functionalities separated from nearly any communication. 
+	The only communication that needs to be defined there is when the Microcontroller should send messages and which. 
+	That is executed by writing a single line command containing the desired string.
+	If the string's value is defined in the "registerRiddle()" function of the "Remote Functionality" section, it will be translated in the web interface. 
+	
+	\item [Remote Functionality]
+	To contain any remote commands for interaction with the web interface and the server.
+	The "Remote Functionality" section consists of two functions: 
+	\begin{description}
+		\item [registerRiddlle()]
+		Here is where strings to be send once on starting the device are defined. 
+		These strings set the configuration of the variables in the web interface.
+		To work, they need to follow a specific structure:
+		\begin{enumerate}
+			\item an Index for the riddlevariable (to order the variables)
+			\item a "readonly" or "write" command (to make it static or dynamic)
+			\item the name of the variable (to translate)
+			\item the value of the variable (needs to be converted into a String)
+			\item an optional button value (if it was present, a button would show)
+		\end{enumerate}
+		That structure is meant to be applieable for any variable. 
+		\item[remoteCommand()]
+		Designed to contain processing of incoming messages from the gateway/PC.
+		It's connected to the radio functionality further down in the code, nevertheless allows the user not to care about how the messages are processed.
+		
+		The developer is advised to use a "Switch-Case" structure to define the microcontroller's reactions to radio messages, to keep the processing clean and standartized. 
+		For any reaction concerning the defined variables, the case should match the index of the variable in order for the buttons within the web interface to work.
+		
+	\end{description}
+	
+\end{description}
 
-The "Riddlefunctionality" section should contain the riddles functionalities seperated from nearly any communication. 
-The only communication that needs to be defined there is when the Microcontroller should send messages and which. That is executed by writing a single line command containing the desired string.
-If the string's value is defined in the "registerRiddle()" function of the "Remote Functionality" section, it will be translated in the web interface. 
 
-Likewise should the "Remote Functionality" section contain any remote commands for interaction with the web interface and the server.
-The "Remote Functionality" section consists of two functions: 
-
-"registerRiddle()" where strings to be send once on starting the device are defined. 
-These strings set the configuration of the variables in the web interface.
-To work, they need to follow a specific structure:
-\begin{enumerate}
-    \item an Index for the riddlevariable (to order the variables)
-    \item a "readonly" or "write" command (to make it static or dynamic)
-    \item the name of the variable (to translate)
-    \item the value of the variable (needs to be converted into a String)
-    \item an optional button value (if it was present, a button would show)
-\end{enumerate}
-That structure is meant to be applieable for any variable. 
 
 \begin{figure}[th]
 	\centering
@@ -75,23 +94,22 @@ That structure is meant to be applieable for any variable.
 	\label{fig:FrontViewTable}
 \end{figure}
 
-
-The other function is named "remoteCommand()" and designed to contain processing of incoming messages from the gateway/Pc.
-It's connected to the radio functionality further down in the code, nevertheless allows the user not to care about how the messages are processed.
-
-The developer is advised to use a "Switch-Case" structure to define the microcontroller's reactions to radio messages, to keep the processing clean and standartized. 
-For any reaction concerning the defined variables, the case should match the index of the variable in order for the buttons within the web interface to work.
 %fig arduino def
 
 The documentation we provided explains the template in further detail.
 
+\subsection{Prototype}
+
 For our prototype, we used an Arduino Uno with a RFM69HCW module, a keypad, and an I2C-display. 
-The riddle would be to guess a code and enter it. 
+All the parts required specific libaries. 
+%Pictures of syntax and libaries
+The riddles challenge would be to guess a code and enter it. 
 The use case would be that a riddle could to provide different difficulties by adjusting the codes length. 
 Moreover would the riddle possess static  "won", "lost", and "reset"-values to track and control the riddle's state.
 %prototype pic
+
 \section{Back-End}
-We used the relational model to manage our database. 
+We used a relational model to manage our database. 
 In the relational model, related records are linked by a key predicate common to all. 
 In our project, we found that two tables fit our needs. 
 One table manages the location, name and other general information about the riddle displayed in the main view, 
@@ -102,7 +120,7 @@ The Node.js server connects the information when sending to the front-end by ass
 \section{Middleware}
 
 \subsection{Web Server}
-It quickly became apperant that our middleware web server would use Node.js due to the reasons mentioned above.
+It quickly became apperant that our middleware web server would use Node.js due to the reasons mentioned in \ref{Chapter2}.
 The decisive factor for this decision was that it would be easier to develop and understand a web server programmed in the same language as the front-end.
 
 As we did all website operations client-side, Node.js main operation was the database and handling. 

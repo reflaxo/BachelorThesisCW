@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.8.15)  23 NOV 2018 13:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.8.15)  23 NOV 2018 13:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1664,7 +1664,7 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
 
 ]
 Chapter 2.
-<Figures/gartnerIoT.png, id=357, 690.58pt x 682.55pt>
+<Figures/gartnerIoT.png, id=367, 690.58pt x 682.55pt>
 File: Figures/gartnerIoT.png Graphic file (type png)
 <use Figures/gartnerIoT.png>
 Package pdftex.def Info: Figures/gartnerIoT.png  used on input line 11.
@@ -1729,7 +1729,7 @@ Overfull \hbox (5.38702pt too wide) in paragraph at lines 26--30
 
 
 ]
-<Figures/oldEscapeUml.png, id=396, 1231.9626pt x 798.8244pt>
+<Figures/oldEscapeUml.png, id=406, 1231.9626pt x 798.8244pt>
 File: Figures/oldEscapeUml.png Graphic file (type png)
 <use Figures/oldEscapeUml.png>
 Package pdftex.def Info: Figures/oldEscapeUml.png  used on input line 41.
@@ -1744,7 +1744,7 @@ Overfull \hbox (9.93079pt too wide) in paragraph at lines 141--142
 []\T1/ppl/m/n/10.95 Retrieving in-for-ma-tion from the room must work au-to-mat-i-cally, there-fore should
  []
 
-<Figures/workload.png, id=422, 277.035pt x 217.7736pt>
+<Figures/workload.png, id=432, 277.035pt x 217.7736pt>
 File: Figures/workload.png Graphic file (type png)
 <use Figures/workload.png>
 Package pdftex.def Info: Figures/workload.png  used on input line 151.
@@ -1758,53 +1758,53 @@ Package pdftex.def Info: Figures/workload.png  used on input line 151.
 
 ]
 Chapter 4.
-<Figures/PoC.png, id=441, 437.9562pt x 532.389pt>
+<Figures/PoC.png, id=451, 437.9562pt x 532.389pt>
 File: Figures/PoC.png Graphic file (type png)
 <use Figures/PoC.png>
 Package pdftex.def Info: Figures/PoC.png  used on input line 25.
 (pdftex.def)             Requested size: 437.95512pt x 532.3877pt.
 1: section
-[13]
-Overfull \hbox (1.35075pt too wide) in paragraph at lines 51--54
-[]\T1/ppl/m/n/10.95 The "Rid-dle-func-tion-al-ity" sec-tion should con-tain the rid-dles func-tion-al-i-ties seper-
+[13] [14 <./Figures/PoC.png>]
+Overfull \hbox (5.12466pt too wide) in paragraph at lines 77--79
+[]\T1/ppl/m/n/10.95 Designed to con-tain pro-cess-ing of in-com-ing mes-sages from
  []
 
-[14 <./Figures/PoC.png>]
-<Figures/registerRiddle.png, id=452, 369.38pt x 309.155pt>
+<Figures/registerRiddle.png, id=462, 369.38pt x 309.155pt>
 File: Figures/registerRiddle.png Graphic file (type png)
 <use Figures/registerRiddle.png>
-Package pdftex.def Info: Figures/registerRiddle.png  used on input line 72.
+Package pdftex.def Info: Figures/registerRiddle.png  used on input line 91.
 (pdftex.def)             Requested size: 277.03432pt x 231.86568pt.
- [15 <./Figures/registerRiddle.png>]
-Overfull \hbox (3.19696pt too wide) in paragraph at lines 108--110
+[15 <./Figures/registerRiddle.png>]
+Overfull \hbox (3.19696pt too wide) in paragraph at lines 126--128
 \T1/ppl/m/n/10.95 database and han-dling. We used the "pg-promise" libary ([][][]\T1/ppl/m/it/10.95 pg-promise[][]\T1/ppl/m/n/10.95 ) for our database
  []
 
 [16]
 
-LaTeX Warning: Citation 'MSDN' on page 17 undefined on input line 130.
+LaTeX Warning: Citation 'MSDN' on page 17 undefined on input line 148.
 
-<Figures/backendOverview.png, id=469, 724.7075pt x 581.17125pt>
+<Figures/backendOverview.png, id=480, 724.7075pt x 581.17125pt>
 File: Figures/backendOverview.png Graphic file (type png)
 <use Figures/backendOverview.png>
-Package pdftex.def Info: Figures/backendOverview.png  used on input line 141.
+Package pdftex.def Info: Figures/backendOverview.png  used on input line 159.
 (pdftex.def)             Requested size: 543.5293pt x 435.87737pt.
 [17 <./Figures/backendOverview.png>]
-Overfull \hbox (7.63756pt too wide) in paragraph at lines 164--168
+Overfull \hbox (7.63756pt too wide) in paragraph at lines 182--186
 []\T1/ppl/m/n/10.95 When a user dropped a rid-dle into a "Video" field (and saved), the rid-dle's "Finish"-
  []
 
 
-Overfull \hbox (13.80742pt too wide) in paragraph at lines 164--168
+Overfull \hbox (13.80742pt too wide) in paragraph at lines 182--186
 \T1/ppl/m/n/10.95 command would be re-as-signed on in-put to the cor-re-spond-ing Video-Trigger-command.
  []
 
-<Figures/frontendOverview.png, id=479, 734.745pt x 610.28pt>
+[18]
+<Figures/frontendOverview.png, id=496, 734.745pt x 610.28pt>
 File: Figures/frontendOverview.png Graphic file (type png)
 <use Figures/frontendOverview.png>
-Package pdftex.def Info: Figures/frontendOverview.png  used on input line 189.
+Package pdftex.def Info: Figures/frontendOverview.png  used on input line 207.
 (pdftex.def)             Requested size: 551.05739pt x 457.70888pt.
-) [18] [19 <./Figures/frontendOverview.png>]
+) [19 <./Figures/frontendOverview.png>]
 \openout2 = `Chapters/Chapter5.aux'.
 
  (./Chapters/Chapter5.tex [20
@@ -1871,7 +1871,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 258.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 258.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 258.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 4F8E0FDB3B48BC4BB261E748F3B2D0F6;5778.
+(rerunfilecheck)             Checksum: A75196B776690E040BA66921380D08D8;5980.
 
 
 LaTeX Warning: There were undefined references.
@@ -1889,18 +1889,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33843 strings out of 492649
- 689788 string characters out of 6129622
+ 33847 strings out of 492649
+ 689842 string characters out of 6129622
  918749 words of memory out of 5000000
- 37218 multiletter control sequences out of 15000+600000
+ 37220 multiletter control sequences out of 15000+600000
  576839 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,19n,81p,10413b,2421s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,20n,81p,10413b,2418s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (47 pages, 689615 bytes).
+Output written on main.pdf (47 pages, 690572 bytes).
 PDF statistics:
- 607 PDF objects out of 1000 (max. 8388607)
- 532 compressed objects within 6 object streams
- 151 named destinations out of 1000 (max. 500000)
- 396 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 618 PDF objects out of 1000 (max. 8388607)
+ 543 compressed objects within 6 object streams
+ 153 named destinations out of 1000 (max. 500000)
+ 412 words of extra memory for PDF output out of 10000 (max. 10000000)
 
