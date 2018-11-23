@@ -1,154 +1,96 @@
 % Chapter Template
-\chapter{Project Overview5-10p} % Main chapter title
-%What is the problem and its effects?
-\label{Chapter2} % For referencing the chapter elsewhere, use \ref{Chapter1} 
-\section{Analysis}
 
-\subsection{Layer Analysis}
-%----------------------------------------------------------------------------------------
-%	SECTION 1
-%----------------------------------------------------------------------------------------
-Refering to \ref{fig:gartnerIoT}, we analyzed the existing architecture of the escape room.
-\begin{description}
-	\item[Device Layer]\hfill \\
-	      The Device Layer consisted of different Arduinos as Actuators, and riddle-depending sensors for each riddle.
-	      The gateway device was an Adafruit Feather 32u4.
-	\item[Communication Layer]\hfill \\
-	      The communication within the room was set-up with RFM69HCW Transceiver modules.\parencite{radiorange}
-	      The RFM69HCW is very cheap and easy to use and setup Transceiver. They do packetization, error correction and auto-retransmit which makes them easier to handle than other communication systems.
-	      They are designed for point-to-multipoint communication with one Transceiver set-up as a gateway node which sends data to the other Transceivers in the room.
-	      There are two open-source libaries for the RFM69HCW, the LowPowerlab \parencite{LowPowerlab} and Radiohead \parencite{Radiohead} libary.
-	      The escape room used the LowPowerlab libary since the architect was familiar with the libary.
-          Now-a-days the Radiohead libary is the recommended libary since it's documented more thorough and kept up-to-date.
-          The gateway transceiver is connected to a PC through the Serial Port. Any node is recognized by a different nodeID and the Gateway with a specified GatewayID. For security-reasons, password-encryption is used between the nodes. 
-          From there, a C++-Server would forward those messages to any TCP-Client listening.    
-          The server would forward any messages coming from the TCP-Client back to the serialport just as well.
-	\item[Information Layer]\hfill \\
-        The Information Layer was build around a simple event model: the Transceivers would send codes in a "Number/Number/Number..."-structure. 
-        A node could be identified through the string it sent, since the first number would be the node's adressing number. 
-        The other numbers would represent the current state of the Arduino with a "Switch-Case" scenario \ref{fig:switchCase}. 
-	\item[Function Layer]\hfill \\
-        If the Code matched with the Tcp-Clients list (in our case, in a Unity application), a Video in Unity would be played and Unity would send a "reset" code to the matching riddle. 
-        Both lists were defined statically.
-	\item[Process Layer]\hfill \\
-	Apart form the main functionality, offered the C++-Server a communication window where serialport-messages 
-    could be seen and sent manually. \ref{fig:c++window}.
+\chapter{Research 10P} % Main chapter title
 
-\end{description}
-\ref{fig:oldEscapeUml} provides further insight into the architecture
+\label{Chapter2} % Change X to a consecutive number; for referencing this chapter elsewhere, use \ref{ChapterX}
+
+In the following, research concerning the development for our project is listed and explained.
+\section{Architecture (2-3p)}
+//IoT-system, architectures, layers, models 
 \begin{figure}[th]
 	\centering
-	\includegraphics[width=75mm,scale=0.75]{Figures/oldEscapeUml}
+	\includegraphics[width=75mm,scale=0.75]{Figures/gartnerIoT}
 	\decoRule
-	\caption[UML]{The old escape room structure.}
-	\label{fig:oldEscapeUml}
+	\caption[Gartner]{gartnerIoT1}
+	\label{fig:gartnerIoT}
 \end{figure}
-\begin{figure}[th]
-    %\includegraphics[width=75mm,scale=0.75]{Figures/switchCase}
-    \decoRule
-    \caption[messages]{Example of the messages defined in the Arduino}
-    \label{fig:switchCase}
-\end{figure}
-\begin{figure}[th]
-    %\includegraphics[width=75mm,scale=0.75]{Figures/c++window}
-    \decoRule
-    \caption[messages]{Example of the messages defined in the Arduino}
-    \label{fig:c++window}
-\end{figure}
+\section{Prototyping (1-2p)}
+//Proof of concept, MvP, Rapid Prototyping
+\section{Front-End}
+//Should I talk about other options too? (also in the following sections)
+Reactjs is an Open-Source Javascript-Libary.
+After developing Reactjs in 2011, Facebook soon discovered that it's performance was faster than other implementations of its' kind and made it Open-Source in 2015. 
+At present, React is used by major companies for their front-end like Airbnb, Netflix and Reddit \parencite{reactjsUsers}. 
+In this years' Stackoverflow-Survey, React came third in "Most Popular Framework, libary or Tool" \parencite{stackOverflowSurvey}. 
+This year, over 100,000 developers participated in the survey. 
+React is designed for building User-Interfaces. Other libaries % \parencite{reactjsAngularVue} 
+use the same concepts but Reactjs is currently the most popular one.
+A lot of libaries are available for react. 
+It's main concepts are:
+\begin{description}
+    \item[Components] \hfill \\
+    React motivates its' users to write encapsulated components with single responsibilities. Components combine the HTMl-markup and Javscript-functionality of a responsibility. They are supposed to reusability. %erhöhen
+    \item[Composition] \hfill \\
+    The user can reuse and composite elements as he needs to. The isolated components makes code easier to maintain. 
+    \item[Uni-Directional Dataflow] \hfill \\
+            Properties should not be changed in other components, but passed down as read-only variables. 
+            React doesn't want children to affect their parent components. That makes maintainability easier, as there's a clear downward structure in a well designed React project.
+            If a user needs to pass changes to a parent component, it's executed with callbacks, or, for more complicated architecture with a Flux-supporting libary like Redux.
+    \item[Virtual Dom]\hfill \\
+    A DOM%Reference to Abkürzung 
+    is a logical structure of documents in HTML, XHTML, or XML formats. 
+    Web browsers are using layout engines to transform or parse the representation HTML-syntax into document object model that we can see in a web browser.
+    Usually, when one of these elements changes, the whole structure has to be calculated again. 
+    React uses a Virtual DOM as a negiator to enable calculating only the parts that need calculating. That's also possible because of Reacts' isolated component structure.
+    \item[JSX]  JSX, short for Javascript XML, is an implementation of Javascript which is usually used to write in ReactJs. 
+    It looks a lot like HTML but enables Javascript functionality. Javascript functionalities can be used by putting them in curly brackets ("{}").
+\end{description}
+\section{Communication}
+%Socket.io
+Socket.io is a Javascript-Libary designed for realtime communication. 
+The server-side is developed for specifically for Node.js wheras for the client different implementations (e.g. .Net, Swift, C++)\parencite{socketioClients} are available.
+It enables a bi-directional communication channel between a client and a server and offers a fallback mechanism to long polling when WebSockets are not available.
+Once a connections is established it's maintained and uses a diminishing small amount resources to communicate. 
+It uses an event-based system where one participant listens and another emits an event. 
+Both Client and Server can emit and listen for events.
+\section{Middleware}
+%Talk about Node.js
+Node.js is an open-source, cross-plattform, javascript-runtime-enviroment. 
+With 49.6\% it is this years "Most Popular Framework, Libary or Tool" on this years Stackoverflow-survey \parencite{stackOverflowSurvey}.
+According to Google Trends, interest is rising since 2012\parencite{gogleTrendNode}.
+One explanation for that might be that it's written in Javascript. 
+The transation for front-end Javascript developers to developing back-end is eased, which saves companies learning costs.
+Node.js is estimated to have a high learning curve \parencite{nodeLearningcurve}.
+It uses an event-driven architecture which operates on a single threaded event loop using non-blocking I/O calls.
+Commands use callbacks to signal they are completed or failed. 
+A downside is, that it doesn't allow vertical scaling by increasing the number of CPU cores of the machine it is running on. 
+On CPU-intensive applications, that might become a problem - but modules like IPC or pm2 can add that functionality.
+Node.Js commands are non-blocking and execute concurrently or in parallel. 
+It's build on the Google V8 JavaScript engine which compiles Javascript to machine code instead of interpreting it in real time. 
+That makes it faster than (some) other engines.
+There are thousands of open-source libaries and web frameworks available for Node.js. 
+\section{Device}
+%Talk about Arduino implementation
+Arduino is a microcontroller-company from italy which was founded in 2005. 
+It is is completely open source and provides it's own Integrated Development Enviroment(IDE) \parencite{arduinoIDEDownload}.
+The IDE works with nearly all microprocessors on the market. 
+The IDE recommends a structure for all Arduino programs:
+\begin{description}
+    \item [Initialization]
+    Prior to any function, libaries and necessary variables are declared within an Arduino program.
+    \item [setup()]
+    The setup-function is the first function called in any Arduino-program.
+    \item [loop()]
+\end{description}
+The Arduino (and comperable microprocessors) are programmed in C.
+\section{Back-End}
+%Talk about postgres
+Postgres is a light-weight open-source object-relational database system. 
+Companies like Netflix, Spotify or Instagram \parencite{postgresUsers} rely on the flexible database system which allows SQl and noSQL design.
+It's easy to set-up and maintain. 
 
-\subsection{Workload analysis}
-%SECTION TWOOO
-In 2009, Kim Goodwin stated that 
-„Interactive products and services tend to require four different types of work from users: 
-cognitive, visual, memory, and physical“ \parencite{designDigitalAge} 
-While an IoT-System is not always interactive, the goal of this thesis was very interaction-orientated: 
-We wanted to help engineers expand the existing room which would require 
-interaction with the Device-Layer (if they wanted to add hardware-functionality) 
-and the Process-Layer (if they wanted to add software-functionality).
-Therefore it makes sense to analyze this specific project with those aspects in mind. 
-It should be mentioned, that the room was well designed for the user, and the four areas of cognitive, visual, memory and physical work involved for an escape room customer would already be pretty low.
 
-\subsubsection{Cognitive Work}
-Engineering products usually demands some kind of cognitive work. Still, there are hurdles that can be avoided,
-like finding out wether to click "yes" "no" or "cancel" in a confirmation dialog can be made clearer if the question is phrased easily.
-In our case, the Cognitive Work needed to add a riddle or a functionality was very high:
-Device Layer:
-\begin{enumerate}
-    \item The user needs to understand the transport protocol and therefore needs to 
-    \begin{enumerate}
-        \item Set-Up the RFM69HCW with an Arduino or an Adafruit Feather, which requires drivers and another libary
-        \item Understand the communication within the LowPowerlab-libary
-        \item Look up the other riddles codes to avoid using a %belegte nodeID
-    \end{enumerate}   
-    \item Understand Arduino-coding 
-    \item Understand working with the "Switch-Case"-scenario used for communication 
-\end{enumerate}  
-Process Layer:
-\begin{enumerate}
-    \item Understand C++ to change the Server (f.e. to communicate with an upper-level protocol)
-    \item Understand C\# and Low-Level-Socket communication to make changes in Unity 
-    and get an Overview about the communication since it's in separate files (one File per Video and one for the Tcp Socket) 
-\end{enumerate}  
-
-\subsubsection{Visual Work}
-Visual work means how much the user has to search for features in a product visually.
-The given interface was clear, but lacked in buttons for often used functionalities (reset, "send feedback"...).
-
-\subsubsection{Memory Work}
-Memory work is measured in how much a user has to remember to succeed in a task. 
-Typical examples are passwords, command names, and file names.
-In it's current state, the architecture demanded a high amout of memory work from a developer:
-\begin{enumerate}
-    \item The developer has to translate "Number/Number/Number..." codes whenever he wants to understand the serialport-messages 
-    \item The developer has to remember a different code when he wants to send an order to the device
-    \item Anyone who starts the room has to remember to first start the c++ server and afterwards the unity application on the desktop, or connection will fail.
-    \item The developer has to enable the "enable feedback" mode for each node manually if he wants to see all messages send
-    \item The developer has to enable another mode if he wants to interact with the riddles, and the riddle won't react hardware-wise in that mode.
-\end{enumerate} 
-
-\subsubsection{Physical Work}
-IoT-Projects always involve some kind of physical work for a developer: the developers need to switch between hardware and software to test the devices for example.
-The escape room fits into that scenario but doesn't make testing physically harder than it needs to be in most aspects. 
-One aspect that makes changes harder is seemingly unavoidable - most of the hardware is hidden, therefore mostly difficult to access. 
-Since an escape room is made for customers who expect the illusion of in this case, a spaceship, 
-touch-sensitive hardware would impact that illusion.
-
-\subsubsection{Consequences}
-This analysis showed the projects strengths and weaknesses. The next step was to estimate the workload and possibilities 
-we had with our limited resources to improve the project for future developers. 
-As mentioned earlier, IoT-Projects typically follow a SoA %Reference to abkürzung!
-to keep the project flexible and expandable. 
-
-We orientad our goals with that architecture in mind and planned to keep whatever 
-we implement loosely coupled to encourage improving a specific module of the project.
-
-The cognitive and memory work required from a developer were the most critical points 
-that one might spend a lot of time on, or might decide not to join the project at all.
-As a consequence, we looked for ways to reduce those workloads.
-To reduce cognitive (C) work, the process of learning and discovering the project must be simplified.
-
-To reduce the memory (M) work, the amount of commands to remember to control the room must be reduced and the start-up of the room must be simplified.
-
-After discussing possible approaches, we decided on a few specific tasks:
-\begin{enumerate}
-    \item Developing a web interface that would:
-    \begin{itemize}
-        \item Enable more overview and control for the existing riddles (M)
-        \item Ease the testing process for new riddles by displaying them dynamically (C)
-        \item Allow remote access (P) and control (C) within the lokal w-lan enviroment 
-    \end{itemize}
-    \item Retrieving information from the room must work automatically, therefore should the "feedback mode" be enabled on start-up (M)
-    \item Providing a thorough documentation for future developers  (C/M) 
-\end{enumerate}
-
-We summarized our goals for improvement in the different areas in \ref{fig:workload}.
-
-%ergänzen!
-
-\begin{figure}[th]
-    \centering
-    \includegraphics[width=50mm,scale=.5]{Figures/workload}
-    \decoRule
-    \caption[workload]{Workload of the different aspects color-coded}
-    \label{fig:workload}
-\end{figure}
+%Even though, only 26\% of IoT-Projects in companies are judged to be a complete success 
+%\parencite{ciscoresearch}. The reasons are as numerous as they are diverse. 
+%Lack of knowledge, lack of planning, inconsistent standards and legacy architectures within the project are only some mentioned by the Cisco survey.
+%A McKinsey report \parencite{mcKinsey} in 2015 stated that most IoT adopters fail to use their data or derive just a small part of its value.

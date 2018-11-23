@@ -1,157 +1,196 @@
+% Chapter Template
 
-\chapter{Evaluation and Conclusion 10-15P} % Main chapter title
-
+\chapter{Implementation 10} % Main chapter title
+%Possible solutions (in the context)
 \label{Chapter4} % For referencing the chapter elsewhere, use \ref{Chapter1} 
 
-\section{Evaluation}
-%How effective are the solutions? %Which is more effective?
+After introducing the project, we will now talk about our implementation.
+Our implementation used the aforementioned tools as well as some smaller libaries that will be explained in the following section.
+\section{Architecture}
+We tried to integrate a SoA, so that our components would be self-contained and reusable. 
+For example, the communication to Unity should still work if a connection to the webserver failed.
 
+The Tcp and Serial connection whre set-up in a general way (send/receive all). 
 
-To evaluate the quality of the changes we made, 
-we evaluated the room with the same criterias we picked when judging the room before the changes.
+As a consequence, the processing of the data would happen in another component.
 
-\subsection{Layer Analysis}
-Refering to \ref{fig:gartnerIoT} again, we analyzed the existing architecture of the escape room in respect to the changes we made.
-\begin{description}
-	\item[Device Layer]\hfill \\
-	      We didn't make many changes to the Device Layer, as we had instructions not to interfere with the existing structure of the room.
-	      Except to adding a prototype implementing the new communication structure, the existing riddles and the gateway Adafruit Feather 32u4 were not manipulated in any way.
-	\item[Communication Layer]\hfill \\
-	      The Devices do still communicate with RFM69HCW modules and the LowPowerLab-libary via radio communication,
-	      however, the new web-server functionalities could expand the communication for the software-side of the room. If the Server-PC gets a steady W-Lan connecection.
-	      An overview from anywhere within the network could be achieved.
-	\item[Information Layer]\hfill \\
-	      A postgreSQL database was added to the architecture for filtering and overview purposes.
-	      A middleware-implementation using the database and socket.io was established to connect to a front-end using react.
-	      For newer Riddles, an advanced communication protocol was developed where a user can use defined strings to trigger events on the device.
-	      As the new system should be compatible with the old one, the basis of the communication architecture was not meant to change completely.
-	      Instead,we expanded the given system of strings separated by “/” to trigger more actions.
-	\item[Function Layer]\hfill \\
-	      The incoming strings are now translated and send to a web interface.
-	      Depending on the string, they trigger a database-query and are interpreted and saved in the database, or update an existing entry.
-	      Additionally, The incoming strings are now filtered before they reach the tcpclient(Unity)by the database to ensure proper trigger assignment.
-	\item[Process Layer]\hfill \\
-	      The process layer received the most changes.
-	      We now have a web interface showing the existing riddles, enabling an immediate interaction with them, and providing a scalable overview about the room.
+The front-end connection received it's own namespace for socket.io events so front-end relevant data 
+would only be proccessed in it's set namespace component.
+%picture of our architecture
+\section{Prototyping}
+Our reasearch inspired us to try Rapid Prototyping in our project. 
+We designed a Proof of Concept for each stage of our implementation (\ref{fig:PoC}).
+\begin{figure}[th]
+	\centering
+	\includegraphics[width=100mm,scale=1]{Figures/PoC}
+	\decoRule
+	\caption[PoC]{List of our PoC steps}
+	\label{fig:PoC}
+\end{figure}
 
-\end{description}
+Our final result is a MVP %Reference abkürzung 
+which provides the bare functionalites but lacks in design and more extensive features which we will eleborate in the evaluation.
+\section{Device}
+Since the room consisted of microcontroller-driven-riddles only at the time of this thesis, we decided to design a prototype and a template for integration of future microcontroller-driven-riddles.
+%Fig: Arduino verkabelung für prototype
 
-\subsection{Workload critera}
-We analyzed the changed amounts of workload again. 
-We didn't have the possibilty to test our findings, so the listed views are highly subjective 
-and should only be interpeted as the authors impressions, backed by our research.
-\subsubsection{Cognitive Work}
-The cognitive work needed to develop parts 
-of the software and hardware is expected to be considerably lower with the changes we made.
-In the following, we compare our prior concerns to our perception now.
+The template was designed to simplify the process of developing a riddle.
+The escape room provided in it's prior form no support for new riddle-developers. 
+We decided to modify the existing communication protocol, but had to be careful not to impact communication to the existing riddles.
+
+Still, we wanted simplify the communication system for riddle-developers. 
+
+The existing communcation protocol followed a "string-to-chararray-send" and "receive-chararray-to-string" structure that we applied to our implementation.
+In contrast to the existing puzzles though, we decided to separate the code into several parts, named by the functionality they supplied. 
+
+ %Chararrays are smaller than strings hence faster for radio-communication.
+The template is devided into 3 parts: "Groundwork", "Riddlefunctionality" and "Remote Functionality". 
+
+The "Groundwork" section should be filled with libaries, variables and definitions. 
+
+The "Riddlefunctionality" section should contain the riddles functionalities seperated from nearly any communication. 
+The only communication that needs to be defined there is when the Microcontroller should send messages and which. That is executed by writing a single line command containing the desired string.
+If the string's value is defined in the "registerRiddle()" function of the "Remote Functionality" section, it will be translated in the web interface. 
+
+Likewise should the "Remote Functionality" section contain any remote commands for interaction with the web interface and the server.
+The "Remote Functionality" section consists of two functions: 
+
+"registerRiddle()" where strings to be send once on starting the device are defined. 
+These strings set the configuration of the variables in the web interface.
+To work, they need to follow a specific structure:
 \begin{enumerate}
-    \item The user no longer needs to understand the transport protocol in detail
-    \begin{enumerate}
-        \item 
-        He still needs to Set-Up the RFM69HCW with an Arduino or an Adafruit Feather, 
-        which requires drivers and maybe another libary, but has thorough instructions through a documentation
-        \item doesn't need to understand the communication LowPowerLab libary if he uses the designed template
-        \item doesn't need to look up the other riddles NodeIDs as he can look them up in the WebInterface
-    \end{enumerate}   
-    \item Understand Arduino-coding 
-    \item Understand working with the "Switch-Case"-scenario used for communication (with instructions)
-\end{enumerate}  
-Process Layer:
-\begin{enumerate}
-    \item Understand Javascript to make changes in the Server (in a cleaned up, documented and component-based code with improved readability)
-    \item 
-    We were instructed not to change the Unity application, so the problem of Unity-programming still exists. 
-    It would be easier to change though, by replacing the TCP connection with a Socket.io connection. 
-    There are multiple client implementations for Unity available \parencite{socketioUnity1, socketioUnity2,socketioUnity3}
-    That reportedly work (at least) up to the current version of Unity. 
-    Since the Unity version in the escape room won't be upgraded regularily, deprecation issues should not arise.
-    \item Understand Javascript and HTML to make changes to the React-front-end (also component-based) 
-\end{enumerate}  
-\subsubsection{Visual Work}
-We didn't have the time to research web-design to an extend where we could state confidentely that our design is especially user-friendly.
-Alternatively though, the website offers an improved version of the prior window with an integrated translation of the incoming codes.
-It also offers a lot more information and possibilites to interact with the enviroment, which reduces the workload in other areas.
-\subsubsection{Memory Work}
-The memory work is reduced immensely, especially for new riddles. 
-The user has the possibility to save it's values as buttons so that he only needs to interact with an abstraction of the machine-code.
-\begin{description}
-    \item [Buttons] \hfill \\
-    By clicking buttons instead of remembering the strings, the user can take the shortest way to activate a functionality
-    \item [Information Display] \hfill \\
-    By displaying all riddle information in one place, the user can gain a better understanding of the riddles functionalities
-    \item [Automatisation] \hfill \\
-    We automated tasks like activating the feedback mode of the riddles and sending 
-    and starting the applications in the right order
-\end{description}
-\subsubsection{Physical Work}
-The web server reduced the physical interaction needed to work with the room  silghtly. 
-A user can access the room remotely and doesn't need to start the applications manually.
-\subsection{Limitations}
-Even though we, to our judgement, achieved our set goals, 
-we should mentions the limitations our project might have suffered from.
+    \item an Index for the riddlevariable (to order the variables)
+    \item a "readonly" or "write" command (to make it static or dynamic)
+    \item the name of the variable (to translate)
+    \item the value of the variable (needs to be converted into a String)
+    \item an optional button value (if it was present, a button would show)
+\end{enumerate}
+That structure is meant to be applieable for any variable. 
 
-We were working with an already existing project which we were instructed not to change from it's core. 
-Instead of designing a new architecture by scratch, we acted therefore within the given frame. 
-An architecture from scratch would e.g. have used a simpler communication system for the Arduinos and would have changed 
-the Unity communication to an event-based, more dynamic protocol.  
-
-Due to the current Unity communication, resetting the riddles depending on their assignement
-is currently not possible, and riddles might be involuntary resetted on activating a trigger in Unity.
-
-The code of the project was build within a 3-month period by the single, unexperienced author.
-The most thorough research can not replace hands-on experience, 
-just like the most motivated person can usually not substitute the intertwined ideas a team can develop over a course of time.
-
-Because of the tight schedule, we didn't have the time to evaluate the user-experience with the new system so we can only estimate the value our framework produces.
-Also, we weren't able to include a lot of features, listed in the "Big Picture"-section below.
-A more finished product would have been desirable.
-
-%kritik: Unerfahren (alles selber beigebracht), begrenzter Zeitrahmen, alleine alles bauen
-%Pro: Ziel erreicht, raum ist einfacher als vorher 
-%Nur eingeschränkt umfragen gemacht, qualitative interviews 
-%Subjektive view
-% Aber: dadurch das bestehendes system nicht verändert werden durfte einige unschöne aspekte
-% ein set up von vorne hätte eine direkte statt eine indirekte w-lan verbindung bringen können,
-% das kommunizieren über den serial port ist fehleranfällig allein bei der übertragung
-%Wir haben überlastung der arduinos bei zu vielen sendebefehlen erlebt, das heißt die funk funktionen sind nur begrenzt skalierbar
-%Didn't include security mechanism like password authentification
-%Node Editor for combining buttons would be cool (Button 1 to Button with that code)
-\subsection{Big Picture}
-This section is meant to list possible ways to expand the built framework.
-\begin{description}
-    \item [Fully Event-Based-Processing]\hfill \\ 
-    By replacing the TCP-Connection to Unity with a Socket.io client, 
-    one could take the entire processing to the Node.js server. 
-    Since the Node.js server handles the database-queries,
-    the events would scale dynamically. 
-    Developers wouldn't need to change the Unity code manually everytime a riddle is added. 
-    Possible use cases are:
-    \begin{enumerate}
-        \item Resetting the room could be implemented by selecting all riddledetails with "Finish" as an infovalue when Unity sends a "resetRiddles" event.
-        \item 
-        Resetting the riddle that activated an event in Unity could be implemented by storing the incoming "Finish" 
-        value and retrieving it's fitting "Reset" value with the ID of the string.
-    \end{enumerate}
-    \item [Node Editor]\hfill \\
-    Developing the Front-End further, one could implement a node-editor to create reaction-chains. 
-    Such a reaction chain could be that a riddle changes the color of the floor when it's finished by combining two buttons. 
-    The data already exists as a json in the front-end, but creating a flexible drag-and-drop interface with the internal processing 
-    went beyond the scope of the project. 
-    \item [Securty] \hfill \\
-    Within the scope of this project, we didn't include security protection like password authentification and encryption.
-    Since the web server is hosted in a local network in a password protected enviroment we didn't prioritize an authentification system.
-    Another aspect was that an escape room doesn't contain privacy sensitive data in our point of view.
-    \item [Component Isolation]\hfill \\
-    Though we tried to keep the components separated, there is always room for improvement. 
-    Especially the Node.js middleware shows room for further splitting and transparency.
-\end{description}
+\begin{figure}[th]
+	\centering
+	\includegraphics[width=75mm,scale=0.75]{Figures/registerRiddle}
+	\decoRule
+	\caption[FrontViewTable]{"registerRiddle" definition in the Arduino IDE}
+	\label{fig:FrontViewTable}
+\end{figure}
 
 
-\section{Conclusion}
-...
-%Summarize all main points and insights/discoveries
+The other function is named "remoteCommand()" and designed to contain processing of incoming messages from the gateway/Pc.
+It's connected to the radio functionality further down in the code, nevertheless allows the user not to care about how the messages are processed.
+
+The developer is advised to use a "Switch-Case" structure to define the microcontroller's reactions to radio messages, to keep the processing clean and standartized. 
+For any reaction concerning the defined variables, the case should match the index of the variable in order for the buttons within the web interface to work.
+%fig arduino def
+
+The documentation we provided explains the template in further detail.
+
+For our prototype, we used an Arduino Uno with a RFM69HCW module, a keypad, and an I2C-display. 
+The riddle would be to guess a code and enter it. 
+We wanted the code to be changeable to provide different difficulties. 
+Moreover would the riddle possess static  "won", "lost", and "reset"-values to track and control the riddle's state.
+%prototype pic
+\section{Back-End}
+We used the relational model to manage our database. 
+In the relational model, related records are linked by a key predicate common to all. 
+In our project, we found that two tables fit our needs. 
+One table manages the location, name and other general information about the riddle displayed in the main view, 
+whereas the other one is responsible for saving and editing the information displayed in the pop-up window. 
+This seperation simplifies database changes, clearifying the tasks happening on the Node.js server.
+The Node.js server connects the information when sending to the front-end by assigning the details with the riddle's id to the corresponding riddle. 
+
+\section{Middleware}
+
+\subsection{Web Server}
+It quickly became apperant that our middleware web server would use Node.js due to the reasons mentioned above.
+The decisive factor for this decision was that it would be easier to develop and understand a web server programmed in the same language as the front-end.
+
+As we did all website operations client-side, Node.js main operation was the database and handling. 
+We used the "pg-promise" libary \parencite{pg-promise} for our database integration with postgres. 
+
+Depending on the event emittet by the web interface, database-queries to select, update or delete entries could be triggered.
+
+If the gateway emittet a message, a control mechanism would check if the riddle was known and either add a new riddle, update an existing riddle (if new variables where recognized) or translate the incoming data .
+
+With Socket.io, the client would register whether a front-end or another client would register and forward the needed data from the database. 
+By namespacing (creating different channels for different clients), we tried to avoid dispensable traffic.
+The gateway would receive the changeable ("write") values and send them to the connected riddles.
+The front-end would receive the sorted database data in a sorted json fit to the front-ends data-handling.
+
+%Architecture We tried to implement our functionalities as loosely as possibilities, so 
+\subsection{TCP/Serial/Socket.IO-Client}
+This part of the middleware changed several times during our developing process. 
+Since the front-end allowed a reassignement of the messages that would trigger an Unityevent, a middleware implementation was needed.
+We decided to filter the relevant "Finish"-serialmessages through a PostgreSQL-database, which is compatible with different languages and frameworks.
+Additionaly, we needed to implement a connection from the serial port to our socket.io connection.
+
+First, we wanted to use the existing C++-server for our architecture but discovered quickly that understanding and extending the existing code would probably take longer than recreating the features.
+
+Then, because many developers of our target group were proficient in C\# from Unity development, we tried to implement the functionalites with a .NET WPF-App.
+This proved to be difficult, as it required multi-threading and communication between the threads. Both are well documented at the MSDN \parencite{MSDN}, 
+however due to the mass of different techniques it was hard to get an overview. 
+The code we created was easier than the C++ code, though not comparable to the readability of the Javascript-code.
+It took us roughly a week to implement the desired functionalites. 
+
+Finally, we decided to revisit our C\# code and tried to implement it in Javascript.
+The same functionalites took us about 6 hours to implement, though we did by then have intermediate experience in Javascript and started our C\# implementation with Unity-C\#-Knowledge.
+In our perception, the async-capabilities of Node.js showed a tremendous advantage compared to the threading difficulties wie experienced with the .NET project.
+
+\begin{figure}[th]
+	\centering
+	\includegraphics[width=75mm,scale=0.75]{Figures/backendOverview}
+	\decoRule
+	\caption[FrontViewTable]{Overview about our front-view challenges.}
+	\label{fig:FrontViewTable}
+\end{figure}
+
+\section{Front-End}
+For setting up our front-end, we used the Create-React-App which provides a front-end build pipeline with Babel and Webpack.
+React recommends to start there for single-page applications \parencite{createReactApp}. 
+
+It provides a package.json file where  which version of a module one wants to use is defined. 
+This prevents unwanted updates so the existing code won't risk becoming deprecated.
+
+The npm installer (which is the standard installer for React and Node.js) automatically generates a package-lock.json file which saves the dependency tree in further detail.
+We discovered GIT-difficulties with the modules and were thankful that we could reinstall the needed packages without having to search which modules we needed.
+
+For our file-structure, we used the recommended approach to group by filetype \parencite{reactStructure} in combination with the Create-React-App-structure.
+%Fig: Our File structure front end
+
+Starting out, we wanted to implement a node-editor to connect riddles in all thinkable ways. 
+When we listed our wished functionalities (Changeable riddleassignments with "Single", "AND" and "OR" connections to the Unity-Events) we decided that a drag-and-drop table would supply those functionalites (Changeable assignements, OR connections) without creating a difficult User-Interface.
+We used the React-dnd libary \parencite{reactDND} to implement the drag-and-drop functionality in React. Currently, it works only on PC since we thought that would be a more popular use case, but adding a mobile implementation for the module is possible.
+
+When a user dropped a riddle into a "Video" field (and saved), the riddle's "Finish"-command would be reassigned on input to the corresponding Video-Trigger-command. 
+For example, the "Video1" command was originally triggered by "Riddle1". 
+If a user wanted to make "Riddle2" trigger "Video1", he needed to replace "Riddle1" in the "Video1"-List with "Riddle2". 
+Whenever "Riddle2" would now signal it's finished, the "Finish"-code of "Riddle1" would be sent to Unity via TCP.
+
+If a Riddle was newly registered, it would be named "NewRiddle" and appear in the "Unassigned Riddles"-List on the web interface.
+We designed an "Edit"-function which enabled changing the name of the riddle and deleting it in case it got corrupted (or deleted in real-life).
+
+Another aspect was the popup-window for the riddles. We wanted it to show enough information, yet keep it simple. 
+Consequently, our layout for the popup-window was designed flexibly to adapt to a desirable output depending on the usecase:
+
+Each variable would be displayed in respect to it's in the Arduino defined values. 
+If a variable was set "readonly", but didn't have a button value defined, the information would be listed plainly.
+If a variable was set "write", but didn't have a button value defined, the information would be listed plainly. 
+Additionaly, an input field would enable changing the defined value and sending it to the Arduino automatically next time the Server would start. 
+
+If the microcontroller was programmed to interpret the incoming value, a variable could be changed that way (e.g. a password in a riddle).
+If a button component was set in a variable, a button would appear instead of plain information about the variable. 
+The user would be able to click the button to send the code immediately to the riddle. 
+This functionality was especially designed with "Finish" and "Start" functionalities in mind, where a supervisor of the escape room might want to trigger these functionalites during a game if customers get stuck.
+
+To increase the general overview for a supervisor, the color of a riddle would change to green once it's "Finish"-code arrived.
+
+\begin{figure}[th]
+	\centering
+	\includegraphics[width=75mm,scale=0.75]{Figures/frontendOverview}
+	\decoRule
+	\caption[FrontViewTable]{Overview about our front-view tasks.}
+	\label{fig:FrontViewTable}
+\end{figure}
 
 
 
-%Since the layers of an IoT system are neither standartized nor clear depending on the things included in the network system,
-%a layered approach can only be striven for in the execution of a PoC.
