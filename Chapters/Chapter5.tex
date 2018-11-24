@@ -150,12 +150,12 @@ This section is meant to list possible ways to expand the built framework.
     The system is running with 9600 baud (which represent the bits per second communicated), 
     960 byte/s, whereas the RFM69HCW is able to send 300kb/s. 
     That's an easily avoidable bottleneck, if replaced the serial communication with a direct W-LAN connection. 
-    A rasperry Pi could be set up as a server with a W-LAN module. There is an regulary updatet (last update is 6 months old in a branch) python wrapper \parencite{raspberryLibRFM} with thorough documentation \parencite{raspberryDoc} available for connecting 
+    A rasperry Pi could be set up as a server with a W-LAN module. There is an regulary updatet (last update is 6 months old in a branch) python wrapper \parencite{raspberrypiLibRFM} with thorough documentation \parencite{raspberrypiDoc} available for connecting 
     a raspberry Pi to the LowPowerLab RFM69 libary. 
     The raspberry could host the websever in a local, protected W-LAN environment and 
     supply the PC hosting Unity with the needed events within the closed network. 
     This way, only authentificated users would have access to the escape rooms properties, the architecture would be separated and therefore clearer for developers, and easier to change.
-     \parencite{raspberryDoc}
+     \parencite{raspberrypiDoc}
 \end{description}
 //Picture of Planned architecture (Raspberry, webserver to unity bla)
 

@@ -72,13 +72,12 @@ Basic vocabulary will be explained in this section for following chapters.
 \section{Architecture (2-3p)}
 //IoT-system, architectures, layers, models, fog/cloud computing //Sensors, actuators
 
-As there is, at this point in time, no consensus reached for a
-layer model defined for IoT-architectures \parencite{noModel}
+As there is, at this point in time, no consensus reached for a layer model defined for IoT-architectures \parencite{noModel}
 different approaches can be used to analyze and structure an IoT-system. 
 The following describes three proposed layer-models.
 
 \subsection{Five-Layer architecture}
-One by \parencite{fivelayer1,fivelayer2} proposed model is a five-layer-model consisting of the following layers.
+One by \parencite{fiveLayer1,fiveLayer} proposed model is a five-layer-model consisting of the following layers.
 \begin{description}
     \item [Perception layer]
     The perception layer is the physical layer of the architecture. Sensors and actuators exist in this layer.
@@ -95,9 +94,12 @@ One by \parencite{fivelayer1,fivelayer2} proposed model is a five-layer-model co
 When talking about IoT-architectures, one should mention the difference between cloud and fog/edge based architectures. 
 Cloud based architectures assume that processing and analyzing of data should happen in an enviroment remote from the devices' location.
 The network below sends data to the cloud, and above the cloud lie applications working with the processed data with the cloud in the center of this architecture.
-In the last years, cloud computing has gained popularity, also in the context of IoT architecture \parencite{cloudArchIoT} because it provides great exibility and scalability.
-A newer trend instead are fog or edge based architectures, where the sensors and gateways do part of the data processing and analytics.
-A fog architecture presents a layered approach, inserting various layers between the physical and transport layers (monitoring, pre-processing, storage,security).
+In the last years, cloud computing has gained popularity, also in the context of IoT architecture \parencite{CloudComputing} because it provides great exibility and scalability.
+A newer trend instead are fog or edge based architectures, where the sensors and gateways do parts of the data processing and analytics.
+A fog architecture \parencite{FogComputing1, FogComp} presents a layered approach, inserting various layers between the physical (perception) and transport layers 
+(monitoring, pre-processing, storage, security). 
+Wheras fog computing refers to smart sensors and gateways, edge computing refers to not-smart objects like motors, pumps with 
+smart data preprocessing capabilities \parencite{edgeFog}
 
 
 \begin{figure}[th]
@@ -192,6 +194,7 @@ The server-side of Socket.io is developed  specifically for Node.js wheras for t
 Once a connections is established it's maintained and uses a diminishing small amount resources to communicate. 
 It uses an event-based system where one participant listens and another emits an event. 
 Both Client and Server can emit and listen for events.
+
 \section{Middleware}
 %Talk about Node.js
 //Was ist middleware? in dme fall node js

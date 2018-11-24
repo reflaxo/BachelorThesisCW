@@ -22,43 +22,45 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated field_info (elt_size=4) to 10143 items from 5000.
 Database file #1: main-blx.bib
 Database file #2: example.bib
 Warning--entry type for "designThinkingCrashCourse" isn't style-file defined
---line 11 of file example.bib
+--line 102 of file example.bib
 Warning--entry type for "designThinking" isn't style-file defined
---line 20 of file example.bib
+--line 111 of file example.bib
+Warning--entry type for "raspberrypiDoc" isn't style-file defined
+--line 143 of file example.bib
+Warning--entry type for "raspberrypiLibRFM" isn't style-file defined
+--line 150 of file example.bib
 Warning--entry type for "socketioUnity3" isn't style-file defined
---line 67 of file example.bib
+--line 158 of file example.bib
 Warning--entry type for "socketioUnity2" isn't style-file defined
---line 75 of file example.bib
+--line 166 of file example.bib
 Warning--entry type for "socketioUnity1" isn't style-file defined
---line 83 of file example.bib
+--line 174 of file example.bib
 Warning--entry type for "pg-promise" isn't style-file defined
---line 136 of file example.bib
+--line 227 of file example.bib
 Warning--entry type for "reactjsUsers" isn't style-file defined
---line 167 of file example.bib
+--line 258 of file example.bib
 Warning--entry type for "reactDND" isn't style-file defined
---line 207 of file example.bib
+--line 298 of file example.bib
 Warning--entry type for "reactStructure" isn't style-file defined
---line 214 of file example.bib
+--line 305 of file example.bib
 Warning--entry type for "createReactApp" isn't style-file defined
---line 222 of file example.bib
+--line 313 of file example.bib
 Warning--entry type for "socketioClients" isn't style-file defined
---line 230 of file example.bib
+--line 321 of file example.bib
 Warning--entry type for "postgresUsers" isn't style-file defined
---line 238 of file example.bib
+--line 329 of file example.bib
 Warning--entry type for "stackOverflowSurvey" isn't style-file defined
---line 253 of file example.bib
+--line 344 of file example.bib
 Warning--entry type for "radiorange" isn't style-file defined
---line 269 of file example.bib
+--line 360 of file example.bib
 Warning--entry type for "verizon" isn't style-file defined
---line 302 of file example.bib
-Warning--I didn't find a database entry for "designThinkingBootleg"
+--line 393 of file example.bib
 Warning--I didn't find a database entry for "noModel"
-Warning--I didn't find a database entry for "fivelayer1"
-Warning--I didn't find a database entry for "fivelayer2"
-Warning--I didn't find a database entry for "cloudArchIoT"
+Warning--I didn't find a database entry for "edgeFog"
 Warning--I didn't find a database entry for "frontend"
 Warning--I didn't find a database entry for "ajax"
 Warning--I didn't find a database entry for "gogleTrendNode"
@@ -67,50 +69,48 @@ Warning--I didn't find a database entry for "arduinoIDEDownload"
 Warning--I didn't find a database entry for "LowPowerlab"
 Warning--I didn't find a database entry for "Radiohead"
 Warning--I didn't find a database entry for "MSDN"
-Warning--I didn't find a database entry for "raspberryLibRFM"
-Warning--I didn't find a database entry for "raspberryDoc"
 Biblatex version: 3.8
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 19 entries,
+You've used 27 entries,
             6268 wiz_defined-function locations,
-            1302 strings with 11392 characters,
-and the built_in function-call counts, 68178 in all, are:
-= -- 3444
-> -- 2051
-< -- 533
-+ -- 1422
-- -- 931
-* -- 4356
-:= -- 5807
+            1358 strings with 16268 characters,
+and the built_in function-call counts, 120741 in all, are:
+= -- 7301
+> -- 2956
+< -- 888
++ -- 2851
+- -- 1220
+* -- 7972
+:= -- 10890
 add.period$ -- 0
-call.type$ -- 19
-change.case$ -- 204
-chr.to.int$ -- 69
-cite$ -- 36
-duplicate$ -- 7379
-empty$ -- 7138
-format.name$ -- 845
-if$ -- 14583
+call.type$ -- 27
+change.case$ -- 458
+chr.to.int$ -- 70
+cite$ -- 52
+duplicate$ -- 13421
+empty$ -- 11887
+format.name$ -- 1396
+if$ -- 25424
 int.to.chr$ -- 0
-int.to.str$ -- 43
+int.to.str$ -- 62
 missing$ -- 0
-newline$ -- 369
-num.names$ -- 760
-pop$ -- 6189
+newline$ -- 691
+num.names$ -- 1233
+pop$ -- 9066
 preamble$ -- 1
-purify$ -- 243
+purify$ -- 549
 quote$ -- 0
-skip$ -- 2908
+skip$ -- 4591
 stack$ -- 0
-substring$ -- 4624
-swap$ -- 2070
-text.length$ -- 509
-text.prefix$ -- 19
+substring$ -- 10591
+swap$ -- 3552
+text.length$ -- 710
+text.prefix$ -- 27
 top$ -- 1
-type$ -- 618
+type$ -- 885
 warning$ -- 0
-while$ -- 656
+while$ -- 1304
 width$ -- 0
-write$ -- 351
-(There were 30 warnings)
+write$ -- 665
+(There were 27 warnings)

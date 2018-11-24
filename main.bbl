@@ -80,6 +80,52 @@
   'date' \item Invalid format of field 'month'}
   \endentry
 
+  \entry{FogComp}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=BF}{%
+         family={Bonomi},
+         familyi={B\bibinitperiod},
+         given={F.},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=MR}{%
+         family={Milito},
+         familyi={M\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=ZJ}{%
+         family={Zhu},
+         familyi={Z\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=AS}{%
+         family={Addepalli},
+         familyi={A\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BF+1}
+    \strng{fullhash}{BFMRZJAS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{labeldatesource}{year}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{abstract}{%
+    F. Bonomi, R. Milito, J. Zhu, and S. Addepalli, ``Fog computing and its
+  role in the internet of things,'' in Proceedings of the 1st ACM MCC Workshop
+  on Mobile Cloud Computing, pp. 13--16, 2012.%
+    }
+    \field{booktitle}{in Proceedings of the 1st ACM MCC Workshop on Mobile
+  Cloud Computing, pp. 13--16,}
+    \field{title}{Fog computing and its role in the internet of things}
+    \field{year}{2012}
+  \endentry
+
   \entry{designThinking}{misc}{}
     \name{author}{2}{}{%
       {{hash=DR}{%
@@ -102,6 +148,49 @@
     \field{sortinit}{D}
     \field{sortinithash}{D}
     \field{title}{Design Thinking: A Quick Overview}
+    \warn{\item Invalid format of field 'urldate'}
+  \endentry
+
+  \entry{designThinkingBootleg}{online}{}
+    \name{author}{5}{}{%
+      {{hash=DS}{%
+         family={Doorley},
+         familyi={D\bibinitperiod},
+         given={Scott},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=HS}{%
+         family={Holcomb},
+         familyi={H\bibinitperiod},
+         given={Sarah},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=KP}{%
+         family={Klebahn},
+         familyi={K\bibinitperiod},
+         given={Perry},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=SK}{%
+         family={Segovia},
+         familyi={S\bibinitperiod},
+         given={Kathryn},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=UJ}{%
+         family={Utley.},
+         familyi={U\bibinitperiod},
+         given={Jeremy},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DS+1}
+    \strng{fullhash}{DSHSKPSKUJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{title}{The Design Thinking Bootleg}
     \warn{\item Invalid format of field 'urldate'}
   \endentry
 
@@ -162,6 +251,211 @@
     \field{title}{Designing for the Digital Age: How to Create Human-Centered
   Products and Services}
     \field{year}{2009}
+  \endentry
+
+  \entry{CloudComputing}{article}{}
+    \name{author}{4}{}{%
+      {{hash=GJ}{%
+         family={Gubbi},
+         familyi={G\bibinitperiod},
+         given={Jayavardhana},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=BR}{%
+         family={Buyya},
+         familyi={B\bibinitperiod},
+         given={Rajkumar},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Marusic},
+         familyi={M\bibinitperiod},
+         given={Slaven},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=PM}{%
+         family={Palaniswami},
+         familyi={P\bibinitperiod},
+         given={Marimuthu},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GJ+1}
+    \strng{fullhash}{GJBRMSPM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{labeldatesource}{year}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \verb{eprint}
+    \verb 1207.0203
+    \endverb
+    \field{title}{Internet of Things (IoT): {A} Vision, Architectural Elements,
+  and Future Directions}
+    \verb{url}
+    \verb http://arxiv.org/abs/1207.0203
+    \endverb
+    \field{volume}{abs/1207.0203}
+    \field{journaltitle}{CoRR}
+    \field{eprinttype}{arXiv}
+    \field{year}{2012}
+  \endentry
+
+  \entry{fiveLayer1}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=KR}{%
+         family={Khan},
+         familyi={K\bibinitperiod},
+         given={Rafiullah},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=KS}{%
+         family={Khan},
+         familyi={K\bibinitperiod},
+         given={{Sarmad Ullah}},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=ZR}{%
+         family={Zaheer},
+         familyi={Z\bibinitperiod},
+         given={Rifaqat},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=KS}{%
+         family={Khan},
+         familyi={K\bibinitperiod},
+         given={Shahid},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {English}%
+    }
+    \list{publisher}{2}{%
+      {Institute of Electrical}%
+      {Electronics Engineers Inc.}%
+    }
+    \strng{namehash}{KR+1}
+    \strng{fullhash}{KRKSZRKS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{labeldatesource}{year}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{abstract}{%
+    The Internet is continuously changing and evolving. The main communication
+  form of present Internet is human-human. The Internet of Things (IoT) can be
+  considered as the future evaluation of the Internet that realizes
+  machine-to-machine (M2M) learning. Thus, IoT provides connectivity for
+  everyone and everything. The IoT embeds some intelligence in
+  Internet-connected objects to communicate, exchange information, take
+  decisions, invoke actions and provide amazing services. This paper addresses
+  the existing development trends, the generic architecture of IoT, its
+  distinguishing features and possible future applications. This paper also
+  forecast the key challenges associated with the development of IoT. The IoT
+  is getting increasing popularity for academia, industry as well as government
+  that has the potential to bring significant personal, professional and
+  economic benefits.%
+    }
+    \field{booktitle}{2012 10th International Conference on Frontiers of
+  Information Technology (FIT): Proceedings}
+    \verb{doi}
+    \verb 10.1109/FIT.2012.53
+    \endverb
+    \field{isbn}{978-1-4673-4946-8}
+    \field{pages}{257\bibrangedash 260}
+    \field{title}{Future Internet: The Internet of Things Architecture,
+  Possible Applications and Key Challenges}
+    \field{year}{2012}
+  \endentry
+
+  \entry{fiveLayer}{article}{}
+    \name{author}{6}{}{%
+      {{hash=MI}{%
+         family={Mashal},
+         familyi={M\bibinitperiod},
+         given={Ibrahim},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=AO}{%
+         family={Alsaryrah},
+         familyi={A\bibinitperiod},
+         given={Osama},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=CTY}{%
+         family={Chung},
+         familyi={C\bibinitperiod},
+         given={Tein-Yaw},
+         giveni={T\bibinitperiod-Y\bibinitperiod},
+      }}%
+      {{hash=YCZ}{%
+         family={Yang},
+         familyi={Y\bibinitperiod},
+         given={Cheng-Zen},
+         giveni={C\bibinitperiod-Z\bibinitperiod},
+      }}%
+      {{hash=KWH}{%
+         family={Kuo},
+         familyi={K\bibinitperiod},
+         given={Wen-Hsing},
+         giveni={W\bibinitperiod-H\bibinitperiod},
+      }}%
+      {{hash=ADP}{%
+         family={Agrawal},
+         familyi={A\bibinitperiod},
+         given={Dharma\bibnamedelima P.},
+         giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+    }
+    \keyw{Internet of Things, Social Internet of Things, Social Web of Things,
+  Web of Things, Wireless Sensor Networks}
+    \strng{namehash}{MI+1}
+    \strng{fullhash}{MIAOCTYYCZKWHADP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{labeldatesource}{year}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{abstract}{%
+    Currently, a large number of smart objects and different types of devices
+  are interconnected and communicate via Internet Protocol that creates a
+  worldwide ubiquitous and pervasive network called the Internet of Things
+  (IoT). With an increase in the deployment of smart objects, IoT is expected
+  to have a significant impact on human life in the near future. A
+  majorbreakthrough in bridging the gap between virtual and physical worlds
+  came from the vision of the Web of Things (WoT), which employs open Web
+  standards in achieving information sharing and objects interoperability.
+  Social Web of Things (SWoT) further extends WoT to integrate smart objects
+  with social networks and is observed to not only bridge between physical and
+  virtual worlds but also facilitate continued interaction between physical
+  devices and human. This makes SWoT the most promising approach and has now
+  become an active research area. This survey introduces necessary background
+  and fundamentals to understand current efforts in IoT, WoT and SWoT by
+  reviewing key enabling technologies. These efforts are investigated in detail
+  from several different perspectives such as architecture design, middleware,
+  platform, systems implementation, and application in hand. Moreover, a large
+  number of platforms and applications are analyzed and evaluated from various
+  alternatives have become popular during the past decade. Finally, we address
+  associated challenges and highlight potential research to be perused in
+  future.%
+    }
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.adhoc.2014.12.006
+    \endverb
+    \field{issn}{1570-8705}
+    \field{pages}{68 \bibrangedash  90}
+    \field{title}{Choices for interaction with things on Internet and
+  underlying issues}
+    \verb{url}
+    \verb http://www.sciencedirect.com/science/article/pii/S1570870514003138
+    \endverb
+    \field{volume}{28}
+    \field{journaltitle}{Ad Hoc Networks}
+    \field{year}{2015}
   \endentry
 
   \entry{socketioUnity1}{misc}{}
@@ -237,6 +531,14 @@
     \field{sortinit}{R}
     \field{sortinithash}{R}
     \field{title}{React DND}
+    \warn{\item Invalid format of field 'urldate'}
+  \endentry
+
+  \entry{raspberrypiDoc}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{title}{RPI RFM69 documentation}
     \warn{\item Invalid format of field 'urldate'}
   \endentry
 
@@ -335,6 +637,51 @@
     \warn{\item Invalid format of field 'urldate'}
   \endentry
 
+  \entry{FogComputing1}{report}{}
+    \name{author}{2}{}{%
+      {{hash=SI}{%
+         family={Stojmenovic},
+         familyi={S\bibinitperiod},
+         given={I.},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=WS}{%
+         family={Wen},
+         familyi={W\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SIWS1}
+    \strng{fullhash}{SIWS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{labeldatesource}{year}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{abstract}{%
+    I. Stojmenovic and S. Wen, `` e fog computing paradigm: scenarios and
+  security issues,'' in Proceedings of the Federated Conference on Computer
+  Science and Information Systems (Fed- CSIS '14), pp. 1--8, IEEE, Warsaw,
+  Poland, September 2014.%
+    }
+    \field{booktitle}{In Proceedings of the Federated Conference on Computer
+  Science and Information Systems (Fed- CSIS '14)}
+    \field{title}{The fog computing paradigm: scenarios and security issues}
+    \field{volume}{Warsaw, Poland, September 2014}
+    \list{location}{1}{%
+      {Warsaw, Poland}%
+    }
+    \list{institution}{2}{%
+      {Proceedings of the Federated Conference on Computer Science}%
+      {Information Systems (Fed- CSIS '14), pp. 1--8, IEEE}%
+    }
+    \field{type}{techreport}
+    \field{year}{2014}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
   \entry{pg-promise}{misc}{}
     \name{author}{1}{}{%
       {{hash=vt}{%
@@ -351,6 +698,25 @@
     \field{sortinit}{T}
     \field{sortinithash}{T}
     \field{title}{pg-promise}
+    \warn{\item Invalid format of field 'urldate'}
+  \endentry
+
+  \entry{raspberrypiLibRFM}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=TE}{%
+         family={Trombly},
+         familyi={T\bibinitperiod},
+         given={Eric},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TE1}
+    \strng{fullhash}{TE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{title}{Python RFM69 library for RaspberryPi}
     \warn{\item Invalid format of field 'urldate'}
   \endentry
 
