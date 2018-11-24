@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.8.15)  24 NOV 2018 18:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.8.15)  24 NOV 2018 18:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1286,7 +1286,7 @@ LaTeX Warning: Label `fig:FrontViewTable' multiply defined.
 
 LaTeX Warning: Label `fig:FrontViewTable' multiply defined.
 
-) (./Chapters/Chapter5.aux) (./Appendices/AppendixA.aux))
+) (./Chapters/Chapter5.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 90.
@@ -1648,49 +1648,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 153--154
 
 ]
 --------------------
- Abstract
+ Acknowledgements
 --------------------
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 179.
 1: section
 [7] [8
 
 ]
---------------------
- Acknowledgements
---------------------
-1: section
-[9] [10
-
-]
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 196.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 188.
  (./main.toc
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 3.
+
 1: section
-[11])
+[9])
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
- [12] (./main.lof)
+ [10] (./main.lof)
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
 
 1: section
-[13
+[11
 
-] [14
+] [12
 
 ]
 1: section
-[15] [16
-
-]
---------------------
- Dedicatory
---------------------
-1: section
-[17] [18
+[13] [14
 
 ]
 1: section
@@ -1718,7 +1705,7 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
 Chapter 2.
 1: section
 [3]
-<Figures/designThinking.jpg, id=434, 707.64375pt x 404.26031pt>
+<Figures/designThinking.jpg, id=397, 707.64375pt x 404.26031pt>
 File: Figures/designThinking.jpg Graphic file (type jpg)
 <use Figures/designThinking.jpg>
 Package pdftex.def Info: Figures/designThinking.jpg  used on input line 55.
@@ -1732,7 +1719,7 @@ LaTeX Warning: Citation 'noModel' on page 5 undefined on input line 75.
 
 LaTeX Warning: Citation 'edgeFog' on page 5 undefined on input line 102.
 
-<Figures/gartnerIoT.png, id=446, 690.58pt x 682.55pt>
+<Figures/gartnerIoT.png, id=410, 690.58pt x 682.55pt>
 File: Figures/gartnerIoT.png Graphic file (type png)
 <use Figures/gartnerIoT.png>
 Package pdftex.def Info: Figures/gartnerIoT.png  used on input line 107.
@@ -1817,7 +1804,7 @@ Overfull \hbox (5.38702pt too wide) in paragraph at lines 26--30
 
 1: section
 [11]
-<Figures/oldEscapeUml.png, id=501, 1231.9626pt x 798.8244pt>
+<Figures/oldEscapeUml.png, id=466, 1231.9626pt x 798.8244pt>
 File: Figures/oldEscapeUml.png Graphic file (type png)
 <use Figures/oldEscapeUml.png>
 Package pdftex.def Info: Figures/oldEscapeUml.png  used on input line 41.
@@ -1832,7 +1819,7 @@ Overfull \hbox (9.93079pt too wide) in paragraph at lines 141--142
 []\T1/ppl/m/n/10.95 Retrieving in-for-ma-tion from the room must work au-to-mat-i-cally, there-fore should
  []
 
-<Figures/workload.png, id=528, 277.035pt x 217.7736pt>
+<Figures/workload.png, id=492, 277.035pt x 217.7736pt>
 File: Figures/workload.png Graphic file (type png)
 <use Figures/workload.png>
 Package pdftex.def Info: Figures/workload.png  used on input line 151.
@@ -1846,7 +1833,7 @@ Package pdftex.def Info: Figures/workload.png  used on input line 151.
 
 ]
 Chapter 4.
-<Figures/PoC.png, id=546, 437.9562pt x 532.389pt>
+<Figures/PoC.png, id=510, 437.9562pt x 532.389pt>
 File: Figures/PoC.png Graphic file (type png)
 <use Figures/PoC.png>
 Package pdftex.def Info: Figures/PoC.png  used on input line 25.
@@ -1857,7 +1844,7 @@ Overfull \hbox (5.12466pt too wide) in paragraph at lines 77--79
 []\T1/ppl/m/n/10.95 Designed to con-tain pro-cess-ing of in-com-ing mes-sages from
  []
 
-<Figures/registerRiddle.png, id=556, 369.38pt x 309.155pt>
+<Figures/registerRiddle.png, id=521, 369.38pt x 309.155pt>
 File: Figures/registerRiddle.png Graphic file (type png)
 <use Figures/registerRiddle.png>
 Package pdftex.def Info: Figures/registerRiddle.png  used on input line 91.
@@ -1871,7 +1858,7 @@ Overfull \hbox (3.19696pt too wide) in paragraph at lines 126--128
 
 LaTeX Warning: Citation 'MSDN' on page 21 undefined on input line 148.
 
-<Figures/backendOverview.png, id=576, 724.7075pt x 581.17125pt>
+<Figures/backendOverview.png, id=539, 724.7075pt x 581.17125pt>
 File: Figures/backendOverview.png Graphic file (type png)
 <use Figures/backendOverview.png>
 Package pdftex.def Info: Figures/backendOverview.png  used on input line 159.
@@ -1887,7 +1874,7 @@ Overfull \hbox (13.80742pt too wide) in paragraph at lines 182--186
  []
 
 [22]
-<Figures/frontendOverview.png, id=592, 734.745pt x 610.28pt>
+<Figures/frontendOverview.png, id=556, 734.745pt x 610.28pt>
 File: Figures/frontendOverview.png Graphic file (type png)
 <use Figures/frontendOverview.png>
 Package pdftex.def Info: Figures/frontendOverview.png  used on input line 207.
@@ -1922,38 +1909,28 @@ Overfull \hbox (2.35309pt too wide) in paragraph at lines 132--134
 []\T1/ppl/m/n/10.95 Resetting the rid-dle that ac-ti-vated an event in Unity could be im-ple-mented
  []
 
-[28]) [29]
-\openout2 = `Appendices/AppendixA.aux'.
-
- (./Appendices/AppendixA.tex [30
-
+[28]) [29] [30
 
 
 ]
-Appendix A.
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 11.
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/t1cmtt.fd
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 239.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-))
-1: section
-[31] [32
-
-
-]
-Overfull \hbox (0.10953pt too wide) in paragraph at lines 254--254
+)
+Overfull \hbox (0.10953pt too wide) in paragraph at lines 239--239
 \T1/ppl/m/it/10.95 Con-fer-ence on Fron-tiers of In-for-ma-tion Tech-nol-ogy (FIT): Pro-ceed-ings\T1/ppl/m/n/10.95 . In-sti-tute of Elec-
  []
 
 1: section
-[33]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 258.
- [34]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 258.
- (./main.aux (./Chapters/Chapter1.aux) (./Chapters/Chapter2.aux) (./Chapters/Chapter3.aux) (./Chapters/Chapter4.aux) (./Chapters/Chapter5.aux) (./Appendices/AppendixA.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 258.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 258.
+[31]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 243.
+ [32]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 243.
+ (./main.aux (./Chapters/Chapter1.aux) (./Chapters/Chapter2.aux) (./Chapters/Chapter3.aux) (./Chapters/Chapter4.aux) (./Chapters/Chapter5.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 243.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 243.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: A846EBB3EE68E82724692A929FC9BF90;7263.
+(rerunfilecheck)             Checksum: 5A7097A3AEF47A1EB9688E213C87ABA7;6724.
 
 
 LaTeX Warning: There were undefined references.
@@ -1971,18 +1948,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33968 strings out of 492649
- 692620 string characters out of 6129622
- 920065 words of memory out of 5000000
- 37308 multiletter control sequences out of 15000+600000
- 577153 words of font info for 92 fonts, out of 8000000 for 9000
+ 33940 strings out of 492649
+ 692209 string characters out of 6129622
+ 919749 words of memory out of 5000000
+ 37300 multiletter control sequences out of 15000+600000
+ 575163 words of font info for 89 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,20n,82p,10413b,2400s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (52 pages, 796665 bytes).
+ 56i,20n,82p,10413b,2421s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on main.pdf (46 pages, 765815 bytes).
 PDF statistics:
- 748 PDF objects out of 1000 (max. 8388607)
- 665 compressed objects within 7 object streams
- 183 named destinations out of 1000 (max. 500000)
- 497 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 697 PDF objects out of 1000 (max. 8388607)
+ 621 compressed objects within 7 object streams
+ 173 named destinations out of 1000 (max. 500000)
+ 473 words of extra memory for PDF output out of 10000 (max. 10000000)
 
