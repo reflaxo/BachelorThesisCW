@@ -60,8 +60,18 @@ Figure \ref{fig:designThinking} illustrates the iterative properties of this mod
 
 The model goes on to describe user analyzing methods which are not relevant in the context of this project.
 
+\section{Prototyping (1-2p)}
+A prototype is "An initial model of an object built to test a design." \parencite{prototypeDef}
+Basic vocabulary will be explained in this section for following chapters.
+
+\subsection{Proof of Concept}
+\subsection{Minimal Viable Product}
+\subsection{Rapid Prototyping}
+
+
 \section{Architecture (2-3p)}
 //IoT-system, architectures, layers, models, fog/cloud computing //Sensors, actuators
+
 As there is, at this point in time, no consensus reached for a
 layer model defined for IoT-architectures \parencite{noModel}
 different approaches can be used to analyze and structure an IoT-system. 
@@ -87,7 +97,7 @@ Cloud based architectures assume that processing and analyzing of data should ha
 The network below sends data to the cloud, and above the cloud lie applications working with the processed data with the cloud in the center of this architecture.
 In the last years, cloud computing has gained popularity, also in the context of IoT architecture \parencite{cloudArchIoT} because it provides great exibility and scalability.
 A newer trend instead are fog or edge based architectures, where the sensors and gateways do part of the data processing and analytics.
-A fog architecture presents a layered approach, inserting various layers between the physical and transport layers (monitoring, pre-processing, storage,security,).
+A fog architecture presents a layered approach, inserting various layers between the physical and transport layers (monitoring, pre-processing, storage,security).
 
 
 \begin{figure}[th]
@@ -97,21 +107,14 @@ A fog architecture presents a layered approach, inserting various layers between
 	\caption[Gartner]{gartnerIoT1}
 	\label{fig:gartnerIoT}
 \end{figure}
+
 \section{Communication Protocols}
 The project didn't allow changing the communication protocol without disrupting the existing enviroment. 
 For future implementations, other communication protocols could be considered for enviroments like this (small room, fast transport).
-\subsection{RFID}
-\subsection{NSC}
+\subsection{W-LAN}
+\subsection{WPan6}
 \subsection{ZigBee}
 \subsection{MQTT}
-\section{Prototyping (1-2p)}
-Prototyping is the process of "An initial model of an object built to test a design." \parencite{prototypeDef}
-As in any industry, prototyping for IoT-products is a part of any planned 
-Basic vocabulary will be explained in this section for following chapters.
-
-\subsection{Proof of Concept}
-\subsection{Minimal Viable Product}
-\subsection{Rapid Prototyping}
 
 \section{Front-End}
 As \parencite{frontend} states:
@@ -151,17 +154,29 @@ Its main concepts are:
     \item[JSX]  JSX, short for Javascript XML, is an implementation of Javascript which is usually used to write in ReactJs. 
     It looks a lot like HTML but enables Javascript functionality. Javascript functionalities can be used by putting them in curly brackets ("{}").
 \end{description}
+
 \section{Communication}
 %Socket.io
 There are different ways to communicate between clients and middleware. 
-Communication on the web is usually unsynchronized. The client requests and the server responds. Services like AJAX \parencite{ajax} implement this kind of communication.
-This communication can imply difficulties with real-time applications like chat-services, because a client needs to request the page to see content which can create unnessecary traffic.  
-Those services demand a more reactive and immediate communication. 
+Communication on the web is usually unsynchronized. 
+The client requests and the server responds. 
+Problems arise if real-time communication is required. 
+Chat-Applications shouldn't require the user to reload a page anytime he wants to see a new message.
+Those services demand a more reactive and immediate communication.
+
+For this, web development techniques like AJAX \parencite{ajax} were invented. 
+Here, the client requests data automatically, establishing a new connection to the server.
+
+This technique needs a client to request new content instead of listening 
+for new information which creates unnessecary overhead and a higher latency than other communication enviroments like WebSockets.  
+ 
 WebSockets pursue this task by creating a bilateral environment for clint-server-exchange. 
+This way, the client doesn't need to connect again and again, but listens for events. 
 Now-a-days, most browsers are Websocket compatible.
+
 For this project, Socket.io was used for client-middleware-communication.
 
-Socket.io is a Javascript-Libary designed for realtime communication. 
+Socket.io is a Javascript-Libary designed for realtime communication build on top of a websocket-protocol.
 It enables a bi-directional communication channel between client and server and offers a fallback mechanism to long polling when WebSockets are not available.
 There are several fallback mechanisms available that are determined dynamically by Socket.io:
 \begin{itemize}

@@ -1,0 +1,374 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nyt/global//global/global}
+  \entry{radiorange}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=la}{%
+         prefix={lady},
+         prefixi={l\bibinitperiod},
+         family={ada},
+         familyi={a\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{al1}
+    \strng{fullhash}{al1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{title}{Radio Range F.A.Q.}
+    \warn{\item Invalid format of field 'urldate'}
+  \endentry
+
+  \entry{prototypeDef}{inbook}{}
+    \name{editor}{2}{}{%
+      {{hash=BAH}{%
+         family={Blackwell},
+         familyi={B\bibinitperiod},
+         given={Amy\bibnamedelima Hackney},
+         giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=ME}{%
+         family={Manar},
+         familyi={M\bibinitperiod},
+         given={Elizabeth},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {UXL}%
+    }
+    \keyw{Engineering prototypes}
+    \strng{namehash}{BAHME1}
+    \strng{fullhash}{BAHME1}
+    \field{labelnamesource}{editor}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{labeldatesource}{year}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{booktitle}{UXL Encyclopedia of Science}
+    \field{title}{Prototype}
+    \verb{url}
+    \verb http://link.galegroup.com/apps/doc/ENKDZQ347975681/SCIC?u=dclib_main&
+    \verb sid=SCIC&xid=0c8f739d
+    \endverb
+    \list{location}{1}{%
+      {Farmington Hills, MI}%
+    }
+    \field{annotation}{%
+    COPYRIGHT 2015 Gale, Cengage Learning%
+    }
+    \field{year}{2015}
+    \warn{\item Invalid format of field 'date' \item Invalid format of field
+  'date' \item Invalid format of field 'month'}
+  \endentry
+
+  \entry{designThinking}{misc}{}
+    \name{author}{2}{}{%
+      {{hash=DR}{%
+         family={Dam},
+         familyi={D\bibinitperiod},
+         given={Rikke},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=ST}{%
+         family={Siang},
+         familyi={S\bibinitperiod},
+         given={Teo},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DRST1}
+    \strng{fullhash}{DRST1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{title}{Design Thinking: A Quick Overview}
+    \warn{\item Invalid format of field 'urldate'}
+  \endentry
+
+  \entry{socketioUnity2}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=f}{%
+         family={floatinghotpot},
+         familyi={f\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{f1}
+    \strng{fullhash}{f1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{title}{socket.io-unity}
+    \warn{\item Invalid format of field 'urldate'}
+  \endentry
+
+  \entry{gartner0}{online}{}
+    \name{author}{1}{}{%
+      {{hash=G}{%
+         family={Gartner},
+         familyi={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{G1}
+    \strng{fullhash}{G1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{title}{Gartner Predicts 20.4bn Connected `Things' by 2020}
+    \warn{\item Invalid format of field 'urldate'}
+  \endentry
+
+  \entry{designDigitalAge}{book}{}
+    \name{author}{1}{}{%
+      {{hash=GK}{%
+         family={Goodwin},
+         familyi={G\bibinitperiod},
+         given={Kim},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Wiley Publishing, Inc.}%
+    }
+    \strng{namehash}{GK1}
+    \strng{fullhash}{GK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2009}
+    \field{labeldatesource}{year}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{title}{Designing for the Digital Age: How to Create Human-Centered
+  Products and Services}
+    \field{year}{2009}
+  \endentry
+
+  \entry{socketioUnity1}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=PF}{%
+         family={Panettieri},
+         familyi={P\bibinitperiod},
+         given={Fabio},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PF1}
+    \strng{fullhash}{PF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{title}{Socket.IO for Unity}
+    \warn{\item Invalid format of field 'urldate'}
+  \endentry
+
+  \entry{postgresUsers}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=P}{%
+         family={Postgres},
+         familyi={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{P1}
+    \strng{fullhash}{P1}
+    \field{labelnamesource}{author}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \warn{\item Invalid format of field 'urldate'}
+  \endentry
+
+  \entry{createReactApp}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=R}{%
+         family={React},
+         familyi={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{R1}
+    \strng{fullhash}{R1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{title}{Create React App}
+    \warn{\item Invalid format of field 'urldate'}
+  \endentry
+
+  \entry{reactStructure}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=R}{%
+         family={React},
+         familyi={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{R1}
+    \strng{fullhash}{R1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{title}{File Structure}
+    \warn{\item Invalid format of field 'urldate'}
+  \endentry
+
+  \entry{reactDND}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{title}{React DND}
+    \warn{\item Invalid format of field 'urldate'}
+  \endentry
+
+  \entry{socketioUnity3}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=s}{%
+         family={smallmiro},
+         familyi={s\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{s1}
+    \strng{fullhash}{s1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{title}{socket.io-client.unity3d}
+    \warn{\item Invalid format of field 'urldate'}
+  \endentry
+
+  \entry{socketioClients}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=S}{%
+         family={Socket.io},
+         familyi={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{S1}
+    \strng{fullhash}{S1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{title}{Other Client Implementations}
+    \warn{\item Invalid format of field 'urldate'}
+  \endentry
+
+  \entry{stackOverflowSurvey}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=S}{%
+         family={StackOverflow},
+         familyi={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{S2}
+    \strng{fullhash}{S2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{title}{Developer Survey Results 2018}
+    \warn{\item Invalid format of field 'urldate'}
+  \endentry
+
+  \entry{reactjsUsers}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=s}{%
+         family={stackshare},
+         familyi={s\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{s1}
+    \strng{fullhash}{s1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{title}{Companies using React}
+    \warn{\item Invalid format of field 'urldate'}
+  \endentry
+
+  \entry{designThinkingCrashCourse}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=oDaSUHPI}{%
+         prefix={of\bibnamedelima Design\bibnamedelima at},
+         prefixi={o\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim
+  a\bibinitperiod},
+         family={Stanford\bibnamedelima University},
+         familyi={S\bibinitperiod\bibinitdelim U\bibinitperiod},
+         given={Hasso Plattner\bibnamedelima Institute},
+         giveni={H\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim
+  I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SUHPIoDa1}
+    \strng{fullhash}{SUHPIoDa1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{abstract}{%
+    Author/Copyright holder: Teo Yu Siang and Interaction Design Foundation.
+  Copyright terms and Licence: CC BY-NC-SA 3.0%
+    }
+    \field{title}{A Virtual Crash Course in Design Thinking}
+    \warn{\item Invalid format of field 'urldate'}
+  \endentry
+
+  \entry{pg-promise}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=vt}{%
+         prefix={vitaly},
+         prefixi={v\bibinitperiod},
+         family={t},
+         familyi={t},
+      }}%
+    }
+    \strng{namehash}{tv1}
+    \strng{fullhash}{tv1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{title}{pg-promise}
+    \warn{\item Invalid format of field 'urldate'}
+  \endentry
+
+  \entry{verizon}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=V}{%
+         family={Verizon},
+         familyi={V\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{V1}
+    \strng{fullhash}{V1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{V}
+    \field{sortinithash}{V}
+    \field{title}{2017 State of the Market: IoT Report}
+    \warn{\item Invalid format of field 'urldate'}
+  \endentry
+\enddatalist
+\endinput

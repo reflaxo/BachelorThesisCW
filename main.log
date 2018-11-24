@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.8.15)  24 NOV 2018 16:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.8.15)  24 NOV 2018 17:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1712,72 +1712,71 @@ LaTeX Warning: Citation 'designThinkingBootleg' on page 3 undefined on input lin
 
 1: section
 [3]
-<Figures/designThinking.jpg, id=424, 707.64375pt x 404.26031pt>
+<Figures/designThinking.jpg, id=429, 707.64375pt x 404.26031pt>
 File: Figures/designThinking.jpg Graphic file (type jpg)
 <use Figures/designThinking.jpg>
 Package pdftex.def Info: Figures/designThinking.jpg  used on input line 55.
 (pdftex.def)             Requested size: 530.73152pt x 303.19449pt.
-
-
-LaTeX Warning: Citation 'noModel' on page 4 undefined on input line 66.
-
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 70.
-
-LaTeX Warning: Citation 'fivelayer1' on page 4 undefined on input line 71.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 67.
 
 
-LaTeX Warning: Citation 'fivelayer2' on page 4 undefined on input line 71.
+LaTeX Warning: Citation 'noModel' on page 4 undefined on input line 76.
 
 
-LaTeX Warning: Citation 'cloudArchIoT' on page 4 undefined on input line 88.
+LaTeX Warning: Citation 'fivelayer1' on page 4 undefined on input line 81.
+
+
+LaTeX Warning: Citation 'fivelayer2' on page 4 undefined on input line 81.
 
 [4 <./Figures/designThinking.jpg>]
-<Figures/gartnerIoT.png, id=429, 690.58pt x 682.55pt>
+
+LaTeX Warning: Citation 'cloudArchIoT' on page 5 undefined on input line 98.
+
+<Figures/gartnerIoT.png, id=439, 690.58pt x 682.55pt>
 File: Figures/gartnerIoT.png Graphic file (type png)
 <use Figures/gartnerIoT.png>
-Package pdftex.def Info: Figures/gartnerIoT.png  used on input line 95.
+Package pdftex.def Info: Figures/gartnerIoT.png  used on input line 105.
 (pdftex.def)             Requested size: 517.93373pt x 511.91125pt.
 
-
-LaTeX Warning: Citation 'frontend' on page 5 undefined on input line 117.
+LaTeX Warning: Citation 'frontend' on page 5 undefined on input line 120.
 
 [5 <./Figures/gartnerIoT.png>]
-Overfull \hbox (20.56253pt too wide) in paragraph at lines 137--139
+Overfull \hbox (20.56253pt too wide) in paragraph at lines 140--142
 \T1/ppl/m/n/10.95 spon-si-bil-i-ties. Com-po-nents com-bine the HTMl-markup and Javscript-functionality
  []
 
 [6]
 
-LaTeX Warning: Citation 'ajax' on page 7 undefined on input line 157.
+LaTeX Warning: Citation 'ajax' on page 7 undefined on input line 167.
 
 
-LaTeX Warning: Citation 'gogleTrendNode' on page 7 undefined on input line 185.
+LaTeX Warning: Citation 'gogleTrendNode' on page 7 undefined on input line 200.
 
 
-LaTeX Warning: Citation 'nodeLearningcurve' on page 7 undefined on input line 188.
+LaTeX Warning: Citation 'nodeLearningcurve' on page 7 undefined on input line 203.
 
 
-Overfull \hbox (3.84326pt too wide) in paragraph at lines 182--197
+Overfull \hbox (3.84326pt too wide) in paragraph at lines 197--212
 \T1/ppl/m/n/10.95 //Was ist mid-dle-ware? in dme fall node js Node.js is an open-source, cross-plattform,
  []
 
 
-Overfull \hbox (47.45613pt too wide) in paragraph at lines 182--197
+Overfull \hbox (47.45613pt too wide) in paragraph at lines 197--212
 \T1/ppl/m/n/10.95 pa-nies learn-ing costs. Node.js is es-ti-mated to have a high learn-ing curve ([]).
  []
 
 [7]
 
-LaTeX Warning: Citation 'arduinoIDEDownload' on page 8 undefined on input line 201.
+LaTeX Warning: Citation 'arduinoIDEDownload' on page 8 undefined on input line 216.
 
 
-Overfull \hbox (2.57191pt too wide) in paragraph at lines 199--204
+Overfull \hbox (2.57191pt too wide) in paragraph at lines 214--219
 \T1/ppl/m/n/10.95 //Was ist ein de-vice im iot kon-text? die mi-cro-con-troller Ar-duino is a microcontroller-
  []
 
 
-Overfull \hbox (6.10901pt too wide) in paragraph at lines 199--204
+Overfull \hbox (6.10901pt too wide) in paragraph at lines 214--219
 \T1/ppl/m/n/10.95 pro-vides its own In-te-grated De-vel-op-ment En-vi-ro-ment(IDE) ([]).
  []
 
@@ -1818,7 +1817,7 @@ Overfull \hbox (5.38702pt too wide) in paragraph at lines 26--30
 
 
 ]
-<Figures/oldEscapeUml.png, id=473, 1231.9626pt x 798.8244pt>
+<Figures/oldEscapeUml.png, id=486, 1231.9626pt x 798.8244pt>
 File: Figures/oldEscapeUml.png Graphic file (type png)
 <use Figures/oldEscapeUml.png>
 Package pdftex.def Info: Figures/oldEscapeUml.png  used on input line 41.
@@ -1833,7 +1832,7 @@ Overfull \hbox (9.93079pt too wide) in paragraph at lines 141--142
 []\T1/ppl/m/n/10.95 Retrieving in-for-ma-tion from the room must work au-to-mat-i-cally, there-fore should
  []
 
-<Figures/workload.png, id=499, 277.035pt x 217.7736pt>
+<Figures/workload.png, id=512, 277.035pt x 217.7736pt>
 File: Figures/workload.png Graphic file (type png)
 <use Figures/workload.png>
 Package pdftex.def Info: Figures/workload.png  used on input line 151.
@@ -1843,7 +1842,7 @@ Package pdftex.def Info: Figures/workload.png  used on input line 151.
 
  (./Chapters/Chapter4.tex
 Chapter 4.
-<Figures/PoC.png, id=509, 437.9562pt x 532.389pt>
+<Figures/PoC.png, id=522, 437.9562pt x 532.389pt>
 File: Figures/PoC.png Graphic file (type png)
 <use Figures/PoC.png>
 Package pdftex.def Info: Figures/PoC.png  used on input line 25.
@@ -1858,7 +1857,7 @@ Overfull \hbox (5.12466pt too wide) in paragraph at lines 77--79
 []\T1/ppl/m/n/10.95 Designed to con-tain pro-cess-ing of in-com-ing mes-sages from
  []
 
-<Figures/registerRiddle.png, id=523, 369.38pt x 309.155pt>
+<Figures/registerRiddle.png, id=536, 369.38pt x 309.155pt>
 File: Figures/registerRiddle.png Graphic file (type png)
 <use Figures/registerRiddle.png>
 Package pdftex.def Info: Figures/registerRiddle.png  used on input line 91.
@@ -1871,5 +1870,141 @@ Overfull \hbox (3.19696pt too wide) in paragraph at lines 126--128
 
 LaTeX Warning: Citation 'MSDN' on page 16 undefined on input line 148.
 
-<Figures/backendOverview.png, id=533, 724.7075pt x 581.17125pt>
-File: Figures/backendOverview.png Gr
+<Figures/backendOverview.png, id=546, 724.7075pt x 581.17125pt>
+File: Figures/backendOverview.png Graphic file (type png)
+<use Figures/backendOverview.png>
+Package pdftex.def Info: Figures/backendOverview.png  used on input line 159.
+(pdftex.def)             Requested size: 543.5293pt x 435.87737pt.
+[16]
+Overfull \hbox (7.63756pt too wide) in paragraph at lines 182--186
+[]\T1/ppl/m/n/10.95 When a user dropped a rid-dle into a "Video" field (and saved), the rid-dle's "Finish"-
+ []
+
+
+Overfull \hbox (13.80742pt too wide) in paragraph at lines 182--186
+\T1/ppl/m/n/10.95 command would be re-as-signed on in-put to the cor-re-spond-ing Video-Trigger-command.
+ []
+
+[17 <./Figures/backendOverview.png>]
+<Figures/frontendOverview.png, id=564, 734.745pt x 610.28pt>
+File: Figures/frontendOverview.png Graphic file (type png)
+<use Figures/frontendOverview.png>
+Package pdftex.def Info: Figures/frontendOverview.png  used on input line 207.
+(pdftex.def)             Requested size: 551.05739pt x 457.70888pt.
+) [18 <./Figures/frontendOverview.png>]
+\openout2 = `Chapters/Chapter5.aux'.
+
+ (./Chapters/Chapter5.tex
+Chapter 5.
+
+Overfull \hbox (31.754pt too wide) in paragraph at lines 19--23
+\T1/ppl/m/n/10.95 The De-vices do still com-mu-ni-cate with RFM69HCW mod-ules and the LowPowerLab-
+ []
+
+
+Overfull \hbox (3.25053pt too wide) in paragraph at lines 23--29
+\T1/ppl/m/n/10.95 A post-greSQL database was added to the ar-chi-tec-ture for fil-ter-ing and overview
+ []
+
+1: section
+[19
+
+
+
+] [20]
+Overfull \hbox (0.17381pt too wide) in paragraph at lines 105--108
+\T1/ppl/m/n/10.95 pro-duces. Also, we weren't able to in-clude a lot of fea-tures, listed in the "Big Picture"-
+ []
+
+[21]
+Overfull \hbox (2.35309pt too wide) in paragraph at lines 132--134
+[]\T1/ppl/m/n/10.95 Resetting the rid-dle that ac-ti-vated an event in Unity could be im-ple-mented
+ []
+
+
+LaTeX Warning: Citation 'raspberryLibRFM' on page 22 undefined on input line 153.
+
+
+LaTeX Warning: Citation 'raspberryDoc' on page 22 undefined on input line 153.
+
+
+LaTeX Warning: Citation 'raspberryDoc' on page 22 undefined on input line 158.
+
+) [22]
+\openout2 = `Appendices/AppendixA.aux'.
+
+ (./Appendices/AppendixA.tex
+Appendix A.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 11.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+))
+1: section
+[23
+
+
+
+] [24
+
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 258.
+
+1: section
+[25]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 258.
+ (./main.aux (./Chapters/Chapter1.aux) (./Chapters/Chapter2.aux) (./Chapters/Chapter3.aux) (./Chapters/Chapter4.aux) (./Chapters/Chapter5.aux) (./Appendices/AppendixA.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 258.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 258.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: BB89E49C6A1A9762C665DD552C39F070;7248
+(rerunfilecheck)             After:  A846EBB3EE68E82724692A929FC9BF90;7263.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+
+Package biblatex Warning: Please (re)run BibTeX on the file(s):
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to 'main.run.xml'.
+\openout1 = `main.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 33913 strings out of 492649
+ 691298 string characters out of 6129622
+ 919737 words of memory out of 5000000
+ 37264 multiletter control sequences out of 15000+600000
+ 577153 words of font info for 92 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 58i,20n,82p,10413b,2418s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{figure.caption.16} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.22} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.21} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.20} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.18} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.17} has been referenced but does not exist, replaced by a fixed one
+
+{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on main.pdf (43 pages, 788734 bytes).
+PDF statistics:
+ 690 PDF objects out of 1000 (max. 8388607)
+ 616 compressed objects within 7 object streams
+ 172 named destinations out of 1000 (max. 500000)
+ 497 words of extra memory for PDF output out of 10000 (max. 10000000)
+
