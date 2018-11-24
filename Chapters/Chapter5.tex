@@ -29,7 +29,7 @@ Refering to \ref{fig:gartnerIoT} again, we analyzed the existing architecture of
 	\item[Function Layer]\hfill \\
 	      The incoming strings are now translated and send to a web interface.
 	      Depending on the string, they trigger a database-query and are interpreted and saved in the database, or update an existing entry.
-	      Additionally, The incoming strings are now filtered before they reach the tcpclient(Unity)by the database to ensure proper trigger assignment.
+	      Additionally, The incoming strings are now filtered before they reach the TCP-client(Unity)by the database to ensure proper trigger assignment.
 	\item[Process Layer]\hfill \\
 	      The process layer received the most changes.
 	      We now have a web interface showing the existing riddles, enabling an immediate interaction with them, and providing a scalable overview about the room.
@@ -137,14 +137,27 @@ This section is meant to list possible ways to expand the built framework.
     Such a reaction chain could be that a riddle changes the color of the floor when it's finished by combining two buttons. 
     The data already exists as a json in the front-end, but creating a flexible drag-and-drop interface with the internal processing 
     went beyond the scope of the project. 
-    \item [Securty] \hfill \\
+    \item [Security] \hfill \\
     Within the scope of this project, security protection like password authentification and encryption was not included.
     Since the web server is hosted in a local network in a password protected enviroment we didn't prioritize an authentification system.
     Another aspect was that an escape room doesn't contain privacy sensitive data in our point of view.
     \item [Component Isolation]\hfill \\
     Though we tried to keep the components separated, there is always room for improvement. 
     Especially the Node.js middleware shows room for further splitting and transparency.
+    \item[Gateway Configuration]\hfill \\
+    As we didn't change the communication protocol, scalability issues might arise depending on the number of incoming messages at the gateway component, 
+    especially in combination with the serialport communication. 
+    The system is running with 9600 baud (which represent the bits per second communicated), 
+    960 byte/s, whereas the RFM69HCW is able to send 300kb/s. 
+    That's an easily avoidable bottleneck, if replaced the serial communication with a direct W-LAN connection. 
+    A rasperry Pi could be set up as a server with a W-LAN module. There is an regulary updatet (last update is 6 months old in a branch) python wrapper \parencite{raspberryLibRFM} with thorough documentation \parencite{raspberryDoc} available for connecting 
+    a raspberry Pi to the LowPowerLab RFM69 libary. 
+    The raspberry could host the websever in a local, protected W-LAN environment and 
+    supply the PC hosting Unity with the needed events within the closed network. 
+    This way, only authentificated users would have access to the escape rooms properties, the architecture would be separated and therefore clearer for developers, and easier to change.
+     \parencite{raspberryDoc}
 \end{description}
+//Picture of Planned architecture (Raspberry, webserver to unity bla)
 
 
 \section{Conclusion}

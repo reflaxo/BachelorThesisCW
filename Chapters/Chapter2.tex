@@ -3,9 +3,93 @@
 \chapter{Research 10P} % Main chapter title
 
 \label{Chapter2} % Change X to a consecutive number; for referencing this chapter elsewhere, use \ref{ChapterX}
-In the following, research concerning the development for our project is listed and explained.
+
+%General explanation: We have an escape room that is currently a WSN with only little data processing, we watn to extend the middleware
+% to achieve a broader spectrum of integration possibilities.
+As explained in \ref{Chapter1}, the goal of this project was to extend the existing project.
+Therefore, we researched possible architectures and practices to integrate to the project.
+In the following, research concerning the development of our project is listed and explained.
+
+\section{Design thinking}
+Design thinking is one strategy to plan an innovation process. 
+It seemed to fit our working process and was a guide concerning our production phase, further explained in \ref{Chapter4}.
+In contrast to mechanical improvements, design thinking tries to emphatize with possible customer needs at all parts of the product.
+A few of Design thinking's key principles are to 
+"engage in early exploration of selected ideas, rapidly modelling potential solutions to encourage learning 
+while doing, and allow for gaining additional insight into the viability of 
+solutions before too much time or money has been spent" and that it 
+"Iterates through the various stages, revisiting empathetic frames of mind and then redefining the challenge as new knowledge and insight is gained along the way." 
+\parencite{designThinking}
+The Stanford Design School, now known as the Hasso Plattner Institute of Design began teaching a design thinking process 
+with the thre steps of understanding, improving and applying a product. 
+
+Since then, their approach to design thinking moved on to a widely used, open-sourced 5 stage process \parencite{designThinkingCrashCourse}
+consisting of the following items:
+\begin{itemize}
+    \item [Empathise]
+    Emphatizing relies on three principles: Observe, engage and immerse with your customers
+    \item [Define]
+    Stanford recommends to unpack the priorly collected findings "to needs and insights and scope a meaningful challenge \parencite{designThinkingBootleg}
+    \item [Ideate]
+    Ideation is the stage one should explore ideas in a "wide open" \parencite{designThinkingBootleg}. The goal is to create ideas that some 
+    can be picked from to create a prototype.
+    \item [Prototype]
+    Apart from testing, prototyping for this definition of the design thinking process serves many purposes. 
+    According to \parencite{designThinkingBootleg}, one can also profit from prototyping for
+    \begin{itemize}
+        \item Empathy
+        \item Exploration
+        \item Inspiration
+        \item Testing
+    \end{itemize}
+    purposes. One can receive a deepend understanding by building a prototype (Empathy), explore multiple concepts faster (Exploration),
+    inspire other people for one's ideas (Inspiration) test and refine (Testing). 
+    Empathy gaining.
+    \item [Test]
+    The testing is an iterative process where one can refine and gather feedback about the product.
+\end{itemize}
+Figure \ref{fig:designThinking} illustrates the iterative properties of this model.
+
+\begin{figure}[th]
+	\centering
+	\includegraphics[width=75mm,scale=0.75]{Figures/designThinking}
+	\decoRule
+	\caption[designThinking]{Author/Copyright holder: Teo Yu Siang and Interaction Design Foundation. Copyright terms and licence: CC BY-NC-SA 3.0}
+	\label{fig:designThinking}
+\end{figure}
+
+The model goes on to describe user analyzing methods which are not relevant in the context of this project.
+
 \section{Architecture (2-3p)}
-//IoT-system, architectures, layers, models 
+//IoT-system, architectures, layers, models, fog/cloud computing //Sensors, actuators
+As there is, at this point in time, no consensus reached for a
+layer model defined for IoT-architectures \parencite{noModel}
+different approaches can be used to analyze and structure an IoT-system. 
+The following describes three proposed layer-models.
+
+\subsection{Five-Layer architecture}
+One by \parencite{fivelayer1,fivelayer2} proposed model is a five-layer-model consisting of the following layers.
+\begin{description}
+    \item [Perception layer]
+    The perception layer is the physical layer of the architecture. Sensors and actuators exist in this layer.
+    \item [Transport layer]
+     The transport layer transports data from the perception layer to the processing layer. Different network protocols can be used
+   \item [Processing layer]
+   The processing layer stores, analyzes and channels incoming data. It is also known as the middleware layer.
+   \item [Application layer]
+   The application layer is responsible for delivering user-relevant data to a user.
+   \item [Business layer]
+   The business layer manages the whole system, e.g. applications, business and profit models.
+\end{description}
+
+When talking about IoT-architectures, one should mention the difference between cloud and fog/edge based architectures. 
+Cloud based architectures assume that processing and analyzing of data should happen in an enviroment remote from the devices' location.
+The network below sends data to the cloud, and above the cloud lie applications working with the processed data with the cloud in the center of this architecture.
+In the last years, cloud computing has gained popularity, also in the context of IoT architecture \parencite{cloudArchIoT} because it provides great exibility and scalability.
+A newer trend instead are fog or edge based architectures, where the sensors and gateways do part of the data processing and analytics.
+A fog architecture presents a layered approach, inserting various layers between the physical and transport layers (monitoring, pre-processing, storage,security,).
+
+
 \begin{figure}[th]
 	\centering
 	\includegraphics[width=75mm,scale=0.75]{Figures/gartnerIoT}
@@ -13,19 +97,42 @@ In the following, research concerning the development for our project is listed 
 	\caption[Gartner]{gartnerIoT1}
 	\label{fig:gartnerIoT}
 \end{figure}
+\section{Communication Protocols}
+The project didn't allow changing the communication protocol without disrupting the existing enviroment. 
+For future implementations, other communication protocols could be considered for enviroments like this (small room, fast transport).
+\subsection{RFID}
+\subsection{NSC}
+\subsection{ZigBee}
+\subsection{MQTT}
 \section{Prototyping (1-2p)}
-//Proof of concept, MvP, Rapid Prototyping
+Prototyping is the process of "An initial model of an object built to test a design." \parencite{prototypeDef}
+As in any industry, prototyping for IoT-products is a part of any planned 
+Basic vocabulary will be explained in this section for following chapters.
+
+\subsection{Proof of Concept}
+\subsection{Minimal Viable Product}
+\subsection{Rapid Prototyping}
+
 \section{Front-End}
-//Should I talk about other options too? (also in the following sections)
+As \parencite{frontend} states:
+"A front-end system is part of an information system that is directly accessed and interacted with by the user to receive or 
+utilize back-end capabilities of the host system. 
+It enables users to access and request the features and services of the underlying information system."  
+
+The front-end is the visual component of any application. Disciplines like UX (User Experience), UI(User Interface) and  IxD (Interaction design) have been working on creating 
+a "better" front-end-experience for many years. Usually, a mixture of HTML, CSS and javascript is used for front-end development. 
+In recent years, libaries that combine HTML and Javascript capabilities like React.js, Angular or Vue %\parencite{reactjsAngularVue} 
+have been designed to support a component based architecture. 
+
+For this project, we used React.js.
+
 Reactjs is an Open-Source Javascript-Libary.
 After developing Reactjs in 2011, Facebook soon discovered that it's performance was faster than other implementations of its' kind and made it Open-Source in 2015. 
 At present, React is used by major companies for their front-end like Airbnb, Netflix and Reddit \parencite{reactjsUsers}. 
 In this years' Stackoverflow-Survey, React came third in "Most Popular Framework, libary or Tool" \parencite{stackOverflowSurvey}. 
 This year, over 100,000 developers participated in the survey. 
-React is designed for building User-Interfaces. Other libaries % \parencite{reactjsAngularVue} 
-use the same concepts but Reactjs is currently the most popular one.
 A lot of libaries are available for react. 
-It's main concepts are:
+Its main concepts are:
 \begin{description}
     \item[Components] \hfill \\
     React motivates its' users to write encapsulated components with single responsibilities. Components combine the HTMl-markup and Javscript-functionality of a responsibility. They are supposed to reusability. %erhöhen
@@ -46,14 +153,33 @@ It's main concepts are:
 \end{description}
 \section{Communication}
 %Socket.io
+There are different ways to communicate between clients and middleware. 
+Communication on the web is usually unsynchronized. The client requests and the server responds. Services like AJAX \parencite{ajax} implement this kind of communication.
+This communication can imply difficulties with real-time applications like chat-services, because a client needs to request the page to see content which can create unnessecary traffic.  
+Those services demand a more reactive and immediate communication. 
+WebSockets pursue this task by creating a bilateral environment for clint-server-exchange. 
+Now-a-days, most browsers are Websocket compatible.
+For this project, Socket.io was used for client-middleware-communication.
+
 Socket.io is a Javascript-Libary designed for realtime communication. 
-The server-side is developed for specifically for Node.js wheras for the client different implementations (e.g. .Net, Swift, C++)\parencite{socketioClients} are available.
-It enables a bi-directional communication channel between a client and a server and offers a fallback mechanism to long polling when WebSockets are not available.
+It enables a bi-directional communication channel between client and server and offers a fallback mechanism to long polling when WebSockets are not available.
+There are several fallback mechanisms available that are determined dynamically by Socket.io:
+\begin{itemize}
+    \item WebSocket
+    \item Adobe Flash Socket
+    \item AJAX long polling
+    \item AJAX multipart streaming
+    \item Forever Iframe
+    \item JSONP Polling
+\end{itemize}
+
+The server-side of Socket.io is developed  specifically for Node.js wheras for the client different implementations (e.g. .Net, Swift, C++)\parencite{socketioClients} are available.
 Once a connections is established it's maintained and uses a diminishing small amount resources to communicate. 
 It uses an event-based system where one participant listens and another emits an event. 
 Both Client and Server can emit and listen for events.
 \section{Middleware}
 %Talk about Node.js
+//Was ist middleware? in dme fall node js
 Node.js is an open-source, cross-plattform, javascript-runtime-enviroment. 
 With 49.6\% it is this years "Most Popular Framework, Libary or Tool" on this years Stackoverflow-survey \parencite{stackOverflowSurvey}.
 According to Google Trends, interest is rising since 2012\parencite{gogleTrendNode}.
@@ -70,8 +196,9 @@ That makes it faster than (some) other engines.
 There are thousands of open-source libaries and web frameworks available for Node.js. 
 \section{Device}
 %Talk about Arduino implementation
+//Was ist ein device im iot kontext? die microcontroller 
 Arduino is a microcontroller-company from italy which was founded in 2005. 
-It is is completely open source and provides it's own Integrated Development Enviroment(IDE) \parencite{arduinoIDEDownload}.
+It is completely open source and provides its own Integrated Development Enviroment(IDE) \parencite{arduinoIDEDownload}.
 The IDE works with nearly all microprocessors on the market. 
 The IDE recommends a structure for all Arduino programs:
 \begin{description}
@@ -84,9 +211,10 @@ The IDE recommends a structure for all Arduino programs:
 The Arduino (and comperable microprocessors) are programmed in C.
 \section{Back-End}
 %Talk about postgres
+//Back end was ist das in diesem fall wurde das benutzt
 Postgres is a light-weight open-source object-relational database system. 
 Companies like Netflix, Spotify or Instagram \parencite{postgresUsers} rely on the flexible database system which allows SQl and noSQL design.
-It's easy to set-up and maintain. 
+It is easy to set-up and maintain. 
 
 
 %Even though, only 26\% of IoT-Projects in companies are judged to be a complete success 
