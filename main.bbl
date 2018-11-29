@@ -3,8 +3,8 @@
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
-% This file may safely be deleted. It will be recreated as
-% required.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
 %
 \begingroup
 \makeatletter
@@ -16,725 +16,1262 @@
   {}
 \endgroup
 
-\datalist[entry]{nyt/global//global/global}
-  \entry{radiorange}{misc}{}
-    \name{author}{1}{}{%
-      {{hash=la}{%
-         prefix={lady},
-         prefixi={l\bibinitperiod},
-         family={ada},
-         familyi={a\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{al1}
-    \strng{fullhash}{al1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{A}
-    \field{sortinithash}{A}
-    \field{title}{Radio Range F.A.Q.}
-    \warn{\item Invalid format of field 'urldate'}
-  \endentry
 
-  \entry{prototypeDef}{inbook}{}
-    \name{editor}{2}{}{%
-      {{hash=BAH}{%
-         family={Blackwell},
-         familyi={B\bibinitperiod},
-         given={Amy\bibnamedelima Hackney},
-         giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod},
-      }}%
-      {{hash=ME}{%
-         family={Manar},
-         familyi={M\bibinitperiod},
-         given={Elizabeth},
-         giveni={E\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {UXL}%
-    }
-    \keyw{Engineering prototypes}
-    \strng{namehash}{BAHME1}
-    \strng{fullhash}{BAHME1}
-    \field{labelnamesource}{editor}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2015}
-    \field{labeldatesource}{year}
-    \field{sortinit}{B}
-    \field{sortinithash}{B}
-    \field{booktitle}{UXL Encyclopedia of Science}
-    \field{title}{Prototype}
-    \verb{url}
-    \verb http://link.galegroup.com/apps/doc/ENKDZQ347975681/SCIC?u=dclib_main&
-    \verb sid=SCIC&xid=0c8f739d
-    \endverb
-    \list{location}{1}{%
-      {Farmington Hills, MI}%
-    }
-    \field{annotation}{%
-    COPYRIGHT 2015 Gale, Cengage Learning%
-    }
-    \field{year}{2015}
-    \warn{\item Invalid format of field 'date' \item Invalid format of field
-  'date' \item Invalid format of field 'month'}
-  \endentry
-
-  \entry{FogComp}{inproceedings}{}
-    \name{author}{4}{}{%
-      {{hash=BF}{%
-         family={Bonomi},
-         familyi={B\bibinitperiod},
-         given={F.},
-         giveni={F\bibinitperiod},
-      }}%
-      {{hash=MR}{%
-         family={Milito},
-         familyi={M\bibinitperiod},
-         given={R.},
-         giveni={R\bibinitperiod},
-      }}%
-      {{hash=ZJ}{%
-         family={Zhu},
-         familyi={Z\bibinitperiod},
-         given={J.},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=AS}{%
-         family={Addepalli},
-         familyi={A\bibinitperiod},
-         given={S.},
-         giveni={S\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{BF+1}
-    \strng{fullhash}{BFMRZJAS1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2012}
-    \field{labeldatesource}{year}
-    \field{sortinit}{B}
-    \field{sortinithash}{B}
-    \field{abstract}{%
-    F. Bonomi, R. Milito, J. Zhu, and S. Addepalli, ``Fog computing and its
-  role in the internet of things,'' in Proceedings of the 1st ACM MCC Workshop
-  on Mobile Cloud Computing, pp. 13--16, 2012.%
-    }
-    \field{booktitle}{in Proceedings of the 1st ACM MCC Workshop on Mobile
-  Cloud Computing, pp. 13--16,}
-    \field{title}{Fog computing and its role in the internet of things}
-    \field{year}{2012}
-  \endentry
-
-  \entry{designThinking}{misc}{}
-    \name{author}{2}{}{%
-      {{hash=DR}{%
-         family={Dam},
-         familyi={D\bibinitperiod},
-         given={Rikke},
-         giveni={R\bibinitperiod},
-      }}%
-      {{hash=ST}{%
-         family={Siang},
-         familyi={S\bibinitperiod},
-         given={Teo},
-         giveni={T\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{DRST1}
-    \strng{fullhash}{DRST1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{D}
-    \field{sortinithash}{D}
-    \field{title}{Design Thinking: A Quick Overview}
-    \warn{\item Invalid format of field 'urldate'}
-  \endentry
-
-  \entry{designThinkingBootleg}{online}{}
-    \name{author}{5}{}{%
-      {{hash=DS}{%
-         family={Doorley},
-         familyi={D\bibinitperiod},
-         given={Scott},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=HS}{%
-         family={Holcomb},
-         familyi={H\bibinitperiod},
-         given={Sarah},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=KP}{%
-         family={Klebahn},
-         familyi={K\bibinitperiod},
-         given={Perry},
-         giveni={P\bibinitperiod},
-      }}%
-      {{hash=SK}{%
-         family={Segovia},
-         familyi={S\bibinitperiod},
-         given={Kathryn},
-         giveni={K\bibinitperiod},
-      }}%
-      {{hash=UJ}{%
-         family={Utley.},
-         familyi={U\bibinitperiod},
-         given={Jeremy},
-         giveni={J\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{DS+1}
-    \strng{fullhash}{DSHSKPSKUJ1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{D}
-    \field{sortinithash}{D}
-    \field{title}{The Design Thinking Bootleg}
-    \warn{\item Invalid format of field 'urldate'}
-  \endentry
-
-  \entry{socketioUnity2}{misc}{}
-    \name{author}{1}{}{%
-      {{hash=f}{%
-         family={floatinghotpot},
-         familyi={f\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{f1}
-    \strng{fullhash}{f1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{F}
-    \field{sortinithash}{F}
-    \field{title}{socket.io-unity}
-    \warn{\item Invalid format of field 'urldate'}
-  \endentry
-
-  \entry{gartner0}{online}{}
-    \name{author}{1}{}{%
-      {{hash=G}{%
-         family={Gartner},
-         familyi={G\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{G1}
-    \strng{fullhash}{G1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{G}
-    \field{sortinithash}{G}
-    \field{title}{Gartner Predicts 20.4bn Connected `Things' by 2020}
-    \warn{\item Invalid format of field 'urldate'}
-  \endentry
-
-  \entry{designDigitalAge}{book}{}
-    \name{author}{1}{}{%
-      {{hash=GK}{%
-         family={Goodwin},
-         familyi={G\bibinitperiod},
-         given={Kim},
-         giveni={K\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Wiley Publishing, Inc.}%
-    }
-    \strng{namehash}{GK1}
-    \strng{fullhash}{GK1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2009}
-    \field{labeldatesource}{year}
-    \field{sortinit}{G}
-    \field{sortinithash}{G}
-    \field{title}{Designing for the Digital Age: How to Create Human-Centered
-  Products and Services}
-    \field{year}{2009}
-  \endentry
-
-  \entry{CloudComputing}{article}{}
-    \name{author}{4}{}{%
-      {{hash=GJ}{%
-         family={Gubbi},
-         familyi={G\bibinitperiod},
-         given={Jayavardhana},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=BR}{%
-         family={Buyya},
-         familyi={B\bibinitperiod},
-         given={Rajkumar},
-         giveni={R\bibinitperiod},
-      }}%
-      {{hash=MS}{%
-         family={Marusic},
-         familyi={M\bibinitperiod},
-         given={Slaven},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=PM}{%
-         family={Palaniswami},
-         familyi={P\bibinitperiod},
-         given={Marimuthu},
-         giveni={M\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{GJ+1}
-    \strng{fullhash}{GJBRMSPM1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2012}
-    \field{labeldatesource}{year}
-    \field{sortinit}{G}
-    \field{sortinithash}{G}
-    \verb{eprint}
-    \verb 1207.0203
-    \endverb
-    \field{title}{Internet of Things (IoT): {A} Vision, Architectural Elements,
-  and Future Directions}
-    \verb{url}
-    \verb http://arxiv.org/abs/1207.0203
-    \endverb
-    \field{volume}{abs/1207.0203}
-    \field{journaltitle}{CoRR}
-    \field{eprinttype}{arXiv}
-    \field{year}{2012}
-  \endentry
-
-  \entry{fiveLayer1}{inproceedings}{}
-    \name{author}{4}{}{%
-      {{hash=KR}{%
-         family={Khan},
-         familyi={K\bibinitperiod},
-         given={Rafiullah},
-         giveni={R\bibinitperiod},
-      }}%
-      {{hash=KS}{%
-         family={Khan},
-         familyi={K\bibinitperiod},
-         given={{Sarmad Ullah}},
-         giveni={S\bibinitperiod},
-      }}%
-      {{hash=ZR}{%
-         family={Zaheer},
-         familyi={Z\bibinitperiod},
-         given={Rifaqat},
-         giveni={R\bibinitperiod},
-      }}%
-      {{hash=KS}{%
-         family={Khan},
-         familyi={K\bibinitperiod},
-         given={Shahid},
-         giveni={S\bibinitperiod},
-      }}%
-    }
-    \list{language}{1}{%
-      {English}%
-    }
-    \list{publisher}{2}{%
-      {Institute of Electrical}%
-      {Electronics Engineers Inc.}%
-    }
-    \strng{namehash}{KR+1}
-    \strng{fullhash}{KRKSZRKS1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2012}
-    \field{labeldatesource}{year}
-    \field{sortinit}{K}
-    \field{sortinithash}{K}
-    \field{abstract}{%
-    The Internet is continuously changing and evolving. The main communication
-  form of present Internet is human-human. The Internet of Things (IoT) can be
-  considered as the future evaluation of the Internet that realizes
-  machine-to-machine (M2M) learning. Thus, IoT provides connectivity for
-  everyone and everything. The IoT embeds some intelligence in
-  Internet-connected objects to communicate, exchange information, take
-  decisions, invoke actions and provide amazing services. This paper addresses
-  the existing development trends, the generic architecture of IoT, its
-  distinguishing features and possible future applications. This paper also
-  forecast the key challenges associated with the development of IoT. The IoT
-  is getting increasing popularity for academia, industry as well as government
-  that has the potential to bring significant personal, professional and
-  economic benefits.%
-    }
-    \field{booktitle}{2012 10th International Conference on Frontiers of
-  Information Technology (FIT): Proceedings}
-    \verb{doi}
-    \verb 10.1109/FIT.2012.53
-    \endverb
-    \field{isbn}{978-1-4673-4946-8}
-    \field{pages}{257\bibrangedash 260}
-    \field{title}{Future Internet: The Internet of Things Architecture,
-  Possible Applications and Key Challenges}
-    \field{year}{2012}
-  \endentry
-
-  \entry{fiveLayer}{article}{}
-    \name{author}{6}{}{%
-      {{hash=MI}{%
-         family={Mashal},
-         familyi={M\bibinitperiod},
-         given={Ibrahim},
-         giveni={I\bibinitperiod},
-      }}%
-      {{hash=AO}{%
-         family={Alsaryrah},
-         familyi={A\bibinitperiod},
-         given={Osama},
-         giveni={O\bibinitperiod},
-      }}%
-      {{hash=CTY}{%
-         family={Chung},
-         familyi={C\bibinitperiod},
-         given={Tein-Yaw},
-         giveni={T\bibinitperiod-Y\bibinitperiod},
-      }}%
-      {{hash=YCZ}{%
-         family={Yang},
-         familyi={Y\bibinitperiod},
-         given={Cheng-Zen},
-         giveni={C\bibinitperiod-Z\bibinitperiod},
-      }}%
-      {{hash=KWH}{%
-         family={Kuo},
-         familyi={K\bibinitperiod},
-         given={Wen-Hsing},
-         giveni={W\bibinitperiod-H\bibinitperiod},
-      }}%
-      {{hash=ADP}{%
-         family={Agrawal},
-         familyi={A\bibinitperiod},
-         given={Dharma\bibnamedelima P.},
-         giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod},
-      }}%
-    }
-    \keyw{Internet of Things, Social Internet of Things, Social Web of Things,
-  Web of Things, Wireless Sensor Networks}
-    \strng{namehash}{MI+1}
-    \strng{fullhash}{MIAOCTYYCZKWHADP1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2015}
-    \field{labeldatesource}{year}
-    \field{sortinit}{M}
-    \field{sortinithash}{M}
-    \field{abstract}{%
-    Currently, a large number of smart objects and different types of devices
-  are interconnected and communicate via Internet Protocol that creates a
-  worldwide ubiquitous and pervasive network called the Internet of Things
-  (IoT). With an increase in the deployment of smart objects, IoT is expected
-  to have a significant impact on human life in the near future. A
-  majorbreakthrough in bridging the gap between virtual and physical worlds
-  came from the vision of the Web of Things (WoT), which employs open Web
-  standards in achieving information sharing and objects interoperability.
-  Social Web of Things (SWoT) further extends WoT to integrate smart objects
-  with social networks and is observed to not only bridge between physical and
-  virtual worlds but also facilitate continued interaction between physical
-  devices and human. This makes SWoT the most promising approach and has now
-  become an active research area. This survey introduces necessary background
-  and fundamentals to understand current efforts in IoT, WoT and SWoT by
-  reviewing key enabling technologies. These efforts are investigated in detail
-  from several different perspectives such as architecture design, middleware,
-  platform, systems implementation, and application in hand. Moreover, a large
-  number of platforms and applications are analyzed and evaluated from various
-  alternatives have become popular during the past decade. Finally, we address
-  associated challenges and highlight potential research to be perused in
-  future.%
-    }
-    \verb{doi}
-    \verb https://doi.org/10.1016/j.adhoc.2014.12.006
-    \endverb
-    \field{issn}{1570-8705}
-    \field{pages}{68 \bibrangedash  90}
-    \field{title}{Choices for interaction with things on Internet and
-  underlying issues}
-    \verb{url}
-    \verb http://www.sciencedirect.com/science/article/pii/S1570870514003138
-    \endverb
-    \field{volume}{28}
-    \field{journaltitle}{Ad Hoc Networks}
-    \field{year}{2015}
-  \endentry
-
-  \entry{socketioUnity1}{misc}{}
-    \name{author}{1}{}{%
-      {{hash=PF}{%
-         family={Panettieri},
-         familyi={P\bibinitperiod},
-         given={Fabio},
-         giveni={F\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{PF1}
-    \strng{fullhash}{PF1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{P}
-    \field{sortinithash}{P}
-    \field{title}{Socket.IO for Unity}
-    \warn{\item Invalid format of field 'urldate'}
-  \endentry
-
-  \entry{postgresUsers}{misc}{}
-    \name{author}{1}{}{%
-      {{hash=P}{%
-         family={Postgres},
-         familyi={P\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{P1}
-    \strng{fullhash}{P1}
-    \field{labelnamesource}{author}
-    \field{sortinit}{P}
-    \field{sortinithash}{P}
-    \warn{\item Invalid format of field 'urldate'}
-  \endentry
-
-  \entry{createReactApp}{misc}{}
-    \name{author}{1}{}{%
-      {{hash=R}{%
-         family={React},
-         familyi={R\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{R1}
-    \strng{fullhash}{R1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{R}
-    \field{sortinithash}{R}
-    \field{title}{Create React App}
-    \warn{\item Invalid format of field 'urldate'}
-  \endentry
-
-  \entry{reactStructure}{misc}{}
-    \name{author}{1}{}{%
-      {{hash=R}{%
-         family={React},
-         familyi={R\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{R1}
-    \strng{fullhash}{R1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{R}
-    \field{sortinithash}{R}
-    \field{title}{File Structure}
-    \warn{\item Invalid format of field 'urldate'}
-  \endentry
-
-  \entry{reactDND}{misc}{}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{R}
-    \field{sortinithash}{R}
-    \field{title}{React DND}
-    \warn{\item Invalid format of field 'urldate'}
-  \endentry
-
-  \entry{raspberrypiDoc}{misc}{}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{R}
-    \field{sortinithash}{R}
-    \field{title}{RPI RFM69 documentation}
-    \warn{\item Invalid format of field 'urldate'}
-  \endentry
-
-  \entry{socketioUnity3}{misc}{}
-    \name{author}{1}{}{%
-      {{hash=s}{%
-         family={smallmiro},
-         familyi={s\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{s1}
-    \strng{fullhash}{s1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{S}
-    \field{sortinithash}{S}
-    \field{title}{socket.io-client.unity3d}
-    \warn{\item Invalid format of field 'urldate'}
-  \endentry
-
-  \entry{socketioClients}{misc}{}
-    \name{author}{1}{}{%
-      {{hash=S}{%
-         family={Socket.io},
-         familyi={S\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{S1}
-    \strng{fullhash}{S1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{S}
-    \field{sortinithash}{S}
-    \field{title}{Other Client Implementations}
-    \warn{\item Invalid format of field 'urldate'}
-  \endentry
-
-  \entry{stackOverflowSurvey}{misc}{}
-    \name{author}{1}{}{%
-      {{hash=S}{%
-         family={StackOverflow},
-         familyi={S\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{S2}
-    \strng{fullhash}{S2}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{S}
-    \field{sortinithash}{S}
-    \field{title}{Developer Survey Results 2018}
-    \warn{\item Invalid format of field 'urldate'}
-  \endentry
-
-  \entry{reactjsUsers}{misc}{}
-    \name{author}{1}{}{%
-      {{hash=s}{%
-         family={stackshare},
-         familyi={s\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{s1}
-    \strng{fullhash}{s1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{S}
-    \field{sortinithash}{S}
-    \field{title}{Companies using React}
-    \warn{\item Invalid format of field 'urldate'}
-  \endentry
-
-  \entry{designThinkingCrashCourse}{misc}{}
-    \name{author}{1}{}{%
-      {{hash=oDaSUHPI}{%
-         prefix={of\bibnamedelima Design\bibnamedelima at},
-         prefixi={o\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim
-  a\bibinitperiod},
-         family={Stanford\bibnamedelima University},
-         familyi={S\bibinitperiod\bibinitdelim U\bibinitperiod},
-         given={Hasso Plattner\bibnamedelima Institute},
-         giveni={H\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim
-  I\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{SUHPIoDa1}
-    \strng{fullhash}{SUHPIoDa1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{S}
-    \field{sortinithash}{S}
-    \field{abstract}{%
-    Author/Copyright holder: Teo Yu Siang and Interaction Design Foundation.
-  Copyright terms and Licence: CC BY-NC-SA 3.0%
-    }
-    \field{title}{A Virtual Crash Course in Design Thinking}
-    \warn{\item Invalid format of field 'urldate'}
-  \endentry
-
-  \entry{FogComputing1}{report}{}
-    \name{author}{2}{}{%
-      {{hash=SI}{%
-         family={Stojmenovic},
-         familyi={S\bibinitperiod},
-         given={I.},
-         giveni={I\bibinitperiod},
-      }}%
-      {{hash=WS}{%
-         family={Wen},
-         familyi={W\bibinitperiod},
-         given={S.},
-         giveni={S\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{SIWS1}
-    \strng{fullhash}{SIWS1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2014}
-    \field{labeldatesource}{year}
-    \field{sortinit}{S}
-    \field{sortinithash}{S}
-    \field{abstract}{%
-    I. Stojmenovic and S. Wen, `` e fog computing paradigm: scenarios and
-  security issues,'' in Proceedings of the Federated Conference on Computer
-  Science and Information Systems (Fed- CSIS '14), pp. 1--8, IEEE, Warsaw,
-  Poland, September 2014.%
-    }
-    \field{booktitle}{In Proceedings of the Federated Conference on Computer
-  Science and Information Systems (Fed- CSIS '14)}
-    \field{title}{The fog computing paradigm: scenarios and security issues}
-    \field{volume}{Warsaw, Poland, September 2014}
-    \list{location}{1}{%
-      {Warsaw, Poland}%
-    }
-    \list{institution}{2}{%
-      {Proceedings of the Federated Conference on Computer Science}%
-      {Information Systems (Fed- CSIS '14), pp. 1--8, IEEE}%
-    }
-    \field{type}{techreport}
-    \field{year}{2014}
-    \warn{\item Invalid format of field 'month'}
-  \endentry
-
-  \entry{pg-promise}{misc}{}
-    \name{author}{1}{}{%
-      {{hash=vt}{%
-         prefix={vitaly},
-         prefixi={v\bibinitperiod},
-         family={t},
-         familyi={t},
-      }}%
-    }
-    \strng{namehash}{tv1}
-    \strng{fullhash}{tv1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{T}
-    \field{sortinithash}{T}
-    \field{title}{pg-promise}
-    \warn{\item Invalid format of field 'urldate'}
-  \endentry
-
-  \entry{raspberrypiLibRFM}{misc}{}
-    \name{author}{1}{}{%
-      {{hash=TE}{%
-         family={Trombly},
-         familyi={T\bibinitperiod},
-         given={Eric},
-         giveni={E\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{TE1}
-    \strng{fullhash}{TE1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{T}
-    \field{sortinithash}{T}
-    \field{title}{Python RFM69 library for RaspberryPi}
-    \warn{\item Invalid format of field 'urldate'}
-  \endentry
-
-  \entry{verizon}{misc}{}
-    \name{author}{1}{}{%
-      {{hash=V}{%
-         family={Verizon},
-         familyi={V\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{V1}
-    \strng{fullhash}{V1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{sortinit}{V}
-    \field{sortinithash}{V}
-    \field{title}{2017 State of the Market: IoT Report}
-    \warn{\item Invalid format of field 'urldate'}
-  \endentry
-\enddatalist
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{gartner0}{online}{}
+      \name{author}{1}{}{%
+        {{hash=18bfab6309a4addeb7e1dae07d2a4b89}{%
+           family={Gartner},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{18bfab6309a4addeb7e1dae07d2a4b89}
+      \strng{fullhash}{18bfab6309a4addeb7e1dae07d2a4b89}
+      \strng{bibnamehash}{18bfab6309a4addeb7e1dae07d2a4b89}
+      \strng{authorbibnamehash}{18bfab6309a4addeb7e1dae07d2a4b89}
+      \strng{authornamehash}{18bfab6309a4addeb7e1dae07d2a4b89}
+      \strng{authorfullhash}{18bfab6309a4addeb7e1dae07d2a4b89}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Gartner Predicts 20.4bn Connected `Things' by 2020}
+      \verb{urlraw}
+      \verb Feb. 9, 2017.
+      \endverb
+      \verb{url}
+      \verb Feb.%209,%202017.
+      \endverb
+    \endentry
+    \entry{verizon}{url}{}
+      \name{author}{1}{}{%
+        {{hash=9ef23a446a119387586d089c425f2d55}{%
+           family={Verizon},
+           familyi={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{9ef23a446a119387586d089c425f2d55}
+      \strng{fullhash}{9ef23a446a119387586d089c425f2d55}
+      \strng{bibnamehash}{9ef23a446a119387586d089c425f2d55}
+      \strng{authorbibnamehash}{9ef23a446a119387586d089c425f2d55}
+      \strng{authornamehash}{9ef23a446a119387586d089c425f2d55}
+      \strng{authorfullhash}{9ef23a446a119387586d089c425f2d55}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{2017 State of the Market: IoT Report}
+      \field{urlday}{18}
+      \field{urlmonth}{11}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.verizon.com/about/sites/default/files/Verizon-2017-State-of-the-Market-IoT-Report.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.verizon.com/about/sites/default/files/Verizon-2017-State-of-the-Market-IoT-Report.pdf
+      \endverb
+    \endentry
+    \entry{designThinking}{url}{}
+      \name{author}{2}{}{%
+        {{hash=d9faf185391ff763eaf13aa73750afee}{%
+           family={Dam},
+           familyi={D\bibinitperiod},
+           given={Rikke},
+           giveni={R\bibinitperiod}}}%
+        {{hash=b7dad7d7694443a08c004ac25d6b8b03}{%
+           family={Siang},
+           familyi={S\bibinitperiod},
+           given={Teo},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{2c18bad2acc28b915c8515fa78a9db99}
+      \strng{fullhash}{2c18bad2acc28b915c8515fa78a9db99}
+      \strng{bibnamehash}{2c18bad2acc28b915c8515fa78a9db99}
+      \strng{authorbibnamehash}{2c18bad2acc28b915c8515fa78a9db99}
+      \strng{authornamehash}{2c18bad2acc28b915c8515fa78a9db99}
+      \strng{authorfullhash}{2c18bad2acc28b915c8515fa78a9db99}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Design Thinking: A Quick Overview}
+      \field{urlday}{24}
+      \field{urlmonth}{11}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.interaction-design.org/literature/article/design-thinking-a-quick-overview
+      \endverb
+      \verb{url}
+      \verb https://www.interaction-design.org/literature/article/design-thinking-a-quick-overview
+      \endverb
+    \endentry
+    \entry{designThinkingCrashCourse}{url}{}
+      \name{author}{1}{}{%
+        {{hash=edce20e6e757f4201d63119fe047c8f9}{%
+           family={Design\bibnamedelimb at\bibnamedelimb Stanford\bibnamedelima University},
+           familyi={D\bibinitperiod\bibinitdelim a\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim U\bibinitperiod},
+           given={Hasso\bibnamedelimb Plattner\bibnamedelima Institute},
+           giveni={H\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim I\bibinitperiod},
+           prefix={of},
+           prefixi={o\bibinitperiod}}}%
+      }
+      \strng{namehash}{edce20e6e757f4201d63119fe047c8f9}
+      \strng{fullhash}{edce20e6e757f4201d63119fe047c8f9}
+      \strng{bibnamehash}{edce20e6e757f4201d63119fe047c8f9}
+      \strng{authorbibnamehash}{edce20e6e757f4201d63119fe047c8f9}
+      \strng{authornamehash}{edce20e6e757f4201d63119fe047c8f9}
+      \strng{authorfullhash}{edce20e6e757f4201d63119fe047c8f9}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Author/Copyright holder: Teo Yu Siang and Interaction Design Foundation. Copyright terms and Licence: CC BY-NC-SA 3.0}
+      \field{title}{A Virtual Crash Course in Design Thinking}
+      \field{urlday}{24}
+      \field{urlmonth}{11}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://dschool.stanford.edu/resources-collections/a-virtual-crash-course-in-design-thinking
+      \endverb
+      \verb{url}
+      \verb https://dschool.stanford.edu/resources-collections/a-virtual-crash-course-in-design-thinking
+      \endverb
+    \endentry
+    \entry{designThinkingBootleg}{online}{}
+      \name{author}{5}{}{%
+        {{hash=ae47349ef1720d50dcdd6cda1c6e28a7}{%
+           family={Doorley},
+           familyi={D\bibinitperiod},
+           given={Scott},
+           giveni={S\bibinitperiod}}}%
+        {{hash=4a7557ed1b30acdcad9a6b2663e7237f}{%
+           family={Holcomb},
+           familyi={H\bibinitperiod},
+           given={Sarah},
+           giveni={S\bibinitperiod}}}%
+        {{hash=4630453276ce4e7e56b71089f9f3a4be}{%
+           family={Klebahn},
+           familyi={K\bibinitperiod},
+           given={Perry},
+           giveni={P\bibinitperiod}}}%
+        {{hash=4e9606c8c25daba96f2554e1f770dd1e}{%
+           family={Segovia},
+           familyi={S\bibinitperiod},
+           given={Kathryn},
+           giveni={K\bibinitperiod}}}%
+        {{hash=8abb951146571ac455dc3460d621ce26}{%
+           family={Utley.},
+           familyi={U\bibinitperiod},
+           given={Jeremy},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{f742c4c998fa7b9009765a76bcd8b8fe}
+      \strng{fullhash}{29cbede22f6a7358eba35b0722181c6c}
+      \strng{bibnamehash}{f742c4c998fa7b9009765a76bcd8b8fe}
+      \strng{authorbibnamehash}{f742c4c998fa7b9009765a76bcd8b8fe}
+      \strng{authornamehash}{f742c4c998fa7b9009765a76bcd8b8fe}
+      \strng{authorfullhash}{29cbede22f6a7358eba35b0722181c6c}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Design Thinking Bootleg}
+      \field{urlday}{24}
+      \field{urlmonth}{11}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://static1.squarespace.com/static/57c6b79629687fde090a0fdd/t/5b19b2f2aa4a99e99b26b6bb/1528410876119/dschool_bootleg_deck_2018_final_sm+%282%29.pdf
+      \endverb
+      \verb{url}
+      \verb https://static1.squarespace.com/static/57c6b79629687fde090a0fdd/t/5b19b2f2aa4a99e99b26b6bb/1528410876119/dschool_bootleg_deck_2018_final_sm+%282%29.pdf
+      \endverb
+    \endentry
+    \entry{prototypeDef}{url}{}
+      \name{editor}{2}{}{%
+        {{hash=6ab1cc2113c46d57148fc9b0107ae23b}{%
+           family={Blackwell},
+           familyi={B\bibinitperiod},
+           given={Amy\bibnamedelima Hackney},
+           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=8ddb9cca821a467931e454dc9cc6f51a}{%
+           family={Manar},
+           familyi={M\bibinitperiod},
+           given={Elizabeth},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Farmington Hills, MI}%
+      }
+      \list{publisher}{1}{%
+        {UXL}%
+      }
+      \strng{namehash}{95a0f16918e368a704e56fd2af020122}
+      \strng{fullhash}{95a0f16918e368a704e56fd2af020122}
+      \strng{bibnamehash}{95a0f16918e368a704e56fd2af020122}
+      \strng{editorbibnamehash}{95a0f16918e368a704e56fd2af020122}
+      \strng{editornamehash}{95a0f16918e368a704e56fd2af020122}
+      \strng{editorfullhash}{95a0f16918e368a704e56fd2af020122}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{annotation}{COPYRIGHT 2015 Gale, Cengage Learning}
+      \field{booktitle}{UXL Encyclopedia of Science}
+      \field{month}{11}
+      \field{title}{Prototype}
+      \field{year}{2015}
+      \verb{urlraw}
+      \verb http://link.galegroup.com/apps/doc/ENKDZQ347975681/SCIC?u=dclib_main&sid=SCIC&xid=0c8f739d
+      \endverb
+      \verb{url}
+      \verb http://link.galegroup.com/apps/doc/ENKDZQ347975681/SCIC?u=dclib_main&sid=SCIC&xid=0c8f739d
+      \endverb
+      \keyw{Engineering prototypes}
+    \endentry
+    \entry{rapidProto3}{article}{}
+      \name{author}{6}{}{%
+        {{hash=283d46b6901901f0a1ba3ce64e059c28}{%
+           family={Hodges},
+           familyi={H\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=315a0500f6d20f812833f07d2ec6798a}{%
+           family={Taylor},
+           familyi={T\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=5ff509ee6ed65eb22cb572fd8f7ce043}{%
+           family={Villar},
+           familyi={V\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=b527ae2b962dec5a897e4b8fc9e3fd77}{%
+           family={Scott},
+           familyi={S\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=e793a85db3de6906c4d57d42e82c3c11}{%
+           family={Bial},
+           familyi={B\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=291ca5fb8f1315bdf2cbd3e21d4150a0}{%
+           family={Fischer},
+           familyi={F\bibinitperiod},
+           given={P.\bibnamedelimi T.},
+           giveni={P\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{7cedce9392bf810d0d581bf67653a3c3}
+      \strng{fullhash}{ef76e46c8a2a5435a23a53cbab279f47}
+      \strng{bibnamehash}{7cedce9392bf810d0d581bf67653a3c3}
+      \strng{authorbibnamehash}{7cedce9392bf810d0d581bf67653a3c3}
+      \strng{authornamehash}{7cedce9392bf810d0d581bf67653a3c3}
+      \strng{authorfullhash}{ef76e46c8a2a5435a23a53cbab279f47}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0018-9162}
+      \field{journaltitle}{Computer}
+      \field{month}{2}
+      \field{number}{2}
+      \field{title}{Prototyping Connected Devices for the Internet of Things}
+      \field{volume}{46}
+      \field{year}{2013}
+      \field{pages}{26\bibrangedash 34}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1109/MC.2012.394
+      \endverb
+      \keyw{data communication;Internet of Things;peripheral interfaces;storage management;Web services;prototyping connected devices;Microsoft .NET Gadgeteer;Internet of things vision;general-purpose device development platform;rapid construction;electronic device hardware reconfiguration;programming;debugging;online Web services;data storage;data communication;data processing;Internet of things;Prototypes;Web and internet services;Ubiquitous computing;Program processors;Internet of Things;IoT;connected devices;rapid prototyping;representational state transfer;REST;Web services;cloud computing;Microsoft .NET Gadgeteer;REST-ful APIs}
+    \endentry
+    \entry{PoC}{online}{}
+      \name{author}{1}{}{%
+        {{hash=5490189dc964f3f55fc87dc4cec39507}{%
+           family={Inc.},
+           familyi={I\bibinitperiod},
+           given={WebFinance},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{5490189dc964f3f55fc87dc4cec39507}
+      \strng{fullhash}{5490189dc964f3f55fc87dc4cec39507}
+      \strng{bibnamehash}{5490189dc964f3f55fc87dc4cec39507}
+      \strng{authorbibnamehash}{5490189dc964f3f55fc87dc4cec39507}
+      \strng{authornamehash}{5490189dc964f3f55fc87dc4cec39507}
+      \strng{authorfullhash}{5490189dc964f3f55fc87dc4cec39507}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Proof of Concept}
+      \field{urlday}{24}
+      \field{urlmonth}{11}
+      \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://www.businessdictionary.com/definition/proof-of-concept.html
+      \endverb
+      \verb{url}
+      \verb http://www.businessdictionary.com/definition/proof-of-concept.html
+      \endverb
+    \endentry
+    \entry{mvp}{url}{}
+      \name{author}{1}{}{%
+        {{hash=2d0ed76dc2bb8ec0ba5cf4473f5c4c74}{%
+           family={Techopedia},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{2d0ed76dc2bb8ec0ba5cf4473f5c4c74}
+      \strng{fullhash}{2d0ed76dc2bb8ec0ba5cf4473f5c4c74}
+      \strng{bibnamehash}{2d0ed76dc2bb8ec0ba5cf4473f5c4c74}
+      \strng{authorbibnamehash}{2d0ed76dc2bb8ec0ba5cf4473f5c4c74}
+      \strng{authornamehash}{2d0ed76dc2bb8ec0ba5cf4473f5c4c74}
+      \strng{authorfullhash}{2d0ed76dc2bb8ec0ba5cf4473f5c4c74}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Minimum Viable Product (MVP)}
+      \field{urlday}{27}
+      \field{urlmonth}{11}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.techopedia.com/definition/27809/minimum-viable-product-mvp
+      \endverb
+      \verb{url}
+      \verb https://www.techopedia.com/definition/27809/minimum-viable-product-mvp
+      \endverb
+    \endentry
+    \entry{archsurv4}{article}{}
+      \name{author}{2}{}{%
+        {{hash=639d145fa302370f08079e884acb051e}{%
+           family={Sethi},
+           familyi={S\bibinitperiod},
+           given={Pallavi},
+           giveni={P\bibinitperiod}}}%
+        {{hash=0c7f755e84a5a3d558a78957b479f9fc}{%
+           family={Sarangi},
+           familyi={S\bibinitperiod},
+           given={Smruti\bibnamedelima R.},
+           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{780de0584144321356d7cc789a0a7cd4}
+      \strng{fullhash}{780de0584144321356d7cc789a0a7cd4}
+      \strng{bibnamehash}{780de0584144321356d7cc789a0a7cd4}
+      \strng{authorbibnamehash}{780de0584144321356d7cc789a0a7cd4}
+      \strng{authornamehash}{780de0584144321356d7cc789a0a7cd4}
+      \strng{authorfullhash}{780de0584144321356d7cc789a0a7cd4}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{J. Electrical and Computer Engineering}
+      \field{title}{Internet of Things: Architectures, Protocols, and Applications}
+      \field{volume}{2017}
+      \field{year}{2017}
+      \field{pages}{9324035:1\bibrangedash 9324035:25}
+      \range{pages}{-1}
+    \endentry
+    \entry{fiveLayer1}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=1652b01c3ea8168881dddeea58a1747f}{%
+           family={Khan},
+           familyi={K\bibinitperiod},
+           given={Rafiullah},
+           giveni={R\bibinitperiod}}}%
+        {{hash=a0d24722aa5b71edc3fd6ec1361c4a04}{%
+           family={Khan},
+           familyi={K\bibinitperiod},
+           given={{Sarmad Ullah}},
+           giveni={S\bibinitperiod}}}%
+        {{hash=6835b57d6b1202fac0c3da9e8f2f6dc8}{%
+           family={Zaheer},
+           familyi={Z\bibinitperiod},
+           given={Rifaqat},
+           giveni={R\bibinitperiod}}}%
+        {{hash=dd8636c330135d708dd36ba34664ab52}{%
+           family={Khan},
+           familyi={K\bibinitperiod},
+           given={Shahid},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{publisher}{2}{%
+        {Institute of Electrical}%
+        {Electronics Engineers Inc.}%
+      }
+      \strng{namehash}{56d7b91ffd5c209079a06bb3a31d37d3}
+      \strng{fullhash}{bee63b9a7d55b5c072c2ae7eb375d46d}
+      \strng{bibnamehash}{56d7b91ffd5c209079a06bb3a31d37d3}
+      \strng{authorbibnamehash}{56d7b91ffd5c209079a06bb3a31d37d3}
+      \strng{authornamehash}{56d7b91ffd5c209079a06bb3a31d37d3}
+      \strng{authorfullhash}{bee63b9a7d55b5c072c2ae7eb375d46d}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The Internet is continuously changing and evolving. The main communication form of present Internet is human-human. The Internet of Things (IoT) can be considered as the future evaluation of the Internet that realizes machine-to-machine (M2M) learning. Thus, IoT provides connectivity for everyone and everything. The IoT embeds some intelligence in Internet-connected objects to communicate, exchange information, take decisions, invoke actions and provide amazing services. This paper addresses the existing development trends, the generic architecture of IoT, its distinguishing features and possible future applications. This paper also forecast the key challenges associated with the development of IoT. The IoT is getting increasing popularity for academia, industry as well as government that has the potential to bring significant personal, professional and economic benefits.}
+      \field{booktitle}{2012 10th International Conference on Frontiers of Information Technology (FIT): Proceedings}
+      \field{isbn}{978-1-4673-4946-8}
+      \field{title}{Future Internet: The Internet of Things Architecture, Possible Applications and Key Challenges}
+      \field{year}{2012}
+      \field{pages}{257\bibrangedash 260}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/FIT.2012.53
+      \endverb
+    \endentry
+    \entry{fiveLayer}{article}{}
+      \name{author}{6}{}{%
+        {{hash=74474a279aaac96bb1b70b45d6f16376}{%
+           family={Mashal},
+           familyi={M\bibinitperiod},
+           given={Ibrahim},
+           giveni={I\bibinitperiod}}}%
+        {{hash=9b15afd544ce012b1ca6aaca4971a4bd}{%
+           family={Alsaryrah},
+           familyi={A\bibinitperiod},
+           given={Osama},
+           giveni={O\bibinitperiod}}}%
+        {{hash=dbfc4a4e8bf7bc18e590731c8b976e7f}{%
+           family={Chung},
+           familyi={C\bibinitperiod},
+           given={Tein-Yaw},
+           giveni={T\bibinithyphendelim Y\bibinitperiod}}}%
+        {{hash=9cd3ef5eda73a295f63a036b5893b765}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Cheng-Zen},
+           giveni={C\bibinithyphendelim Z\bibinitperiod}}}%
+        {{hash=386866855c877c0cba7926e526289dbe}{%
+           family={Kuo},
+           familyi={K\bibinitperiod},
+           given={Wen-Hsing},
+           giveni={W\bibinithyphendelim H\bibinitperiod}}}%
+        {{hash=e37ab0fc2e0da6272cb24189e96640e3}{%
+           family={Agrawal},
+           familyi={A\bibinitperiod},
+           given={Dharma\bibnamedelima P.},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{4409457bc4884c4f025e5b1c053ba082}
+      \strng{fullhash}{dcbe464d269553d042a558845e1c1ab7}
+      \strng{bibnamehash}{4409457bc4884c4f025e5b1c053ba082}
+      \strng{authorbibnamehash}{4409457bc4884c4f025e5b1c053ba082}
+      \strng{authornamehash}{4409457bc4884c4f025e5b1c053ba082}
+      \strng{authorfullhash}{dcbe464d269553d042a558845e1c1ab7}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Currently, a large number of smart objects and different types of devices are interconnected and communicate via Internet Protocol that creates a worldwide ubiquitous and pervasive network called the Internet of Things (IoT). With an increase in the deployment of smart objects, IoT is expected to have a significant impact on human life in the near future. A majorbreakthrough in bridging the gap between virtual and physical worlds came from the vision of the Web of Things (WoT), which employs open Web standards in achieving information sharing and objects interoperability. Social Web of Things (SWoT) further extends WoT to integrate smart objects with social networks and is observed to not only bridge between physical and virtual worlds but also facilitate continued interaction between physical devices and human. This makes SWoT the most promising approach and has now become an active research area. This survey introduces necessary background and fundamentals to understand current efforts in IoT, WoT and SWoT by reviewing key enabling technologies. These efforts are investigated in detail from several different perspectives such as architecture design, middleware, platform, systems implementation, and application in hand. Moreover, a large number of platforms and applications are analyzed and evaluated from various alternatives have become popular during the past decade. Finally, we address associated challenges and highlight potential research to be perused in future.}
+      \field{issn}{1570-8705}
+      \field{journaltitle}{Ad Hoc Networks}
+      \field{title}{Choices for interaction with things on Internet and underlying issues}
+      \field{volume}{28}
+      \field{year}{2015}
+      \field{pages}{68\bibrangedash 90}
+      \range{pages}{23}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.adhoc.2014.12.006
+      \endverb
+      \verb{urlraw}
+      \verb http://www.sciencedirect.com/science/article/pii/S1570870514003138
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S1570870514003138
+      \endverb
+      \keyw{Internet of Things,Social Internet of Things,Social Web of Things,Web of Things,Wireless Sensor Networks}
+    \endentry
+    \entry{CloudComputing}{article}{}
+      \name{author}{4}{}{%
+        {{hash=5149222482e65ef318aed501c50018fc}{%
+           family={Gubbi},
+           familyi={G\bibinitperiod},
+           given={Jayavardhana},
+           giveni={J\bibinitperiod}}}%
+        {{hash=029e03ba4e08a5605b31a31f86375741}{%
+           family={Buyya},
+           familyi={B\bibinitperiod},
+           given={Rajkumar},
+           giveni={R\bibinitperiod}}}%
+        {{hash=6f97b7d6e3c2e3f1ca91342e9b3e2106}{%
+           family={Marusic},
+           familyi={M\bibinitperiod},
+           given={Slaven},
+           giveni={S\bibinitperiod}}}%
+        {{hash=68cd0238b84a14d073e3f210dba5b591}{%
+           family={Palaniswami},
+           familyi={P\bibinitperiod},
+           given={Marimuthu},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{3b130b4f18b5eba39c696a83afb3c993}
+      \strng{fullhash}{e002670d3d6f34d2c0e958e45f5f42ad}
+      \strng{bibnamehash}{3b130b4f18b5eba39c696a83afb3c993}
+      \strng{authorbibnamehash}{3b130b4f18b5eba39c696a83afb3c993}
+      \strng{authornamehash}{3b130b4f18b5eba39c696a83afb3c993}
+      \strng{authorfullhash}{e002670d3d6f34d2c0e958e45f5f42ad}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{CoRR}
+      \field{title}{Internet of Things (IoT): {A} Vision, Architectural Elements, and Future Directions}
+      \field{volume}{abs/1207.0203}
+      \field{year}{2012}
+      \verb{eprint}
+      \verb 1207.0203
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1207.0203
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1207.0203
+      \endverb
+    \endentry
+    \entry{FogComputing1}{report}{}
+      \name{author}{2}{}{%
+        {{hash=d08ddc7f7cf9d27f540223630429a02f}{%
+           family={Stojmenovic},
+           familyi={S\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod}}}%
+        {{hash=b1b42ca2c9055778d9bd725caf2b58ca}{%
+           family={Wen},
+           familyi={W\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{institution}{2}{%
+        {Proceedings of the Federated Conference on Computer Science}%
+        {Information Systems (Fed- CSIS '14), pp. 1--8, IEEE}%
+      }
+      \list{location}{1}{%
+        {Warsaw, Poland}%
+      }
+      \strng{namehash}{caf2fbfd60c5d8dc552781274169f257}
+      \strng{fullhash}{caf2fbfd60c5d8dc552781274169f257}
+      \strng{bibnamehash}{caf2fbfd60c5d8dc552781274169f257}
+      \strng{authorbibnamehash}{caf2fbfd60c5d8dc552781274169f257}
+      \strng{authornamehash}{caf2fbfd60c5d8dc552781274169f257}
+      \strng{authorfullhash}{caf2fbfd60c5d8dc552781274169f257}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{I. Stojmenovic and S. Wen, `` e fog computing paradigm: scenarios and security issues,'' in Proceedings of the Federated Conference on Computer Science and Information Systems (Fed- CSIS '14), pp. 1--8, IEEE, Warsaw, Poland, September 2014.}
+      \field{booktitle}{In Proceedings of the Federated Conference on Computer Science and Information Systems (Fed- CSIS '14)}
+      \field{month}{9}
+      \field{title}{The fog computing paradigm: scenarios and security issues}
+      \field{type}{techreport}
+      \field{volume}{Warsaw, Poland, September 2014}
+      \field{year}{2014}
+    \endentry
+    \entry{FogComp}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=312e1c90141293f04f6ff24f07240c59}{%
+           family={Bonomi},
+           familyi={B\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=14d2a73619de365c9ad69e5bdaddc7f2}{%
+           family={Milito},
+           familyi={M\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=c3722ac0c43536a91222b453173f9dd3}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=c87dbc0b5f303836fe3c2e793aadcf74}{%
+           family={Addepalli},
+           familyi={A\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{e881689b0da071fce20b76fc66540598}
+      \strng{fullhash}{15632803405c03e9fa977d8da838a078}
+      \strng{bibnamehash}{e881689b0da071fce20b76fc66540598}
+      \strng{authorbibnamehash}{e881689b0da071fce20b76fc66540598}
+      \strng{authornamehash}{e881689b0da071fce20b76fc66540598}
+      \strng{authorfullhash}{15632803405c03e9fa977d8da838a078}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{F. Bonomi, R. Milito, J. Zhu, and S. Addepalli, ``Fog computing and its role in the internet of things,'' in Proceedings of the 1st ACM MCC Workshop on Mobile Cloud Computing, pp. 13--16, 2012.}
+      \field{booktitle}{in Proceedings of the 1st ACM MCC Workshop on Mobile Cloud Computing, pp. 13--16,}
+      \field{title}{Fog computing and its role in the internet of things}
+      \field{year}{2012}
+    \endentry
+    \entry{frontendDef}{webpage}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{urlday}{28}
+      \field{urlmonth}{11}
+      \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.techopedia.com/definition/3799/front-end-system
+      \endverb
+      \verb{url}
+      \verb https://www.techopedia.com/definition/3799/front-end-system
+      \endverb
+    \endentry
+    \entry{benchmarkReact}{webpage}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \verb{urlraw}
+      \verb https://stefankrause.net/js-frameworks-benchmark8/table.html
+      \endverb
+      \verb{url}
+      \verb https://stefankrause.net/js-frameworks-benchmark8/table.html
+      \endverb
+    \endentry
+    \entry{reactjsUsers}{url}{}
+      \name{author}{1}{}{%
+        {{hash=ca2083cb55ef71f99892fe7ea062b47b}{%
+           family={stackshare},
+           familyi={s\bibinitperiod}}}%
+      }
+      \strng{namehash}{ca2083cb55ef71f99892fe7ea062b47b}
+      \strng{fullhash}{ca2083cb55ef71f99892fe7ea062b47b}
+      \strng{bibnamehash}{ca2083cb55ef71f99892fe7ea062b47b}
+      \strng{authorbibnamehash}{ca2083cb55ef71f99892fe7ea062b47b}
+      \strng{authornamehash}{ca2083cb55ef71f99892fe7ea062b47b}
+      \strng{authorfullhash}{ca2083cb55ef71f99892fe7ea062b47b}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Companies using React}
+      \field{urlday}{21}
+      \field{urlmonth}{11}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://stackshare.io/react
+      \endverb
+      \verb{url}
+      \verb https://stackshare.io/react
+      \endverb
+    \endentry
+    \entry{stackOverflowSurvey}{url}{}
+      \name{author}{1}{}{%
+        {{hash=84d7dc19766c446f5e4084e8fce87f82}{%
+           family={StackOverflow},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{84d7dc19766c446f5e4084e8fce87f82}
+      \strng{fullhash}{84d7dc19766c446f5e4084e8fce87f82}
+      \strng{bibnamehash}{84d7dc19766c446f5e4084e8fce87f82}
+      \strng{authorbibnamehash}{84d7dc19766c446f5e4084e8fce87f82}
+      \strng{authornamehash}{84d7dc19766c446f5e4084e8fce87f82}
+      \strng{authorfullhash}{84d7dc19766c446f5e4084e8fce87f82}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Developer Survey Results 2018}
+      \field{urlday}{20}
+      \field{urlmonth}{11}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://insights.stackoverflow.com/survey/2018#technology
+      \endverb
+      \verb{url}
+      \verb https://insights.stackoverflow.com/survey/2018#technology
+      \endverb
+    \endentry
+    \entry{ajax}{misc}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labeltitlesource}{title}
+      \field{title}{jQuery Doc - Ajax}
+      \verb{urlraw}
+      \verb http://api.jquery.com/category/ajax/
+      \endverb
+      \verb{url}
+      \verb http://api.jquery.com/category/ajax/
+      \endverb
+    \endentry
+    \entry{socketioClients}{url}{}
+      \name{author}{1}{}{%
+        {{hash=ac99b8bddb61636ab3beb7b5f1eca3e6}{%
+           family={Socket.io},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{ac99b8bddb61636ab3beb7b5f1eca3e6}
+      \strng{fullhash}{ac99b8bddb61636ab3beb7b5f1eca3e6}
+      \strng{bibnamehash}{ac99b8bddb61636ab3beb7b5f1eca3e6}
+      \strng{authorbibnamehash}{ac99b8bddb61636ab3beb7b5f1eca3e6}
+      \strng{authornamehash}{ac99b8bddb61636ab3beb7b5f1eca3e6}
+      \strng{authorfullhash}{ac99b8bddb61636ab3beb7b5f1eca3e6}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Other Client Implementations}
+      \field{urlday}{20}
+      \field{urlmonth}{11}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://socket.io/docs/
+      \endverb
+      \verb{url}
+      \verb https://socket.io/docs/
+      \endverb
+    \endentry
+    \entry{middlewaredef}{url}{}
+      \name{author}{1}{}{%
+        {{hash=9bf56f72228f01438ca6517527bf6ab3}{%
+           family={Press},
+           familyi={P\bibinitperiod},
+           given={Oxford\bibnamedelima University},
+           giveni={O\bibinitperiod\bibinitdelim U\bibinitperiod}}}%
+      }
+      \strng{namehash}{9bf56f72228f01438ca6517527bf6ab3}
+      \strng{fullhash}{9bf56f72228f01438ca6517527bf6ab3}
+      \strng{bibnamehash}{9bf56f72228f01438ca6517527bf6ab3}
+      \strng{authorbibnamehash}{9bf56f72228f01438ca6517527bf6ab3}
+      \strng{authornamehash}{9bf56f72228f01438ca6517527bf6ab3}
+      \strng{authorfullhash}{9bf56f72228f01438ca6517527bf6ab3}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Middleware}
+      \field{urlday}{27}
+      \field{urlmonth}{11}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://en.oxforddictionaries.com/definition/middleware
+      \endverb
+      \verb{url}
+      \verb https://en.oxforddictionaries.com/definition/middleware
+      \endverb
+    \endentry
+    \entry{archsurv1}{article}{}
+      \name{author}{1}{}{%
+        {{hash=cd846333abeffcc6a828e9813cbffd58}{%
+           family={al.},
+           familyi={a\bibinitperiod},
+           given={L.\bibnamedelimi Atzori},
+           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{cd846333abeffcc6a828e9813cbffd58}
+      \strng{fullhash}{cd846333abeffcc6a828e9813cbffd58}
+      \strng{bibnamehash}{cd846333abeffcc6a828e9813cbffd58}
+      \strng{authorbibnamehash}{cd846333abeffcc6a828e9813cbffd58}
+      \strng{authornamehash}{cd846333abeffcc6a828e9813cbffd58}
+      \strng{authorfullhash}{cd846333abeffcc6a828e9813cbffd58}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computer Networks, Elsevier}
+      \field{month}{10}
+      \field{title}{The Internet of Things: A survey}
+      \field{year}{2010}
+    \endentry
+    \entry{gogleTrendNode}{url}{}
+      \name{author}{1}{}{%
+        {{hash=8b36e9207c24c76e6719268e49201d94}{%
+           family={Google},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{fullhash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{bibnamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorbibnamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authornamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorfullhash}{8b36e9207c24c76e6719268e49201d94}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Google Trends Node.js}
+      \field{urlday}{20}
+      \field{urlmonth}{11}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://trends.google.com/trends/explore?q=nodejs&date=all
+      \endverb
+      \verb{url}
+      \verb https://trends.google.com/trends/explore?q=nodejs&date=all
+      \endverb
+    \endentry
+    \entry{blynk}{url}{}
+      \name{author}{1}{}{%
+        {{hash=71168d731264059fe6576b5e906cc314}{%
+           family={Blynk},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{71168d731264059fe6576b5e906cc314}
+      \strng{fullhash}{71168d731264059fe6576b5e906cc314}
+      \strng{bibnamehash}{71168d731264059fe6576b5e906cc314}
+      \strng{authorbibnamehash}{71168d731264059fe6576b5e906cc314}
+      \strng{authornamehash}{71168d731264059fe6576b5e906cc314}
+      \strng{authorfullhash}{71168d731264059fe6576b5e906cc314}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Blynk}
+      \field{urlday}{27}
+      \field{urlmonth}{11}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.blynk.cc/
+      \endverb
+      \verb{url}
+      \verb https://www.blynk.cc/
+      \endverb
+    \endentry
+    \entry{backendDef}{url}{}
+      \name{author}{1}{}{%
+        {{hash=6156604bf7622f698cd57b4b56651208}{%
+           family={Press},
+           familyi={P\bibinitperiod},
+           given={Cambridge\bibnamedelima University},
+           giveni={C\bibinitperiod\bibinitdelim U\bibinitperiod}}}%
+      }
+      \strng{namehash}{6156604bf7622f698cd57b4b56651208}
+      \strng{fullhash}{6156604bf7622f698cd57b4b56651208}
+      \strng{bibnamehash}{6156604bf7622f698cd57b4b56651208}
+      \strng{authorbibnamehash}{6156604bf7622f698cd57b4b56651208}
+      \strng{authornamehash}{6156604bf7622f698cd57b4b56651208}
+      \strng{authorfullhash}{6156604bf7622f698cd57b4b56651208}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Back-End}
+      \field{urlday}{27}
+      \field{urlmonth}{11}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://dictionary.cambridge.org/dictionary/english/back-end
+      \endverb
+      \verb{url}
+      \verb https://dictionary.cambridge.org/dictionary/english/back-end
+      \endverb
+    \endentry
+    \entry{postgresUsers}{url}{}
+      \name{author}{1}{}{%
+        {{hash=1d8b204c6a71e7100f0a1927ae66e9f0}{%
+           family={Postgres},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{1d8b204c6a71e7100f0a1927ae66e9f0}
+      \strng{fullhash}{1d8b204c6a71e7100f0a1927ae66e9f0}
+      \strng{bibnamehash}{1d8b204c6a71e7100f0a1927ae66e9f0}
+      \strng{authorbibnamehash}{1d8b204c6a71e7100f0a1927ae66e9f0}
+      \strng{authornamehash}{1d8b204c6a71e7100f0a1927ae66e9f0}
+      \strng{authorfullhash}{1d8b204c6a71e7100f0a1927ae66e9f0}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Postgres User}
+      \field{urlday}{20}
+      \field{urlmonth}{11}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://stackshare.io/postgresql
+      \endverb
+      \verb{url}
+      \verb https://stackshare.io/postgresql
+      \endverb
+    \endentry
+    \entry{radiorange}{url}{}
+      \name{author}{1}{}{%
+        {{hash=6529ab2f289bca354a99743b2840b982}{%
+           family={ada},
+           familyi={a\bibinitperiod},
+           prefix={lady},
+           prefixi={l\bibinitperiod}}}%
+      }
+      \strng{namehash}{6529ab2f289bca354a99743b2840b982}
+      \strng{fullhash}{6529ab2f289bca354a99743b2840b982}
+      \strng{bibnamehash}{6529ab2f289bca354a99743b2840b982}
+      \strng{authorbibnamehash}{6529ab2f289bca354a99743b2840b982}
+      \strng{authornamehash}{6529ab2f289bca354a99743b2840b982}
+      \strng{authorfullhash}{6529ab2f289bca354a99743b2840b982}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Radio Range F.A.Q.}
+      \field{urlday}{19}
+      \field{urlmonth}{11}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://cdn-learn.adafruit.com/downloads/pdf/adafruit-rfm69hcw-and-rfm96-rfm95-rfm98-lora-packet-padio-breakouts.pdf
+      \endverb
+      \verb{url}
+      \verb https://cdn-learn.adafruit.com/downloads/pdf/adafruit-rfm69hcw-and-rfm96-rfm95-rfm98-lora-packet-padio-breakouts.pdf
+      \endverb
+    \endentry
+    \entry{LowPowerLab}{misc}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labeltitlesource}{title}
+      \field{title}{LowPowerLab Libary}
+      \verb{urlraw}
+      \verb https://lowpowerlab.com/
+      \endverb
+      \verb{url}
+      \verb https://lowpowerlab.com/
+      \endverb
+    \endentry
+    \entry{radiohead}{misc}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labeltitlesource}{title}
+      \field{title}{Radiohead Libary}
+      \verb{urlraw}
+      \verb https://www.airspayce.com/mikem/arduino/RadioHead/
+      \endverb
+      \verb{url}
+      \verb https://www.airspayce.com/mikem/arduino/RadioHead/
+      \endverb
+    \endentry
+    \entry{adafruitRecommends}{online}{}
+      \name{author}{1}{}{%
+        {{hash=15a4fbe287b7987574ac59b2f938ddeb}{%
+           family={Adafruit},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{15a4fbe287b7987574ac59b2f938ddeb}
+      \strng{fullhash}{15a4fbe287b7987574ac59b2f938ddeb}
+      \strng{bibnamehash}{15a4fbe287b7987574ac59b2f938ddeb}
+      \strng{authorbibnamehash}{15a4fbe287b7987574ac59b2f938ddeb}
+      \strng{authornamehash}{15a4fbe287b7987574ac59b2f938ddeb}
+      \strng{authorfullhash}{15a4fbe287b7987574ac59b2f938ddeb}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Using the RFM69HCW Radio}
+      \verb{urlraw}
+      \verb https://learn.adafruit.com/adafruit-feather-32u4-radio-with-rfm69hcw-module/using-the-rfm69-radio
+      \endverb
+      \verb{url}
+      \verb https://learn.adafruit.com/adafruit-feather-32u4-radio-with-rfm69hcw-module/using-the-rfm69-radio
+      \endverb
+      \warn{\item Entry 'adafruitRecommends' (example.bib): Invalid format '2001-11-228' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{designDigitalAge}{book}{}
+      \name{author}{1}{}{%
+        {{hash=d4ea1aff776c1e8c4d73674061069df6}{%
+           family={Goodwin},
+           familyi={G\bibinitperiod},
+           given={Kim},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Publishing, Inc.}%
+      }
+      \strng{namehash}{d4ea1aff776c1e8c4d73674061069df6}
+      \strng{fullhash}{d4ea1aff776c1e8c4d73674061069df6}
+      \strng{bibnamehash}{d4ea1aff776c1e8c4d73674061069df6}
+      \strng{authorbibnamehash}{d4ea1aff776c1e8c4d73674061069df6}
+      \strng{authornamehash}{d4ea1aff776c1e8c4d73674061069df6}
+      \strng{authorfullhash}{d4ea1aff776c1e8c4d73674061069df6}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Designing for the Digital Age: How to Create Human-Centered Products and Services}
+      \field{year}{2009}
+    \endentry
+    \entry{pg-promise}{url}{}
+      \name{author}{1}{}{%
+        {{hash=1938c653d2ee71d8e278aabac5592a48}{%
+           family={vitaly-t},
+           familyi={v\bibinithyphendelim t\bibinitperiod}}}%
+      }
+      \strng{namehash}{1938c653d2ee71d8e278aabac5592a48}
+      \strng{fullhash}{1938c653d2ee71d8e278aabac5592a48}
+      \strng{bibnamehash}{1938c653d2ee71d8e278aabac5592a48}
+      \strng{authorbibnamehash}{1938c653d2ee71d8e278aabac5592a48}
+      \strng{authornamehash}{1938c653d2ee71d8e278aabac5592a48}
+      \strng{authorfullhash}{1938c653d2ee71d8e278aabac5592a48}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{pg-promise}
+      \field{urlday}{20}
+      \field{urlmonth}{11}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/vitaly-t/pg-promise
+      \endverb
+      \verb{url}
+      \verb https://github.com/vitaly-t/pg-promise
+      \endverb
+    \endentry
+    \entry{MSDN}{online}{}
+      \name{author}{1}{}{%
+        {{hash=140864078aeca1c7c35b4beb33c53c34}{%
+           family={Microsoft},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Thread Class}
+      \field{urlday}{28}
+      \field{urlmonth}{11}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://docs.microsoft.com/de-de/dotnet/api/system.threading.thread?redirectedfrom=MSDN&view=netframework-4.7.2
+      \endverb
+      \verb{url}
+      \verb https://docs.microsoft.com/de-de/dotnet/api/system.threading.thread?redirectedfrom=MSDN&view=netframework-4.7.2
+      \endverb
+    \endentry
+    \entry{createReactApp}{url}{}
+      \name{author}{1}{}{%
+        {{hash=50ce2da63bea6a618e7578fa50690040}{%
+           family={React},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{50ce2da63bea6a618e7578fa50690040}
+      \strng{fullhash}{50ce2da63bea6a618e7578fa50690040}
+      \strng{bibnamehash}{50ce2da63bea6a618e7578fa50690040}
+      \strng{authorbibnamehash}{50ce2da63bea6a618e7578fa50690040}
+      \strng{authornamehash}{50ce2da63bea6a618e7578fa50690040}
+      \strng{authorfullhash}{50ce2da63bea6a618e7578fa50690040}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Create React App}
+      \field{urlday}{20}
+      \field{urlmonth}{11}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://reactjs.org/docs/create-a-new-react-app.html
+      \endverb
+      \verb{url}
+      \verb https://reactjs.org/docs/create-a-new-react-app.html
+      \endverb
+    \endentry
+    \entry{reactStructure}{url}{}
+      \name{author}{1}{}{%
+        {{hash=50ce2da63bea6a618e7578fa50690040}{%
+           family={React},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{50ce2da63bea6a618e7578fa50690040}
+      \strng{fullhash}{50ce2da63bea6a618e7578fa50690040}
+      \strng{bibnamehash}{50ce2da63bea6a618e7578fa50690040}
+      \strng{authorbibnamehash}{50ce2da63bea6a618e7578fa50690040}
+      \strng{authornamehash}{50ce2da63bea6a618e7578fa50690040}
+      \strng{authorfullhash}{50ce2da63bea6a618e7578fa50690040}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{File Structure}
+      \field{urlday}{20}
+      \field{urlmonth}{11}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://reactjs.org/docs/faq-structure.html
+      \endverb
+      \verb{url}
+      \verb https://reactjs.org/docs/faq-structure.html
+      \endverb
+    \endentry
+    \entry{reactDND}{url}{}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labeltitlesource}{title}
+      \field{title}{React DND}
+      \field{urlday}{20}
+      \field{urlmonth}{11}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://react-dnd.github.io/react-dnd/about
+      \endverb
+      \verb{url}
+      \verb https://react-dnd.github.io/react-dnd/about
+      \endverb
+    \endentry
+    \entry{socketioUnity1}{url}{}
+      \name{author}{1}{}{%
+        {{hash=8d35a07e0e8908051e1aaae0b49efa51}{%
+           family={Panettieri},
+           familyi={P\bibinitperiod},
+           given={Fabio},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{8d35a07e0e8908051e1aaae0b49efa51}
+      \strng{fullhash}{8d35a07e0e8908051e1aaae0b49efa51}
+      \strng{bibnamehash}{8d35a07e0e8908051e1aaae0b49efa51}
+      \strng{authorbibnamehash}{8d35a07e0e8908051e1aaae0b49efa51}
+      \strng{authornamehash}{8d35a07e0e8908051e1aaae0b49efa51}
+      \strng{authorfullhash}{8d35a07e0e8908051e1aaae0b49efa51}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Socket.IO for Unity}
+      \field{urlday}{22}
+      \field{urlmonth}{11}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://assetstore.unity.com/packages/tools/network/socket-io-for-unity-21721
+      \endverb
+      \verb{url}
+      \verb https://assetstore.unity.com/packages/tools/network/socket-io-for-unity-21721
+      \endverb
+    \endentry
+    \entry{socketioUnity2}{url}{}
+      \name{author}{1}{}{%
+        {{hash=ee2d15425f020b4ccd3048877630a8f8}{%
+           family={floatinghotpot},
+           familyi={f\bibinitperiod}}}%
+      }
+      \strng{namehash}{ee2d15425f020b4ccd3048877630a8f8}
+      \strng{fullhash}{ee2d15425f020b4ccd3048877630a8f8}
+      \strng{bibnamehash}{ee2d15425f020b4ccd3048877630a8f8}
+      \strng{authorbibnamehash}{ee2d15425f020b4ccd3048877630a8f8}
+      \strng{authornamehash}{ee2d15425f020b4ccd3048877630a8f8}
+      \strng{authorfullhash}{ee2d15425f020b4ccd3048877630a8f8}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{socket.io-unity}
+      \field{urlday}{22}
+      \field{urlmonth}{11}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/floatinghotpot/socket.io-unity
+      \endverb
+      \verb{url}
+      \verb https://github.com/floatinghotpot/socket.io-unity
+      \endverb
+    \endentry
+    \entry{socketioUnity3}{url}{}
+      \name{author}{1}{}{%
+        {{hash=7e6d70c6521ed8f2c1ae70630d35682f}{%
+           family={smallmiro},
+           familyi={s\bibinitperiod}}}%
+      }
+      \strng{namehash}{7e6d70c6521ed8f2c1ae70630d35682f}
+      \strng{fullhash}{7e6d70c6521ed8f2c1ae70630d35682f}
+      \strng{bibnamehash}{7e6d70c6521ed8f2c1ae70630d35682f}
+      \strng{authorbibnamehash}{7e6d70c6521ed8f2c1ae70630d35682f}
+      \strng{authornamehash}{7e6d70c6521ed8f2c1ae70630d35682f}
+      \strng{authorfullhash}{7e6d70c6521ed8f2c1ae70630d35682f}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{socket.io-client.unity3d}
+      \field{urlday}{22}
+      \field{urlmonth}{11}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/nhnent/socket.io-client-unity3d
+      \endverb
+      \verb{url}
+      \verb https://github.com/nhnent/socket.io-client-unity3d
+      \endverb
+    \endentry
+    \entry{raspberrypiLibRFM}{url}{}
+      \name{author}{1}{}{%
+        {{hash=c67ad6b206238b8cdaa448bbae305375}{%
+           family={Trombly},
+           familyi={T\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{c67ad6b206238b8cdaa448bbae305375}
+      \strng{fullhash}{c67ad6b206238b8cdaa448bbae305375}
+      \strng{bibnamehash}{c67ad6b206238b8cdaa448bbae305375}
+      \strng{authorbibnamehash}{c67ad6b206238b8cdaa448bbae305375}
+      \strng{authornamehash}{c67ad6b206238b8cdaa448bbae305375}
+      \strng{authorfullhash}{c67ad6b206238b8cdaa448bbae305375}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Python RFM69 library for RaspberryPi}
+      \field{urlday}{22}
+      \field{urlmonth}{11}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/etrombly/RFM69
+      \endverb
+      \verb{url}
+      \verb https://github.com/etrombly/RFM69
+      \endverb
+    \endentry
+    \entry{raspberrypiDoc}{url}{}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labeltitlesource}{title}
+      \field{title}{RPI RFM69 documentation}
+      \field{urlday}{23}
+      \field{urlmonth}{11}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://rpi-rfm69.readthedocs.io/en/latest/
+      \endverb
+      \verb{url}
+      \verb https://rpi-rfm69.readthedocs.io/en/latest/
+      \endverb
+    \endentry
+  \enddatalist
+  \missing{arduinoIDEDownload}
+  \missing{edgeFog}
+  \missing{noModel}
+  \missing{nodejssavescost}
+\endrefsection
 \endinput
+

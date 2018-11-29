@@ -31,7 +31,7 @@ onehalfspacing, % Single line spacing, alternatives: onehalfspacing or doublespa
 %nolistspacing, % If the document is onehalfspacing or doublespacing, uncomment this to set spacing in lists to single
 %liststotoc, % Uncomment to add the list of figures/tables/etc to the table of contents
 %toctotoc, % Uncomment to add the main table of contents to the table of contents
-%parskip, % Uncomment to add space between paragraphs
+parskip, % Uncomment to add space between paragraphs
 %nohyperref, % Uncomment to not load the hyperref package
 headsepline, % Uncomment to get a line under the header
 %chapterinoneline, % Uncomment to place the chapter title next to the number on one line
@@ -42,17 +42,43 @@ headsepline, % Uncomment to get a line under the header
 \usepackage[T1]{fontenc} % Output font encoding for international characters
 %\usepackage{enumitem}
 \usepackage{mathpazo} % Use the Palatino font by default
+\usepackage{url}
+\usepackage[nobottomtitles*]{titlesec}
+%\usepackage[backend=bibtex,style=authoryear,natbib=true]{biblatex} % Use the bibtex backend with the authoryear citation style (which resembles APA)
+\usepackage{rotating}
+\usepackage{caption, copyrightbox}
+\usepackage{float}
 
-\usepackage[backend=bibtex,style=authoryear,natbib=true]{biblatex} % Use the bibtex backend with the authoryear citation style (which resembles APA)
+\usepackage[
+    backend=biber,
+    style=numeric,
+	natbib=true,
+	sorting= none,
+	url=true, 
+	urldate=long,
+    doi=true,
+	eprint=true,
+]{biblatex}
+
 
 \addbibresource{example.bib} % The filename of the bibliography
 
 \usepackage[autostyle=true]{csquotes} % Required to generate language-dependent quotes in the bibliography
 
+\DeclareSourcemap{
+    \maps{
+        \map[overwrite]{
+            \step[fieldsource=urldate,
+            match=\regexp{([0-9]{2})\.([0-9]{2})\.([0-9]{4})},
+            replace={$3-$2-$1},
+            final]
+        }
+    }
+}
+
 %----------------------------------------------------------------------------------------
 %	MARGIN SETTINGS
 %----------------------------------------------------------------------------------------
-
 \geometry{
 	paper=a4paper, % Change to letterpaper for US letter
 	inner=2.5cm, % Inner margin

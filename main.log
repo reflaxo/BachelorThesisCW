@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.8.15)  24 NOV 2018 18:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.8.15)  29 NOV 2018 16:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -240,7 +240,9 @@ File: bk11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 . 
 . Defining command \addsec with sig. ' s o m ' on line 128.
 .................................................
- (/usr/local/texlive/2018/texmf-dist/tex/generic/babel/babel.sty
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/parskip/parskip.sty
+Package: parskip 2001/04/09 non-zero parskip adjustments
+) (/usr/local/texlive/2018/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2018/02/14 3.18 The Babel package
  (/usr/local/texlive/2018/texmf-dist/tex/generic/babel/switch.def
 File: switch.def 2018/02/14 3.18 Babel switching mechanism
@@ -911,6 +913,228 @@ LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 )) (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/mathpazo.sty
 Package: mathpazo 2005/04/12 PSNFSS-v9.2a Palatino w/ Pazo Math (D.Puga, WaS) 
 \symupright=\mathgroup4
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
+\ttl@box=\box54
+\beforetitleunit=\skip60
+\aftertitleunit=\skip61
+\ttl@plus=\dimen181
+\ttl@minus=\dimen182
+\ttl@toksa=\toks21
+\titlewidth=\dimen183
+\titlewidthlast=\dimen184
+\titlewidthfirst=\dimen185
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count277
+\rotFPtop=\skip62
+\rotFPbot=\skip63
+\rot@float@box=\box55
+\rot@mess@toks=\toks22
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/copyrightbox/copyrightbox.sty (/usr/local/texlive/2018/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/local/texlive/2018/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/local/texlive/2018/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks23
+\pgfutil@tempdima=\dimen186
+\pgfutil@tempdimb=\dimen187
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box56
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+)) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+))
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/local/texlive/2018/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks24
+\pgfkeys@temptoks=\toks25
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks26
+))
+\pgf@x=\dimen188
+\pgf@y=\dimen189
+\pgf@xa=\dimen190
+\pgf@ya=\dimen191
+\pgf@xb=\dimen192
+\pgf@yb=\dimen193
+\pgf@xc=\dimen194
+\pgf@yc=\dimen195
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count278
+\c@pgf@countb=\count279
+\c@pgf@countc=\count280
+\c@pgf@countd=\count281
+\t@pgf@toka=\toks27
+\t@pgf@tokb=\toks28
+\t@pgf@tokc=\toks29
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-pdftex.def
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+))) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count282
+\pgfsyssoftpath@bigbuffer@items=\count283
+) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+)) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen196
+\pgfmath@count=\count284
+\pgfmath@box=\box57
+\pgfmath@toks=\toks30
+\pgfmath@stack@operand=\toks31
+\pgfmath@stack@operation=\toks32
+) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex))) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count285
+)) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen197
+\pgf@picmaxx=\dimen198
+\pgf@picminy=\dimen199
+\pgf@picmaxy=\dimen256
+\pgf@pathminx=\dimen257
+\pgf@pathmaxx=\dimen258
+\pgf@pathminy=\dimen259
+\pgf@pathmaxy=\dimen260
+\pgf@xx=\dimen261
+\pgf@xy=\dimen262
+\pgf@yx=\dimen263
+\pgf@yy=\dimen264
+\pgf@zx=\dimen265
+\pgf@zy=\dimen266
+) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen267
+\pgf@path@lasty=\dimen268
+) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen269
+\pgf@shorten@start@additional=\dimen270
+) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+\pgfpic=\box58
+\pgf@hbox=\box59
+\pgf@layerbox@main=\box60
+\pgf@picture@serial@count=\count286
+) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen271
+) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen272
+\pgf@pt@y=\dimen273
+\pgf@pt@temp=\dimen274
+) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen275
+) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen276
+\pgf@sys@shading@range@num=\count287
+) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+\pgfexternal@startupbox=\box61
+)) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+))) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+\pgfnodeparttextbox=\box62
+) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen277
+\pgf@nodesepend=\dimen278
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
+)) (/usr/local/texlive/2018/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/local/texlive/2018/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/usr/local/texlive/2018/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen279
+\pgffor@skip=\dimen280
+\pgffor@stack=\toks33
+\pgffor@toks=\toks34
+)) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
+\pgf@plot@mark@count=\count288
+\pgfplotmarksize=\dimen281
+)
+\tikz@lastx=\dimen282
+\tikz@lasty=\dimen283
+\tikz@lastxsaved=\dimen284
+\tikz@lastysaved=\dimen285
+\tikzleveldistance=\dimen286
+\tikzsiblingdistance=\dimen287
+\tikz@figbox=\box63
+\tikz@figbox@bg=\box64
+\tikz@tempbox=\box65
+\tikz@tempbox@bg=\box66
+\tikztreelevel=\count289
+\tikznumberofchildren=\count290
+\tikznumberofcurrentchild=\count291
+\tikz@fig@count=\count292
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count293
+\pgfmatrixcurrentcolumn=\count294
+\pgf@matrix@numberofcolumns=\count295
+)
+\tikz@expandcount=\count296
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
+))) (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.1a (rcs-revision 1.7)
+)
+\tu@tmpa=\dimen288
+\CRB@ydiffl=\dimen289
+\CRB@xdiffl=\dimen290
+Package: copyrightbox 2011/11/27  v 0.1
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count297
+\float@exts=\toks35
+\float@box=\box67
+\@float@everytoks=\toks36
+\@floatcapt=\box68
+)
+Package scrhack Info: loading float hack on input line 51.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/koma-script/float.hak
+File: float.hak 2018/03/30 v3.25 KOMA-Script package (hacking package float)
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/koma-script/tocbasic.sty
+Package: tocbasic 2018/03/30 v3.25 KOMA-Script package (handling toc-files)
+\scr@dte@tocline@numberwidth=\skip64
+\scr@dte@tocline@numbox=\box69
+)
+Package scrhack Info: redefining \newfloat on input line 163.
+Package scrhack Info: redefining \listof on input line 163.
+Package scrhack Info: undefining \float@addtolists on input line 163.
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2018/03/04 v3.11 programmable bibliographies (PK/MW)
  (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
@@ -939,217 +1163,206 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 ))) (/usr/local/texlive/2018/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count277
+\lrq@indent=\count298
  (/usr/local/texlive/2018/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
-)) (/usr/local/texlive/2018/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/url/url.sty
-\Urlmuskip=\muskip16
-Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-) (/usr/local/texlive/2018/texmf-dist/tex/generic/xstring/xstring.sty (/usr/local/texlive/2018/texmf-dist/tex/generic/xstring/xstring.tex
-\@xs@message=\write3
-\integerpart=\count278
-\decimalpart=\count279
+)) (/usr/local/texlive/2018/texmf-dist/tex/generic/xstring/xstring.sty (/usr/local/texlive/2018/texmf-dist/tex/generic/xstring/xstring.tex
+\@xs@message=\write4
+\integerpart=\count299
+\decimalpart=\count300
 )
 Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 )
-\c@tabx@nest=\count280
-\c@listtotal=\count281
-\c@listcount=\count282
-\c@liststart=\count283
-\c@liststop=\count284
-\c@citecount=\count285
-\c@citetotal=\count286
-\c@multicitecount=\count287
-\c@multicitetotal=\count288
-\c@instcount=\count289
-\c@maxnames=\count290
-\c@minnames=\count291
-\c@maxitems=\count292
-\c@minitems=\count293
-\c@citecounter=\count294
-\c@savedcitecounter=\count295
-\c@uniquelist=\count296
-\c@uniquename=\count297
-\c@refsection=\count298
-\c@refsegment=\count299
-\c@maxextratitle=\count300
-\c@maxextratitleyear=\count301
-\c@maxextradate=\count302
-\c@maxextraalpha=\count303
-\c@abbrvpenalty=\count304
-\c@highnamepenalty=\count305
-\c@lownamepenalty=\count306
-\c@maxparens=\count307
-\c@parenlevel=\count308
-\blx@tempcnta=\count309
-\blx@tempcntb=\count310
-\blx@tempcntc=\count311
-\blx@maxsection=\count312
-\blx@maxsegment@0=\count313
-\blx@notetype=\count314
-\blx@parenlevel@text=\count315
-\blx@parenlevel@foot=\count316
-\blx@sectionciteorder@0=\count317
-\labelnumberwidth=\skip60
-\labelalphawidth=\skip61
-\biblabelsep=\skip62
-\bibitemsep=\skip63
-\bibnamesep=\skip64
-\bibinitsep=\skip65
-\bibparsep=\skip66
-\bibhang=\skip67
-\blx@bcfin=\read2
-\blx@bcfout=\write4
-\c@mincomprange=\count318
-\c@maxcomprange=\count319
-\c@mincompwidth=\count320
+\c@tabx@nest=\count301
+\c@listtotal=\count302
+\c@listcount=\count303
+\c@liststart=\count304
+\c@liststop=\count305
+\c@citecount=\count306
+\c@citetotal=\count307
+\c@multicitecount=\count308
+\c@multicitetotal=\count309
+\c@instcount=\count310
+\c@maxnames=\count311
+\c@minnames=\count312
+\c@maxitems=\count313
+\c@minitems=\count314
+\c@citecounter=\count315
+\c@savedcitecounter=\count316
+\c@uniquelist=\count317
+\c@uniquename=\count318
+\c@refsection=\count319
+\c@refsegment=\count320
+\c@maxextratitle=\count321
+\c@maxextratitleyear=\count322
+\c@maxextradate=\count323
+\c@maxextraalpha=\count324
+\c@abbrvpenalty=\count325
+\c@highnamepenalty=\count326
+\c@lownamepenalty=\count327
+\c@maxparens=\count328
+\c@parenlevel=\count329
+\blx@tempcnta=\count330
+\blx@tempcntb=\count331
+\blx@tempcntc=\count332
+\blx@maxsection=\count333
+\blx@maxsegment@0=\count334
+\blx@notetype=\count335
+\blx@parenlevel@text=\count336
+\blx@parenlevel@foot=\count337
+\blx@sectionciteorder@0=\count338
+\labelnumberwidth=\skip65
+\labelalphawidth=\skip66
+\biblabelsep=\skip67
+\bibitemsep=\skip68
+\bibnamesep=\skip69
+\bibinitsep=\skip70
+\bibparsep=\skip71
+\bibhang=\skip72
+\blx@bcfin=\read3
+\blx@bcfout=\write5
+\c@mincomprange=\count339
+\c@maxcomprange=\count340
+\c@mincompwidth=\count341
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/blx-dm.def
 File: blx-dm.def 2018/03/04 v3.11 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
-Package biblatex Info: ... file 'authoryear.dbx' not found.
+Package biblatex Info: ... file 'numeric.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count321
-\c@savedafterword=\count322
-\c@annotator=\count323
-\c@savedannotator=\count324
-\c@author=\count325
-\c@savedauthor=\count326
-\c@bookauthor=\count327
-\c@savedbookauthor=\count328
-\c@commentator=\count329
-\c@savedcommentator=\count330
-\c@editor=\count331
-\c@savededitor=\count332
-\c@editora=\count333
-\c@savededitora=\count334
-\c@editorb=\count335
-\c@savededitorb=\count336
-\c@editorc=\count337
-\c@savededitorc=\count338
-\c@foreword=\count339
-\c@savedforeword=\count340
-\c@holder=\count341
-\c@savedholder=\count342
-\c@introduction=\count343
-\c@savedintroduction=\count344
-\c@namea=\count345
-\c@savednamea=\count346
-\c@nameb=\count347
-\c@savednameb=\count348
-\c@namec=\count349
-\c@savednamec=\count350
-\c@translator=\count351
-\c@savedtranslator=\count352
-\c@shortauthor=\count353
-\c@savedshortauthor=\count354
-\c@shorteditor=\count355
-\c@savedshorteditor=\count356
-\c@labelname=\count357
-\c@savedlabelname=\count358
-\c@institution=\count359
-\c@savedinstitution=\count360
-\c@lista=\count361
-\c@savedlista=\count362
-\c@listb=\count363
-\c@savedlistb=\count364
-\c@listc=\count365
-\c@savedlistc=\count366
-\c@listd=\count367
-\c@savedlistd=\count368
-\c@liste=\count369
-\c@savedliste=\count370
-\c@listf=\count371
-\c@savedlistf=\count372
-\c@location=\count373
-\c@savedlocation=\count374
-\c@organization=\count375
-\c@savedorganization=\count376
-\c@origlocation=\count377
-\c@savedoriglocation=\count378
-\c@origpublisher=\count379
-\c@savedorigpublisher=\count380
-\c@publisher=\count381
-\c@savedpublisher=\count382
-\c@language=\count383
-\c@savedlanguage=\count384
-\c@origlanguage=\count385
-\c@savedoriglanguage=\count386
-\c@pageref=\count387
-\c@savedpageref=\count388
-\shorthandwidth=\skip68
-\shortjournalwidth=\skip69
-\shortserieswidth=\skip70
-\shorttitlewidth=\skip71
-\shortauthorwidth=\skip72
-\shorteditorwidth=\skip73
-\locallabelnumberwidth=\skip74
-\locallabelalphawidth=\skip75
-\localshorthandwidth=\skip76
-\localshortjournalwidth=\skip77
-\localshortserieswidth=\skip78
-\localshorttitlewidth=\skip79
-\localshortauthorwidth=\skip80
-\localshorteditorwidth=\skip81
+\c@afterword=\count342
+\c@savedafterword=\count343
+\c@annotator=\count344
+\c@savedannotator=\count345
+\c@author=\count346
+\c@savedauthor=\count347
+\c@bookauthor=\count348
+\c@savedbookauthor=\count349
+\c@commentator=\count350
+\c@savedcommentator=\count351
+\c@editor=\count352
+\c@savededitor=\count353
+\c@editora=\count354
+\c@savededitora=\count355
+\c@editorb=\count356
+\c@savededitorb=\count357
+\c@editorc=\count358
+\c@savededitorc=\count359
+\c@foreword=\count360
+\c@savedforeword=\count361
+\c@holder=\count362
+\c@savedholder=\count363
+\c@introduction=\count364
+\c@savedintroduction=\count365
+\c@namea=\count366
+\c@savednamea=\count367
+\c@nameb=\count368
+\c@savednameb=\count369
+\c@namec=\count370
+\c@savednamec=\count371
+\c@translator=\count372
+\c@savedtranslator=\count373
+\c@shortauthor=\count374
+\c@savedshortauthor=\count375
+\c@shorteditor=\count376
+\c@savedshorteditor=\count377
+\c@labelname=\count378
+\c@savedlabelname=\count379
+\c@institution=\count380
+\c@savedinstitution=\count381
+\c@lista=\count382
+\c@savedlista=\count383
+\c@listb=\count384
+\c@savedlistb=\count385
+\c@listc=\count386
+\c@savedlistc=\count387
+\c@listd=\count388
+\c@savedlistd=\count389
+\c@liste=\count390
+\c@savedliste=\count391
+\c@listf=\count392
+\c@savedlistf=\count393
+\c@location=\count394
+\c@savedlocation=\count395
+\c@organization=\count396
+\c@savedorganization=\count397
+\c@origlocation=\count398
+\c@savedoriglocation=\count399
+\c@origpublisher=\count400
+\c@savedorigpublisher=\count401
+\c@publisher=\count402
+\c@savedpublisher=\count403
+\c@language=\count404
+\c@savedlanguage=\count405
+\c@origlanguage=\count406
+\c@savedoriglanguage=\count407
+\c@pageref=\count408
+\c@savedpageref=\count409
+\shorthandwidth=\skip73
+\shortjournalwidth=\skip74
+\shortserieswidth=\skip75
+\shorttitlewidth=\skip76
+\shortauthorwidth=\skip77
+\shorteditorwidth=\skip78
+\locallabelnumberwidth=\skip79
+\locallabelalphawidth=\skip80
+\localshorthandwidth=\skip81
+\localshortjournalwidth=\skip82
+\localshortserieswidth=\skip83
+\localshorttitlewidth=\skip84
+\localshortauthorwidth=\skip85
+\localshorteditorwidth=\skip86
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/blx-compat.def
 File: blx-compat.def 2018/03/04 v3.11 biblatex compatibility (PK/MW)
 )
-Package biblatex Info: Trying to load BibTeX backend compatibility...
-Package biblatex Info: ... file 'blx-bibtex.def' found.
- (/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/blx-bibtex.def
-File: blx-bibtex.def 2018/03/04 v3.11 biblatex compatibility (PK/MW)
-
-
-Package biblatex Warning: Using fall-back BibTeX(8) backend:
-(biblatex)                functionality may be reduced/unavailable.
-
-)
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2018/03/04 v3.11 biblatex compatibility (PK/MW)
-\c@textcitecount=\count389
-\c@textcitetotal=\count390
-\c@textcitemaxnames=\count391
-\c@biburlnumpenalty=\count392
-\c@biburlucpenalty=\count393
-\c@biburllcpenalty=\count394
-\c@smartand=\count395
+\c@textcitecount=\count410
+\c@textcitetotal=\count411
+\c@textcitemaxnames=\count412
+\c@biburlnumpenalty=\count413
+\c@biburlucpenalty=\count414
+\c@biburllcpenalty=\count415
+\c@smartand=\count416
 )
 Package biblatex Info: Trying to load natbib compatibility...
 Package biblatex Info: ... file 'blx-natbib.def' found.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/blx-natbib.def
 File: blx-natbib.def 2018/03/04 v3.11 biblatex compatibility (PK/MW)
 )
-Package biblatex Info: Trying to load bibliography style 'authoryear'...
-Package biblatex Info: ... file 'authoryear.bbx' found.
- (/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/bbx/authoryear.bbx
-File: authoryear.bbx 2018/03/04 v3.11 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2018/03/04 v3.11 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2018/03/04 v3.11 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count396
-\c@bbx:relatedtotal=\count397
+\c@bbx:relatedcount=\count417
+\c@bbx:relatedtotal=\count418
 ))
-Package biblatex Info: Trying to load citation style 'authoryear'...
-Package biblatex Info: ... file 'authoryear.cbx' found.
- (/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/cbx/authoryear.cbx
-File: authoryear.cbx 2018/03/04 v3.11 biblatex citation style (PK/MW)
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+File: numeric.cbx 2018/03/04 v3.11 biblatex citation style (PK/MW)
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
 Package biblatex Info: Redefining '\footcitetext'.
 Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
 Package biblatex Info: Redefining '\textcite'.
 Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
 )
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
@@ -1157,13 +1370,13 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
 File: biblatex.cfg 
 )) (/usr/local/texlive/2018/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2018/02/11 v5.2c context-sensitive quotations (JAW)
-\csq@reset=\count398
-\csq@gtype=\count399
-\csq@glevel=\count400
-\csq@qlevel=\count401
-\csq@maxlvl=\count402
-\csq@tshold=\count403
-\csq@ltx@everypar=\toks21
+\csq@reset=\count419
+\csq@gtype=\count420
+\csq@glevel=\count421
+\csq@qlevel=\count422
+\csq@maxlvl=\count423
+\csq@tshold=\count424
+\csq@ltx@everypar=\toks37
  (/usr/local/texlive/2018/texmf-dist/tex/latex/csquotes/csquotes.def
 File: csquotes.def 2018/02/11 v5.2c csquotes generic definitions (JAW)
 )
@@ -1206,15 +1419,15 @@ Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
-\@linkdim=\dimen181
-\Hy@linkcounter=\count404
-\Hy@pagecounter=\count405
+\@linkdim=\dimen291
+\Hy@linkcounter=\count425
+\Hy@pagecounter=\count426
  (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count406
+\Hy@SavedSpaceFactor=\count427
  (/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
@@ -1225,12 +1438,12 @@ Package hyperref Info: Plain pages OFF on input line 4524.
 Package hyperref Info: Backreferencing OFF on input line 4529.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4762.
-\c@Hy@tempcnt=\count407
+\c@Hy@tempcnt=\count428
 LaTeX Info: Redefining \url on input line 5115.
-\XeTeXLinkMargin=\dimen182
-\Fld@menulength=\count408
-\Field@Width=\dimen183
-\Fld@charsize=\dimen184
+\XeTeXLinkMargin=\dimen292
+\Fld@menulength=\count429
+\Field@Width=\dimen293
+\Fld@charsize=\dimen294
 Package hyperref Info: Hyper figures OFF on input line 6369.
 Package hyperref Info: Link nesting OFF on input line 6374.
 Package hyperref Info: Hyper index ON on input line 6377.
@@ -1240,34 +1453,34 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6394.
 Package hyperref Info: PDF/A mode OFF on input line 6399.
 LaTeX Info: Redefining \ref on input line 6439.
 LaTeX Info: Redefining \pageref on input line 6443.
-\Hy@abspage=\count409
-\c@Item=\count410
-\c@Hfootnote=\count411
+\Hy@abspage=\count430
+\c@Item=\count431
+\c@Hfootnote=\count432
 )
 Package scrhack Info: hyperref hack deactivated because of
 (scrhack)             detection of hyperref version, that doesn't
-(scrhack)             need that hack, on input line 90.
+(scrhack)             need that hack, on input line 116.
 Package hyperref Info: Driver (autodetected): hpdftex.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
-\Fld@listcount=\count412
-\c@bookmark@seq@number=\count413
+\Fld@listcount=\count433
+\c@bookmark@seq@number=\count434
  (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 282.
 )
-\Hy@SectionHShift=\skip82
+\Hy@SectionHShift=\skip87
 )
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 90.
-Package hyperref Info: Option `hypertexnames' set `false' on input line 90.
-Package hyperref Info: Option `colorlinks' set `true' on input line 90.
-Package hyperref Info: Option `unicode' set `true' on input line 90.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 116.
+Package hyperref Info: Option `hypertexnames' set `false' on input line 116.
+Package hyperref Info: Option `colorlinks' set `true' on input line 116.
+Package hyperref Info: Option `unicode' set `true' on input line 116.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2018/02/06 v6.86b Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Option `breaklinks' set `true' on input line 90.
+Package hyperref Info: Option `breaklinks' set `true' on input line 116.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/lbx/english.lbx
@@ -1275,37 +1488,26 @@ File: english.lbx 2018/03/04 v3.11 biblatex localization (PK/MW)
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
- (./main.aux (./Chapters/Chapter1.aux) (./Chapters/Chapter2.aux) (./Chapters/Chapter3.aux
-
-LaTeX Warning: Label `Chapter2' multiply defined.
-
-) (./Chapters/Chapter4.aux
-
-LaTeX Warning: Label `fig:FrontViewTable' multiply defined.
-
-
-LaTeX Warning: Label `fig:FrontViewTable' multiply defined.
-
-) (./Chapters/Chapter5.aux))
+ (./main.aux (./Chapters/Chapter1.aux) (./Chapters/Chapter2.aux) (./Chapters/Chapter3.aux) (./Chapters/Chapter4.aux) (./Chapters/Chapter5.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Try loading font information for T1+ppl on input line 90.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 116.
+LaTeX Font Info:    ... okay on input line 116.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 116.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
@@ -1389,17 +1591,17 @@ Dictionary: translator-basic-dictionary, Language: English
 File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 ) (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count414
-\scratchdimen=\dimen185
-\scratchbox=\box54
-\nofMPsegments=\count415
-\nofMParguments=\count416
-\everyMPshowfont=\toks22
-\MPscratchCnt=\count417
-\MPscratchDim=\dimen186
-\MPnumerator=\count418
-\makeMPintoPDFobject=\count419
-\everyMPtoPDFconversion=\toks23
+\scratchcounter=\count435
+\scratchdimen=\dimen295
+\scratchbox=\box70
+\nofMPsegments=\count436
+\nofMParguments=\count437
+\everyMPshowfont=\toks38
+\MPscratchCnt=\count438
+\MPscratchDim=\dimen296
+\MPnumerator=\count439
+\makeMPintoPDFobject=\count440
+\everyMPtoPDFconversion=\toks39
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
  (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
@@ -1413,7 +1615,9 @@ Package grfext Info: Graphics extension search list:
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
+Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
 *geometry* driver: auto-detecting
@@ -1452,174 +1656,98 @@ Package caption Info: End \AtBeginDocument code.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package scrlayer Info: Setting magic \footheight to \baselineskip while
-(scrlayer)             \begin{document} on input line 90.
-Package scrbase Info: activating english \abbrevname on input line 90.
-Package scrbase Info: activating english \byname on input line 90.
-Package scrbase Info: activating english \acknowledgementname on input line 90.
-Package scrbase Info: activating english \authorshipname on input line 90.
-Package scrbase Info: activating english \constantsname on input line 90.
-Package scrbase Info: activating english \symbolsname on input line 90.
-\big@size=\dimen187
+(scrlayer)             \begin{document} on input line 116.
+Package scrbase Info: activating english \abbrevname on input line 116.
+Package scrbase Info: activating english \byname on input line 116.
+Package scrbase Info: activating english \acknowledgementname on input line 116.
+Package scrbase Info: activating english \authorshipname on input line 116.
+Package scrbase Info: activating english \constantsname on input line 116.
+Package scrbase Info: activating english \symbolsname on input line 116.
+\big@size=\dimen297
+ABD: EveryShipout initializing macros
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-Package biblatex Info: Input encoding 'utf8' specified.
-Package biblatex Info: Data encoding 'utf8' specified.
-(biblatex)             No need to reencode data.
-\openout4 = `main-blx.bib'.
+\openout5 = `main.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
-(./main.bbl
+ (./main.bbl
 
-Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'radiorange':
-(biblatex)                - Invalid format of field 'urldate'.
-
-
-Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'prototypeDef':
-(biblatex)                - Invalid format of field 'date' 
-(biblatex)                - Invalid format of field 'date' 
-(biblatex)                - Invalid format of field 'month'.
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'adafruitRecommends':
+(biblatex)                - Entry 'adafruitRecommends' (example.bib): Invalid format '2001-11-228' of date field 'urldate' - ignoring.
 
 
-Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'designThinking':
-(biblatex)                - Invalid format of field 'urldate'.
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                arduinoIDEDownload
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
 
 
-Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'designThinkingBootleg':
-(biblatex)                - Invalid format of field 'urldate'.
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                edgeFog
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
 
 
-Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'socketioUnity2':
-(biblatex)                - Invalid format of field 'urldate'.
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                noModel
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
 
 
-Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'gartner0':
-(biblatex)                - Invalid format of field 'urldate'.
-
-
-Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'socketioUnity1':
-(biblatex)                - Invalid format of field 'urldate'.
-
-
-Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'postgresUsers':
-(biblatex)                - Invalid format of field 'urldate'.
-
-
-Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'createReactApp':
-(biblatex)                - Invalid format of field 'urldate'.
-
-
-Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'reactStructure':
-(biblatex)                - Invalid format of field 'urldate'.
-
-
-Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'reactDND':
-(biblatex)                - Invalid format of field 'urldate'.
-
-
-Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'raspberrypiDoc':
-(biblatex)                - Invalid format of field 'urldate'.
-
-
-Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'socketioUnity3':
-(biblatex)                - Invalid format of field 'urldate'.
-
-
-Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'socketioClients':
-(biblatex)                - Invalid format of field 'urldate'.
-
-
-Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'stackOverflowSurvey':
-(biblatex)                - Invalid format of field 'urldate'.
-
-
-Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'reactjsUsers':
-(biblatex)                - Invalid format of field 'urldate'.
-
-
-Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'designThinkingCrashCourse':
-(biblatex)                - Invalid format of field 'urldate'.
-
-
-Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'FogComputing1':
-(biblatex)                - Invalid format of field 'month'.
-
-
-Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'pg-promise':
-(biblatex)                - Invalid format of field 'urldate'.
-
-
-Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'raspberrypiLibRFM':
-(biblatex)                - Invalid format of field 'urldate'.
-
-
-Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'verizon':
-(biblatex)                - Invalid format of field 'urldate'.
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                nodejssavescost
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
 
 )
-Package biblatex Info: Reference section=0 on input line 90.
-Package biblatex Info: Reference segment=0 on input line 90.
-\AtBeginShipoutBox=\box55
-Package hyperref Info: Link coloring ON on input line 90.
+Package biblatex Info: Reference section=0 on input line 116.
+Package biblatex Info: Reference segment=0 on input line 116.
+\AtBeginShipoutBox=\box71
+Package hyperref Info: Link coloring ON on input line 116.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
  (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count420
+\c@section@level=\count441
 )
-LaTeX Info: Redefining \ref on input line 90.
-LaTeX Info: Redefining \pageref on input line 90.
-LaTeX Info: Redefining \nameref on input line 90.
+LaTeX Info: Redefining \ref on input line 116.
+LaTeX Info: Redefining \pageref on input line 116.
+LaTeX Info: Redefining \nameref on input line 116.
  (./main.out) (./main.out)
-\@outlinefile=\write5
-\openout5 = `main.out'.
+\@outlinefile=\write6
+\openout6 = `main.out'.
 
-LaTeX Font Info:    Try loading font information for OT1+ppl on input line 90.
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 116.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
-LaTeX Font Info:    Try loading font information for OML+zplm on input line 90.
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 116.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMS+zplm on input line 90.
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 116.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMX+zplm on input line 90.
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 116.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 90.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 116.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
 1: section
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 108.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 134.
 [1
 
 
@@ -1630,14 +1758,14 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <20.74> not available
 --------------------
  Declaration of Authorship
 --------------------
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 148.
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 174.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omsppl.fd
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 148.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 174.
 
-Underfull \hbox (badness 10000) in paragraph at lines 153--154
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
 
  []
 
@@ -1655,19 +1783,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 153--154
 
 ]
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 188.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 214.
  (./main.toc
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 3.
 
 1: section
 [9])
-\tf@toc=\write6
-\openout6 = `main.toc'.
+\tf@toc=\write7
+\openout7 = `main.toc'.
 
  [10] (./main.lof)
-\tf@lof=\write7
-\openout7 = `main.lof'.
+\tf@lof=\write8
+\openout8 = `main.lof'.
 
 
 1: section
@@ -1689,277 +1817,448 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 3.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 8.
-)
 1: section
 [1
 
 
-]
+]) [2]
 \openout2 = `Chapters/Chapter2.aux'.
 
- (./Chapters/Chapter2.tex [2
+ (./Chapters/Chapter2.tex
+Chapter 2.
+1: section
+[3
 
 
 
 ]
-Chapter 2.
-1: section
-[3]
-<Figures/designThinking.jpg, id=397, 707.64375pt x 404.26031pt>
+<Figures/designThinking.jpg, id=401, 707.64375pt x 404.26031pt>
 File: Figures/designThinking.jpg Graphic file (type jpg)
 <use Figures/designThinking.jpg>
 Package pdftex.def Info: Figures/designThinking.jpg  used on input line 55.
 (pdftex.def)             Requested size: 530.73152pt x 303.19449pt.
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 55.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/base/t1cmss.fd
+File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Try loading font information for OMS+cmss on input line 55.
+LaTeX Font Info:    No file OMScmss.fd. on input line 55.
+
+
+LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead on input line 55.
+
+[4 <./Figures/designThinking.jpg>]
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 67.
- [4 <./Figures/designThinking.jpg>]
-
-LaTeX Warning: Citation 'noModel' on page 5 undefined on input line 75.
-
-
-LaTeX Warning: Citation 'edgeFog' on page 5 undefined on input line 102.
-
-<Figures/gartnerIoT.png, id=410, 690.58pt x 682.55pt>
-File: Figures/gartnerIoT.png Graphic file (type png)
-<use Figures/gartnerIoT.png>
-Package pdftex.def Info: Figures/gartnerIoT.png  used on input line 107.
-(pdftex.def)             Requested size: 517.93373pt x 511.91125pt.
-[5]
-
-LaTeX Warning: Citation 'frontend' on page 6 undefined on input line 122.
-
-[6 <./Figures/gartnerIoT.png>]
-Overfull \hbox (20.56253pt too wide) in paragraph at lines 142--144
-\T1/ppl/m/n/10.95 spon-si-bil-i-ties. Com-po-nents com-bine the HTMl-markup and Javscript-functionality
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 76.
+ [5]
+<Figures/gartnerIoT2.png, id=421, 1269.74374pt x 660.4675pt>
+File: Figures/gartnerIoT2.png Graphic file (type png)
+<use Figures/gartnerIoT2.png>
+Package pdftex.def Info: Figures/gartnerIoT2.png  used on input line 103.
+(pdftex.def)             Requested size: 1269.74065pt x 660.46588pt.
+ [6 <./Figures/gartnerIoT2.png>]
+Overfull \hbox (2.38649pt too wide) in paragraph at lines 147--154
+\T1/ppl/m/n/10.95 This layer de-fines how the com-mu-ni-ca-tion is tak-ing place within an IoT-system.
  []
 
 [7]
+<Figures/gartnerIoT.png, id=439, 690.58pt x 682.55pt>
+File: Figures/gartnerIoT.png Graphic file (type png)
+<use Figures/gartnerIoT.png>
+Package pdftex.def Info: Figures/gartnerIoT.png  used on input line 171.
+(pdftex.def)             Requested size: 690.57831pt x 682.54834pt.
+ [8 <./Figures/gartnerIoT.png>]
+Overfull \hbox (11.6934pt too wide) in paragraph at lines 201--206
+\T1/ppl/m/n/10.95 smart ob-jects like mo-tors, pumps with smart data pre-pro-cess-ing ca-pa-bil-i-ties [[]]. 
+ []
 
-LaTeX Warning: Citation 'ajax' on page 8 undefined on input line 169.
-
-
-LaTeX Warning: Citation 'gogleTrendNode' on page 8 undefined on input line 203.
-
-
-LaTeX Warning: Citation 'nodeLearningcurve' on page 8 undefined on input line 206.
-
-
-Overfull \hbox (3.84326pt too wide) in paragraph at lines 200--215
-\T1/ppl/m/n/10.95 //Was ist mid-dle-ware? in dme fall node js Node.js is an open-source, cross-plattform,
+[9]
+Overfull \hbox (24.06662pt too wide) in paragraph at lines 234--237
+\T1/ppl/m/n/10.95 spon-si-bil-i-ties. Com-po-nents com-bine the HTML-markup and Javscript-functionality
  []
 
 
-Overfull \hbox (47.45613pt too wide) in paragraph at lines 200--215
-\T1/ppl/m/n/10.95 pa-nies learn-ing costs. Node.js is es-ti-mated to have a high learn-ing curve ([]).
+Overfull \hbox (1.84904pt too wide) in paragraph at lines 244--249
+\T1/ppl/m/n/10.95 A Doc-u-ment Ob-ject Model (DOM) is a log-i-cal struc-ture of doc-u-ments in HTML,
  []
 
-[8]
+<Figures/ReactExampleFullsize.png, id=466, 483.2454pt x 568.0422pt>
+File: Figures/ReactExampleFullsize.png Graphic file (type png)
+<use Figures/ReactExampleFullsize.png>
+Package pdftex.def Info: Figures/ReactExampleFullsize.png  used on input line 259.
+(pdftex.def)             Requested size: 604.05527pt x 710.05101pt.
+<Figures/EditExample1.png, id=467, 971.63pt x 231.86626pt>
+File: Figures/EditExample1.png Graphic file (type png)
+<use Figures/EditExample1.png>
+Package pdftex.def Info: Figures/EditExample1.png  used on input line 267.
+(pdftex.def)             Requested size: 728.72072pt x 173.89925pt.
+[10]
+Overfull \hbox (7.10599pt too wide) in paragraph at lines 314--317
+\T1/ppl/m/n/10.95 Middleware is "soft-ware that acts as a bridge be-tween an op-er-at-ing sys-tem or database
+ []
 
-LaTeX Warning: Citation 'arduinoIDEDownload' on page 9 undefined on input line 219.
-
-
-Overfull \hbox (2.57191pt too wide) in paragraph at lines 217--222
-\T1/ppl/m/n/10.95 //Was ist ein de-vice im iot kon-text? die mi-cro-con-troller Ar-duino is a microcontroller-
+[11]
+Overfull \hbox (33.98781pt too wide) in paragraph at lines 329--342
+\T1/ppl/m/n/10.95 49.6% it is this years "Most Pop-u-lar Frame-work, Libary or Tool" on this years Stackoverflow-
  []
 
 
-Overfull \hbox (6.10901pt too wide) in paragraph at lines 217--222
-\T1/ppl/m/n/10.95 pro-vides its own In-te-grated De-vel-op-ment En-vi-ro-ment(IDE) ([]).
+Overfull \hbox (1.1826pt too wide) in paragraph at lines 363--367
+\T1/ppl/m/n/10.95 and re-spond on run-time. Check-ing for changes usu-ally hap-pens here, whereas
  []
 
-) [9]
+[12]
+<Figures/adafruitSPI.png, id=496, 501.875pt x 426.59375pt>
+File: Figures/adafruitSPI.png Graphic file (type png)
+<use Figures/adafruitSPI.png>
+Package pdftex.def Info: Figures/adafruitSPI.png  used on input line 378.
+(pdftex.def)             Requested size: 376.40532pt x 319.94452pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [13] [14 <./Figures/ReactExampleFullsize.png> <./Figures/EditExample1.png>] [15 <./Figures/adafruitSPI.png>]
 \openout2 = `Chapters/Chapter3.aux'.
 
- (./Chapters/Chapter3.tex [10
+ (./Chapters/Chapter3.tex [16
 
 
 
 ]
 Chapter 3.
 
-Overfull \hbox (3.7775pt too wide) in paragraph at lines 13--16
-\T1/ppl/m/n/10.95 depending sen-sors for each rid-dle. The gate-way de-vice was an Adafruit Feather
+Overfull \hbox (14.47499pt too wide) in paragraph at lines 17--24
+\T1/ppl/m/n/10.95 mod-ules.[[][]28[][]] The RFM69HCW is very cheap, easy to use and to set-up transceiver.
  []
 
 
-LaTeX Warning: Citation 'LowPowerlab' on page 11 undefined on input line 20.
-
-
-LaTeX Warning: Citation 'Radiohead' on page 11 undefined on input line 20.
-
-
-Overfull \hbox (17.3877pt too wide) in paragraph at lines 16--26
-\T1/ppl/m/n/10.95 and setup Transceiver. They do pack-e-ti-za-tion, er-ror cor-rec-tion and auto-retransmit
+Overfull \hbox (7.8618pt too wide) in paragraph at lines 17--24
+\T1/ppl/m/n/10.95 transceivers in the room. There are two open-source libaries for the RFM69HCW,
  []
 
 
-Overfull \hbox (53.0086pt too wide) in paragraph at lines 16--26
-\T1/ppl/m/n/10.95 There are two open-source libaries for the RFM69HCW, the Low-Pow-er-lab ([])
- []
-
-
-Overfull \hbox (5.38702pt too wide) in paragraph at lines 26--30
-\T1/ppl/m/n/10.95 The In-for-ma-tion Layer was build around a sim-ple event model: the Transceivers
+Overfull \hbox (26.55324pt too wide) in paragraph at lines 30--32
+\T1/ppl/m/n/10.95 the gate-way de-tected with a spec-i-fied "Gate-wayID". For security-reasons, password-
  []
 
 1: section
-[11]
-<Figures/oldEscapeUml.png, id=466, 1231.9626pt x 798.8244pt>
-File: Figures/oldEscapeUml.png Graphic file (type png)
-<use Figures/oldEscapeUml.png>
-Package pdftex.def Info: Figures/oldEscapeUml.png  used on input line 41.
-(pdftex.def)             Requested size: 923.9697pt x 599.11684pt.
- [12 <./Figures/oldEscapeUml.png>]
-Overfull \hbox (7.05153pt too wide) in paragraph at lines 89--91
+[17]
+File: Figures/adafruitSPI.png Graphic file (type png)
+<use Figures/adafruitSPI.png>
+Package pdftex.def Info: Figures/adafruitSPI.png  used on input line 50.
+(pdftex.def)             Requested size: 376.40532pt x 319.94452pt.
+
+Overfull \hbox (3.22977pt too wide) in paragraph at lines 54--58
+\T1/ppl/m/n/10.95 The In-for-ma-tion Layer was build around a sim-ple event model: the transceivers
+ []
+
+[18]
+<Figures/escapeUmlOld.png, id=540, 851.8224pt x 611.4042pt>
+File: Figures/escapeUmlOld.png Graphic file (type png)
+<use Figures/escapeUmlOld.png>
+Package pdftex.def Info: Figures/escapeUmlOld.png  used on input line 71.
+(pdftex.def)             Requested size: 1703.64066pt x 1222.80539pt.
+<Figures/switchCase.png, id=542, 461.725pt x 500.87125pt>
+File: Figures/switchCase.png Graphic file (type png)
+<use Figures/switchCase.png>
+Package pdftex.def Info: Figures/switchCase.png  used on input line 80.
+(pdftex.def)             Requested size: 346.29291pt x 375.6525pt.
+ [19] [20 <./Figures/escapeUmlOld.png>]
+Overfull \hbox (7.05153pt too wide) in paragraph at lines 128--130
 []\T1/ppl/m/n/10.95 Understand C# and Low-Level-Socket com-mu-ni-ca-tion to make changes in Unity
  []
 
-[13]
-Overfull \hbox (9.93079pt too wide) in paragraph at lines 141--142
-[]\T1/ppl/m/n/10.95 Retrieving in-for-ma-tion from the room must work au-to-mat-i-cally, there-fore should
- []
-
-<Figures/workload.png, id=492, 277.035pt x 217.7736pt>
-File: Figures/workload.png Graphic file (type png)
-<use Figures/workload.png>
-Package pdftex.def Info: Figures/workload.png  used on input line 151.
-(pdftex.def)             Requested size: 138.51715pt x 108.88652pt.
-) [14] [15 <./Figures/workload.png>]
+[21 <./Figures/switchCase.png>]) [22]
 \openout2 = `Chapters/Chapter4.aux'.
 
- (./Chapters/Chapter4.tex [16
+ (./Chapters/Chapter4.tex
+Chapter 4.
+1: section
+[23
 
 
 
 ]
-Chapter 4.
-<Figures/PoC.png, id=510, 437.9562pt x 532.389pt>
+<Figures/workload.png, id=584, 277.035pt x 217.7736pt>
+File: Figures/workload.png Graphic file (type png)
+<use Figures/workload.png>
+Package pdftex.def Info: Figures/workload.png  used on input line 75.
+(pdftex.def)             Requested size: 138.51715pt x 108.88652pt.
+ [24]
+<Figures/PoC.png, id=594, 437.9562pt x 532.389pt>
 File: Figures/PoC.png Graphic file (type png)
 <use Figures/PoC.png>
-Package pdftex.def Info: Figures/PoC.png  used on input line 25.
+Package pdftex.def Info: Figures/PoC.png  used on input line 104.
 (pdftex.def)             Requested size: 437.95512pt x 532.3877pt.
-1: section
-[17] [18 <./Figures/PoC.png>]
-Overfull \hbox (5.12466pt too wide) in paragraph at lines 77--79
-[]\T1/ppl/m/n/10.95 Designed to con-tain pro-cess-ing of in-com-ing mes-sages from
+
+Overfull \hbox (2.35338pt too wide) in paragraph at lines 119--122
+[]\T1/ppl/m/n/10.95 The changes were meant to re-flect con-cepts of a SoA, cre-at-ing self-contained, reusable
  []
 
-<Figures/registerRiddle.png, id=521, 369.38pt x 309.155pt>
+[25 <./Figures/workload.png>]
+<Figures/escapeUmlNew.png, id=600, 849.4134pt x 609.9588pt>
+File: Figures/escapeUmlNew.png Graphic file (type png)
+<use Figures/escapeUmlNew.png>
+Package pdftex.def Info: Figures/escapeUmlNew.png  used on input line 140.
+(pdftex.def)             Requested size: 1698.82266pt x 1219.91464pt.
+ [26 <./Figures/PoC.png>] [27 <./Figures/escapeUmlNew.png>]
+<Figures/prototypeV1.png, id=612, 505.087pt x 571.736pt>
+File: Figures/prototypeV1.png Graphic file (type png)
+<use Figures/prototypeV1.png>
+Package pdftex.def Info: Figures/prototypeV1.png  used on input line 166.
+(pdftex.def)             Requested size: 378.81432pt x 428.80093pt.
+<Figures/prototypeV2.png, id=613, 357.335pt x 656.854pt>
+File: Figures/prototypeV2.png Graphic file (type png)
+<use Figures/prototypeV2.png>
+Package pdftex.def Info: Figures/prototypeV2.png  used on input line 175.
+(pdftex.def)             Requested size: 178.66705pt x 328.4262pt.
+ [28 <./Figures/prototypeV1.png>] [29 <./Figures/prototypeV2.png>]
+Overfull \hbox (13.62181pt too wide) in paragraph at lines 221--224
+\T1/ppl/m/n/10.95 Designed to con-tain pro-cess-ing of in-com-ing mes-sages from the gate-way/PC.
+ []
+
+<Figures/registerRiddle.png, id=625, 369.38pt x 309.155pt>
 File: Figures/registerRiddle.png Graphic file (type png)
 <use Figures/registerRiddle.png>
-Package pdftex.def Info: Figures/registerRiddle.png  used on input line 91.
+Package pdftex.def Info: Figures/registerRiddle.png  used on input line 236.
 (pdftex.def)             Requested size: 277.03432pt x 231.86568pt.
-[19 <./Figures/registerRiddle.png>]
-Overfull \hbox (3.19696pt too wide) in paragraph at lines 126--128
-\T1/ppl/m/n/10.95 database and han-dling. We used the "pg-promise" libary ([][][]\T1/ppl/m/it/10.95 pg-promise[][]\T1/ppl/m/n/10.95 ) for our database
+[30] [31 <./Figures/registerRiddle.png>]
+Overfull \hbox (12.01083pt too wide) in paragraph at lines 293--295
+[]\T1/ppl/m/n/10.95 Consequently, this part of the mid-dle-ware would fil-ter rel-e-vant "Finish"-serialmessages
  []
 
-[20]
 
-LaTeX Warning: Citation 'MSDN' on page 21 undefined on input line 148.
+Overfull \hbox (0.17467pt too wide) in paragraph at lines 293--295
+\T1/ppl/m/n/10.95 through a PostgreSQL-database, and ac-ti-vate a "check-Se-rialMes-sage" func-tion which
+ []
 
-<Figures/backendOverview.png, id=539, 724.7075pt x 581.17125pt>
+<Figures/backendOverview.png, id=644, 724.7075pt x 581.17125pt>
 File: Figures/backendOverview.png Graphic file (type png)
 <use Figures/backendOverview.png>
-Package pdftex.def Info: Figures/backendOverview.png  used on input line 159.
-(pdftex.def)             Requested size: 543.5293pt x 435.87737pt.
-[21 <./Figures/backendOverview.png>]
-Overfull \hbox (7.63756pt too wide) in paragraph at lines 182--186
-[]\T1/ppl/m/n/10.95 When a user dropped a rid-dle into a "Video" field (and saved), the rid-dle's "Finish"-
- []
-
-
-Overfull \hbox (13.80742pt too wide) in paragraph at lines 182--186
+Package pdftex.def Info: Figures/backendOverview.png  used on input line 313.
+(pdftex.def)             Requested size: 724.70573pt x 581.16983pt.
+[32]
+Overfull \hbox (13.80742pt too wide) in paragraph at lines 337--341
 \T1/ppl/m/n/10.95 command would be re-as-signed on in-put to the cor-re-spond-ing Video-Trigger-command.
  []
 
-[22]
-<Figures/frontendOverview.png, id=556, 734.745pt x 610.28pt>
+[33 <./Figures/backendOverview.png>]
+<Figures/frontendOverview.png, id=661, 734.745pt x 610.28pt>
 File: Figures/frontendOverview.png Graphic file (type png)
 <use Figures/frontendOverview.png>
-Package pdftex.def Info: Figures/frontendOverview.png  used on input line 207.
-(pdftex.def)             Requested size: 551.05739pt x 457.70888pt.
-) [23 <./Figures/frontendOverview.png>]
+Package pdftex.def Info: Figures/frontendOverview.png  used on input line 362.
+(pdftex.def)             Requested size: 734.7432pt x 610.2785pt.
+) [34] [35 <./Figures/frontendOverview.png>]
 \openout2 = `Chapters/Chapter5.aux'.
 
- (./Chapters/Chapter5.tex [24
+ (./Chapters/Chapter5.tex [36
 
 
 
 ]
 Chapter 5.
 
-Overfull \hbox (31.754pt too wide) in paragraph at lines 19--23
-\T1/ppl/m/n/10.95 The De-vices do still com-mu-ni-cate with RFM69HCW mod-ules and the LowPowerLab-
+Overfull \hbox (0.963pt too wide) in paragraph at lines 19--24
+\T1/ppl/m/n/10.95 PowerLab-library via ra-dio com-mu-ni-ca-tion, how-ever, the new web-server func-
  []
 
 
-Overfull \hbox (3.25053pt too wide) in paragraph at lines 23--29
-\T1/ppl/m/n/10.95 A post-greSQL database was added to the ar-chi-tec-ture for fil-ter-ing and overview
+Overfull \hbox (0.93065pt too wide) in paragraph at lines 24--28
+\T1/ppl/m/n/10.95 For newer rid-dles, an ad-vanced com-mu-ni-ca-tion pro-to-col was de-vel-oped where
  []
 
 1: section
-[25] [26] [27]
-Overfull \hbox (0.17381pt too wide) in paragraph at lines 105--108
-\T1/ppl/m/n/10.95 pro-duces. Also, we weren't able to in-clude a lot of fea-tures, listed in the "Big Picture"-
- []
-
-
-Overfull \hbox (2.35309pt too wide) in paragraph at lines 132--134
+[37] [38] [39]
+Overfull \hbox (2.35309pt too wide) in paragraph at lines 128--130
 []\T1/ppl/m/n/10.95 Resetting the rid-dle that ac-ti-vated an event in Unity could be im-ple-mented
  []
 
-[28]) [29] [30
-
-
-]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 239.
+[40] [41]) [42]
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 265.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-Overfull \hbox (0.10953pt too wide) in paragraph at lines 239--239
-\T1/ppl/m/it/10.95 Con-fer-ence on Fron-tiers of In-for-ma-tion Tech-nol-ogy (FIT): Pro-ceed-ings\T1/ppl/m/n/10.95 . In-sti-tute of Elec-
+
+Package biblatex Warning: No driver for entry type 'url'.
+(biblatex)                Using fallback driver on input line 265.
+
+
+Package biblatex Warning: No driver for entry type 'url'.
+(biblatex)                Using fallback driver on input line 265.
+
+
+Package biblatex Warning: No driver for entry type 'url'.
+(biblatex)                Using fallback driver on input line 265.
+
+
+Overfull \hbox (0.97714pt too wide) in paragraph at lines 265--265
+[]\T1/ppl/m/n/10.95 Hasso Plat-tner In-sti-tute of De-sign at Stan-ford Uni-ver-sity. \T1/ppl/m/it/10.95 A Vir-tual Crash Course
  []
 
+
+Overfull \hbox (29.23212pt too wide) in paragraph at lines 265--265
+\T1/ppl/m/it/10.95 in De-sign Think-ing\T1/ppl/m/n/10.95 . \T1/ppl/m/sc/10.95 url\T1/ppl/m/n/10.95 : [][]$\T1/cmtt/m/n/10.95 https : / / dschool . stanford . edu / resources -[] collections /
+ []
+
+
+Overfull \hbox (49.54134pt too wide) in paragraph at lines 265--265
+\T1/cmtt/m/n/10.95 squarespace . com / static / 57c6b79629687fde090a0fdd / t / 5b19b2f2aa4a99e99b26b6bb /
+ []
+
+
+Package biblatex Warning: No driver for entry type 'url'.
+(biblatex)                Using fallback driver on input line 265.
+
+
+Overfull \hbox (4.40059pt too wide) in paragraph at lines 265--265
+[]\T1/ppl/m/n/10.95 Amy Hack-ney Black-well and Eliz-a-beth Ma-nar, eds. \T1/ppl/m/it/10.95 Pro-to-type\T1/ppl/m/n/10.95 . Farm-ing-ton Hills,
+ []
+
+
+Overfull \hbox (8.66489pt too wide) in paragraph at lines 265--265
+\T1/ppl/m/n/10.95 MI, Nov. 2015. \T1/ppl/m/sc/10.95 url\T1/ppl/m/n/10.95 : [][]$\T1/cmtt/m/n/10.95 http : / / link . galegroup . com / apps / doc / ENKDZQ347975681 /
+ []
+
+
+Overfull \hbox (3.27328pt too wide) in paragraph at lines 265--265
+[]\T1/ppl/m/n/10.95 WebFinance Inc. \T1/ppl/m/it/10.95 Proof of Con-cept\T1/ppl/m/n/10.95 . 2018. \T1/ppl/m/sc/10.95 url\T1/ppl/m/n/10.95 : [][]$\T1/cmtt/m/n/10.95 http : / / www . businessdictionary .
+ []
+
+
+Package biblatex Warning: No driver for entry type 'url'.
+(biblatex)                Using fallback driver on input line 265.
+
 1: section
-[31]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 243.
- [32]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 243.
+[43
+
+
+]
+
+Package biblatex Warning: No driver for entry type 'webpage'.
+(biblatex)                Using fallback driver on input line 265.
+
+
+Package biblatex Warning: No driver for entry type 'webpage'.
+(biblatex)                Using fallback driver on input line 265.
+
+
+Package biblatex Warning: No driver for entry type 'url'.
+(biblatex)                Using fallback driver on input line 265.
+
+
+Package biblatex Warning: No driver for entry type 'url'.
+(biblatex)                Using fallback driver on input line 265.
+
+
+Overfull \hbox (43.61644pt too wide) in paragraph at lines 265--265
+[]\T1/ppl/m/n/10.95 StackOverflow. \T1/ppl/m/it/10.95 De-vel-oper Sur-vey Re-sults 2018\T1/ppl/m/n/10.95 . \T1/ppl/m/sc/10.95 url\T1/ppl/m/n/10.95 : [][]$\T1/cmtt/m/n/10.95 https : / / insights . stackoverflow .
+ []
+
+
+Package biblatex Warning: No driver for entry type 'url'.
+(biblatex)                Using fallback driver on input line 265.
+
+
+Package biblatex Warning: No driver for entry type 'url'.
+(biblatex)                Using fallback driver on input line 265.
+
+
+Package biblatex Warning: No driver for entry type 'url'.
+(biblatex)                Using fallback driver on input line 265.
+
+
+Package biblatex Warning: No driver for entry type 'url'.
+(biblatex)                Using fallback driver on input line 265.
+
+
+Package biblatex Warning: No driver for entry type 'url'.
+(biblatex)                Using fallback driver on input line 265.
+
+
+Overfull \hbox (1.38843pt too wide) in paragraph at lines 265--265
+[]\T1/ppl/m/n/10.95 Cambridge Uni-ver-sity Press. \T1/ppl/m/it/10.95 Back-End\T1/ppl/m/n/10.95 . \T1/ppl/m/sc/10.95 url\T1/ppl/m/n/10.95 : [][]$\T1/cmtt/m/n/10.95 https : / / dictionary . cambridge .
+ []
+
+
+Package biblatex Warning: No driver for entry type 'url'.
+(biblatex)                Using fallback driver on input line 265.
+
+
+Package biblatex Warning: No driver for entry type 'url'.
+(biblatex)                Using fallback driver on input line 265.
+
+
+Overfull \hbox (16.6024pt too wide) in paragraph at lines 265--265
+[]\T1/ppl/m/it/10.95 Radiohead Libary\T1/ppl/m/n/10.95 . \T1/ppl/m/sc/10.95 url\T1/ppl/m/n/10.95 : [][]$\T1/cmtt/m/n/10.95 https : / / www . airspayce . com / mikem / arduino / RadioHead/$[][]\T1/ppl/m/n/10.95 . 
+ []
+
+[44]
+
+Package biblatex Warning: No driver for entry type 'url'.
+(biblatex)                Using fallback driver on input line 265.
+
+
+Package biblatex Warning: No driver for entry type 'url'.
+(biblatex)                Using fallback driver on input line 265.
+
+
+Package biblatex Warning: No driver for entry type 'url'.
+(biblatex)                Using fallback driver on input line 265.
+
+
+Package biblatex Warning: No driver for entry type 'url'.
+(biblatex)                Using fallback driver on input line 265.
+
+
+Package biblatex Warning: No driver for entry type 'url'.
+(biblatex)                Using fallback driver on input line 265.
+
+
+Package biblatex Warning: No driver for entry type 'url'.
+(biblatex)                Using fallback driver on input line 265.
+
+
+Package biblatex Warning: No driver for entry type 'url'.
+(biblatex)                Using fallback driver on input line 265.
+
+
+Package biblatex Warning: No driver for entry type 'url'.
+(biblatex)                Using fallback driver on input line 265.
+
+
+Package biblatex Warning: No driver for entry type 'url'.
+(biblatex)                Using fallback driver on input line 265.
+
+[45]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 269.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 269.
  (./main.aux (./Chapters/Chapter1.aux) (./Chapters/Chapter2.aux) (./Chapters/Chapter3.aux) (./Chapters/Chapter4.aux) (./Chapters/Chapter5.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 243.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 243.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 269.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 269.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 5A7097A3AEF47A1EB9688E213C87ABA7;6724.
+(rerunfilecheck)             Checksum: 7D98BEA810CE434A795C61FD146D695C;6500.
 
 
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
-
-Package biblatex Warning: Please (re)run BibTeX on the file(s):
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33940 strings out of 492649
- 692209 string characters out of 6129622
- 919749 words of memory out of 5000000
- 37300 multiletter control sequences out of 15000+600000
- 575163 words of font info for 89 fonts, out of 8000000 for 9000
+ 44125 strings out of 492649
+ 914583 string characters out of 6129622
+ 1304616 words of memory out of 5000000
+ 47207 multiletter control sequences out of 15000+600000
+ 584197 words of font info for 113 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,20n,82p,10413b,2421s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (46 pages, 765815 bytes).
+ 73i,21n,84p,10413b,2914s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfss0900.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on main.pdf (59 pages, 2388123 bytes).
 PDF statistics:
- 697 PDF objects out of 1000 (max. 8388607)
- 621 compressed objects within 7 object streams
- 173 named destinations out of 1000 (max. 500000)
- 473 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 886 PDF objects out of 1000 (max. 8388607)
+ 779 compressed objects within 8 object streams
+ 210 named destinations out of 1000 (max. 500000)
+ 501 words of extra memory for PDF output out of 10000 (max. 10000000)
 

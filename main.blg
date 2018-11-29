@@ -1,115 +1,21 @@
-This is BibTeX, Version 0.99d (TeX Live 2018)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
-The top-level auxiliary file: main.aux
-The style file: biblatex.bst
-A level-1 auxiliary file: Chapters/Chapter1.aux
-A level-1 auxiliary file: Chapters/Chapter2.aux
-A level-1 auxiliary file: Chapters/Chapter3.aux
-A level-1 auxiliary file: Chapters/Chapter4.aux
-A level-1 auxiliary file: Chapters/Chapter5.aux
-Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
-Reallocated global_strs (elt_size=20001) to 20 items from 10.
-Reallocated glb_str_end (elt_size=4) to 20 items from 10.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 10143 items from 5000.
-Database file #1: main-blx.bib
-Database file #2: example.bib
-Warning--entry type for "designThinkingCrashCourse" isn't style-file defined
---line 102 of file example.bib
-Warning--entry type for "designThinking" isn't style-file defined
---line 111 of file example.bib
-Warning--entry type for "raspberrypiDoc" isn't style-file defined
---line 143 of file example.bib
-Warning--entry type for "raspberrypiLibRFM" isn't style-file defined
---line 150 of file example.bib
-Warning--entry type for "socketioUnity3" isn't style-file defined
---line 158 of file example.bib
-Warning--entry type for "socketioUnity2" isn't style-file defined
---line 166 of file example.bib
-Warning--entry type for "socketioUnity1" isn't style-file defined
---line 174 of file example.bib
-Warning--entry type for "pg-promise" isn't style-file defined
---line 227 of file example.bib
-Warning--entry type for "reactjsUsers" isn't style-file defined
---line 258 of file example.bib
-Warning--entry type for "reactDND" isn't style-file defined
---line 298 of file example.bib
-Warning--entry type for "reactStructure" isn't style-file defined
---line 305 of file example.bib
-Warning--entry type for "createReactApp" isn't style-file defined
---line 313 of file example.bib
-Warning--entry type for "socketioClients" isn't style-file defined
---line 321 of file example.bib
-Warning--entry type for "postgresUsers" isn't style-file defined
---line 329 of file example.bib
-Warning--entry type for "stackOverflowSurvey" isn't style-file defined
---line 344 of file example.bib
-Warning--entry type for "radiorange" isn't style-file defined
---line 360 of file example.bib
-Warning--entry type for "verizon" isn't style-file defined
---line 393 of file example.bib
-Warning--I didn't find a database entry for "noModel"
-Warning--I didn't find a database entry for "edgeFog"
-Warning--I didn't find a database entry for "frontend"
-Warning--I didn't find a database entry for "ajax"
-Warning--I didn't find a database entry for "gogleTrendNode"
-Warning--I didn't find a database entry for "nodeLearningcurve"
-Warning--I didn't find a database entry for "arduinoIDEDownload"
-Warning--I didn't find a database entry for "LowPowerlab"
-Warning--I didn't find a database entry for "Radiohead"
-Warning--I didn't find a database entry for "MSDN"
-Biblatex version: 3.8
-Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 27 entries,
-            6268 wiz_defined-function locations,
-            1357 strings with 16244 characters,
-and the built_in function-call counts, 120741 in all, are:
-= -- 7301
-> -- 2956
-< -- 888
-+ -- 2851
-- -- 1220
-* -- 7972
-:= -- 10890
-add.period$ -- 0
-call.type$ -- 27
-change.case$ -- 458
-chr.to.int$ -- 70
-cite$ -- 52
-duplicate$ -- 13421
-empty$ -- 11887
-format.name$ -- 1396
-if$ -- 25424
-int.to.chr$ -- 0
-int.to.str$ -- 62
-missing$ -- 0
-newline$ -- 691
-num.names$ -- 1233
-pop$ -- 9066
-preamble$ -- 1
-purify$ -- 549
-quote$ -- 0
-skip$ -- 4591
-stack$ -- 0
-substring$ -- 10591
-swap$ -- 3552
-text.length$ -- 710
-text.prefix$ -- 27
-top$ -- 1
-type$ -- 885
-warning$ -- 0
-while$ -- 1304
-width$ -- 0
-write$ -- 665
-(There were 27 warnings)
+[0] Config.pm:302> INFO - This is Biber 2.11
+[1] Config.pm:305> INFO - Logfile is 'main.blg'
+[173] biber-darwin:313> INFO - === Thu Nov 29, 2018, 15:45:26
+[256] Biber.pm:371> INFO - Reading 'main.bcf'
+[552] Biber.pm:857> INFO - Found 46 citekeys in bib section 0
+[599] Biber.pm:3976> INFO - Processing section 0
+[671] Biber.pm:4136> INFO - Looking for bibtex format file 'example.bib' for section 0
+[684] bibtex.pm:1500> INFO - LaTeX decoding ...
+[1281] bibtex.pm:1316> INFO - Found BibTeX data source 'example.bib'
+[3038] Utils.pm:193> WARN - Entry 'adafruitRecommends' (example.bib): Invalid format '2001-11-228' of date field 'urldate' - ignoring
+[3173] Utils.pm:193> WARN - I didn't find a database entry for 'noModel' (section 0)
+[3173] Utils.pm:193> WARN - I didn't find a database entry for 'edgeFog' (section 0)
+[3173] Utils.pm:193> WARN - I didn't find a database entry for 'nodejssavescost' (section 0)
+[3174] Utils.pm:193> WARN - I didn't find a database entry for 'arduinoIDEDownload' (section 0)
+[3276] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[3276] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[3276] Biber.pm:3804> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[3276] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
+[3387] bbl.pm:617> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[3422] bbl.pm:720> INFO - Output to main.bbl
+[3422] Biber.pm:110> INFO - WARNINGS: 5

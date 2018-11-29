@@ -1,5 +1,5 @@
 
-\chapter{Evaluation and Conclusion 10-15P} % Main chapter title
+\chapter{Evaluation and Conclusion} % Main chapter title
 
 \label{Chapter5} % For referencing the chapter elsewhere, use \ref{Chapter1} 
 
@@ -11,46 +11,49 @@ To evaluate the quality of the changes we made,
 we evaluated the room with the same criterias we picked when judging the room before the changes.
 
 \subsection{Layer Analysis}
-Refering to \ref{fig:gartnerIoT} again, we analyzed the existing architecture of the escape room in respect to the changes we made.
+Refering to Figure \ref{fig:gartnerIoT} again,the existing architecture of the escape room in respect to the changes we made was analyzed.
 \begin{description}
 	\item[Device Layer]\hfill \\
 	      We didn't make many changes to the Device Layer, as we had instructions not to interfere with the existing structure of the room.
 	      Except to adding a prototype implementing the new communication structure, the existing riddles and the gateway Adafruit Feather 32u4 were not manipulated in any way.
 	\item[Communication Layer]\hfill \\
-	      The Devices do still communicate with RFM69HCW modules and the LowPowerLab-libary via radio communication,
-	      however, the new web-server functionalities could expand the communication for the software-side of the room. If the Server-PC gets a steady W-Lan connecection.
-	      An overview from anywhere within the network could be achieved.
+	      The Devices do still communicate with RFM69HCW modules and the Low-PowerLab-library via radio communication,
+          however, the new webserver functionalities could expand the communication for the software-side of the room. 
+          if the server gets a steady network connection.
+          An overview from anywhere within the network could be achieved.
 	\item[Information Layer]\hfill \\
-	      A postgreSQL database was added to the architecture for filtering and overview purposes.
-	      A middleware-implementation using the database and socket.io was established to connect to a front-end using react.
-	      For newer Riddles, an advanced communication protocol was developed where a user can use defined strings to trigger events on the device.
+	      For newer riddles, an advanced communication protocol was developed where a developer of new riddles can use defined strings to trigger events on the device.
 	      As the new system should be compatible with the old one, the basis of the communication architecture was not meant to change completely.
-	      Instead,we expanded the given system of strings separated by “/” to trigger more actions.
+	      Instead, the given system of strings separated by a slash ("/") to trigger more actions was expanded.
 	\item[Function Layer]\hfill \\
+        The Function Layer received the most changes.
+        A PostgreSQL database was added to the architecture for filtering and overview purposes.
+        A middleware-implementation using the database and Socket.io was established to connect to a front-end using React. 
 	      The incoming strings are now translated and send to a web interface.
 	      Depending on the string, they trigger a database-query and are interpreted and saved in the database, or update an existing entry.
-	      Additionally, The incoming strings are now filtered before they reach the TCP-client(Unity)by the database to ensure proper trigger assignment.
+	      Additionally, the incoming strings are now filtered before they reach the TCP-client(Unity)by the database to ensure proper trigger assignment.
 	\item[Process Layer]\hfill \\
-	      The process layer received the most changes.
-	      We now have a web interface showing the existing riddles, enabling an immediate interaction with them, and providing a scalable overview about the room.
+          There is now a web interface showing the existing riddles, enabling an immediate interaction with them, 
+          and providing a scalable overview about the room.
+          Unity triggering is still the main objective of the system.
 
 \end{description}
 
 \subsection{Workload Analysis}
-We analyzed the changed amounts of workload again. 
-We didn't have the possibilty to test our findings, so the listed views are highly subjective 
-and should only be interpeted as the authors impressions, backed by our research.
+The changed amounts of workload were analyzed again. 
+As there wasn't an opportunity to test the findings, the listed views are highly subjective 
+and should only be interpeted as the authors impressions, backed by the research mentioned in Chapter \ref{Chapter2}.
 \subsubsection{Cognitive Work}
 The cognitive work needed to develop parts 
-of the software and hardware is expected to be considerably lower with the changes we made.
-In the following, we compare our prior concerns to our perception now.
+of the software and hardware is expected to be considerably lower with the changes applied.
+In the following, prior concerns are compared to our perception now.
 \begin{enumerate}
-    \item The user no longer needs to understand the transport protocol in detail
+    \item The developer no longer needs to understand the transport protocol in detail
     \begin{enumerate}
         \item 
         He still needs to Set-Up the RFM69HCW with an Arduino or an Adafruit Feather, 
-        which requires drivers and maybe another libary, but has thorough instructions through a documentation
-        \item doesn't need to understand the communication LowPowerLab libary if he uses the designed template
+        which requires drivers and maybe another library, but has thorough instructions through a documentation
+        \item doesn't need to understand the communication LowPowerLab library if he uses the designed template
         \item doesn't need to look up the other riddles NodeIDs as he can look them up in the WebInterface
     \end{enumerate}   
     \item Understand Arduino-coding 
@@ -58,9 +61,9 @@ In the following, we compare our prior concerns to our perception now.
 \end{enumerate}  
 Process Layer:
 \begin{enumerate}
-    \item Understand Javascript to make changes in the Server (in a cleaned up, documented and component-based code with improved readability)
+    \item Understand Javascript to make changes on the server (in a cleaned up, documented and component-based code with improved readability)
     \item 
-    We were instructed not to change the Unity application, so the problem of Unity-programming still exists. 
+    It was instructed not to change the Unity application, so the problem of Unity-programming still exists. 
     It would be easier to change though, by replacing the TCP connection with a Socket.io connection. 
     There are multiple client implementations for Unity available \parencite{socketioUnity1, socketioUnity2,socketioUnity3}
     That reportedly work (at least) up to the current version of Unity. 
@@ -70,27 +73,29 @@ Process Layer:
 \subsubsection{Visual Work}
 There was little time to research web-design to an extend where the author could state confidentely that the project's design is especially user-friendly.
 Alternatively though, the website offers an improved version of the prior window with an integrated translation of the incoming codes.
+Instead of coded strings, the strings are now depicted as readable messages if they are stored in the database.
 It also offers a lot more information and possibilites to interact with the enviroment, which reduces the workload in other areas.
 \subsubsection{Memory Work}
 The memory work is reduced immensely, especially for new riddles. 
-The user has the possibility to save it's values as buttons so that he only needs to interact with an abstraction of the machine-code.
+The developer has the possibility to save its values as buttons so that he only needs to interact with an abstraction of the machine-code.
 \begin{description}
     \item [Buttons] \hfill \\
-    By clicking buttons instead of remembering the strings, the user can take the shortest way to activate a functionality
+    By clicking buttons instead of remembering the strings, the developer can take the shortest way to activate a functionality
     \item [Information Display] \hfill \\
-    By displaying all riddle information in one place, the user can gain a better understanding of the riddles functionalities
+    By displaying all riddle information in one place, the developer can gain a better understanding of the riddles functionalities
     \item [Automatisation] \hfill \\
-    We automated tasks like activating the feedback mode of the riddles and sending 
-    and starting the applications in the right order
+    Tasks like activating the feedback mode of the riddles and sending 
+    and starting the applications in the right order were automated.
 \end{description}
 \subsubsection{Physical Work}
 The web server reduced the physical interaction needed to work with the room  silghtly. 
 A user can access the room remotely and doesn't need to start the applications manually.
+
 \subsection{Limitations}
 Even though we, to our judgement, achieved our set goals, 
 we should mentions the limitations our project might have suffered from.
 
-We were working with an already existing project which we were instructed not to change from it's core. 
+We were working with an already existing project which we were instructed not to change from its core. 
 Instead of designing a new architecture by scratch, we acted therefore within the given frame. 
 An architecture from scratch would e.g. have used a simpler communication system for the Arduinos and would have changed 
 the Unity communication to an event-based, more dynamic protocol.  
@@ -102,21 +107,12 @@ The code of the project was build within a 3-month period by the single, unexper
 The most thorough research can not replace hands-on experience, 
 just like the most motivated person can usually not substitute the intertwined ideas a team can develop over a course of time.
 
-Because of the tight schedule, we didn't have the time to evaluate the user-experience with the new system so we can only estimate the value our framework produces.
-Also, we weren't able to include a lot of features, listed in the "Big Picture"-section below.
+Because of the tight schedule, there wasn't time to evaluate the user-experience with the new system so the value the framework produces can only be estimated.
+Also, lots of features are still missing, listed in the "Future Work"-section below.
 A more finished product would have been desirable.
 
-%kritik: Unerfahren (alles selber beigebracht), begrenzter Zeitrahmen, alleine alles bauen
-%Pro: Ziel erreicht, raum ist einfacher als vorher 
-%Nur eingeschränkt umfragen gemacht, qualitative interviews 
-%Subjektive view
-% Aber: dadurch das bestehendes system nicht verändert werden durfte einige unschöne aspekte
-% ein set up von vorne hätte eine direkte statt eine indirekte w-lan verbindung bringen können,
-% das kommunizieren über den serial port ist fehleranfällig allein bei der übertragung
-%Wir haben überlastung der arduinos bei zu vielen sendebefehlen erlebt, das heißt die funk funktionen sind nur begrenzt skalierbar
-%Didn't include security mechanism like password authentification
-%Node Editor for combining buttons would be cool (Button 1 to Button with that code)
-\subsection{Big Picture}
+
+\subsection{Future Work}
 This section is meant to list possible ways to expand the built framework.
 \begin{description}
     \item [Fully Event-Based-Processing]\hfill \\ 
@@ -127,44 +123,84 @@ This section is meant to list possible ways to expand the built framework.
     Developers wouldn't need to change the Unity code manually everytime a riddle is added. 
     Possible use cases are:
     \begin{enumerate}
-        \item Resetting the room could be implemented by selecting all riddledetails with "Finish" as an infovalue when Unity sends a "resetRiddles" event.
+        \item Resetting the room could be implemented by selecting all riddle details with "Finish" as an infovalue when Unity sends a "resetRiddles" event.
         \item 
         Resetting the riddle that activated an event in Unity could be implemented by storing the incoming "Finish" 
-        value and retrieving it's fitting "Reset" value with the ID of the string.
+        value and retrieving its fitting "Reset" value with the ID of the string.
     \end{enumerate}
     \item [Node Editor]\hfill \\
-    Developing the Front-End further, one could implement a node-editor to create reaction-chains. 
+    Developing the front-end further, one could implement a node-editor to create reaction-chains. 
     Such a reaction chain could be that a riddle changes the color of the floor when it's finished by combining two buttons. 
-    The data already exists as a json in the front-end, but creating a flexible drag-and-drop interface with the internal processing 
+    The data already exists as JSON in the front-end, but creating a flexible drag-and-drop interface with the internal processing 
     went beyond the scope of the project. 
     \item [Security] \hfill \\
-    Within the scope of this project, security protection like password authentification and encryption was not included.
-    Since the web server is hosted in a local network in a password protected enviroment we didn't prioritize an authentification system.
+    Within the scope of this project, security protection like password authentication and encryption was not included.
+    Since the web server is hosted in a local network in a password protected enviroment we didn't prioritize an authentication system.
     Another aspect was that an escape room doesn't contain privacy sensitive data in our point of view.
     \item [Component Isolation]\hfill \\
-    Though we tried to keep the components separated, there is always room for improvement. 
+    Though it was tried to keep the components separated, there is always room for improvement. 
     Especially the Node.js middleware shows room for further splitting and transparency.
     \item[Gateway Configuration]\hfill \\
-    As we didn't change the communication protocol, scalability issues might arise depending on the number of incoming messages at the gateway component, 
-    especially in combination with the serialport communication. 
-    The system is running with 9600 baud (which represent the bits per second communicated), 
+    As changes didn't affect the communication protocol, scalability issues might arise depending on the number of incoming messages at the gateway component, 
+    especially in combination with the current serialport communication. 
+    The serial port's UART is running with 9600 baud (which represent the bits per second communicated), 
     960 byte/s, whereas the RFM69HCW is able to send 300kb/s. 
-    That's an easily avoidable bottleneck, if replaced the serial communication with a direct W-LAN connection. 
-    A rasperry Pi could be set up as a server with a W-LAN module. There is an regulary updatet (last update is 6 months old in a branch) python wrapper \parencite{raspberrypiLibRFM} with thorough documentation \parencite{raspberrypiDoc} available for connecting 
-    a raspberry Pi to the LowPowerLab RFM69 libary. 
-    The raspberry could host the websever in a local, protected W-LAN environment and 
-    supply the PC hosting Unity with the needed events within the closed network. 
-    This way, only authentificated users would have access to the escape rooms properties, the architecture would be separated and therefore clearer for developers, and easier to change.
+    That's an avoidable bottleneck, if UART were replaced with SPI.
+    Alternatively, the baud rate could be increased.
+    A Raspberry Pi could be set up as a server with a Wi-Fi module. 
+    There is an regulary updatet (last update is 6 months old in a branch) python wrapper \parencite{raspberrypiLibRFM} with thorough documentation \parencite{raspberrypiDoc} available for connecting 
+    a Raspberry Pi to a RFM69 module running with the LowPowerLab library. 
+    The Raspberry could host the websever in a local, protected Wi-Fi environment and 
+    supply the server hosting Unity with the needed events within the closed network. 
+    Ideally, Unity would have an implemented Socket.Io connection by then.
+    This way, only authenticated users would have access to the escape rooms properties, 
+    the architecture would be separated and therefore clearer for developers, and easier to change.
      \parencite{raspberrypiDoc}
+     \item[Mobile integration]\hfill \\
+     With the webserver running, mobile devices like cellphones or tablets could communicate with the server via Socket.io. 
+     This introduces a whole new world riddles that could interact with the cellphone. 
+     One could build an alternative front-end for customers, and e.g.
+     let them scan something with their camera trough the webpage they access.
+     The database could provide further information to a riddle, if e.g. a code should be adressed.
+     \item[Smart Capabilities]\hfill \\
+     A smart room with more riddles and tracking functionalities would be gratifying.
+     Immersion in an escape room can be increased by tracking body functions,
+     One could track body functions like heartbeat when controlling 
+     the spaceship to start individual audio messages (approval, motivation, disapproval)
+     enviromental factors like the temperatue of the room could impact the story telling ("Brrr It's cold in here"/"It's getting hot in here" - audiomessages)
+
+
 \end{description}
 //Picture of Planned architecture (Raspberry, webserver to unity bla)
 
 
 \section{Conclusion}
-...
 %Summarize all main points and insights/discoveries
+This project extended the functionalities of an existing escape room.
+A framework which might help future developers in integrating new riddles was developed.
+We hoped to set a basis for a smart escape room with the new features.
 
 
+Struktur:
+"Why should anybody care"
+
+Neue funktionen für escape room -
+Hilft entwicklern zu entwickeln -
+Nächste projekte können den escape room smart machen -
+was heißt hier smart - Many possibilites to include smart capabilities in an entertainment environments -
+was denn so  - 
+Body functions could be tracked with sensors (e.g. heartbeat on controlling the spaceship), 
+enviromental factors like the temperatue of the room could impact the story telling ("It's cold in here"/"It's getting hot in here")
+mobile integration 
+Immersion in an escape room can be increased by tracking body functions,
+mobile integration would be possible by accessing the node.js server via socket.io
+Erster schritt richtung smart escape room
+Narration gets more immersive if a room can react to enviromental factors with sensors. 
+Body functions could be tracked for specific tasks, while the room could react to the general status of the room. 
+If the room "knows" how many riddles were done, the temperature of the room, 
+the number of people within the room, where everybody is with motion or touch detection, it can react appropriately.
+Currently, escape rooms need a supervisor to send hints to people within the room. 
+A fully developed smart escape room
 
 %Since the layers of an IoT system are neither standartized nor clear depending on the things included in the network system,
 %a layered approach can only be striven for in the execution of a PoC.
