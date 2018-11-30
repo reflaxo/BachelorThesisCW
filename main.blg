@@ -1,21 +1,21 @@
-[0] Config.pm:302> INFO - This is Biber 2.11
+[1] Config.pm:302> INFO - This is Biber 2.11
 [1] Config.pm:305> INFO - Logfile is 'main.blg'
-[173] biber-darwin:313> INFO - === Thu Nov 29, 2018, 15:45:26
-[256] Biber.pm:371> INFO - Reading 'main.bcf'
-[552] Biber.pm:857> INFO - Found 46 citekeys in bib section 0
-[599] Biber.pm:3976> INFO - Processing section 0
-[671] Biber.pm:4136> INFO - Looking for bibtex format file 'example.bib' for section 0
-[684] bibtex.pm:1500> INFO - LaTeX decoding ...
-[1281] bibtex.pm:1316> INFO - Found BibTeX data source 'example.bib'
-[3038] Utils.pm:193> WARN - Entry 'adafruitRecommends' (example.bib): Invalid format '2001-11-228' of date field 'urldate' - ignoring
-[3173] Utils.pm:193> WARN - I didn't find a database entry for 'noModel' (section 0)
-[3173] Utils.pm:193> WARN - I didn't find a database entry for 'edgeFog' (section 0)
-[3173] Utils.pm:193> WARN - I didn't find a database entry for 'nodejssavescost' (section 0)
-[3174] Utils.pm:193> WARN - I didn't find a database entry for 'arduinoIDEDownload' (section 0)
-[3276] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[3276] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[3276] Biber.pm:3804> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[3276] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
-[3387] bbl.pm:617> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[3422] bbl.pm:720> INFO - Output to main.bbl
-[3422] Biber.pm:110> INFO - WARNINGS: 5
+[107] biber-darwin:313> INFO - === Thu Nov 29, 2018, 22:04:10
+[165] Biber.pm:371> INFO - Reading 'main.bcf'
+[421] Biber.pm:857> INFO - Found 46 citekeys in bib section 0
+[467] Biber.pm:3976> INFO - Processing section 0
+[496] Biber.pm:4136> INFO - Looking for bibtex format file 'example.bib' for section 0
+[507] bibtex.pm:1500> INFO - LaTeX decoding ...
+[887] bibtex.pm:1316> INFO - Found BibTeX data source 'example.bib'
+[1475] Utils.pm:193> WARN - Entry 'adafruitRecommends' (example.bib): Invalid format '2001-11-228' of date field 'urldate' - ignoring
+[1612] Utils.pm:193> WARN - I didn't find a database entry for 'noModel' (section 0)
+[1613] Utils.pm:193> WARN - I didn't find a database entry for 'edgeFog' (section 0)
+[1613] Utils.pm:193> WARN - I didn't find a database entry for 'nodejssavescost' (section 0)
+[1613] Utils.pm:193> WARN - I didn't find a database entry for 'arduinoIDEDownload' (section 0)
+[1724] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1725] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1725] Biber.pm:3804> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[1725] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
+[1822] bbl.pm:617> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[1852] bbl.pm:720> INFO - Output to main.bbl
+[1853] Biber.pm:110> INFO - WARNINGS: 5

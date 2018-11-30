@@ -481,13 +481,11 @@ INPUT ./Figures/ReactExampleFullsize.png
 INPUT Figures/EditExample1.png
 INPUT ./Figures/EditExample1.png
 INPUT ./Figures/EditExample1.png
-INPUT Figures/adafruitSPI.png
-INPUT ./Figures/adafruitSPI.png
-INPUT ./Figures/adafruitSPI.png
 OUTPUT Chapters/Chapter3.aux
 INPUT Chapters/Chapter3.tex
 INPUT Chapters/Chapter3.tex
 INPUT Figures/adafruitSPI.png
+INPUT ./Figures/adafruitSPI.png
 INPUT ./Figures/adafruitSPI.png
 INPUT Figures/escapeUmlOld.png
 INPUT ./Figures/escapeUmlOld.png

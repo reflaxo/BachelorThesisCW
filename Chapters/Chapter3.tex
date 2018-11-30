@@ -12,15 +12,15 @@ Refering to \ref{fig:gartnerIoT}, we analyzed the existing architecture of the e
 
 \begin{description}
 	\item[Device Layer]\hfill \\
-	      The Device Layer consisted of multiple Arduinos, and riddle-depending sensors and actuators for each riddle.
-	      The gateway device service was an Adafruit Feather 32u4 which is connected via USB to a computer.
+	      The Device Layer consisted of multiple Arduinos and riddle-depending sensors and actuators for each riddle.
+	      The gateway device service was an Adafruit Feather 32u4 which was connected via USB to a computer.
 	\item[Communication Layer]\hfill \\
 	      The communication within the room was set-up with RFM69HCW transceiver modules.\parencite{radiorange}
-          The RFM69HCW is very cheap, easy to use and to set-up transceiver. They do packetization, error correction and auto-retransmit which makes them easy to handle.
+          The RFM69HCW is a very cheap, easy to use and to set-up transceiver. They do packetization, error correction and auto-retransmit which makes them easy to handle.
 	      They are designed for point-to-multipoint communication with one transceiver set as a gateway node which sends data to the other transceivers in the room.
-	      There are two open-source libaries for the RFM69HCW, the LowPowerlab \parencite{LowPowerLab} and Radiohead \parencite{radiohead} libary.
-	      The escape room used the LowPowerlab libary since the architect who designed the room prior to our adjustments was familiar with the libary.
-          Now-a-days the Radiohead libary is the recommended libary \parencite{adafruitRecommends} since it's documented more thorough by an active community, kept up-to-date and is cross-platform friendly.
+	      There are two open-source libaries for the RFM69HCW, the LowPowerlab \parencite{LowPowerLab} and Radiohead \parencite{radiohead} library.
+	      The escape room used the LowPowerlab library since the architect who designed the room prior to our adjustments was familiar with the library.
+          Now-a-days the Radiohead library is the recommended library \parencite{adafruitRecommends} since it's documented more thorough by an active community, kept up-to-date and is cross-platform friendly.
          
           The gateway transceiver was connected via USB to a computer where the data was forwarded via serialport communication (UART).
           In difference to SPI, UART is asynchronous and needs to be made synchronous to be interpreted by an other device. 
@@ -52,17 +52,20 @@ Refering to \ref{fig:gartnerIoT}, we analyzed the existing architecture of the e
           \end{figure*}
           
 	\item[Information Layer]\hfill \\
-        The Information Layer was build around a simple event model: the transceivers would send codes in a "Number/Number/Number..."-structure. 
-        A node could be identified through the string it sent, since the first number would be the node's adressing number. 
-        The other numbers would represent the current state of the Arduino with a "Switch-Case" scenario \ref{fig:switchCase}. 
+        The Information Layer was build around a simple event model: the transceivers would send and receive numeric codes in a "n1/n2/n3...\textbackslash n"-structure e.g. "16/2/0\textbackslash n". 
+        A riddle could be identified through the string it sent, since the first number would be the riddle's adressing number. 
+        Further numbers, separated by a backslash, would show the active state of the device. 
+        %% Immer wenn mit dem rätsel interagiert wird und sich der status ändert schickt das  rätsel  schickt einen string
+        % Mit einem anderen befehl kann man die akion auslösen wenn modus aktiv ist können wir den befehl schicken 
+        The Arduino could process the incoming data in a matching "Switch-Case" scenario shown in figure \ref{fig:switchCase}
+
 	\item[Function Layer]\hfill \\
-        A C++-Server would broadcast all incoming messages to any TCP-Client.    
-        The server would forward any messages coming from a TCP-Client back to the serialport just as well.
+        A C++-Server would broadcast all incoming messages to any TCP-client.    
+        The server would forward any messages coming from a TCP-client back to the serialport just as well.
 	\item[Process Layer]\hfill \\
-	If the Code matched with the Tcp-Clients list (in our case, in a Unity application), a Video in Unity would be played and Unity would send a "reset" code to the matching riddle. 
-    Both lists were defined statically.] 
-	Apart form the main functionality, the C++-Server offered a communication window where serialmessages 
-    could be seen and sent manually. \ref{fig:c++window}.
+	If an incoming message matched with a list in Unity, a Video in Unity would be played and Unity would send a "reset"-message to the matching riddle. 
+	Apart from the main functionality, the C++-Server offered a communication window where serialmessages 
+    could be seen and sent manually shown in figure \ref{fig:c++window}.
 
 \end{description}
 
@@ -73,7 +76,7 @@ Refering to \ref{fig:gartnerIoT}, we analyzed the existing architecture of the e
         \label{fig:oldEscapeUml}
     \end{sidewaysfigure}
 
-\ref{fig:oldEscapeUml} provides further insight into the architecture
+Figure \ref{fig:oldEscapeUml} provides further insight into the architecture
 
 \begin{figure}[th]
     \centering
@@ -94,7 +97,7 @@ Refering to \ref{fig:gartnerIoT}, we analyzed the existing architecture of the e
 %SECTION TWOOO
 In 2009, Kim Goodwin stated that 
 „Interactive products and services tend to require four different types of work from users: 
-cognitive, visual, memory, and physical“ \parencite{designDigitalAge} 
+cognitive, visual, memory, and physical“ \parencite{designDigitalAge}. 
 While an IoT-System is not always interactive, the goal of this thesis was very interaction-orientated: 
 The goal was to help engineers expand the existing room which would require 
 interaction with the Device-Layer (if they wanted to add hardware-functionality) 
@@ -114,8 +117,8 @@ Device Layer:
 \begin{enumerate}
     \item The engineer needs to understand the transport protocol and therefore needs to 
     \begin{enumerate}
-        \item Set-Up the RFM69HCW with an Arduino or an Adafruit Feather, which requires drivers and another libary
-        \item Understand the communication within the LowPowerlab-libary
+        \item Set-Up the RFM69HCW with an Arduino or an Adafruit Feather, which requires drivers and another library
+        \item Understand the communication within the LowPowerlab-library
         \item Look up the other riddles codes to avoid using a %belegte nodeID
     \end{enumerate}   
     \item Understand Arduino-coding 
