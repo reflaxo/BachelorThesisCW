@@ -31,23 +31,17 @@
 %POC fehleranfälligkeit, effizienz, zeitaufwand X
 %Gateway funktionalität in UML reinpacken, Rätsel als eigenständige pakete klarer hervoherben
 %Neue Bereiche farbig markieren
-%A former developed escape room statt faculty provided escape room
-%statt microcontrolle riddles riddles controlle by microcontroller und vernetzt network oder so
-%gewachsenes projekt , keine basis struktur iterative refactoring gründe warum cshwierig ist in der einleitung schon sagen
-% grund klarer rausarbeiten weil sonst h#tte es keine arbeit gegeben
-%statt problem beschreiben
-%Projekt war schon vor michael da michael hat das weiter entwickeltwar master thesis von mitja
-%wurde immer weiter entwickelt lan verbunden vor michael (kabel) wurde dadurch modularer
-%mitte 2016 entstanden hin und her rätsel machen / also kein mangament von raum
-%text to speech einbauen
+
 
 % bei den overviews How/ restrictions aufteilen statt why/not
-%Change gui statt node editor bei challenges, future developments (ideas)
+%Change gui statt node editor bei challenges, future developments (ideas) x
 %kosten nutzen rechnung theoretisch überlegeung, messen
-%Vorher nachher tabelle workload vergleich pfeile die verbesserung darstellen
+%Vorher nachher tabelle workload vergleich pfeile die verbesserung darstellen x
 %Für unteraspekte
 %Weniger absätze, absätze zusammenfassen
+
 %Limitations projekt selber vs Ich und die arbeit
+
 %Conclusion beantwortet was in der einleitung gestellt wurde,
 %Einleitung mehr motivation herausforerung 
 %Allgemeine Ebene conclusion forschungsbereich iot kein standart 
@@ -246,21 +240,40 @@ headsepline, % Uncomment to get a line under the header
 %	LIST OF CONTENTS/FIGURES/TABLES PAGES
 %----------------------------------------------------------------------------------------
 \tableofcontents % Prints the main table of contents
-\listoffigures % Prints the list of figures
 
+%\begin{abbreviations}{ll} % Include a list of abbreviations (a table of two columns)
 
-\begin{abbreviations}{ll} % Include a list of abbreviations (a table of two columns)
+%\textbf{LAH} & \textbf{L}ist \textbf{A}bbreviations \textbf{H}ere\\
+%\textbf{WSF} & \textbf{W}hat (it) \textbf{S}tands \textbf{F}or\\
 
-\textbf{LAH} & \textbf{L}ist \textbf{A}bbreviations \textbf{H}ere\\
-\textbf{WSF} & \textbf{W}hat (it) \textbf{S}tands \textbf{F}or\\
-
-\end{abbreviations}
+%\end{abbreviations}
 
 
 
 %----------------------------------------------------------------------------------------
 %	DEDICATION
 %----------------------------------------------------------------------------------------
+
+\begin{abstract}
+	\addchaptertocentry{\abstractname} % Add the abstract to the table of contents
+	The influence of the Internet of Things (IoT) in everyday life has been rising for years.
+Connected devices are expected to number 20 billion \parencite{gartner0} by 2020 in nearly every industry.
+
+According to Verizon \parencite{verizon} the use on digital devices in the media and entertainment industry increased by 120 \% in 2016 compared to 2013.
+The industry was third in terms of accepting IoT,
+with manufacturing (204\%) and finance and insurance (138\%) industries topping the chart.
+
+Within the entertainment industry, escape rooms have been a growing sector since the first escape room launched 2007 in Japan.
+Escape rooms generally follow the same structure: People are locked into a room, have to solve riddles
+and get out in a defined period of time or will be released by a supervisor who watches the process to support
+and assist in case of an emergency.
+
+This field offers lots of possibilities for technical development, be it the use of different sensors, the use of Virtual Reality or flexible story-telling (depending on the users actions).
+In this thesis, my goal was to create a suitable architecture and framework for further technical improvement for an existing escape room.
+
+	\end{abstract}
+
+
 
 %----------------------------------------------------------------------------------------
 %	THESIS CONTENT - CHAPTERS
@@ -296,6 +309,9 @@ headsepline, % Uncomment to get a line under the header
 %----------------------------------------------------------------------------------------
 %	BIBLIOGRAPHY
 %----------------------------------------------------------------------------------------
+\listoffigures % Prints the list of figures
+
+
 \printbibliography[heading=bibintoc]
 
 %----------------------------------------------------------------------------------------

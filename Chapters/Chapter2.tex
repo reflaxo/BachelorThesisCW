@@ -6,7 +6,7 @@
 
 %General explanation: We have an escape room that is currently a WSN with only little data processing, we watn to extend the middleware
 % to achieve a broader spectrum of integration possibilities.
-As explained in Chapter \ref{Chapter1}, the goal of this project was to extend the existing project.
+As explained in Chapter \ref{Chapter1}, the goal of this project was to extend an existing project.
 Therefore, possible architectures and practices to integrate to the project were investigated.
 In the following, research concerning the development of our project is listed and explained.
 
@@ -26,7 +26,7 @@ with the three steps of understanding, improving and applying a product.
 
 Since then, their approach to design thinking moved on to a widely used, open-sourced 5 stage process \parencite{designThinkingCrashCourse}
 consisting of the following items:
-\begin{itemize}
+\begin{description}
     \item [Empathise] \hfill \\
     Emphatising relies on three principles: Observe, engage and immerse with your customers
     \item [Define] \hfill \\
@@ -48,7 +48,7 @@ consisting of the following items:
 
     \item [Test] \hfill \\
     The testing is an iterative process where one can refine and gather feedback about the product.
-\end{itemize}
+\end{description}
 Figure \ref{fig:designThinking} illustrates the iterative properties of this model.
 
 \begin{figure*}[h]
@@ -61,7 +61,7 @@ Figure \ref{fig:designThinking} illustrates the iterative properties of this mod
 The model goes on to describe user analysis methods which are not relevant in the context of this project, 
 since the project prioritized the development of a working prototype over extensive user studies. 
 
-\section{Prototyping (1-2p)}
+\section{Prototyping}
 A prototype is "An initial model of an object built to test a design." \parencite{prototypeDef}
 A favored approach to prototyping within the IoT-scape is "Rapid Prototyping" 
 which favors fast production cycles over extensive feature development. 
@@ -263,7 +263,11 @@ Due to its stateless nature, a RESTful HTTP approach always needs the client to 
 There are different techniques to optimize this kind of communication. A Medium article
 \parencite{comSummary} explains the differences with a great analogy: waiting for cake to be ready.
 Either the client requests cake from the server every possible second (HTTP Short Polling) and asks for the next cake (data) as soon as it gets a response which would look like this in a conversation: 
-\textit{ C: "Is the cake ready?" C: "Is the cake ready?" C: "Is the cake ready?" S: "Yes" C: "Is the next cake ready?"} ,
+\textit{ C: "Is the cake ready?" 
+C: "Is the cake ready?"
+ C: "Is the cake ready?" 
+ S: "Yes" 
+ C: "Is the next cake ready?"} ,
 or the server holds the request open until the cake is ready (HTTP Long Polling) \textit{C: "Is the cake ready?" - pause -  S:"Yes" C:"Is the next cake ready?"}.
 A third option is "HTTP Periodic Polling" which requests new data in a set timeframe. 
 Essentially, it works like HTTP Short Polling but by increasing the time between the requests, less traffic is produced and the server is relieved.
@@ -287,7 +291,7 @@ The table below compares RESTful HTTP with Websockets.
 
 \begin{figure}[b]
 	\centering
-    \includegraphics[width=125mm, scale=1.25]{Figures/CompareCom}
+    \includegraphics[width=100mm, scale=1]{Figures/CompareCom}
 	\decoRule
 	\caption[Communication Comparison]{REST vs Websocket Comparison}
 	\label{fig:CompareCom}
@@ -383,13 +387,9 @@ an Arduino can be tracked and controlled within 30 minutes of set-up.
 As one can see, a lot of options are available when developing an IoT-project.
 Different architectures, protocols, devices, and software settings blow up the decision making process.
 Communication protocols and platforms available for other protocols weren't explained in further detail since they were not appliable to the current project settings.
-While there is no industry standart, it has to be mentioned that a lot of open source and commercial software is developed for different projects.
+While there is no industry standart, it can be mentioned that a lot of open source and commercial software is developed for different projects.
 A good example is "The Things Network" \parencite{ttn} which tries to make IoT accessible for everyone with LoRa-Wan.
 This technology needs only a few gateways within a city instead of every user having to build their own gateway.
 Even easier to integrate are IoT-devices using the MQTT protocol with e.g. Amazon Web Services \parencite{awsIOT} or the Microsoft Azure Cloud technology \parencite{msIOT}.
-For this use case, an integration platform had to be developed by scratch.
+For this use case though, an integration platform had to be developed by scratch.
 
-%Even though, only 26\% of IoT-Projects in companies are judged to be a complete success 
-%\parencite{ciscoresearch}. The reasons are as numerous as they are diverse. 
-%Lack of knowledge, lack of planning, inconsistent standards and legacy architectures within the project are only some mentioned by the Cisco survey.
-%A McKinsey report \parencite{mcKinsey} in 2015 stated that most IoT adopters fail to use their data or derive just a small part of its value.

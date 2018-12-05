@@ -1,13 +1,12 @@
 % Chapter Template
 
-\chapter{Introduction and Motivation 1-2p} % Main chapter title
+\chapter{Introduction and Motivation} % Main chapter title
 
 \label{Chapter1} % For referencing the chapter elsewhere, use \ref{Chapter1} 
 
 
 \section{Introduction}
-
-The Influence of the Internet of Things (IoT) in everyday life has been rising for years.
+The influence of the Internet of Things (IoT) in everyday life has been rising for years.
 Connected devices are expected to number 20 billion \parencite{gartner0} by 2020 in nearly every industry.
 
 According to Verizon \parencite{verizon} the use on digital devices in the media and entertainment industry increased by 120 \% in 2016 compared to 2013.
@@ -19,18 +18,63 @@ Escape rooms generally follow the same structure: People are locked into a room,
 and get out in a defined period of time or will be released by a supervisor who watches the process to support
 and assist in case of an emergency.
 
-This field offers lots of possibilities for technical development, be it the use of different sensors, the use of Virtual Reality or flexible story-telling (depending on the users actions).
+This field offers lots of possibilities for technical development, be it the use of different sensors, the use of Virtual and Mixed Reality or flexible story-telling (depending on the users actions).
 In this thesis, my goal was to create a suitable architecture and framework for further technical improvement for an existing escape room.
 
-The faculty provided an escape room with microcontrolled riddles.
-The former architect who designed the riddles and the set-up of the architecture of the room left the project.
-Others have since tried to work with the existing architecture but struggled with it for reasons mentioned in Chapter \ref{Chapter3}.
-The room supported the existing riddles but modifications were inconvenient to integrate.
+Creation of the escape room discussed in the thesis began in October 2015 and was financally supported until June 2018.
+One major goal of the former project was to create a collaborative virtual and real environment.
+A room with a "spaceship"-theme was build and riddles integrated one by one.
+The riddles are controlled by several Arduino and Arduino-type microcontrollers.
+The room experienced several architectural and personnel changes within the scope of this time. 
+Until summer 2018, the riddles were physically connected to a PC were a video in the 3D-Environment Unity was triggered to run and stop when a riddle finished.
+The last architect of the project, whose work ended in July of 2018, developed a basis for a "Mixed-Reality" escape room within the scope of a master thesis.
+He developed and implemented a radio-communication protocol which enabled the riddles to be stand-alone and therefore moved with less re-wiring.
+He also prettified the existing riddles and made the room accessible from the main PC.
 
+People have been struggling with the escape room since the project started in 2015. 
+Lack of management and constant iterative refactoring from different people impeded gaining an overview and structured planning.
+The room supported the existing riddles but modifications were inconvenient to integrate.
+Due to constant time pressure, 
+documentations were provided rarely and sparingly, 
+which lead to the point were barely anybody understands 
+the procedures that make the room work completely. 
+Consequently, the room is currently avoided and further development put on hold.
+
+This project resembles a IoT-project in many ways.
+The architecture of a well-designed digital escape room, as will be discovered, fits into a typical IoT-structure.
+Riddles are the connection to the physical world with sensors and actuators, data needs to be processed and applications react to the incoming data.
+That structure is common to all IoT-projects. 
+Sometimes, there is a cloud to process the information further or decentralization happening, 
+but especially in the scope of home automation and smaller spaces, cloud processing is not an integral part of an IoT-system. 
+Just like this project, only 26\% of IoT-Projects in companies are judged to be a complete success \parencite{ciscoresearch}. 
+The reasons are as numerous as they are diverse. 
+Lack of knowledge, lack of planning, inconsistent standards and legacy architectures within the project are only some mentioned by the Cisco survey.
+A McKinsey report \parencite{mcKinsey} in 2015 stated that most IoT adopters fail to use their data or derive just a small part of its value.
+There is no standartized layer model for IoT like the OSI-Layer model for internet-communication yet. That leads to confusion right at the beginning of any project.
+What makes an IoT-project, really? Where should one start, where are the pitfalls? 
+Standartization procedures in IoT projects will be a huge topic the next few years, as several standarts and services are already competing with each other.
+What started as a mainly IP-based competition, is now a competition of mainly more low-layer, low-energy protocols like Zigbee and LoRa-WAN.
+
+In this thesis, we will discover possibilites of working with a difficult IoT-like project.
+The goal was to simplify working with the architecture at hand by reducing the workload for following developers. 
 This thesis will focus on developing an easy integration system for new riddles from different devices.
 Furthermore, a user interface which supports communication with existing and new riddles dynamically was developed.
 The second chapter will provide an overview about the research on topics relevant for this project. 
-The third chapter will analyze the escape rooms architecture concerning the research. 
+The third chapter will analyze the escape rooms former architecture concerning the research. 
 The fourth chapter will explain in further detail how the project was implemented. 
 Chapter five will evaluate the implementation and examine future possibilites for the project.
+
+
+
+
+%Allgemeine Ebene conclusion forschungsbereich iot kein standart 
+%da iot große rolle spielen wird standartisierung von iot wichitg in jedem iot kontext prozesse verieinfacht werden können 
+% indem projekt wär cooler gewesen wenns standataisiert worden wäre, in dem porjekt haben 
+%ey ich mach meine abgabe späte rwiel time knapp, kollqoum anfang januar lets do it
+%chance geben feedback zu geben
+
+
+
+
+
 

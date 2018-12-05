@@ -71,6 +71,93 @@
       \verb https://www.verizon.com/about/sites/default/files/Verizon-2017-State-of-the-Market-IoT-Report.pdf
       \endverb
     \endentry
+    \entry{ciscoresearch}{url}{}
+      \name{author}{4}{}{%
+        {{hash=c529cee4bf6830c86498a48b3f8f8887}{%
+           family={Kevin},
+           familyi={K\bibinitperiod},
+           given={Delaney},
+           giveni={D\bibinitperiod}}}%
+        {{hash=5df3e43ddf1dfb01a2ed73e99b53f636}{%
+           family={Nicole},
+           familyi={N\bibinitperiod},
+           given={France},
+           giveni={F\bibinitperiod}}}%
+        {{hash=0dcb4aef8fd7730c3933c1227686a6d7}{%
+           family={Ari},
+           familyi={A\bibinitperiod},
+           given={Kapur},
+           giveni={K\bibinitperiod}}}%
+        {{hash=7e68fae40e21ab34e23248aea0e89216}{%
+           family={Eran},
+           familyi={E\bibinitperiod},
+           given={Levy},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{07b9ea84270fff42d9272618c139e4f5}
+      \strng{fullhash}{30d957077659781a3fcdf523e005ff02}
+      \strng{bibnamehash}{07b9ea84270fff42d9272618c139e4f5}
+      \strng{authorbibnamehash}{07b9ea84270fff42d9272618c139e4f5}
+      \strng{authornamehash}{07b9ea84270fff42d9272618c139e4f5}
+      \strng{authorfullhash}{30d957077659781a3fcdf523e005ff02}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{11}
+      \field{title}{Internet of Things: Challenges, Breakthroughs and Best Practices}
+      \field{urlday}{18}
+      \field{urlmonth}{11}
+      \field{urlyear}{2018}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://connectedfutures.cisco.com/report/internet-of-things-challenges-breakthroughs-and-best-practices/
+      \endverb
+      \verb{url}
+      \verb https://connectedfutures.cisco.com/report/internet-of-things-challenges-breakthroughs-and-best-practices/
+      \endverb
+    \endentry
+    \entry{mcKinsey}{url}{}
+      \name{author}{3}{}{%
+        {{hash=d889cecab96d9e28bf6a37802223cf1d}{%
+           family={Dobbs},
+           familyi={D\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+        {{hash=e456d570ec236cee82b8cf83a29db39f}{%
+           family={Manyika},
+           familyi={M\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
+        {{hash=824c9f7f4de0930deaa6c71cea8ef1c5}{%
+           family={Woetzel},
+           familyi={W\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{123e089d0f3ef06034e79bdc8f010589}
+      \strng{fullhash}{123e089d0f3ef06034e79bdc8f010589}
+      \strng{bibnamehash}{123e089d0f3ef06034e79bdc8f010589}
+      \strng{authorbibnamehash}{123e089d0f3ef06034e79bdc8f010589}
+      \strng{authornamehash}{123e089d0f3ef06034e79bdc8f010589}
+      \strng{authorfullhash}{123e089d0f3ef06034e79bdc8f010589}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Internet of Things - Mapping Value Beyond the Hype}
+      \field{urlday}{18}
+      \field{urlmonth}{11}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.mckinsey.com/~/media/McKinsey/Business%20Functions/McKinsey%20Digital/Our%20Insights/The%20Internet%20of%20Things%20The%20value%20of%20digitizing%20the%20physical%20world/The-Internet-of-things-Mapping-the-value-beyond-the-hype.ashx
+      \endverb
+      \verb{url}
+      \verb https://www.mckinsey.com/~/media/McKinsey/Business%20Functions/McKinsey%20Digital/Our%20Insights/The%20Internet%20of%20Things%20The%20value%20of%20digitizing%20the%20physical%20world/The-Internet-of-things-Mapping-the-value-beyond-the-hype.ashx
+      \endverb
+    \endentry
     \entry{designThinkingBook}{book}{}
       \name{author}{3}{}{%
         {{hash=06532fdd8e4deefd635af65774c6cf2b}{%
@@ -98,8 +185,8 @@
       \strng{authorbibnamehash}{ef173ef5fe49db5e77a22a19f0aaedb1}
       \strng{authornamehash}{ef173ef5fe49db5e77a22a19f0aaedb1}
       \strng{authorfullhash}{ef173ef5fe49db5e77a22a19f0aaedb1}
-      \field{sortinit}{3}
-      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Design thinking: understand, improve, apply. Understanding innovation}
@@ -130,8 +217,8 @@
       \strng{authorbibnamehash}{2c18bad2acc28b915c8515fa78a9db99}
       \strng{authornamehash}{2c18bad2acc28b915c8515fa78a9db99}
       \strng{authorfullhash}{2c18bad2acc28b915c8515fa78a9db99}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Design Thinking: A Quick Overview}
@@ -162,8 +249,8 @@
       \strng{authorbibnamehash}{edce20e6e757f4201d63119fe047c8f9}
       \strng{authornamehash}{edce20e6e757f4201d63119fe047c8f9}
       \strng{authorfullhash}{edce20e6e757f4201d63119fe047c8f9}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Author/Copyright holder: Teo Yu Siang and Interaction Design Foundation. Copyright terms and Licence: CC BY-NC-SA 3.0}
@@ -213,8 +300,8 @@
       \strng{authorbibnamehash}{f742c4c998fa7b9009765a76bcd8b8fe}
       \strng{authornamehash}{f742c4c998fa7b9009765a76bcd8b8fe}
       \strng{authorfullhash}{29cbede22f6a7358eba35b0722181c6c}
-      \field{sortinit}{6}
-      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{The Design Thinking Bootleg}
@@ -254,8 +341,8 @@
       \strng{editorbibnamehash}{95a0f16918e368a704e56fd2af020122}
       \strng{editornamehash}{95a0f16918e368a704e56fd2af020122}
       \strng{editorfullhash}{95a0f16918e368a704e56fd2af020122}
-      \field{sortinit}{9}
-      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{editor}
       \field{labeltitlesource}{title}
       \field{annotation}{COPYRIGHT 2015 Gale, Cengage Learning}
@@ -559,8 +646,8 @@
       \strng{authorbibnamehash}{3b130b4f18b5eba39c696a83afb3c993}
       \strng{authornamehash}{3b130b4f18b5eba39c696a83afb3c993}
       \strng{authorfullhash}{e002670d3d6f34d2c0e958e45f5f42ad}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprinttype}{arXiv}
@@ -604,8 +691,8 @@
       \strng{authorbibnamehash}{caf2fbfd60c5d8dc552781274169f257}
       \strng{authornamehash}{caf2fbfd60c5d8dc552781274169f257}
       \strng{authorfullhash}{caf2fbfd60c5d8dc552781274169f257}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{I. Stojmenovic and S. Wen, `` e fog computing paradigm: scenarios and security issues,'' in Proceedings of the Federated Conference on Computer Science and Information Systems (Fed- CSIS '14), pp. 1--8, IEEE, Warsaw, Poland, September 2014.}
@@ -645,8 +732,8 @@
       \strng{authorbibnamehash}{e881689b0da071fce20b76fc66540598}
       \strng{authornamehash}{e881689b0da071fce20b76fc66540598}
       \strng{authorfullhash}{15632803405c03e9fa977d8da838a078}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{F. Bonomi, R. Milito, J. Zhu, and S. Addepalli, ``Fog computing and its role in the internet of things,'' in Proceedings of the 1st ACM MCC Workshop on Mobile Cloud Computing, pp. 13--16, 2012.}
@@ -655,8 +742,8 @@
       \field{year}{2012}
     \endentry
     \entry{frontendDef}{webpage}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{urlday}{28}
       \field{urlmonth}{11}
       \field{urlyear}{2018}
@@ -831,8 +918,8 @@
       \strng{authorbibnamehash}{9bf56f72228f01438ca6517527bf6ab3}
       \strng{authornamehash}{9bf56f72228f01438ca6517527bf6ab3}
       \strng{authorfullhash}{9bf56f72228f01438ca6517527bf6ab3}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Middleware}
@@ -859,8 +946,8 @@
       \strng{authorbibnamehash}{3cec7f5fb2e0fddedf510680a6d25130}
       \strng{authornamehash}{3cec7f5fb2e0fddedf510680a6d25130}
       \strng{authorfullhash}{3cec7f5fb2e0fddedf510680a6d25130}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Web Frameworks Benchmarks}
@@ -875,6 +962,18 @@
       \verb https://www.techempower.com/benchmarks/#section=data-r17&hw=ph&test=plaintext&p=zik0zj-zijocf-zijocf-5m9r
       \endverb
     \endentry
+    \entry{arduinoIDEDownload}{online}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{month}{12}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://www.arduino.cc/en/Main/Software
+      \endverb
+      \verb{url}
+      \verb https://www.arduino.cc/en/Main/Software
+      \endverb
+    \endentry
     \entry{blynk}{url}{}
       \name{author}{1}{}{%
         {{hash=71168d731264059fe6576b5e906cc314}{%
@@ -887,8 +986,8 @@
       \strng{authorbibnamehash}{71168d731264059fe6576b5e906cc314}
       \strng{authornamehash}{71168d731264059fe6576b5e906cc314}
       \strng{authorfullhash}{71168d731264059fe6576b5e906cc314}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Blynk}
@@ -1029,8 +1128,8 @@
       \strng{authorbibnamehash}{15a4fbe287b7987574ac59b2f938ddeb}
       \strng{authornamehash}{15a4fbe287b7987574ac59b2f938ddeb}
       \strng{authorfullhash}{15a4fbe287b7987574ac59b2f938ddeb}
-      \field{sortinit}{3}
-      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Using the RFM69HCW Radio}
@@ -1059,8 +1158,8 @@
       \strng{authorbibnamehash}{d4ea1aff776c1e8c4d73674061069df6}
       \strng{authornamehash}{d4ea1aff776c1e8c4d73674061069df6}
       \strng{authorfullhash}{d4ea1aff776c1e8c4d73674061069df6}
-      \field{sortinit}{3}
-      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Designing for the Digital Age: How to Create Human-Centered Products and Services}
@@ -1082,8 +1181,8 @@
       \strng{authorbibnamehash}{cd846333abeffcc6a828e9813cbffd58}
       \strng{authornamehash}{cd846333abeffcc6a828e9813cbffd58}
       \strng{authorfullhash}{cd846333abeffcc6a828e9813cbffd58}
-      \field{sortinit}{3}
-      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Computer Networks, Elsevier}
@@ -1215,8 +1314,8 @@
       \strng{authorbibnamehash}{1938c653d2ee71d8e278aabac5592a48}
       \strng{authornamehash}{1938c653d2ee71d8e278aabac5592a48}
       \strng{authorfullhash}{1938c653d2ee71d8e278aabac5592a48}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{pg-promise}
@@ -1243,8 +1342,8 @@
       \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
       \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
       \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Thread Class}
@@ -1260,8 +1359,8 @@
       \endverb
     \endentry
     \entry{benchmarkReact}{webpage}{}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \verb{urlraw}
       \verb https://stefankrause.net/js-frameworks-benchmark8/table.html
       \endverb
@@ -1281,8 +1380,8 @@
       \strng{authorbibnamehash}{ca2083cb55ef71f99892fe7ea062b47b}
       \strng{authornamehash}{ca2083cb55ef71f99892fe7ea062b47b}
       \strng{authorfullhash}{ca2083cb55ef71f99892fe7ea062b47b}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Companies using React}
@@ -1405,8 +1504,8 @@
       \strng{authorbibnamehash}{8d35a07e0e8908051e1aaae0b49efa51}
       \strng{authornamehash}{8d35a07e0e8908051e1aaae0b49efa51}
       \strng{authorfullhash}{8d35a07e0e8908051e1aaae0b49efa51}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Socket.IO for Unity}
@@ -1433,8 +1532,8 @@
       \strng{authorbibnamehash}{ee2d15425f020b4ccd3048877630a8f8}
       \strng{authornamehash}{ee2d15425f020b4ccd3048877630a8f8}
       \strng{authorfullhash}{ee2d15425f020b4ccd3048877630a8f8}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{socket.io-unity}
@@ -1461,8 +1560,8 @@
       \strng{authorbibnamehash}{7e6d70c6521ed8f2c1ae70630d35682f}
       \strng{authornamehash}{7e6d70c6521ed8f2c1ae70630d35682f}
       \strng{authorfullhash}{7e6d70c6521ed8f2c1ae70630d35682f}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{socket.io-client.unity3d}
@@ -1491,8 +1590,8 @@
       \strng{authorbibnamehash}{c67ad6b206238b8cdaa448bbae305375}
       \strng{authornamehash}{c67ad6b206238b8cdaa448bbae305375}
       \strng{authorfullhash}{c67ad6b206238b8cdaa448bbae305375}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Python RFM69 library for RaspberryPi}
@@ -1508,8 +1607,8 @@
       \endverb
     \endentry
     \entry{raspberrypiDoc}{url}{}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labeltitlesource}{title}
       \field{title}{RPI RFM69 documentation}
       \field{urlday}{23}
@@ -1525,7 +1624,6 @@
     \endentry
   \enddatalist
   \missing{TTN}
-  \missing{arduinoIDEDownload}
   \missing{edgeFog}
   \missing{fritzingForum}
   \missing{noModel}
