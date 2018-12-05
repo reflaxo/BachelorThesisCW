@@ -4,9 +4,6 @@
 \label{Chapter5} % For referencing the chapter elsewhere, use \ref{Chapter1} 
 
 \section{Evaluation}
-%How effective are the solutions? %Which is more effective?
-
-
 To evaluate the quality of the changes we made, 
 we evaluated the room with the same criterias we picked when judging the room before the changes.
 
@@ -51,24 +48,24 @@ In the following, prior concerns are compared to our perception now.
     \item The developer no longer needs to understand the transport protocol in detail
     \begin{enumerate}
         \item 
-        He still needs to Set-Up the RFM69HCW with an Arduino or an Adafruit Feather, 
+        He still needs to Set-Up the RFM69HCW with an Arduino or an Adafruit Feather 32u4, 
         which requires drivers and maybe another library, but has thorough instructions through a documentation
         \item doesn't need to understand the communication LowPowerLab library if he uses the designed template
-        \item doesn't need to look up the other riddles NodeIDs as he can look them up in the WebInterface
+        \item doesn't need to look up the other riddles information as he can look most of it up in the WebInterface
     \end{enumerate}   
     \item Understand Arduino-coding 
-    \item Understand working with the "Switch-Case"-scenario used for communication (with instructions)
+    \item Understand working with the "Switch-Case"-communication-protocol used for communication (with instructions)
 \end{enumerate}  
 Process Layer:
 \begin{enumerate}
     \item Understand Javascript to make changes on the server (in a cleaned up, documented and component-based code with improved readability)
-    \item 
-    It was instructed not to change the Unity application, so the problem of Unity-programming still exists. 
+    \item Understand Javascript and HTML to make changes to the React-front-end (also component-based) 
+    \item     
+    There were instructions not to change the Unity application, so the problem of Unity-programming still exists. 
     It would be easier to change though, by replacing the TCP connection with a Socket.io connection. 
     There are multiple client implementations for Unity available \parencite{socketioUnity1, socketioUnity2,socketioUnity3}
     That reportedly work (at least) up to the current version of Unity. 
     Since the Unity version in the escape room won't be upgraded regularily, deprecation issues should not arise.
-    \item Understand Javascript and HTML to make changes to the React-front-end (also component-based) 
 \end{enumerate}  
 \subsubsection{Visual Work}
 There was little time to research web-design to an extend where the author could state confidentely that the project's design is especially user-friendly.
@@ -90,6 +87,14 @@ The developer has the possibility to save its values as buttons so that he only 
 \subsubsection{Physical Work}
 The web server reduced the physical interaction needed to work with the room  silghtly. 
 A user can access the room remotely and doesn't need to start the applications manually.
+
+\begin{figure}[th]
+	\centering
+	\includegraphics[width=100mm,scale=1]{Figures/workTable}
+	\decoRule
+	\caption[Workload Overview]{Overview about the workload analysis}
+	\label{fig:TableWork}
+\end{figure}
 
 \subsection{Limitations}
 Even though we, to our judgement, achieved our set goals, 
@@ -173,6 +178,21 @@ This section is meant to list possible ways to expand the built framework.
 \end{description}
 //Picture of Planned architecture (Raspberry, webserver to unity bla)
 
+\subsection{Big Picture}
+
+In the context of other IoT implementations, a rather unusual approach was taken, reasoned with the initial set-up of the room.
+Researching, little IoT-implementations apart from the LowPowerLab framework were found with the RFM69HCW module. 
+Though it serves it's purpose well, beeing cost-effective, consuming very little power and beeing fairly reliable,
+other communication protocols would have been easier to implement and are more flexible in the long-run.
+For example a related module which costs 5 euros more, the RFM9X, is becoming popular with the rise of LoRa-WAN in IoT technology. 
+LoRa-WAN enables easy access to a Web-Interface with The Things Network (TTN) \parencite{TTN}.
+It would also simplify testing, as any "Thing" integrated in TTN can access the gateway within a 2-5 mile range within a city. 
+Protocols like Zigbee and LowPower-Bluetooth are an alternative for short-range communication and offer other 
+advantages like ZigBees mesh-communication or BLE's easy cellphone communication.
+More popular protocols offer more support by a community and are therefore easier to access and update.
+That might be on the one hand due to the 
+we supplied little hardware extensions.
+
 
 \section{Conclusion}
 %Summarize all main points and insights/discoveries
@@ -184,23 +204,16 @@ We hoped to set a basis for a smart escape room with the new features.
 Struktur:
 "Why should anybody care"
 
-Neue funktionen für escape room -
-Hilft entwicklern zu entwickeln -
-Nächste projekte können den escape room smart machen -
-was heißt hier smart - Many possibilites to include smart capabilities in an entertainment environments -
-was denn so  - 
-Body functions could be tracked with sensors (e.g. heartbeat on controlling the spaceship), 
-enviromental factors like the temperatue of the room could impact the story telling ("It's cold in here"/"It's getting hot in here")
-mobile integration 
-Immersion in an escape room can be increased by tracking body functions,
+
 mobile integration would be possible by accessing the node.js server via socket.io
 Erster schritt richtung smart escape room
+
 Narration gets more immersive if a room can react to enviromental factors with sensors. 
 Body functions could be tracked for specific tasks, while the room could react to the general status of the room. 
 If the room "knows" how many riddles were done, the temperature of the room, 
 the number of people within the room, where everybody is with motion or touch detection, it can react appropriately.
 Currently, escape rooms need a supervisor to send hints to people within the room. 
-A fully developed smart escape room
+A fully developed smart escape room.
 
 %Since the layers of an IoT system are neither standartized nor clear depending on the things included in the network system,
 %a layered approach can only be striven for in the execution of a PoC.

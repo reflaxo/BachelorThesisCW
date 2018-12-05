@@ -22,9 +22,44 @@
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
+%Notes
+
+% Related work - tabelen übersicht über frntend etc. , "das hab ich bentutz" in implementation reinballern  X
+%bei POC und MVP itemize statt überschrift, ab halbe seite pro thema überschrift ok X
+%summary am ende von related work - immer individuelle lösungen, viel open source, gibt standart
+% am ende sagen gibt keine standarts, wär nice.
+%POC fehleranfälligkeit, effizienz, zeitaufwand X
+%Gateway funktionalität in UML reinpacken, Rätsel als eigenständige pakete klarer hervoherben
+%Neue Bereiche farbig markieren
+%A former developed escape room statt faculty provided escape room
+%statt microcontrolle riddles riddles controlle by microcontroller und vernetzt network oder so
+%gewachsenes projekt , keine basis struktur iterative refactoring gründe warum cshwierig ist in der einleitung schon sagen
+% grund klarer rausarbeiten weil sonst h#tte es keine arbeit gegeben
+%statt problem beschreiben
+%Projekt war schon vor michael da michael hat das weiter entwickeltwar master thesis von mitja
+%wurde immer weiter entwickelt lan verbunden vor michael (kabel) wurde dadurch modularer
+%mitte 2016 entstanden hin und her rätsel machen / also kein mangament von raum
+%text to speech einbauen
+
+% bei den overviews How/ restrictions aufteilen statt why/not
+%Change gui statt node editor bei challenges, future developments (ideas)
+%kosten nutzen rechnung theoretisch überlegeung, messen
+%Vorher nachher tabelle workload vergleich pfeile die verbesserung darstellen
+%Für unteraspekte
+%Weniger absätze, absätze zusammenfassen
+%Limitations projekt selber vs Ich und die arbeit
+%Conclusion beantwortet was in der einleitung gestellt wurde,
+%Einleitung mehr motivation herausforerung 
+%Allgemeine Ebene conclusion forschungsbereich iot kein standart 
+%da iot große rolle spielen wird standartisierung von iot wichitg in jedem iot kontext prozesse verieinfacht werden können 
+% indem projekt wär cooler gewesen wenns standataisiert worden wäre, in dem porjekt haben 
+%ey ich mach meine abgabe späte rwiel time knapp, kollqoum anfang januar lets do it
+%chance geben feedback zu geben
+%
+
 \documentclass[
 11pt, % The default document font size, options: 10pt, 11pt, 12pt
-%oneside, % Two side (alternating margins) for binding by default, uncomment to switch to one side
+oneside, % Two side (alternating margins) for binding by default, uncomment to switch to one side
 english, % ngerman for German
 onehalfspacing, % Single line spacing, alternatives: onehalfspacing or doublespacing
 %draft, % Uncomment to enable draft mode (no pictures, no links, overfull hboxes indicated)
@@ -44,10 +79,12 @@ headsepline, % Uncomment to get a line under the header
 \usepackage{mathpazo} % Use the Palatino font by default
 \usepackage{url}
 \usepackage[nobottomtitles*]{titlesec}
-%\usepackage[backend=bibtex,style=authoryear,natbib=true]{biblatex} % Use the bibtex backend with the authoryear citation style (which resembles APA)
 \usepackage{rotating}
 \usepackage{caption, copyrightbox}
 \usepackage{float}
+\usepackage{hyperref}
+\usepackage{amsmath}
+
 
 \usepackage[
     backend=biber,
@@ -76,6 +113,7 @@ headsepline, % Uncomment to get a line under the header
     }
 }
 
+
 %----------------------------------------------------------------------------------------
 %	MARGIN SETTINGS
 %----------------------------------------------------------------------------------------
@@ -89,6 +127,11 @@ headsepline, % Uncomment to get a line under the header
 	%showframe, % Uncomment to show how the type block is set on the page
 }
 
+
+%Depth of Table of contents 
+\setcounter{tocdepth}{1}
+
+
 %----------------------------------------------------------------------------------------
 %	THESIS INFORMATION
 %----------------------------------------------------------------------------------------
@@ -97,7 +140,7 @@ headsepline, % Uncomment to get a line under the header
 \supervisor{Dr. Christian  \textsc{Geiger}} % Your supervisor's name, this is used in the title page, print it elsewhere with \supname
 \examiner{Dr. Manfred Wojciechowski} % Your examiner's name, this is not currently used anywhere in the template, print it elsewhere with \examname
 \degree{Bachelor of Engineering} % Your degree name, this is used in the title page and abstract, print it elsewhere with \degreename
-\author{Cara\textsc{Watermann}} % Your name, this is used in the title page and abstract, print it elsewhere with \authorname
+\author{Cara \textsc{Watermann}} % Your name, this is used in the title page and abstract, print it elsewhere with \authorname
 \addresses{} % Your address, this is not currently used anywhere in the template, print it elsewhere with \addressname
 
 \subject{Medientechnik} % Your subject area, this is not currently used anywhere in the template, print it elsewhere with \subjectname
@@ -111,6 +154,8 @@ headsepline, % Uncomment to get a line under the header
 \hypersetup{pdftitle=\ttitle} % Set the PDF's title to your title
 \hypersetup{pdfauthor=\authorname} % Set the PDF's author to your name
 \hypersetup{pdfkeywords=\keywordnames} % Set the PDF's keywords to your keywords
+\hypersetup{linkcolor=black}% make the links black
+
 }
 
 \begin{document}
@@ -137,13 +182,13 @@ headsepline, % Uncomment to get a line under the header
 \begin{minipage}[t]{0.4\textwidth}
 \begin{flushleft} \large
 \emph{Author:}\\
-\href{http://www.johnsmith.com}{\authorname} % Author name - remove the \href bracket to remove the link
+{\authorname} % Author name - remove the \href bracket to remove the link
 \end{flushleft}
 \end{minipage}
 \begin{minipage}[t]{0.4\textwidth}
 \begin{flushright} \large
 \emph{Supervisor:} \\
-\href{http://www.jamessmith.com}{\supname} % Supervisor name - remove the \href bracket to remove the link  
+{\supname} % Supervisor name - remove the \href bracket to remove the link  
 \end{flushright}
 \end{minipage}\\[3cm]
  
@@ -154,10 +199,9 @@ headsepline, % Uncomment to get a line under the header
 \groupname\\\deptname\\[2cm] % Research group name and department name
  
 \vfill
-
+\includegraphics{Logo} % University/department logo - uncomment to place it
 {\large \today}\\[4cm] % Date
-%\includegraphics{Logo} % University/department logo - uncomment to place it
- 
+
 \vfill
 \end{center}
 \end{titlepage}
@@ -192,21 +236,11 @@ headsepline, % Uncomment to get a line under the header
 %	QUOTATION PAGE
 %----------------------------------------------------------------------------------------
 
-\vspace*{0.2\textheight}
-
-\noindent\enquote{\itshape Thanks to my solid academic training, today I can write hundreds of words on virtually any topic without possessing a shred of information, which is how I got a good job in journalism.}\bigbreak
-
-\hfill Dave Barry
 
 
 %----------------------------------------------------------------------------------------
 %	ACKNOWLEDGEMENTS
 %----------------------------------------------------------------------------------------
-
-\begin{acknowledgements}
-\addchaptertocentry{\acknowledgementname} % Add the acknowledgements to the table of contents
-The acknowledgments and the people to thank go here, don't forget to include your project advisor\ldots
-\end{acknowledgements}
 
 %----------------------------------------------------------------------------------------
 %	LIST OF CONTENTS/FIGURES/TABLES PAGES

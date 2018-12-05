@@ -1,5 +1,5 @@
 % Chapter Template
-\chapter{Project Overview5-10p} % Main chapter title
+\chapter{Project Overview} % Main chapter title
 %What is the problem and its effects?
 \label{Chapter3} % For referencing the chapter elsewhere, use \ref{Chapter1} 
 \section{Analysis}
@@ -8,7 +8,7 @@
 %----------------------------------------------------------------------------------------
 %	SECTION 1
 %----------------------------------------------------------------------------------------
-Refering to \ref{fig:gartnerIoT}, we analyzed the existing architecture of the escape room.
+Refering to Figure \ref{fig:gartnerIoT}, we analyzed the existing architecture of the escape room.
 
 \begin{description}
 	\item[Device Layer]\hfill \\
@@ -22,13 +22,13 @@ Refering to \ref{fig:gartnerIoT}, we analyzed the existing architecture of the e
 	      The escape room used the LowPowerlab library since the architect who designed the room prior to our adjustments was familiar with the library.
           Now-a-days the Radiohead library is the recommended library \parencite{adafruitRecommends} since it's documented more thorough by an active community, kept up-to-date and is cross-platform friendly.
          
-          The gateway transceiver was connected via USB to a computer where the data was forwarded via serialport communication (UART).
-          In difference to SPI, UART is asynchronous and needs to be made synchronous to be interpreted by an other device. 
+          The gateway transceiver was connected via USB to a computer where the data was forwarded via UART serialport communication.
+        UART is asynchronous and needs to be made synchronous to be interpreted by another device. 
           Therefore, a stop- and start-bit is added to any message and transmission speed needs to be set on both sides.
-          If the transmission speed differ, the messages can't be interpreted correctly by either side.
+          If the transmission speeds differ, the messages can't be interpreted correctly by either side.
             
-          Any node (riddle) within the room was recognized by a different nodeID and the gateway detected with a specified "GatewayID". 
-        For security-reasons, password-encryption was used between the nodes. 
+          Any node (riddle) within the room was recognized by a different nodeID and the gateway was detected with a specified "GatewayID". 
+            For security-reasons, password-encryption was used between the nodes. 
 
           The Arduinos within the room connected to the RFM69HCW via Serial Pheriphical Interface (SPI).
           SPI is a serial communication protocol common for micro-processor connection. 
@@ -52,7 +52,7 @@ Refering to \ref{fig:gartnerIoT}, we analyzed the existing architecture of the e
           \end{figure*}
           
 	\item[Information Layer]\hfill \\
-        The Information Layer was build around a simple event model: the transceivers would send and receive numeric codes in a "n1/n2/n3...\textbackslash n"-structure e.g. "16/2/0\textbackslash n". 
+        The Information Layer was build around a simple event model: the transceivers would send and receive numeric codes in a "n1/n2/n3...\textbackslash n"-structure, e.g. "16/2/0\textbackslash n". 
         A riddle could be identified through the string it sent, since the first number would be the riddle's adressing number. 
         Further numbers, separated by a backslash, would show the active state of the device. 
         %% Immer wenn mit dem rätsel interagiert wird und sich der status ändert schickt das  rätsel  schickt einen string
@@ -101,7 +101,7 @@ cognitive, visual, memory, and physical“ \parencite{designDigitalAge}.
 While an IoT-System is not always interactive, the goal of this thesis was very interaction-orientated: 
 The goal was to help engineers expand the existing room which would require 
 interaction with the Device-Layer (if they wanted to add hardware-functionality) 
-and the Process-Layer (if they wanted to add software-functionality).
+and the Function-Layer (if they wanted to add software-functionality).
 Therefore it makes sense to analyze this specific project with those aspects in mind. 
 
 It should be mentioned that the room was well designed for the target user, which is an escape room customer, and 
@@ -142,7 +142,7 @@ Memory work is measured in how much a user has to remember to succeed in a task.
 Typical examples are passwords, command names, and file names.
 In its former state, the architecture demanded a high amout of memory work from a developer:
 \begin{enumerate}
-    \item The developer has to translate "Number/Number/Number..." codes whenever he wants to understand the serialport-messages 
+    \item The developer has to translate "n1/n2/n3...\textbackslash n"-codes whenever he wants to understand the serialport-messages 
     \item The developer has to remember a different code when he wants to send an order to the device
     \item Anyone who starts the room has to remember to first start the c++ server and afterwards the unity application on the desktop, or connection will fail.
     \item The developer has to enable the "enable feedback" mode for each node manually if he wants to see all messages send

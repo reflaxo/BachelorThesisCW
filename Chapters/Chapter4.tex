@@ -6,10 +6,10 @@
 
 After introducing the project as it existed before this thesis,
 this chapter will concern the planning and implementation of the extension that was build.
-The implementation used the aforementioned tools as well as some smaller libaries that will be explained in the following section.
+The implementation used the aforementioned tools as well as some smaller libaries that will be explained in the following sections.
 
 \section{Project Design}
-The project's design followed a design thinking approach.
+The project's design followed the in Chapter \ref{Chapter2} design thinking approach.
 The following shows the different steps that were taken that lead to the changes that were planned.
 
 \begin{description}
@@ -68,7 +68,7 @@ The following shows the different steps that were taken that lead to the changes
 		      \item Providing a thorough documentation for future developers  (C/M)
 	      \end{enumerate}
 
-	      The summarized goals for improvement in the different areas can be seen in \ref{fig:workload}.
+	      The summarized goals for improvement in the different areas can be seen in figure \ref{fig:workload}.
 
 	      \begin{figure}[th]
 		      \centering
@@ -101,31 +101,31 @@ and more extensive features which we will eleborate in the evaluation.
 
 \begin{figure}[th]
 	\centering
-	\includegraphics[width=100mm,scale=1]{Figures/PoC}
+	\includegraphics[width=100mm,scale=1]{Figures/TablePoc}
 	\decoRule
-	\caption[PoC]{List of our PoC steps}
+	\caption[Proof of Concept Steps]{List of our PoC steps}
 	\label{fig:PoC}
 \end{figure}
 
 
 \section{Architecture}
 
-As mentioned earlier, IoT-Projects typically follow a SoA %Reference to abkürzung!
-to keep the project flexible and expandable.
+As happening in other contexts, 
+a Service Orientated Architecture (SOA) approach for middleware 
+was proposed in many IoT - architectures from the last few years \parencite{archsurv1}. 
+SOA encourages decomposition of a complex system into simpler and isolated components.
+Thus, reusability and changeability is increased. 
+Especially an IoT-scenario with flexible gateway components and on-going extensions can profit from such 
+architecture as changes are demanded frequently.
+\parencite{archsurv1}
 
 The goals were set with that architecture in mind and resulting architecture changes
 designed to become loosely coupled to encourage improving a specific module of the project.
 
-The changes were meant to reflect concepts of a SoA, creating self-contained,  
-reusable and loosely coupled components
-to encourage improving a specific module of the project on demand.
-
 For example, the TCP- and serial-connection were set-up in a general way (send/ receive all) 
 to separate the data processing from the transport channels. 
-
 Also, communication was designed not interfere with other each other, e.g. 
 communication to Unity should still work if a connection to the front-end failed.
-
 For that reason, a backend was implemented which ensured reliable data storage.
 
 In that way, changes reflect the composition of a fog architecture, 
@@ -138,7 +138,7 @@ would only be proccessed in it's set namespace component.
 \begin{sidewaysfigure}
 	\centering
 	\includegraphics[width=200mm,scale=2]{Figures/escapeUmlNew}
-	\caption{The new escape room architecture}
+	\caption[New Escape Room Architecture]{The new escape room architecture}
 	\label{fig:newEscapeUml}
 \end{sidewaysfigure}
 %picture of our architecture
@@ -150,10 +150,8 @@ The principle concepts though are appliable to any device.
 
 \subsection{RFM69HCW Wiring}
 As most riddles are connected to RFM69HCW modules manually, the first set-up of the prototype 
-consisted of an Arduino Uno connected to a RFM69HCW. As one can see in Figure \ref{fig:prototypeV1},
+consisted of an Arduino Uno connected to a RFM69HCW. As one can see in figure \ref{fig:prototypeV1},
 the wiring looks chaotic.
-
-
 
 Later, the set-up was replaced with an Adafruit Feather 32u4 which is a microprocessor with an integrated 
 RFM69HCW module an therefore reduces the complexity of the wiring needed for the riddle.
@@ -161,11 +159,18 @@ This prototype included an external battery as the Feather doesn't support 5V ou
 The Adafruit Feather 32u4 needs an external libary to work, the only difference though (apart from the radio set-up)
 is the assignment of the SPI lines.
 
+The pictures were drawn with a tool called "Fritzing". 
+Fritzing is a popular open-source software for the design of electrical microporcessor-hardware.
+It and enables prototyping and e.g. generates circuit diagrams automatically and testing code in an interface. 
+To achieve that, someone needs to set the specifications (I/O, behaviour) of a part. 
+The developed part is called a "Fritzing-part" opposed to a "Fritzing-app" which is a project containing several connected Fritzing-parts. 
+Projects can be shared in the Fritzing forum \parencite{fritzingForum}. It was developed by the University of Applied Sciences in Potsdam
+
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=75mm,scale=.75]{Figures/prototypeV1}
 	\decoRule
-	\caption[prototypeV1]{Prototype, Version 1}
+	\caption[First Version of the Prototype]{Prototype, Version 1}
 	\label{fig:prototypeV1}
 \end{figure}
 
@@ -174,7 +179,7 @@ is the assignment of the SPI lines.
 	\centering
 	\includegraphics[width=50mm,scale=.5]{Figures/prototypeV2}
 	\decoRule
-	\caption[prototypeV2]{Prototype, Version 2}
+	\caption[Second Version of the Prototype]{Prototype, Version 2}
 	\label{fig:prototypeV2}
 \end{figure}
 
@@ -219,7 +224,7 @@ The template is devided into 3 parts: "Groundwork", "Riddlefunctionality" and "R
 		            \end{enumerate}
 		            That structure is meant to be applieable for any variable.
 		      \item[remoteCommand()]\hfill \\
-		            Designed to contain processing of incoming messages from the gateway/PC.
+					Designed to contain processing of incoming messages from the gateway/server.
 		            It's connected to the radio functionality further down in the code, nevertheless allows the user not to care about how the messages are processed.
 
 		            The developer is advised to use a "Switch-Case" structure to define the microcontroller's reactions to radio messages, to keep the processing clean and standartized.
@@ -254,7 +259,13 @@ Moreover would the riddle possess static  "won", "lost", and "reset"-values to t
 %prototype pic
 
 \section{Back-End}
-PostgresSQL was used and the relational model implemented for the back-end.
+
+For this database, PostgreSQL was used as DBMS.
+PostgreSQL is a light-weight open-source object-relational database system. 
+Companies like Netflix, Spotify or Instagram \parencite{postgresUsers} rely on the flexible database system which allows SQl and noSQL design.
+It is easy to set-up and maintain. 
+
+The relational model was implemented for the back-end.
 Two tables were enough to fit our needs.
 One table manages the location, name and other general information about the riddle displayed in the main view,
 whereas the other one is responsible for saving and editing the information displayed in the pop-up window.
@@ -263,18 +274,54 @@ This seperation simplifies database changes, clearifying the tasks happening on 
 The Node.js server connects the information when sending to the front-end by assigning the details with the riddle's id to the corresponding riddle.
 
 %Database schema einfügen
-\section{Middleware}
+\section{Comunication}
 
-\subsection{Web Server}
-It quickly became apperant that the middleware web server would use Node.js due to the reasons mentioned in \ref{Chapter2}.
-The decisive factor for this decision was that it would be easier to develop and understand a web server programmed in the same language as the front-end.
+For this project, a websocket implementation seemed the most fitting option as realtime-communication between several clients would be required.
+ 
+It was decided to use Socket.io for client-middleware-communication.
+Socket.io is a Javascript-Libary designed for realtime communication build on top of a websocket-protocol.
+It enables a bi-directional communication channel between client and server and offers a fallback mechanism to long polling when websockets are not available.
+There are several fallback mechanisms available that are determined dynamically by Socket.io:
+\begin{itemize}
+    \item Websocket
+    \item Adobe Flash Socket
+    \item AJAX long polling
+    \item AJAX multipart streaming
+    \item Forever Iframe
+    \item JSONP Polling
+\end{itemize}
+
+The server-side of Socket.io is developed  specifically for Node.js wheras for the client different implementations (e.g. .Net, Swift, C++)\parencite{socketioClients} are available.
+Once a connections is established it's maintained and uses a diminishing small amount resources to communicate. 
+It uses an event-based system where one participant listens and another emits an event. 
+Both Client and Server can emit and listen for events.
+
+\subsection{Webserver}
+It quickly became apperant that the webserver would use Node.js for middleware and processing functionalites between our client front-end and the database-backend 
+due to the reasons mentioned in Chapter \ref{Chapter3} and listed below.
+
+Node.js is an open-source, cross-plattform, javascript-runtime-enviroment. 
+With 49.6\% it is this years "Most Popular Framework, Libary or Tool" on this years Stackoverflow-survey \parencite{stackOverflowSurvey}.
+According to Google Trends, interest is rising since 2012\parencite{gogleTrendNode}.
+One explanation for that might be that it's written in Javascript. 
+The transition for front-end Javascript developers to developing back-end is eased, because they don't have to learn a new language.
+It uses an event-driven architecture which operates on a single threaded event loop using non-blocking I/O calls.
+Commands use callbacks to signal they are completed or failed. 
+A downside is, that it doesn't allow vertical scaling by increasing the number of CPU cores of the machine it is running on. 
+On CPU-intensive applications, that might become a problem - but modules like IPC or pm2 can add that functionality \parencite{pm2}.
+Node.js commands are non-blocking and execute concurrently or in parallel. 
+It's build on the Google V8 JavaScript engine which compiles Javascript to machine code instead of interpreting it in real time. 
+%Statistik zu schnelligkeit
+There are thousands of open-source libaries and web frameworks available for Node.js. 
+
+The decisive factor for using Node.js in comparison to other middleware and back-end solutions was that it would be easier to develop and understand a web server written in the same language as the front-end.
 
 As all the website operations were processed on the client-side, Node.js main operation was the database and handling.
 The "pg-promise" libary \parencite{pg-promise} was used for database integration with PostgreSQL.
 
 Depending on the event emitted by the web interface, database-queries to select, update or delete entries could be triggered.
 
-If the gateway emitted a message, a control mechanism would check if the riddle was known and either add a new riddle, update an existing riddle (if new variables where recognized) or translate the incoming data .
+If the gateway emitted a message, a control mechanism would check if the riddle was known and either add a new riddle, update an existing riddle (if new variables where recognized) or translate the incoming data.
 
 With Socket.io, the client would register whether a front-end or another client would register and forward the needed data from the database.
 By namespacing (creating different channels for different clients), we tried to avoid dispensable traffic.
@@ -286,31 +333,27 @@ The front-end would receive the sorted database data in a sorted json fit to the
 This part of the middleware changed several times during our development process.
 
 Since the front-end allowed a reassignement of the messages that would trigger an Unityevent, 
-filtering the incoming serial-messages before they were sent to Unity via TCP was required.
-
+filtering the incoming serialmessages before they were sent to Unity via TCP was required.
 Furthermore would they need to be checked for eventual new riddleinformation or messages to be translated or displayed in the front-end.
-
 Consequently, this part of the middleware would filter relevant "Finish"-serialmessages through a PostgreSQL-database, 
 and activate a "checkSerialMessage" function which would decide on further processing.
-
-First was tried to use the existing C++-server for the architecture but quickly discovered that understanding and extending the existing code would probably take longer than recreating the features.
+First was tried to use the existing C++-server for the architecture but it was quickly discovered that understanding and extending the existing code would probably take longer than recreating the features.
 
 Then, because many developers within the faculty were proficient in C\# from Unity development, an implementation the functionalites was tried with a .NET WPF-App.
-This proved to be difficult, as it required multi-threading and communication between the threads. 
+This proved to be difficult as well, as it required multi-threading and communication between the threads. 
 Both are well documented at the MSDN \parencite{MSDN},
 however due to the mass of different techniques it was hard to get an overview.
-
 The resulting code was easier than the C++ code, though not comparable to the readability of the Javascript-code of the Node.js implementation.
-It took roughly a week to implement the desired functionalites.
+It took roughly 40 hours to implement the desired functionalites with .NET .
 
 Finally, the  C\# code was revisited and implemented it in Javascript to compare the workload and readability.
-The same functionalites took about 10 hours to implement, though the author did by then have little experience in Javascript and started the C\# implementation with Unity-C\#-Knowledge.
+The same functionalites took about 20 hours to implement, though the author did by then have little experience in Javascript and started the C\# implementation with Unity-C\#-Knowledge.
 The async-capabilities of Node.js revealed a tremendous advantage compared to the threading difficulties experienced with the .NET project in this project.
 
 
 \begin{figure}[th]
 	\centering
-	\includegraphics[width=100mm,scale=1]{Figures/backendOverview}
+	\includegraphics[width=100mm,scale=1]{Figures/tableBackend}
 	\decoRule
 	\caption[PoC]{Overview of the back-end challenges}
 	\label{fig:BackEndTable}
@@ -318,7 +361,68 @@ The async-capabilities of Node.js revealed a tremendous advantage compared to th
 
 
 \section{Front-End}
-For setting up our front-end, the Create-React-App was used, which provides a front-end build pipeline with Babel and Webpack.
+For this project, React.js was used. 
+React.js will further be called by it's commonly referred name "React".
+React was chosen for it's flexible functionalities and it's big community support that outweighs the other two presented front-end solutions.
+Angular too has a big community, but supposedly a flatter learning curve.
+React is an Open-Source Javascript-Libary. 
+After developing React in 2011, Facebook soon discovered that it's performance was faster than other implementations of its' kind \parencite{benchmarkReact}and made it Open-Source in 2015. 
+At present, React is used by major companies for their front-end like Airbnb, Netflix and Reddit \parencite{reactjsUsers}. 
+In this years' Stackoverflow-Survey, React came third in "Most Popular Framework, Libary or Tool" \parencite{stackOverflowSurvey} and is the most popular front-end-framework according to this survey. 
+This year, over 100,000 developers participated in the survey. 
+A lot of libaries are available for React. 
+Its main concepts are:
+
+
+\begin{description}
+    \item[Components] \hfill \\
+    React motivates its users to write encapsulated components with single responsibilities. Components combine the HTML-markup and Javscript-functionality of a responsibility. 
+    They are supposed to increase reusability. %erhöhen
+    \item[Composition] \hfill \\
+    The user can reuse and composite elements as he needs to. 
+    The isolated components make code easier to maintain. 
+    \item[Uni-Directional Dataflow] \hfill \\
+            Properties should not be changed in other components, but passed down as read-only variables. 
+            React doesn't want children to affect their parent components. That makes maintainability easier, as there's a clear downward structure in a well designed React project.
+            If a user needs to pass changes to a parent component, it's executed with callbacks.
+    \item[Virtual Dom]\hfill \\
+    A Document Object Model (DOM) is a logical structure of documents in HTML, XHTML, or XML formats. 
+    Web browsers are using layout engines to transform or parse the representation HTML-syntax into document object model that we can see in a web browser.
+    Usually, when one of these elements changes, the whole structure has to be calculated again. 
+    React uses a Virtual DOM as a negiator to enable calculating only the parts that need calculating. That's also possible because of Reacts' isolated component structure.
+    \item[JSX] \hfill \\
+	Javascript XML (JSX), extends the ECMAScript JavaScript syntax with XML/HTML-like elements.
+	It is React's recommended language of choice, though React supports standart Javascript syntax too.
+	"The syntax is intended to be used by preprocessors (i.e., transpilers like Babel) to transform HTML-like 
+	elements into JavaScript objects that a JavaScript engine will parse" \parencite{jsx2}.
+	The JSX-syntax supports React's idea of isolated components, 
+	because HTML and Javascript is defined in a single file instead of multiple files.
+	JavaScript functionalities between HTML-code can be used by putting them in curly brackets ("{}").
+	The generated code runs faster than an equivalent code written directly in JavaScript \parencite{jsx}.
+	Most JSX-components in react follow a specific structure that can be seen in figure \ref{fig:reactEx}.
+	Usually, a class describing the components functionality is defined.
+	In the class, first, a constructor sets the initial internal values like functions and variables used within the class, 
+	second, functions are stated, third, the return-function defines what shall be returned and finally the render-function defines what the returned HTML should look like.
+\end{description}
+\begin{figure}[b]
+	\centering
+    \includegraphics[width=125mm, scale=1.25]{Figures/ReactExampleFullsize}
+	\decoRule
+	\caption[React1]{React example code}
+	\label{fig:reactEx}
+\end{figure}
+
+
+\begin{figure}[t]
+    \centering
+	\includegraphics[width=75mm,scale=0.75]{Figures/EditExample1}
+	\decoRule
+	\caption[ReactEx]{Resulting Output of example code}
+	\label{fig:resultReact}
+\end{figure}
+
+
+For setting up the front-end, the Create-React-App was used, which provides a front-end build pipeline with Babel and Webpack.
 React recommends to start there for single-page applications \parencite{createReactApp}.
 
 It provides a package.json file in which modules and their versions are defined and set.
@@ -327,7 +431,6 @@ This prevents unwanted updates so the existing code won't risk becoming deprecat
 The npm packet manager (which is the standard packet manager for Node.js) automatically generates a package-lock.json file which saves the dependency tree in further detail.
 
 For the file-structure, the recommended approach to group by filetype \parencite{reactStructure} in combination with the Create-React-App-structure was used.
-%Fig: Our File structure front end
 
 Starting out, it was planned to implement a node-editor to connect riddles in all thinkable ways.
 Wheile listing the wished functionalities (Changeable riddleassignments with "Single", "AND" and "OR" connections to the Unity-Events) it was decided that a drag-and-drop table would supply those functionalites (Changeable assignements, OR connections) without creating a difficult User-Interface.
@@ -359,7 +462,7 @@ To increase the general overview for a supervisor, the color of a riddle would c
 
 \begin{figure}[th]
 	\centering
-	\includegraphics[width=100mm,scale=1]{Figures/frontendOverview}
+	\includegraphics[width=100mm,scale=1]{Figures/tableFrontend}
 	\decoRule
 	\caption[FrontViewTable]{Overview about our front-view tasks.}
 	\label{fig:FrontViewTable}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.8.15)  30 NOV 2018 10:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.8.15)  5 DEC 2018 16:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1124,7 +1124,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks36
 \@floatcapt=\box68
 )
-Package scrhack Info: loading float hack on input line 51.
+Package scrhack Info: loading float hack on input line 85.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/koma-script/float.hak
 File: float.hak 2018/03/30 v3.25 KOMA-Script package (hacking package float)
  (/usr/local/texlive/2018/texmf-dist/tex/latex/koma-script/tocbasic.sty
@@ -1135,95 +1135,214 @@ Package: tocbasic 2018/03/30 v3.25 KOMA-Script package (handling toc-files)
 Package scrhack Info: redefining \newfloat on input line 163.
 Package scrhack Info: redefining \listof on input line 163.
 Package scrhack Info: undefining \float@addtolists on input line 163.
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/biblatex.sty
-Package: biblatex 2018/03/04 v3.11 programmable bibliographies (PK/MW)
- (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO)
- (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-) (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
-) (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
- (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
- (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
-))) (/usr/local/texlive/2018/texmf-dist/tex/latex/logreq/logreq.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen291
+\Hy@linkcounter=\count298
+\Hy@pagecounter=\count299
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count300
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4509.
+Package hyperref Info: Link nesting OFF on input line 4514.
+Package hyperref Info: Hyper index ON on input line 4517.
+Package hyperref Info: Plain pages OFF on input line 4524.
+Package hyperref Info: Backreferencing OFF on input line 4529.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4762.
+\c@Hy@tempcnt=\count301
+LaTeX Info: Redefining \url on input line 5115.
+\XeTeXLinkMargin=\dimen292
+\Fld@menulength=\count302
+\Field@Width=\dimen293
+\Fld@charsize=\dimen294
+Package hyperref Info: Hyper figures OFF on input line 6369.
+Package hyperref Info: Link nesting OFF on input line 6374.
+Package hyperref Info: Hyper index ON on input line 6377.
+Package hyperref Info: backreferencing OFF on input line 6384.
+Package hyperref Info: Link coloring OFF on input line 6389.
+Package hyperref Info: Link coloring with OCG OFF on input line 6394.
+Package hyperref Info: PDF/A mode OFF on input line 6399.
+LaTeX Info: Redefining \ref on input line 6439.
+LaTeX Info: Redefining \pageref on input line 6443.
+\Hy@abspage=\count303
+\c@Item=\count304
+\c@Hfootnote=\count305
+)
+Package scrhack Info: hyperref hack deactivated because of
+(scrhack)             detection of hyperref version, that doesn't
+(scrhack)             need that hack, on input line 86.
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
+\Fld@listcount=\count306
+\c@bookmark@seq@number=\count307
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 282.
+)
+\Hy@SectionHShift=\skip65
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip66
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen295
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count308
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count309
+\leftroot@=\count310
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count311
+\DOTSCASE@=\count312
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box70
+\strutbox@=\box71
+\big@size=\dimen296
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count313
+\c@MaxMatrixCols=\count314
+\dotsspace@=\muskip17
+\c@parentequation=\count315
+\dspbrk@lvl=\count316
+\tag@help=\toks37
+\row@=\count317
+\column@=\count318
+\maxfields@=\count319
+\andhelp@=\toks38
+\eqnshift@=\dimen297
+\alignsep@=\dimen298
+\tagshift@=\dimen299
+\tagwidth@=\dimen300
+\totwidth@=\dimen301
+\lineht@=\dimen302
+\@envbody=\toks39
+\multlinegap=\skip67
+\multlinetaggap=\skip68
+\mathdisplay@stack=\toks40
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2018/03/04 v3.11 programmable bibliographies (PK/MW)
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count298
+\lrq@indent=\count320
  (/usr/local/texlive/2018/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 )) (/usr/local/texlive/2018/texmf-dist/tex/generic/xstring/xstring.sty (/usr/local/texlive/2018/texmf-dist/tex/generic/xstring/xstring.tex
 \@xs@message=\write4
-\integerpart=\count299
-\decimalpart=\count300
+\integerpart=\count321
+\decimalpart=\count322
 )
 Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 )
-\c@tabx@nest=\count301
-\c@listtotal=\count302
-\c@listcount=\count303
-\c@liststart=\count304
-\c@liststop=\count305
-\c@citecount=\count306
-\c@citetotal=\count307
-\c@multicitecount=\count308
-\c@multicitetotal=\count309
-\c@instcount=\count310
-\c@maxnames=\count311
-\c@minnames=\count312
-\c@maxitems=\count313
-\c@minitems=\count314
-\c@citecounter=\count315
-\c@savedcitecounter=\count316
-\c@uniquelist=\count317
-\c@uniquename=\count318
-\c@refsection=\count319
-\c@refsegment=\count320
-\c@maxextratitle=\count321
-\c@maxextratitleyear=\count322
-\c@maxextradate=\count323
-\c@maxextraalpha=\count324
-\c@abbrvpenalty=\count325
-\c@highnamepenalty=\count326
-\c@lownamepenalty=\count327
-\c@maxparens=\count328
-\c@parenlevel=\count329
-\blx@tempcnta=\count330
-\blx@tempcntb=\count331
-\blx@tempcntc=\count332
-\blx@maxsection=\count333
-\blx@maxsegment@0=\count334
-\blx@notetype=\count335
-\blx@parenlevel@text=\count336
-\blx@parenlevel@foot=\count337
-\blx@sectionciteorder@0=\count338
-\labelnumberwidth=\skip65
-\labelalphawidth=\skip66
-\biblabelsep=\skip67
-\bibitemsep=\skip68
-\bibnamesep=\skip69
-\bibinitsep=\skip70
-\bibparsep=\skip71
-\bibhang=\skip72
+\c@tabx@nest=\count323
+\c@listtotal=\count324
+\c@listcount=\count325
+\c@liststart=\count326
+\c@liststop=\count327
+\c@citecount=\count328
+\c@citetotal=\count329
+\c@multicitecount=\count330
+\c@multicitetotal=\count331
+\c@instcount=\count332
+\c@maxnames=\count333
+\c@minnames=\count334
+\c@maxitems=\count335
+\c@minitems=\count336
+\c@citecounter=\count337
+\c@savedcitecounter=\count338
+\c@uniquelist=\count339
+\c@uniquename=\count340
+\c@refsection=\count341
+\c@refsegment=\count342
+\c@maxextratitle=\count343
+\c@maxextratitleyear=\count344
+\c@maxextradate=\count345
+\c@maxextraalpha=\count346
+\c@abbrvpenalty=\count347
+\c@highnamepenalty=\count348
+\c@lownamepenalty=\count349
+\c@maxparens=\count350
+\c@parenlevel=\count351
+\blx@tempcnta=\count352
+\blx@tempcntb=\count353
+\blx@tempcntc=\count354
+\blx@maxsection=\count355
+\blx@maxsegment@0=\count356
+\blx@notetype=\count357
+\blx@parenlevel@text=\count358
+\blx@parenlevel@foot=\count359
+\blx@sectionciteorder@0=\count360
+\labelnumberwidth=\skip69
+\labelalphawidth=\skip70
+\biblabelsep=\skip71
+\bibitemsep=\skip72
+\bibnamesep=\skip73
+\bibinitsep=\skip74
+\bibparsep=\skip75
+\bibhang=\skip76
 \blx@bcfin=\read3
 \blx@bcfout=\write5
-\c@mincomprange=\count339
-\c@maxcomprange=\count340
-\c@mincompwidth=\count341
+\c@mincomprange=\count361
+\c@maxcomprange=\count362
+\c@mincompwidth=\count363
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/blx-dm.def
@@ -1233,88 +1352,88 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'numeric.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count342
-\c@savedafterword=\count343
-\c@annotator=\count344
-\c@savedannotator=\count345
-\c@author=\count346
-\c@savedauthor=\count347
-\c@bookauthor=\count348
-\c@savedbookauthor=\count349
-\c@commentator=\count350
-\c@savedcommentator=\count351
-\c@editor=\count352
-\c@savededitor=\count353
-\c@editora=\count354
-\c@savededitora=\count355
-\c@editorb=\count356
-\c@savededitorb=\count357
-\c@editorc=\count358
-\c@savededitorc=\count359
-\c@foreword=\count360
-\c@savedforeword=\count361
-\c@holder=\count362
-\c@savedholder=\count363
-\c@introduction=\count364
-\c@savedintroduction=\count365
-\c@namea=\count366
-\c@savednamea=\count367
-\c@nameb=\count368
-\c@savednameb=\count369
-\c@namec=\count370
-\c@savednamec=\count371
-\c@translator=\count372
-\c@savedtranslator=\count373
-\c@shortauthor=\count374
-\c@savedshortauthor=\count375
-\c@shorteditor=\count376
-\c@savedshorteditor=\count377
-\c@labelname=\count378
-\c@savedlabelname=\count379
-\c@institution=\count380
-\c@savedinstitution=\count381
-\c@lista=\count382
-\c@savedlista=\count383
-\c@listb=\count384
-\c@savedlistb=\count385
-\c@listc=\count386
-\c@savedlistc=\count387
-\c@listd=\count388
-\c@savedlistd=\count389
-\c@liste=\count390
-\c@savedliste=\count391
-\c@listf=\count392
-\c@savedlistf=\count393
-\c@location=\count394
-\c@savedlocation=\count395
-\c@organization=\count396
-\c@savedorganization=\count397
-\c@origlocation=\count398
-\c@savedoriglocation=\count399
-\c@origpublisher=\count400
-\c@savedorigpublisher=\count401
-\c@publisher=\count402
-\c@savedpublisher=\count403
-\c@language=\count404
-\c@savedlanguage=\count405
-\c@origlanguage=\count406
-\c@savedoriglanguage=\count407
-\c@pageref=\count408
-\c@savedpageref=\count409
-\shorthandwidth=\skip73
-\shortjournalwidth=\skip74
-\shortserieswidth=\skip75
-\shorttitlewidth=\skip76
-\shortauthorwidth=\skip77
-\shorteditorwidth=\skip78
-\locallabelnumberwidth=\skip79
-\locallabelalphawidth=\skip80
-\localshorthandwidth=\skip81
-\localshortjournalwidth=\skip82
-\localshortserieswidth=\skip83
-\localshorttitlewidth=\skip84
-\localshortauthorwidth=\skip85
-\localshorteditorwidth=\skip86
+\c@afterword=\count364
+\c@savedafterword=\count365
+\c@annotator=\count366
+\c@savedannotator=\count367
+\c@author=\count368
+\c@savedauthor=\count369
+\c@bookauthor=\count370
+\c@savedbookauthor=\count371
+\c@commentator=\count372
+\c@savedcommentator=\count373
+\c@editor=\count374
+\c@savededitor=\count375
+\c@editora=\count376
+\c@savededitora=\count377
+\c@editorb=\count378
+\c@savededitorb=\count379
+\c@editorc=\count380
+\c@savededitorc=\count381
+\c@foreword=\count382
+\c@savedforeword=\count383
+\c@holder=\count384
+\c@savedholder=\count385
+\c@introduction=\count386
+\c@savedintroduction=\count387
+\c@namea=\count388
+\c@savednamea=\count389
+\c@nameb=\count390
+\c@savednameb=\count391
+\c@namec=\count392
+\c@savednamec=\count393
+\c@translator=\count394
+\c@savedtranslator=\count395
+\c@shortauthor=\count396
+\c@savedshortauthor=\count397
+\c@shorteditor=\count398
+\c@savedshorteditor=\count399
+\c@labelname=\count400
+\c@savedlabelname=\count401
+\c@institution=\count402
+\c@savedinstitution=\count403
+\c@lista=\count404
+\c@savedlista=\count405
+\c@listb=\count406
+\c@savedlistb=\count407
+\c@listc=\count408
+\c@savedlistc=\count409
+\c@listd=\count410
+\c@savedlistd=\count411
+\c@liste=\count412
+\c@savedliste=\count413
+\c@listf=\count414
+\c@savedlistf=\count415
+\c@location=\count416
+\c@savedlocation=\count417
+\c@organization=\count418
+\c@savedorganization=\count419
+\c@origlocation=\count420
+\c@savedoriglocation=\count421
+\c@origpublisher=\count422
+\c@savedorigpublisher=\count423
+\c@publisher=\count424
+\c@savedpublisher=\count425
+\c@language=\count426
+\c@savedlanguage=\count427
+\c@origlanguage=\count428
+\c@savedoriglanguage=\count429
+\c@pageref=\count430
+\c@savedpageref=\count431
+\shorthandwidth=\skip77
+\shortjournalwidth=\skip78
+\shortserieswidth=\skip79
+\shorttitlewidth=\skip80
+\shortauthorwidth=\skip81
+\shorteditorwidth=\skip82
+\locallabelnumberwidth=\skip83
+\locallabelalphawidth=\skip84
+\localshorthandwidth=\skip85
+\localshortjournalwidth=\skip86
+\localshortserieswidth=\skip87
+\localshorttitlewidth=\skip88
+\localshortauthorwidth=\skip89
+\localshorteditorwidth=\skip90
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/blx-compat.def
@@ -1324,13 +1443,13 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2018/03/04 v3.11 biblatex compatibility (PK/MW)
-\c@textcitecount=\count410
-\c@textcitetotal=\count411
-\c@textcitemaxnames=\count412
-\c@biburlnumpenalty=\count413
-\c@biburlucpenalty=\count414
-\c@biburllcpenalty=\count415
-\c@smartand=\count416
+\c@textcitecount=\count432
+\c@textcitetotal=\count433
+\c@textcitemaxnames=\count434
+\c@biburlnumpenalty=\count435
+\c@biburlucpenalty=\count436
+\c@biburllcpenalty=\count437
+\c@smartand=\count438
 )
 Package biblatex Info: Trying to load natbib compatibility...
 Package biblatex Info: ... file 'blx-natbib.def' found.
@@ -1345,8 +1464,8 @@ Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2018/03/04 v3.11 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count417
-\c@bbx:relatedtotal=\count418
+\c@bbx:relatedcount=\count439
+\c@bbx:relatedtotal=\count440
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
@@ -1370,13 +1489,13 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
 File: biblatex.cfg 
 )) (/usr/local/texlive/2018/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2018/02/11 v5.2c context-sensitive quotations (JAW)
-\csq@reset=\count419
-\csq@gtype=\count420
-\csq@glevel=\count421
-\csq@qlevel=\count422
-\csq@maxlvl=\count423
-\csq@tshold=\count424
-\csq@ltx@everypar=\toks37
+\csq@reset=\count441
+\csq@gtype=\count442
+\csq@glevel=\count443
+\csq@qlevel=\count444
+\csq@maxlvl=\count445
+\csq@tshold=\count446
+\csq@ltx@everypar=\toks41
  (/usr/local/texlive/2018/texmf-dist/tex/latex/csquotes/csquotes.def
 File: csquotes.def 2018/02/11 v5.2c csquotes generic definitions (JAW)
 )
@@ -1386,101 +1505,17 @@ Package csquotes Info: ... configuration file loaded successfully.
 File: csquotes.cfg 
 )
 Package csquotes Info: Enabling multilingual quotes.
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
- (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
-Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
- (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
-Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
-Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
-Package hobsub Info: Skipping package `infwarerr' (already loaded).
-Package hobsub Info: Skipping package `ltxcmds' (already loaded).
-Package hobsub Info: Skipping package `ifluatex' (already loaded).
-Package hobsub Info: Skipping package `ifvtex' (already loaded).
-Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
-Package hobsub Info: Skipping package `ifpdf' (already loaded).
-Package hobsub Info: Skipping package `etexcmds' (already loaded).
-Package hobsub Info: Skipping package `kvsetkeys' (already loaded).
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-Package hobsub Info: Skipping package `pdftexcmds' (already loaded).
-Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
-Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO)
-Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
-Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
 )
-Package hobsub Info: Skipping package `hobsub' (already loaded).
-Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
-Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
-Package: xcolor-patch 2016/05/16 xcolor patch
-Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
-Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
-Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
-Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/auxhook.sty
-Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
-)
-\@linkdim=\dimen291
-\Hy@linkcounter=\count425
-\Hy@pagecounter=\count426
- (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
-Now handling font encoding PD1 ...
-... no UTF-8 mapping file for font encoding PD1
-)
-\Hy@SavedSpaceFactor=\count427
- (/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/hyperref.cfg
-File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
-)
-Package hyperref Info: Hyper figures OFF on input line 4509.
-Package hyperref Info: Link nesting OFF on input line 4514.
-Package hyperref Info: Hyper index ON on input line 4517.
-Package hyperref Info: Plain pages OFF on input line 4524.
-Package hyperref Info: Backreferencing OFF on input line 4529.
-Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4762.
-\c@Hy@tempcnt=\count428
-LaTeX Info: Redefining \url on input line 5115.
-\XeTeXLinkMargin=\dimen292
-\Fld@menulength=\count429
-\Field@Width=\dimen293
-\Fld@charsize=\dimen294
-Package hyperref Info: Hyper figures OFF on input line 6369.
-Package hyperref Info: Link nesting OFF on input line 6374.
-Package hyperref Info: Hyper index ON on input line 6377.
-Package hyperref Info: backreferencing OFF on input line 6384.
-Package hyperref Info: Link coloring OFF on input line 6389.
-Package hyperref Info: Link coloring with OCG OFF on input line 6394.
-Package hyperref Info: PDF/A mode OFF on input line 6399.
-LaTeX Info: Redefining \ref on input line 6439.
-LaTeX Info: Redefining \pageref on input line 6443.
-\Hy@abspage=\count430
-\c@Item=\count431
-\c@Hfootnote=\count432
-)
-Package scrhack Info: hyperref hack deactivated because of
-(scrhack)             detection of hyperref version, that doesn't
-(scrhack)             need that hack, on input line 116.
-Package hyperref Info: Driver (autodetected): hpdftex.
- (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
-\Fld@listcount=\count433
-\c@bookmark@seq@number=\count434
- (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
-Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 282.
-)
-\Hy@SectionHShift=\skip87
-)
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 116.
-Package hyperref Info: Option `hypertexnames' set `false' on input line 116.
-Package hyperref Info: Option `colorlinks' set `true' on input line 116.
-Package hyperref Info: Option `unicode' set `true' on input line 116.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 161.
+Package hyperref Info: Option `hypertexnames' set `false' on input line 161.
+Package hyperref Info: Option `colorlinks' set `true' on input line 161.
+Package hyperref Info: Option `unicode' set `true' on input line 161.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2018/02/06 v6.86b Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Option `breaklinks' set `true' on input line 116.
+Package hyperref Info: Option `breaklinks' set `true' on input line 161.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/biblatex/lbx/english.lbx
@@ -1491,23 +1526,23 @@ Package csquotes Info: ... found 'babel' package.
  (./main.aux (./Chapters/Chapter1.aux) (./Chapters/Chapter2.aux) (./Chapters/Chapter3.aux) (./Chapters/Chapter4.aux) (./Chapters/Chapter5.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 116.
-LaTeX Font Info:    ... okay on input line 116.
-LaTeX Font Info:    Try loading font information for T1+ppl on input line 116.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 161.
+LaTeX Font Info:    ... okay on input line 161.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 161.
+LaTeX Font Info:    ... okay on input line 161.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 161.
+LaTeX Font Info:    ... okay on input line 161.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 161.
+LaTeX Font Info:    ... okay on input line 161.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 161.
+LaTeX Font Info:    ... okay on input line 161.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 161.
+LaTeX Font Info:    ... okay on input line 161.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 161.
+LaTeX Font Info:    ... okay on input line 161.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 161.
+LaTeX Font Info:    ... okay on input line 161.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 161.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
@@ -1591,17 +1626,17 @@ Dictionary: translator-basic-dictionary, Language: English
 File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 ) (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count435
-\scratchdimen=\dimen295
-\scratchbox=\box70
-\nofMPsegments=\count436
-\nofMParguments=\count437
-\everyMPshowfont=\toks38
-\MPscratchCnt=\count438
-\MPscratchDim=\dimen296
-\MPnumerator=\count439
-\makeMPintoPDFobject=\count440
-\everyMPtoPDFconversion=\toks39
+\scratchcounter=\count447
+\scratchdimen=\dimen303
+\scratchbox=\box72
+\nofMPsegments=\count448
+\nofMParguments=\count449
+\everyMPshowfont=\toks42
+\MPscratchCnt=\count450
+\MPscratchDim=\dimen304
+\MPnumerator=\count451
+\makeMPintoPDFobject=\count452
+\everyMPtoPDFconversion=\toks43
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
  (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
@@ -1628,7 +1663,7 @@ Package caption Info: End \AtBeginDocument code.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * bindingoffset: 14.22636pt
-* modes: includehead includefoot twoside 
+* modes: includehead includefoot 
 * h-part:(L,W,R)=(71.13188pt, 404.02908pt, 108.12054pt)
 * v-part:(T,H,B)=(42.67912pt, 759.6886pt, 42.67912pt)
 * \paperwidth=597.50787pt
@@ -1636,13 +1671,13 @@ Package caption Info: End \AtBeginDocument code.
 * \textwidth=404.02908pt
 * \textheight=693.49821pt
 * \oddsidemargin=13.08826pt
-* \evensidemargin=35.85056pt
+* \evensidemargin=-1.1381pt
 * \topmargin=-29.59087pt
 * \headheight=18.85364pt
 * \headsep=19.8738pt
 * \topskip=11.0pt
 * \footskip=27.46295pt
-* \marginparwidth=116.0pt
+* \marginparwidth=62.0pt
 * \marginparsep=7.0pt
 * \columnsep=10.0pt
 * \skip\footins=10.0pt plus 4.0pt minus 2.0pt
@@ -1650,21 +1685,36 @@ Package caption Info: End \AtBeginDocument code.
 * \voffset=0.0pt
 * \mag=1000
 * \@twocolumnfalse
-* \@twosidetrue
-* \@mparswitchtrue
+* \@twosidefalse
+* \@mparswitchfalse
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package scrlayer Info: Setting magic \footheight to \baselineskip while
-(scrlayer)             \begin{document} on input line 116.
-Package scrbase Info: activating english \abbrevname on input line 116.
-Package scrbase Info: activating english \byname on input line 116.
-Package scrbase Info: activating english \acknowledgementname on input line 116.
-Package scrbase Info: activating english \authorshipname on input line 116.
-Package scrbase Info: activating english \constantsname on input line 116.
-Package scrbase Info: activating english \symbolsname on input line 116.
-\big@size=\dimen297
+(scrlayer)             \begin{document} on input line 161.
+Package scrbase Info: activating english \abbrevname on input line 161.
+Package scrbase Info: activating english \byname on input line 161.
+Package scrbase Info: activating english \acknowledgementname on input line 161.
+Package scrbase Info: activating english \authorshipname on input line 161.
+Package scrbase Info: activating english \constantsname on input line 161.
+Package scrbase Info: activating english \symbolsname on input line 161.
 ABD: EveryShipout initializing macros
+\AtBeginShipoutBox=\box73
+Package hyperref Info: Link coloring ON on input line 161.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count453
+)
+LaTeX Info: Redefining \ref on input line 161.
+LaTeX Info: Redefining \pageref on input line 161.
+LaTeX Info: Redefining \nameref on input line 161.
+ (./main.out) (./main.out)
+\@outlinefile=\write6
+\openout6 = `main.out'.
+
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
@@ -1675,8 +1725,20 @@ Package biblatex Info: ... file 'main.bbl' found.
  (./main.bbl
 
 Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'comSummary':
+(biblatex)                - Entry 'comSummary' (example.bib): Invalid format '3.12.2018' of date field 'urldate' - ignoring.
+
+
+Package biblatex Warning: Biber reported the following issues
 (biblatex)                with 'adafruitRecommends':
 (biblatex)                - Entry 'adafruitRecommends' (example.bib): Invalid format '2001-11-228' of date field 'urldate' - ignoring.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                TTN
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
 
 
 Package biblatex Warning: The following entry could not be found
@@ -1695,6 +1757,13 @@ Package biblatex Warning: The following entry could not be found
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
+(biblatex)                fritzingForum
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
 (biblatex)                noModel
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
@@ -1702,110 +1771,94 @@ Package biblatex Warning: The following entry could not be found
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
-(biblatex)                nodejssavescost
+(biblatex)                pm2
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
 )
-Package biblatex Info: Reference section=0 on input line 116.
-Package biblatex Info: Reference segment=0 on input line 116.
-\AtBeginShipoutBox=\box71
-Package hyperref Info: Link coloring ON on input line 116.
- (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
- (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
-Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
-)
-\c@section@level=\count441
-)
-LaTeX Info: Redefining \ref on input line 116.
-LaTeX Info: Redefining \pageref on input line 116.
-LaTeX Info: Redefining \nameref on input line 116.
- (./main.out) (./main.out)
-\@outlinefile=\write6
-\openout6 = `main.out'.
-
-LaTeX Font Info:    Try loading font information for OT1+ppl on input line 116.
+Package biblatex Info: Reference section=0 on input line 161.
+Package biblatex Info: Reference segment=0 on input line 161.
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 161.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
-LaTeX Font Info:    Try loading font information for OML+zplm on input line 116.
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 161.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMS+zplm on input line 116.
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 161.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMX+zplm on input line 116.
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 161.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 116.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 161.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
 1: section
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 134.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 179.
+<Figures/Logo.jpg, id=110, 426.8748pt x 142.3719pt>
+File: Figures/Logo.jpg Graphic file (type jpg)
+<use Figures/Logo.jpg>
+Package pdftex.def Info: Figures/Logo.jpg  used on input line 202.
+(pdftex.def)             Requested size: 426.87375pt x 142.37154pt.
+
+Overfull \hbox (22.84467pt too wide) in paragraph at lines 202--203
+ [][] 
+ []
+
 [1
 
 
 
-{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2
-
-]
+{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2 <./Figures/Logo.jpg>]
 --------------------
  Declaration of Authorship
 --------------------
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 174.
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 218.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omsppl.fd
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 174.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 218.
 
-Underfull \hbox (badness 10000) in paragraph at lines 179--180
+Underfull \hbox (badness 10000) in paragraph at lines 223--224
 
  []
 
 1: section
-[3] [4
-
-] [5] [6
-
-]
---------------------
- Acknowledgements
---------------------
-1: section
-[7] [8
+[1
 
 ]
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 214.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 248.
  (./main.toc
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 3.
-
-1: section
-[9])
+)
 \tf@toc=\write7
 \openout7 = `main.toc'.
 
- [10] (./main.lof)
+
+1: section
+[2
+
+
+] (./main.lof)
 \tf@lof=\write8
 \openout8 = `main.lof'.
 
 
 1: section
-[11
-
-] [12
+[3
 
 ]
 1: section
-[13] [14
+[4
 
 ]
 1: section
@@ -1821,101 +1874,105 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
 [1
 
 
+
 ]) [2]
 \openout2 = `Chapters/Chapter2.aux'.
 
  (./Chapters/Chapter2.tex
 Chapter 2.
+
+Overfull \hbox (9.2407pt too wide) in paragraph at lines 14--26
+\T1/ppl/m/n/10.95 the prob-lem, needfind-ing and bench-mark-ing, ideat-ing, build-ing, test-ing." [[][]3[][]] It seemed
+ []
+
 1: section
 [3
 
 
 
 ]
-<Figures/designThinking.jpg, id=399, 707.64375pt x 404.26031pt>
+<Figures/designThinking.jpg, id=246, 707.64375pt x 404.26031pt>
 File: Figures/designThinking.jpg Graphic file (type jpg)
 <use Figures/designThinking.jpg>
-Package pdftex.def Info: Figures/designThinking.jpg  used on input line 55.
+Package pdftex.def Info: Figures/designThinking.jpg  used on input line 56.
 (pdftex.def)             Requested size: 530.73152pt x 303.19449pt.
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 55.
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 56.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    Try loading font information for OMS+cmss on input line 55.
-LaTeX Font Info:    No file OMScmss.fd. on input line 55.
+LaTeX Font Info:    Try loading font information for OMS+cmss on input line 56.
+LaTeX Font Info:    No file OMScmss.fd. on input line 56.
 
 
 LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
-(Font)              using `OMS/cmsy/m/n' instead on input line 55.
+(Font)              using `OMS/cmsy/m/n' instead on input line 56.
 
-[4 <./Figures/designThinking.jpg>]
+[4 <./Figures/designThinking.jpg>] [5]
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 76.
- [5]
-<Figures/gartnerIoT2.png, id=419, 1269.74374pt x 660.4675pt>
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 94.
+<Figures/gartnerIoT2.png, id=265, 1269.74374pt x 660.4675pt>
 File: Figures/gartnerIoT2.png Graphic file (type png)
 <use Figures/gartnerIoT2.png>
-Package pdftex.def Info: Figures/gartnerIoT2.png  used on input line 103.
+Package pdftex.def Info: Figures/gartnerIoT2.png  used on input line 102.
 (pdftex.def)             Requested size: 1269.74065pt x 660.46588pt.
  [6 <./Figures/gartnerIoT2.png>]
-Overfull \hbox (2.38649pt too wide) in paragraph at lines 147--154
+Overfull \hbox (2.38649pt too wide) in paragraph at lines 148--155
 \T1/ppl/m/n/10.95 This layer de-fines how the com-mu-ni-ca-tion is tak-ing place within an IoT-system.
  []
 
-[7]
-<Figures/gartnerIoT.png, id=437, 690.58pt x 682.55pt>
+<Figures/gartnerIoT.png, id=280, 690.58pt x 682.55pt>
 File: Figures/gartnerIoT.png Graphic file (type png)
 <use Figures/gartnerIoT.png>
-Package pdftex.def Info: Figures/gartnerIoT.png  used on input line 171.
+Package pdftex.def Info: Figures/gartnerIoT.png  used on input line 172.
 (pdftex.def)             Requested size: 690.57831pt x 682.54834pt.
- [8 <./Figures/gartnerIoT.png>]
-Overfull \hbox (11.6934pt too wide) in paragraph at lines 201--206
+[7] [8 <./Figures/gartnerIoT.png>]
+Overfull \hbox (11.6934pt too wide) in paragraph at lines 202--207
 \T1/ppl/m/n/10.95 smart ob-jects like mo-tors, pumps with smart data pre-pro-cess-ing ca-pa-bil-i-ties [[]]. 
  []
 
-[9]
-Overfull \hbox (24.06662pt too wide) in paragraph at lines 234--237
-\T1/ppl/m/n/10.95 spon-si-bil-i-ties. Com-po-nents com-bine the HTML-markup and Javscript-functionality
- []
+<Figures/CompareFrontend.jpg, id=302, 1943.26pt x 2750.275pt>
+File: Figures/CompareFrontend.jpg Graphic file (type jpg)
+<use Figures/CompareFrontend.jpg>
+Package pdftex.def Info: Figures/CompareFrontend.jpg  used on input line 234.
+(pdftex.def)             Requested size: 2429.06909pt x 3437.83539pt.
+[9] [10]
+<Figures/CompareCom.jpg, id=328, 418.56375pt x 876.27374pt>
+File: Figures/CompareCom.jpg Graphic file (type jpg)
+<use Figures/CompareCom.jpg>
+Package pdftex.def Info: Figures/CompareCom.jpg  used on input line 290.
+(pdftex.def)             Requested size: 523.20338pt x 1095.33948pt.
 
 
-Overfull \hbox (1.84904pt too wide) in paragraph at lines 244--249
-\T1/ppl/m/n/10.95 A Doc-u-ment Ob-ject Model (DOM) is a log-i-cal struc-ture of doc-u-ments in HTML,
- []
+LaTeX Warning: Float too large for page by 86.69061pt on input line 294.
 
-<Figures/ReactExampleFullsize.png, id=464, 483.2454pt x 568.0422pt>
-File: Figures/ReactExampleFullsize.png Graphic file (type png)
-<use Figures/ReactExampleFullsize.png>
-Package pdftex.def Info: Figures/ReactExampleFullsize.png  used on input line 259.
-(pdftex.def)             Requested size: 604.05527pt x 710.05101pt.
-<Figures/EditExample1.png, id=465, 971.63pt x 231.86626pt>
-File: Figures/EditExample1.png Graphic file (type png)
-<use Figures/EditExample1.png>
-Package pdftex.def Info: Figures/EditExample1.png  used on input line 267.
-(pdftex.def)             Requested size: 728.72072pt x 173.89925pt.
-[10]
-Overfull \hbox (7.10599pt too wide) in paragraph at lines 314--317
-\T1/ppl/m/n/10.95 Middleware is "soft-ware that acts as a bridge be-tween an op-er-at-ing sys-tem or database
- []
-
+<Figures/CompareBackend.jpg, id=333, 1235.61626pt x 995.72pt>
+File: Figures/CompareBackend.jpg Graphic file (type jpg)
+<use Figures/CompareBackend.jpg>
+Package pdftex.def Info: Figures/CompareBackend.jpg  used on input line 326.
+(pdftex.def)             Requested size: 1544.51656pt x 1244.64696pt.
 [11]
-Overfull \hbox (33.98781pt too wide) in paragraph at lines 329--342
-\T1/ppl/m/n/10.95 49.6% it is this years "Most Pop-u-lar Frame-work, Libary or Tool" on this years Stackoverflow-
+Overfull \hbox (4.89305pt too wide) in paragraph at lines 333--340
+\T1/ppl/m/n/10.95 Now-a-days, not re-la-tional (NoSQL) DBMS like Mon-goDB gain mar-ket share. NoSQL
  []
 
+<Figures/CompareDb.jpg, id=343, 1223.57124pt x 595.22375pt>
+File: Figures/CompareDb.jpg Graphic file (type jpg)
+<use Figures/CompareDb.jpg>
+Package pdftex.def Info: Figures/CompareDb.jpg  used on input line 343.
+(pdftex.def)             Requested size: 1529.46033pt x 744.02788pt.
 
-Overfull \hbox (1.1826pt too wide) in paragraph at lines 363--367
+Overfull \hbox (1.1826pt too wide) in paragraph at lines 369--373
 \T1/ppl/m/n/10.95 and re-spond on run-time. Check-ing for changes usu-ally hap-pens here, whereas
  []
 
-[12]) [13] [14 <./Figures/ReactExampleFullsize.png> <./Figures/EditExample1.png>]
+[12]) [13] [14 <./Figures/CompareFrontend.jpg>] [15 <./Figures/CompareCom.jpg>] [16 <./Figures/CompareBackend.jpg> <./Figures/CompareDb.jpg>]
 \openout2 = `Chapters/Chapter3.aux'.
 
  (./Chapters/Chapter3.tex
 Chapter 3.
 
 Overfull \hbox (22.03049pt too wide) in paragraph at lines 17--24
-\T1/ppl/m/n/10.95 mod-ules.[[][]28[][]] The RFM69HCW is a very cheap, easy to use and to set-up transceiver.
+\T1/ppl/m/n/10.95 mod-ules.[[][]30[][]] The RFM69HCW is a very cheap, easy to use and to set-up transceiver.
  []
 
 
@@ -1923,18 +1980,13 @@ Overfull \hbox (7.8618pt too wide) in paragraph at lines 17--24
 \T1/ppl/m/n/10.95 transceivers in the room. There are two open-source libaries for the RFM69HCW,
  []
 
-
-Overfull \hbox (26.55324pt too wide) in paragraph at lines 30--32
-\T1/ppl/m/n/10.95 the gate-way de-tected with a spec-i-fied "Gate-wayID". For security-reasons, password-
- []
-
 1: section
-[15
+[17
 
 
 
 ]
-<Figures/adafruitSPI.png, id=522, 501.875pt x 426.59375pt>
+<Figures/adafruitSPI.png, id=389, 501.875pt x 426.59375pt>
 File: Figures/adafruitSPI.png Graphic file (type png)
 <use Figures/adafruitSPI.png>
 Package pdftex.def Info: Figures/adafruitSPI.png  used on input line 50.
@@ -1944,296 +1996,358 @@ Overfull \hbox (3.22977pt too wide) in paragraph at lines 54--61
 \T1/ppl/m/n/10.95 The In-for-ma-tion Layer was build around a sim-ple event model: the transceivers
  []
 
-
-Overfull \hbox (36.25526pt too wide) in paragraph at lines 54--61
-\T1/ppl/m/n/10.95 would send and re-ceive nu-meric codes in a "n1/n2/n3...\n"-structure e.g. "16/2/0\n".
- []
-
-[16 <./Figures/adafruitSPI.png>]
-<Figures/escapeUmlOld.png, id=529, 851.8224pt x 611.4042pt>
+[18 <./Figures/adafruitSPI.png>]
+<Figures/escapeUmlOld.png, id=396, 851.8224pt x 611.4042pt>
 File: Figures/escapeUmlOld.png Graphic file (type png)
 <use Figures/escapeUmlOld.png>
 Package pdftex.def Info: Figures/escapeUmlOld.png  used on input line 74.
 (pdftex.def)             Requested size: 1703.64066pt x 1222.80539pt.
-<Figures/switchCase.png, id=531, 461.725pt x 500.87125pt>
+<Figures/switchCase.png, id=398, 461.725pt x 500.87125pt>
 File: Figures/switchCase.png Graphic file (type png)
 <use Figures/switchCase.png>
 Package pdftex.def Info: Figures/switchCase.png  used on input line 83.
 (pdftex.def)             Requested size: 346.29291pt x 375.6525pt.
- [17] [18 <./Figures/escapeUmlOld.png>]
+ [19] [20 <./Figures/escapeUmlOld.png>]
 Overfull \hbox (7.05153pt too wide) in paragraph at lines 131--133
 []\T1/ppl/m/n/10.95 Understand C# and Low-Level-Socket com-mu-ni-ca-tion to make changes in Unity
  []
 
-[19 <./Figures/switchCase.png>]) [20]
+[21 <./Figures/switchCase.png>]) [22]
 \openout2 = `Chapters/Chapter4.aux'.
 
  (./Chapters/Chapter4.tex
 Chapter 4.
 1: section
-[21
+[23
 
 
 
 ]
-<Figures/workload.png, id=573, 277.035pt x 217.7736pt>
+<Figures/workload.png, id=447, 277.035pt x 217.7736pt>
 File: Figures/workload.png Graphic file (type png)
 <use Figures/workload.png>
 Package pdftex.def Info: Figures/workload.png  used on input line 75.
 (pdftex.def)             Requested size: 138.51715pt x 108.88652pt.
- [22]
-<Figures/PoC.png, id=582, 437.9562pt x 532.389pt>
-File: Figures/PoC.png Graphic file (type png)
-<use Figures/PoC.png>
-Package pdftex.def Info: Figures/PoC.png  used on input line 104.
-(pdftex.def)             Requested size: 437.95512pt x 532.3877pt.
-
-Overfull \hbox (2.35338pt too wide) in paragraph at lines 119--122
-[]\T1/ppl/m/n/10.95 The changes were meant to re-flect con-cepts of a SoA, cre-at-ing self-contained, reusable
- []
-
-[23 <./Figures/workload.png>]
-<Figures/escapeUmlNew.png, id=590, 849.4134pt x 609.9588pt>
+ [24]
+<Figures/TablePoc.jpg, id=456, 919.435pt x 1350.04375pt>
+File: Figures/TablePoc.jpg Graphic file (type jpg)
+<use Figures/TablePoc.jpg>
+Package pdftex.def Info: Figures/TablePoc.jpg  used on input line 104.
+(pdftex.def)             Requested size: 919.43275pt x 1350.04047pt.
+ [25 <./Figures/workload.png>]
+<Figures/escapeUmlNew.png, id=466, 849.4134pt x 609.9588pt>
 File: Figures/escapeUmlNew.png Graphic file (type png)
 <use Figures/escapeUmlNew.png>
 Package pdftex.def Info: Figures/escapeUmlNew.png  used on input line 140.
 (pdftex.def)             Requested size: 1698.82266pt x 1219.91464pt.
- [24 <./Figures/PoC.png>] [25 <./Figures/escapeUmlNew.png>]
-<Figures/prototypeV1.png, id=602, 505.087pt x 571.736pt>
+ [26 <./Figures/TablePoc.jpg>] [27 <./Figures/escapeUmlNew.png>]
+<Figures/prototypeV1.png, id=477, 505.087pt x 571.736pt>
 File: Figures/prototypeV1.png Graphic file (type png)
 <use Figures/prototypeV1.png>
-Package pdftex.def Info: Figures/prototypeV1.png  used on input line 166.
+Package pdftex.def Info: Figures/prototypeV1.png  used on input line 171.
 (pdftex.def)             Requested size: 378.81432pt x 428.80093pt.
-<Figures/prototypeV2.png, id=603, 357.335pt x 656.854pt>
+ [28]
+<Figures/prototypeV2.png, id=483, 357.335pt x 656.854pt>
 File: Figures/prototypeV2.png Graphic file (type png)
 <use Figures/prototypeV2.png>
-Package pdftex.def Info: Figures/prototypeV2.png  used on input line 175.
+Package pdftex.def Info: Figures/prototypeV2.png  used on input line 180.
 (pdftex.def)             Requested size: 178.66705pt x 328.4262pt.
- [26 <./Figures/prototypeV1.png>] [27 <./Figures/prototypeV2.png>]
-Overfull \hbox (13.62181pt too wide) in paragraph at lines 221--224
-\T1/ppl/m/n/10.95 Designed to con-tain pro-cess-ing of in-com-ing mes-sages from the gate-way/PC.
+ [29 <./Figures/prototypeV1.png> <./Figures/prototypeV2.png>]
+Overfull \hbox (28.40399pt too wide) in paragraph at lines 226--229
+\T1/ppl/m/n/10.95 Designed to con-tain pro-cess-ing of in-com-ing mes-sages from the gate-way/server.
  []
 
-<Figures/registerRiddle.png, id=614, 369.38pt x 309.155pt>
+[30]
+<Figures/registerRiddle.png, id=500, 369.38pt x 309.155pt>
 File: Figures/registerRiddle.png Graphic file (type png)
 <use Figures/registerRiddle.png>
-Package pdftex.def Info: Figures/registerRiddle.png  used on input line 236.
+Package pdftex.def Info: Figures/registerRiddle.png  used on input line 241.
 (pdftex.def)             Requested size: 277.03432pt x 231.86568pt.
-[28] [29 <./Figures/registerRiddle.png>]
-Overfull \hbox (12.01083pt too wide) in paragraph at lines 293--295
-[]\T1/ppl/m/n/10.95 Consequently, this part of the mid-dle-ware would fil-ter rel-e-vant "Finish"-serialmessages
+ [31 <./Figures/registerRiddle.png>]
+Overfull \hbox (14.82458pt too wide) in paragraph at lines 279--280
+\T1/ppl/m/n/10.95 For this project, a web-socket im-ple-men-ta-tion seemed the most fit-ting op-tion as realtime-
+ []
+
+[32]
+Overfull \hbox (1.48808pt too wide) in paragraph at lines 300--302
+\T1/ppl/m/n/10.95 and pro-cess-ing func-tion-alites be-tween our client front-end and the database-backend
  []
 
 
-Overfull \hbox (0.17467pt too wide) in paragraph at lines 293--295
+Overfull \hbox (33.98781pt too wide) in paragraph at lines 303--316
+\T1/ppl/m/n/10.95 49.6% it is this years "Most Pop-u-lar Frame-work, Libary or Tool" on this years Stackoverflow-
+ []
+
+[33]
+Overfull \hbox (0.17467pt too wide) in paragraph at lines 335--341
 \T1/ppl/m/n/10.95 through a PostgreSQL-database, and ac-ti-vate a "check-Se-rialMes-sage" func-tion which
  []
 
-<Figures/backendOverview.png, id=634, 724.7075pt x 581.17125pt>
-File: Figures/backendOverview.png Graphic file (type png)
-<use Figures/backendOverview.png>
-Package pdftex.def Info: Figures/backendOverview.png  used on input line 313.
-(pdftex.def)             Requested size: 724.70573pt x 581.16983pt.
-[30]
-Overfull \hbox (13.80742pt too wide) in paragraph at lines 337--341
+<Figures/tableBackend.jpg, id=529, 1246.6575pt x 1031.855pt>
+File: Figures/tableBackend.jpg Graphic file (type jpg)
+<use Figures/tableBackend.jpg>
+Package pdftex.def Info: Figures/tableBackend.jpg  used on input line 356.
+(pdftex.def)             Requested size: 1246.65446pt x 1031.85248pt.
+[34]
+Overfull \hbox (24.06662pt too wide) in paragraph at lines 378--381
+\T1/ppl/m/n/10.95 spon-si-bil-i-ties. Com-po-nents com-bine the HTML-markup and Javscript-functionality
+ []
+
+
+Overfull \hbox (1.84904pt too wide) in paragraph at lines 388--393
+\T1/ppl/m/n/10.95 A Doc-u-ment Ob-ject Model (DOM) is a log-i-cal struc-ture of doc-u-ments in HTML,
+ []
+
+
+Overfull \hbox (25.92827pt too wide) in paragraph at lines 393--406
+\T1/ppl/m/n/10.95 Javascript XML (JSX), ex-tends the EC-MAScript JavaScript syn-tax with XML/HTML-
+ []
+
+[35 <./Figures/tableBackend.jpg>]
+<Figures/ReactExampleFullsize.png, id=548, 483.2454pt x 568.0422pt>
+File: Figures/ReactExampleFullsize.png Graphic file (type png)
+<use Figures/ReactExampleFullsize.png>
+Package pdftex.def Info: Figures/ReactExampleFullsize.png  used on input line 409.
+(pdftex.def)             Requested size: 604.05527pt x 710.05101pt.
+<Figures/EditExample1.png, id=549, 971.63pt x 231.86626pt>
+File: Figures/EditExample1.png Graphic file (type png)
+<use Figures/EditExample1.png>
+Package pdftex.def Info: Figures/EditExample1.png  used on input line 418.
+(pdftex.def)             Requested size: 728.72072pt x 173.89925pt.
+
+Overfull \hbox (13.80742pt too wide) in paragraph at lines 440--444
 \T1/ppl/m/n/10.95 command would be re-as-signed on in-put to the cor-re-spond-ing Video-Trigger-command.
  []
 
-[31 <./Figures/backendOverview.png>]
-<Figures/frontendOverview.png, id=651, 734.745pt x 610.28pt>
-File: Figures/frontendOverview.png Graphic file (type png)
-<use Figures/frontendOverview.png>
-Package pdftex.def Info: Figures/frontendOverview.png  used on input line 362.
-(pdftex.def)             Requested size: 734.7432pt x 610.2785pt.
-) [32] [33 <./Figures/frontendOverview.png>]
+[36]
+<Figures/tableFrontend.jpg, id=562, 1137.24875pt x 1002.74625pt>
+File: Figures/tableFrontend.jpg Graphic file (type jpg)
+<use Figures/tableFrontend.jpg>
+Package pdftex.def Info: Figures/tableFrontend.jpg  used on input line 465.
+(pdftex.def)             Requested size: 1137.24599pt x 1002.7438pt.
+) [37] [38 <./Figures/ReactExampleFullsize.png> <./Figures/EditExample1.png>] [39 <./Figures/tableFrontend.jpg>]
 \openout2 = `Chapters/Chapter5.aux'.
 
- (./Chapters/Chapter5.tex [34
-
-
-
-]
+ (./Chapters/Chapter5.tex
 Chapter 5.
 
-Overfull \hbox (0.963pt too wide) in paragraph at lines 19--24
+Overfull \hbox (0.963pt too wide) in paragraph at lines 16--21
 \T1/ppl/m/n/10.95 PowerLab-library via ra-dio com-mu-ni-ca-tion, how-ever, the new web-server func-
  []
 
 
-Overfull \hbox (0.93065pt too wide) in paragraph at lines 24--28
+Overfull \hbox (0.93065pt too wide) in paragraph at lines 21--25
 \T1/ppl/m/n/10.95 For newer rid-dles, an ad-vanced com-mu-ni-ca-tion pro-to-col was de-vel-oped where
  []
 
 1: section
-[35] [36] [37]
-Overfull \hbox (2.35309pt too wide) in paragraph at lines 128--130
+[40
+
+
+
+]
+Overfull \hbox (0.59071pt too wide) in paragraph at lines 57--58
+[]\T1/ppl/m/n/10.95 Understand work-ing with the "Switch-Case"-communication-protocol used for
+ []
+
+[41] [42]
+<Figures/workTable.jpg, id=613, 690.58pt x 1082.0425pt>
+File: Figures/workTable.jpg Graphic file (type jpg)
+<use Figures/workTable.jpg>
+Package pdftex.def Info: Figures/workTable.jpg  used on input line 93.
+(pdftex.def)             Requested size: 690.57831pt x 1082.03986pt.
+ [43 <./Figures/workTable.jpg>]
+Overfull \hbox (2.35309pt too wide) in paragraph at lines 133--135
 []\T1/ppl/m/n/10.95 Resetting the rid-dle that ac-ti-vated an event in Unity could be im-ple-mented
  []
 
-[38] [39]) [40]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 265.
+[44] [45]) [46]
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 299.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 
 Package biblatex Warning: No driver for entry type 'url'.
-(biblatex)                Using fallback driver on input line 265.
+(biblatex)                Using fallback driver on input line 299.
+
+
+Overfull \hbox (1.04991pt too wide) in paragraph at lines 299--299
+\T1/ppl/m/it/10.95 stand, im-prove, ap-ply. Un-der-stand-ing in-no-va-tion\T1/ppl/m/n/10.95 . Springer-Verlag, 2011. \T1/ppl/m/sc/10.95 url\T1/ppl/m/n/10.95 : [][]$\T1/cmtt/m/n/10.95 doi :
+ []
 
 
 Package biblatex Warning: No driver for entry type 'url'.
-(biblatex)                Using fallback driver on input line 265.
+(biblatex)                Using fallback driver on input line 299.
 
 
 Package biblatex Warning: No driver for entry type 'url'.
-(biblatex)                Using fallback driver on input line 265.
+(biblatex)                Using fallback driver on input line 299.
 
 
-Overfull \hbox (0.97714pt too wide) in paragraph at lines 265--265
+Overfull \hbox (0.97714pt too wide) in paragraph at lines 299--299
 []\T1/ppl/m/n/10.95 Hasso Plat-tner In-sti-tute of De-sign at Stan-ford Uni-ver-sity. \T1/ppl/m/it/10.95 A Vir-tual Crash Course
  []
 
 
-Overfull \hbox (29.23212pt too wide) in paragraph at lines 265--265
+Overfull \hbox (29.23212pt too wide) in paragraph at lines 299--299
 \T1/ppl/m/it/10.95 in De-sign Think-ing\T1/ppl/m/n/10.95 . \T1/ppl/m/sc/10.95 url\T1/ppl/m/n/10.95 : [][]$\T1/cmtt/m/n/10.95 https : / / dschool . stanford . edu / resources -[] collections /
  []
 
 
-Overfull \hbox (49.54134pt too wide) in paragraph at lines 265--265
+Overfull \hbox (49.54134pt too wide) in paragraph at lines 299--299
 \T1/cmtt/m/n/10.95 squarespace . com / static / 57c6b79629687fde090a0fdd / t / 5b19b2f2aa4a99e99b26b6bb /
  []
 
 
 Package biblatex Warning: No driver for entry type 'url'.
-(biblatex)                Using fallback driver on input line 265.
+(biblatex)                Using fallback driver on input line 299.
 
 
-Overfull \hbox (4.40059pt too wide) in paragraph at lines 265--265
+Overfull \hbox (4.40059pt too wide) in paragraph at lines 299--299
 []\T1/ppl/m/n/10.95 Amy Hack-ney Black-well and Eliz-a-beth Ma-nar, eds. \T1/ppl/m/it/10.95 Pro-to-type\T1/ppl/m/n/10.95 . Farm-ing-ton Hills,
  []
 
 
-Overfull \hbox (8.66489pt too wide) in paragraph at lines 265--265
+Overfull \hbox (8.66489pt too wide) in paragraph at lines 299--299
 \T1/ppl/m/n/10.95 MI, Nov. 2015. \T1/ppl/m/sc/10.95 url\T1/ppl/m/n/10.95 : [][]$\T1/cmtt/m/n/10.95 http : / / link . galegroup . com / apps / doc / ENKDZQ347975681 /
  []
 
 
-Overfull \hbox (3.27328pt too wide) in paragraph at lines 265--265
+Overfull \hbox (3.27328pt too wide) in paragraph at lines 299--299
 []\T1/ppl/m/n/10.95 WebFinance Inc. \T1/ppl/m/it/10.95 Proof of Con-cept\T1/ppl/m/n/10.95 . 2018. \T1/ppl/m/sc/10.95 url\T1/ppl/m/n/10.95 : [][]$\T1/cmtt/m/n/10.95 http : / / www . businessdictionary .
  []
 
 
 Package biblatex Warning: No driver for entry type 'url'.
-(biblatex)                Using fallback driver on input line 265.
+(biblatex)                Using fallback driver on input line 299.
 
 1: section
-[41
+[47
 
 
 ]
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 265.
+(biblatex)                Using fallback driver on input line 299.
 
 
 Package biblatex Warning: No driver for entry type 'webpage'.
-(biblatex)                Using fallback driver on input line 265.
+(biblatex)                Using fallback driver on input line 299.
 
 
 Package biblatex Warning: No driver for entry type 'url'.
-(biblatex)                Using fallback driver on input line 265.
+(biblatex)                Using fallback driver on input line 299.
 
 
-Package biblatex Warning: No driver for entry type 'url'.
-(biblatex)                Using fallback driver on input line 265.
-
-
-Overfull \hbox (43.61644pt too wide) in paragraph at lines 265--265
-[]\T1/ppl/m/n/10.95 StackOverflow. \T1/ppl/m/it/10.95 De-vel-oper Sur-vey Re-sults 2018\T1/ppl/m/n/10.95 . \T1/ppl/m/sc/10.95 url\T1/ppl/m/n/10.95 : [][]$\T1/cmtt/m/n/10.95 https : / / insights . stackoverflow .
- []
-
-
-Package biblatex Warning: No driver for entry type 'url'.
-(biblatex)                Using fallback driver on input line 265.
-
-
-Package biblatex Warning: No driver for entry type 'url'.
-(biblatex)                Using fallback driver on input line 265.
-
-
-Package biblatex Warning: No driver for entry type 'url'.
-(biblatex)                Using fallback driver on input line 265.
-
-
-Package biblatex Warning: No driver for entry type 'url'.
-(biblatex)                Using fallback driver on input line 265.
-
-
-Package biblatex Warning: No driver for entry type 'url'.
-(biblatex)                Using fallback driver on input line 265.
-
-
-Overfull \hbox (1.38843pt too wide) in paragraph at lines 265--265
+Overfull \hbox (1.38843pt too wide) in paragraph at lines 299--299
 []\T1/ppl/m/n/10.95 Cambridge Uni-ver-sity Press. \T1/ppl/m/it/10.95 Back-End\T1/ppl/m/n/10.95 . \T1/ppl/m/sc/10.95 url\T1/ppl/m/n/10.95 : [][]$\T1/cmtt/m/n/10.95 https : / / dictionary . cambridge .
  []
 
 
 Package biblatex Warning: No driver for entry type 'url'.
-(biblatex)                Using fallback driver on input line 265.
+(biblatex)                Using fallback driver on input line 299.
 
 
 Package biblatex Warning: No driver for entry type 'url'.
-(biblatex)                Using fallback driver on input line 265.
+(biblatex)                Using fallback driver on input line 299.
 
 
-Overfull \hbox (16.6024pt too wide) in paragraph at lines 265--265
+Package biblatex Warning: No driver for entry type 'url'.
+(biblatex)                Using fallback driver on input line 299.
+
+
+Overfull \hbox (13.03302pt too wide) in paragraph at lines 299--299
+[]\T1/ppl/m/n/10.95 Microsoft. \T1/ppl/m/it/10.95 Sup-port ad-di-tional pro-to-cols for IoT Hub\T1/ppl/m/n/10.95 . \T1/ppl/m/sc/10.95 url\T1/ppl/m/n/10.95 : [][]$\T1/cmtt/m/n/10.95 https : / / docs . microsoft .
+ []
+
+[48]
+
+Package biblatex Warning: No driver for entry type 'url'.
+(biblatex)                Using fallback driver on input line 299.
+
+
+Overfull \hbox (16.6024pt too wide) in paragraph at lines 299--299
 []\T1/ppl/m/it/10.95 Radiohead Libary\T1/ppl/m/n/10.95 . \T1/ppl/m/sc/10.95 url\T1/ppl/m/n/10.95 : [][]$\T1/cmtt/m/n/10.95 https : / / www . airspayce . com / mikem / arduino / RadioHead/$[][]\T1/ppl/m/n/10.95 . 
  []
 
-[42]
 
 Package biblatex Warning: No driver for entry type 'url'.
-(biblatex)                Using fallback driver on input line 265.
-
-
-Package biblatex Warning: No driver for entry type 'url'.
-(biblatex)                Using fallback driver on input line 265.
+(biblatex)                Using fallback driver on input line 299.
 
 
 Package biblatex Warning: No driver for entry type 'url'.
-(biblatex)                Using fallback driver on input line 265.
+(biblatex)                Using fallback driver on input line 299.
 
 
 Package biblatex Warning: No driver for entry type 'url'.
-(biblatex)                Using fallback driver on input line 265.
+(biblatex)                Using fallback driver on input line 299.
+
+
+Overfull \hbox (43.61644pt too wide) in paragraph at lines 299--299
+[]\T1/ppl/m/n/10.95 StackOverflow. \T1/ppl/m/it/10.95 De-vel-oper Sur-vey Re-sults 2018\T1/ppl/m/n/10.95 . \T1/ppl/m/sc/10.95 url\T1/ppl/m/n/10.95 : [][]$\T1/cmtt/m/n/10.95 https : / / insights . stackoverflow .
+ []
 
 
 Package biblatex Warning: No driver for entry type 'url'.
-(biblatex)                Using fallback driver on input line 265.
+(biblatex)                Using fallback driver on input line 299.
 
 
 Package biblatex Warning: No driver for entry type 'url'.
-(biblatex)                Using fallback driver on input line 265.
+(biblatex)                Using fallback driver on input line 299.
+
+
+Package biblatex Warning: No driver for entry type 'webpage'.
+(biblatex)                Using fallback driver on input line 299.
 
 
 Package biblatex Warning: No driver for entry type 'url'.
-(biblatex)                Using fallback driver on input line 265.
+(biblatex)                Using fallback driver on input line 299.
+
+
+Package biblatex Warning: No driver for entry type 'webpage'.
+(biblatex)                Using fallback driver on input line 299.
 
 
 Package biblatex Warning: No driver for entry type 'url'.
-(biblatex)                Using fallback driver on input line 265.
+(biblatex)                Using fallback driver on input line 299.
 
 
 Package biblatex Warning: No driver for entry type 'url'.
-(biblatex)                Using fallback driver on input line 265.
+(biblatex)                Using fallback driver on input line 299.
 
-[43]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 269.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 269.
+
+Package biblatex Warning: No driver for entry type 'url'.
+(biblatex)                Using fallback driver on input line 299.
+
+
+Package biblatex Warning: No driver for entry type 'url'.
+(biblatex)                Using fallback driver on input line 299.
+
+
+Package biblatex Warning: No driver for entry type 'url'.
+(biblatex)                Using fallback driver on input line 299.
+
+[49]
+
+Package biblatex Warning: No driver for entry type 'url'.
+(biblatex)                Using fallback driver on input line 299.
+
+
+Package biblatex Warning: No driver for entry type 'url'.
+(biblatex)                Using fallback driver on input line 299.
+
+
+Package biblatex Warning: No driver for entry type 'url'.
+(biblatex)                Using fallback driver on input line 299.
+
+[50]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 303.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 303.
  (./main.aux (./Chapters/Chapter1.aux) (./Chapters/Chapter2.aux) (./Chapters/Chapter3.aux) (./Chapters/Chapter4.aux) (./Chapters/Chapter5.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 269.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 269.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 303.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 303.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 8651A95954E1578F9546B71029C4F932;6499.
+(rerunfilecheck)             Checksum: 7D64F6B87C91967536284D6699CF125F;2954.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -2243,18 +2357,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 44122 strings out of 492649
- 914550 string characters out of 6129622
- 1304616 words of memory out of 5000000
- 47207 multiletter control sequences out of 15000+600000
- 584197 words of font info for 113 fonts, out of 8000000 for 9000
+ 44789 strings out of 492649
+ 923203 string characters out of 6129622
+ 1318002 words of memory out of 5000000
+ 47860 multiletter control sequences out of 15000+600000
+ 582644 words of font info for 111 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 73i,21n,84p,10413b,2914s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 73i,20n,84p,10413b,2934s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfss0900.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (57 pages, 2387314 bytes).
+Output written on main.pdf (56 pages, 4183087 bytes).
 PDF statistics:
- 876 PDF objects out of 1000 (max. 8388607)
- 771 compressed objects within 8 object streams
- 207 named destinations out of 1000 (max. 500000)
- 501 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 833 PDF objects out of 1000 (max. 8388607)
+ 726 compressed objects within 8 object streams
+ 224 named destinations out of 1000 (max. 500000)
+ 323 words of extra memory for PDF output out of 10000 (max. 10000000)
 

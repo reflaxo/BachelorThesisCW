@@ -71,6 +71,46 @@
       \verb https://www.verizon.com/about/sites/default/files/Verizon-2017-State-of-the-Market-IoT-Report.pdf
       \endverb
     \endentry
+    \entry{designThinkingBook}{book}{}
+      \name{author}{3}{}{%
+        {{hash=06532fdd8e4deefd635af65774c6cf2b}{%
+           family={Plattner},
+           familyi={P\bibinitperiod},
+           given={Hasso},
+           giveni={H\bibinitperiod}}}%
+        {{hash=70d5a1bce69a1d09ff446044d22b61b0}{%
+           family={Meinel},
+           familyi={M\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod}}}%
+        {{hash=5a82e0d594c5ed25cda9659de61d8740}{%
+           family={Leifer},
+           familyi={L\bibinitperiod},
+           given={Larry\bibnamedelima J.},
+           giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer-Verlag}%
+      }
+      \strng{namehash}{ef173ef5fe49db5e77a22a19f0aaedb1}
+      \strng{fullhash}{ef173ef5fe49db5e77a22a19f0aaedb1}
+      \strng{bibnamehash}{ef173ef5fe49db5e77a22a19f0aaedb1}
+      \strng{authorbibnamehash}{ef173ef5fe49db5e77a22a19f0aaedb1}
+      \strng{authornamehash}{ef173ef5fe49db5e77a22a19f0aaedb1}
+      \strng{authorfullhash}{ef173ef5fe49db5e77a22a19f0aaedb1}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Design thinking: understand, improve, apply. Understanding innovation}
+      \field{year}{2011}
+      \verb{urlraw}
+      \verb doi:10.1007/978-3-642-13757-0
+      \endverb
+      \verb{url}
+      \verb doi:10.1007/978-3-642-13757-0
+      \endverb
+    \endentry
     \entry{designThinking}{url}{}
       \name{author}{2}{}{%
         {{hash=d9faf185391ff763eaf13aa73750afee}{%
@@ -90,8 +130,8 @@
       \strng{authorbibnamehash}{2c18bad2acc28b915c8515fa78a9db99}
       \strng{authornamehash}{2c18bad2acc28b915c8515fa78a9db99}
       \strng{authorfullhash}{2c18bad2acc28b915c8515fa78a9db99}
-      \field{sortinit}{3}
-      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Design Thinking: A Quick Overview}
@@ -122,8 +162,8 @@
       \strng{authorbibnamehash}{edce20e6e757f4201d63119fe047c8f9}
       \strng{authornamehash}{edce20e6e757f4201d63119fe047c8f9}
       \strng{authorfullhash}{edce20e6e757f4201d63119fe047c8f9}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Author/Copyright holder: Teo Yu Siang and Interaction Design Foundation. Copyright terms and Licence: CC BY-NC-SA 3.0}
@@ -173,8 +213,8 @@
       \strng{authorbibnamehash}{f742c4c998fa7b9009765a76bcd8b8fe}
       \strng{authornamehash}{f742c4c998fa7b9009765a76bcd8b8fe}
       \strng{authorfullhash}{29cbede22f6a7358eba35b0722181c6c}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{The Design Thinking Bootleg}
@@ -214,8 +254,8 @@
       \strng{editorbibnamehash}{95a0f16918e368a704e56fd2af020122}
       \strng{editornamehash}{95a0f16918e368a704e56fd2af020122}
       \strng{editorfullhash}{95a0f16918e368a704e56fd2af020122}
-      \field{sortinit}{8}
-      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
       \field{labelnamesource}{editor}
       \field{labeltitlesource}{title}
       \field{annotation}{COPYRIGHT 2015 Gale, Cengage Learning}
@@ -270,8 +310,8 @@
       \strng{authorbibnamehash}{7cedce9392bf810d0d581bf67653a3c3}
       \strng{authornamehash}{7cedce9392bf810d0d581bf67653a3c3}
       \strng{authorfullhash}{ef76e46c8a2a5435a23a53cbab279f47}
-      \field{sortinit}{9}
-      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0018-9162}
@@ -629,71 +669,72 @@
       \verb https://www.techopedia.com/definition/3799/front-end-system
       \endverb
     \endentry
-    \entry{benchmarkReact}{webpage}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
-      \verb{urlraw}
-      \verb https://stefankrause.net/js-frameworks-benchmark8/table.html
-      \endverb
-      \verb{url}
-      \verb https://stefankrause.net/js-frameworks-benchmark8/table.html
-      \endverb
-    \endentry
-    \entry{reactjsUsers}{url}{}
+    \entry{reactjsAngularVue}{online}{}
       \name{author}{1}{}{%
-        {{hash=ca2083cb55ef71f99892fe7ea062b47b}{%
-           family={stackshare},
-           familyi={s\bibinitperiod}}}%
+        {{hash=257f041d8d9ae750aaff5b59630fddca}{%
+           family={TechMagic},
+           familyi={T\bibinitperiod}}}%
       }
-      \strng{namehash}{ca2083cb55ef71f99892fe7ea062b47b}
-      \strng{fullhash}{ca2083cb55ef71f99892fe7ea062b47b}
-      \strng{bibnamehash}{ca2083cb55ef71f99892fe7ea062b47b}
-      \strng{authorbibnamehash}{ca2083cb55ef71f99892fe7ea062b47b}
-      \strng{authornamehash}{ca2083cb55ef71f99892fe7ea062b47b}
-      \strng{authorfullhash}{ca2083cb55ef71f99892fe7ea062b47b}
+      \strng{namehash}{257f041d8d9ae750aaff5b59630fddca}
+      \strng{fullhash}{257f041d8d9ae750aaff5b59630fddca}
+      \strng{bibnamehash}{257f041d8d9ae750aaff5b59630fddca}
+      \strng{authorbibnamehash}{257f041d8d9ae750aaff5b59630fddca}
+      \strng{authornamehash}{257f041d8d9ae750aaff5b59630fddca}
+      \strng{authorfullhash}{257f041d8d9ae750aaff5b59630fddca}
       \field{sortinit}{2}
       \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Companies using React}
+      \field{title}{ReactJS vs Angular5 vs Vue.js - What to choose in 2018?}
       \field{urlday}{21}
       \field{urlmonth}{11}
       \field{urlyear}{2018}
       \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://stackshare.io/react
+      \verb https://link.medium.com/RCl9Ku3N1R
       \endverb
       \verb{url}
-      \verb https://stackshare.io/react
+      \verb https://link.medium.com/RCl9Ku3N1R
       \endverb
     \endentry
-    \entry{stackOverflowSurvey}{url}{}
+    \entry{restful}{webpage}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{month}{12}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://restfulapi.net/
+      \endverb
+      \verb{url}
+      \verb https://restfulapi.net/
+      \endverb
+    \endentry
+    \entry{comSummary}{online}{}
       \name{author}{1}{}{%
-        {{hash=84d7dc19766c446f5e4084e8fce87f82}{%
-           family={StackOverflow},
-           familyi={S\bibinitperiod}}}%
+        {{hash=5b4c644c4f055e7792caa8df1e60b186}{%
+           family={Gamage},
+           familyi={G\bibinitperiod},
+           given={Thilina\bibnamedelima Ashen},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
       }
-      \strng{namehash}{84d7dc19766c446f5e4084e8fce87f82}
-      \strng{fullhash}{84d7dc19766c446f5e4084e8fce87f82}
-      \strng{bibnamehash}{84d7dc19766c446f5e4084e8fce87f82}
-      \strng{authorbibnamehash}{84d7dc19766c446f5e4084e8fce87f82}
-      \strng{authornamehash}{84d7dc19766c446f5e4084e8fce87f82}
-      \strng{authorfullhash}{84d7dc19766c446f5e4084e8fce87f82}
+      \strng{namehash}{5b4c644c4f055e7792caa8df1e60b186}
+      \strng{fullhash}{5b4c644c4f055e7792caa8df1e60b186}
+      \strng{bibnamehash}{5b4c644c4f055e7792caa8df1e60b186}
+      \strng{authorbibnamehash}{5b4c644c4f055e7792caa8df1e60b186}
+      \strng{authornamehash}{5b4c644c4f055e7792caa8df1e60b186}
+      \strng{authorfullhash}{5b4c644c4f055e7792caa8df1e60b186}
       \field{sortinit}{2}
       \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Developer Survey Results 2018}
-      \field{urlday}{20}
-      \field{urlmonth}{11}
-      \field{urlyear}{2018}
-      \field{urldateera}{ce}
+      \field{title}{HTTP and Websockets: Understanding the capabilities of today's web communication technologies}
       \verb{urlraw}
-      \verb https://insights.stackoverflow.com/survey/2018#technology
+      \verb https://medium.com/platform-engineer/web-api-design-35df8167460
       \endverb
       \verb{url}
-      \verb https://insights.stackoverflow.com/survey/2018#technology
+      \verb https://medium.com/platform-engineer/web-api-design-35df8167460
       \endverb
+      \warn{\item Entry 'comSummary' (example.bib): Invalid format '3.12.2018' of date field 'urldate' - ignoring}
     \endentry
     \entry{ajax}{misc}{}
       \field{sortinit}{2}
@@ -707,32 +748,73 @@
       \verb http://api.jquery.com/category/ajax/
       \endverb
     \endentry
-    \entry{socketioClients}{url}{}
-      \name{author}{1}{}{%
-        {{hash=ac99b8bddb61636ab3beb7b5f1eca3e6}{%
-           family={Socket.io},
-           familyi={S\bibinitperiod}}}%
+    \entry{comAJAXvsWeb}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=e7097c028f01efb7c2054da947ba3b8d}{%
+           family={Puranik},
+           familyi={P\bibinitperiod},
+           given={D.\bibnamedelimi G.},
+           giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=6a9f75d4dca8d9fa5c64d013d0d9eae9}{%
+           family={Feiock},
+           familyi={F\bibinitperiod},
+           given={D.\bibnamedelimi C.},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=f7aac87da25bc2ae87f568522a099024}{%
+           family={Hill},
+           familyi={H\bibinitperiod},
+           given={J.\bibnamedelimi H.},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
       }
-      \strng{namehash}{ac99b8bddb61636ab3beb7b5f1eca3e6}
-      \strng{fullhash}{ac99b8bddb61636ab3beb7b5f1eca3e6}
-      \strng{bibnamehash}{ac99b8bddb61636ab3beb7b5f1eca3e6}
-      \strng{authorbibnamehash}{ac99b8bddb61636ab3beb7b5f1eca3e6}
-      \strng{authornamehash}{ac99b8bddb61636ab3beb7b5f1eca3e6}
-      \strng{authorfullhash}{ac99b8bddb61636ab3beb7b5f1eca3e6}
+      \strng{namehash}{83adcfcb49e9485aca29271d0842af6e}
+      \strng{fullhash}{83adcfcb49e9485aca29271d0842af6e}
+      \strng{bibnamehash}{83adcfcb49e9485aca29271d0842af6e}
+      \strng{authorbibnamehash}{83adcfcb49e9485aca29271d0842af6e}
+      \strng{authornamehash}{83adcfcb49e9485aca29271d0842af6e}
+      \strng{authorfullhash}{83adcfcb49e9485aca29271d0842af6e}
       \field{sortinit}{2}
       \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Other Client Implementations}
-      \field{urlday}{20}
+      \field{booktitle}{2013 20th IEEE International Conference and Workshops on Engineering of Computer Based Systems (ECBS)}
+      \field{month}{4}
+      \field{title}{Real-Time Monitoring using AJAX and WebSockets}
+      \field{year}{2013}
+      \field{pages}{110\bibrangedash 118}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1109/ECBS.2013.10
+      \endverb
+      \keyw{embedded systems;Internet;Java;monitoring;protocols;public domain software;software architecture;XML;real-time monitoring;AJAX;WebSockets;asynchronous JavaScript;XML;World Wide Web;unconventional programming;protocol;open-source architecture;software instrumentation of systems;OASIS;distributed real-time systems;embedded systems;DRE systems;Real-time systems;Probes;Software;Memory management;Bandwidth;Protocols}
+    \endentry
+    \entry{backendDef}{url}{}
+      \name{author}{1}{}{%
+        {{hash=6156604bf7622f698cd57b4b56651208}{%
+           family={Press},
+           familyi={P\bibinitperiod},
+           given={Cambridge\bibnamedelima University},
+           giveni={C\bibinitperiod\bibinitdelim U\bibinitperiod}}}%
+      }
+      \strng{namehash}{6156604bf7622f698cd57b4b56651208}
+      \strng{fullhash}{6156604bf7622f698cd57b4b56651208}
+      \strng{bibnamehash}{6156604bf7622f698cd57b4b56651208}
+      \strng{authorbibnamehash}{6156604bf7622f698cd57b4b56651208}
+      \strng{authornamehash}{6156604bf7622f698cd57b4b56651208}
+      \strng{authorfullhash}{6156604bf7622f698cd57b4b56651208}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Back-End}
+      \field{urlday}{27}
       \field{urlmonth}{11}
       \field{urlyear}{2018}
       \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://socket.io/docs/
+      \verb https://dictionary.cambridge.org/dictionary/english/back-end
       \endverb
       \verb{url}
-      \verb https://socket.io/docs/
+      \verb https://dictionary.cambridge.org/dictionary/english/back-end
       \endverb
     \endentry
     \entry{middlewaredef}{url}{}
@@ -765,57 +847,32 @@
       \verb https://en.oxforddictionaries.com/definition/middleware
       \endverb
     \endentry
-    \entry{archsurv1}{article}{}
+    \entry{benchmarkNode.NET}{url}{}
       \name{author}{1}{}{%
-        {{hash=cd846333abeffcc6a828e9813cbffd58}{%
-           family={al.},
-           familyi={a\bibinitperiod},
-           given={L.\bibnamedelimi Atzori},
-           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod},
-           prefix={et},
-           prefixi={e\bibinitperiod}}}%
+        {{hash=3cec7f5fb2e0fddedf510680a6d25130}{%
+           family={TechEmpower},
+           familyi={T\bibinitperiod}}}%
       }
-      \strng{namehash}{cd846333abeffcc6a828e9813cbffd58}
-      \strng{fullhash}{cd846333abeffcc6a828e9813cbffd58}
-      \strng{bibnamehash}{cd846333abeffcc6a828e9813cbffd58}
-      \strng{authorbibnamehash}{cd846333abeffcc6a828e9813cbffd58}
-      \strng{authornamehash}{cd846333abeffcc6a828e9813cbffd58}
-      \strng{authorfullhash}{cd846333abeffcc6a828e9813cbffd58}
+      \strng{namehash}{3cec7f5fb2e0fddedf510680a6d25130}
+      \strng{fullhash}{3cec7f5fb2e0fddedf510680a6d25130}
+      \strng{bibnamehash}{3cec7f5fb2e0fddedf510680a6d25130}
+      \strng{authorbibnamehash}{3cec7f5fb2e0fddedf510680a6d25130}
+      \strng{authornamehash}{3cec7f5fb2e0fddedf510680a6d25130}
+      \strng{authorfullhash}{3cec7f5fb2e0fddedf510680a6d25130}
       \field{sortinit}{2}
       \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Computer Networks, Elsevier}
-      \field{month}{10}
-      \field{title}{The Internet of Things: A survey}
-      \field{year}{2010}
-    \endentry
-    \entry{gogleTrendNode}{url}{}
-      \name{author}{1}{}{%
-        {{hash=8b36e9207c24c76e6719268e49201d94}{%
-           family={Google},
-           familyi={G\bibinitperiod}}}%
-      }
-      \strng{namehash}{8b36e9207c24c76e6719268e49201d94}
-      \strng{fullhash}{8b36e9207c24c76e6719268e49201d94}
-      \strng{bibnamehash}{8b36e9207c24c76e6719268e49201d94}
-      \strng{authorbibnamehash}{8b36e9207c24c76e6719268e49201d94}
-      \strng{authornamehash}{8b36e9207c24c76e6719268e49201d94}
-      \strng{authorfullhash}{8b36e9207c24c76e6719268e49201d94}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Google Trends Node.js}
-      \field{urlday}{20}
+      \field{title}{Web Frameworks Benchmarks}
+      \field{urlday}{21}
       \field{urlmonth}{11}
       \field{urlyear}{2018}
       \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://trends.google.com/trends/explore?q=nodejs&date=all
+      \verb https://www.techempower.com/benchmarks/#section=data-r17&hw=ph&test=plaintext&p=zik0zj-zijocf-zijocf-5m9r
       \endverb
       \verb{url}
-      \verb https://trends.google.com/trends/explore?q=nodejs&date=all
+      \verb https://www.techempower.com/benchmarks/#section=data-r17&hw=ph&test=plaintext&p=zik0zj-zijocf-zijocf-5m9r
       \endverb
     \endentry
     \entry{blynk}{url}{}
@@ -830,8 +887,8 @@
       \strng{authorbibnamehash}{71168d731264059fe6576b5e906cc314}
       \strng{authornamehash}{71168d731264059fe6576b5e906cc314}
       \strng{authorfullhash}{71168d731264059fe6576b5e906cc314}
-      \field{sortinit}{3}
-      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Blynk}
@@ -846,62 +903,64 @@
       \verb https://www.blynk.cc/
       \endverb
     \endentry
-    \entry{backendDef}{url}{}
-      \name{author}{1}{}{%
-        {{hash=6156604bf7622f698cd57b4b56651208}{%
-           family={Press},
-           familyi={P\bibinitperiod},
-           given={Cambridge\bibnamedelima University},
-           giveni={C\bibinitperiod\bibinitdelim U\bibinitperiod}}}%
-      }
-      \strng{namehash}{6156604bf7622f698cd57b4b56651208}
-      \strng{fullhash}{6156604bf7622f698cd57b4b56651208}
-      \strng{bibnamehash}{6156604bf7622f698cd57b4b56651208}
-      \strng{authorbibnamehash}{6156604bf7622f698cd57b4b56651208}
-      \strng{authornamehash}{6156604bf7622f698cd57b4b56651208}
-      \strng{authorfullhash}{6156604bf7622f698cd57b4b56651208}
+    \entry{ttn}{online}{}
       \field{sortinit}{3}
       \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
-      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Back-End}
-      \field{urlday}{27}
-      \field{urlmonth}{11}
-      \field{urlyear}{2018}
-      \field{urldateera}{ce}
+      \field{title}{The Things Network}
       \verb{urlraw}
-      \verb https://dictionary.cambridge.org/dictionary/english/back-end
+      \verb https://www.thethingsnetwork.org/
       \endverb
       \verb{url}
-      \verb https://dictionary.cambridge.org/dictionary/english/back-end
+      \verb https://www.thethingsnetwork.org/
       \endverb
     \endentry
-    \entry{postgresUsers}{url}{}
+    \entry{awsIOT}{online}{}
       \name{author}{1}{}{%
-        {{hash=1d8b204c6a71e7100f0a1927ae66e9f0}{%
-           family={Postgres},
-           familyi={P\bibinitperiod}}}%
+        {{hash=b3b3a6ac74ecbd56bcdbefa4799fb9df}{%
+           family={Amazon},
+           familyi={A\bibinitperiod}}}%
       }
-      \strng{namehash}{1d8b204c6a71e7100f0a1927ae66e9f0}
-      \strng{fullhash}{1d8b204c6a71e7100f0a1927ae66e9f0}
-      \strng{bibnamehash}{1d8b204c6a71e7100f0a1927ae66e9f0}
-      \strng{authorbibnamehash}{1d8b204c6a71e7100f0a1927ae66e9f0}
-      \strng{authornamehash}{1d8b204c6a71e7100f0a1927ae66e9f0}
-      \strng{authorfullhash}{1d8b204c6a71e7100f0a1927ae66e9f0}
+      \strng{namehash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
+      \strng{fullhash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
+      \strng{bibnamehash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
+      \strng{authorbibnamehash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
+      \strng{authornamehash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
+      \strng{authorfullhash}{b3b3a6ac74ecbd56bcdbefa4799fb9df}
       \field{sortinit}{3}
       \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Postgres User}
-      \field{urlday}{20}
-      \field{urlmonth}{11}
-      \field{urlyear}{2018}
-      \field{urldateera}{ce}
+      \field{title}{Amazon IoT developer book}
       \verb{urlraw}
-      \verb https://stackshare.io/postgresql
+      \verb https://docs.aws.amazon.com/de_de/iot/latest/developerguide/what-is-aws-iot.html
       \endverb
       \verb{url}
-      \verb https://stackshare.io/postgresql
+      \verb https://docs.aws.amazon.com/de_de/iot/latest/developerguide/what-is-aws-iot.html
+      \endverb
+    \endentry
+    \entry{msIOT}{online}{}
+      \name{author}{1}{}{%
+        {{hash=140864078aeca1c7c35b4beb33c53c34}{%
+           family={Microsoft},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Support additional protocols for IoT Hub}
+      \verb{urlraw}
+      \verb https://docs.microsoft.com/de-de/azure/iot-hub/iot-hub-protocol-gateway
+      \endverb
+      \verb{url}
+      \verb https://docs.microsoft.com/de-de/azure/iot-hub/iot-hub-protocol-gateway
       \endverb
     \endentry
     \entry{radiorange}{url}{}
@@ -1007,6 +1066,143 @@
       \field{title}{Designing for the Digital Age: How to Create Human-Centered Products and Services}
       \field{year}{2009}
     \endentry
+    \entry{archsurv1}{article}{}
+      \name{author}{1}{}{%
+        {{hash=cd846333abeffcc6a828e9813cbffd58}{%
+           family={al.},
+           familyi={a\bibinitperiod},
+           given={L.\bibnamedelimi Atzori},
+           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{cd846333abeffcc6a828e9813cbffd58}
+      \strng{fullhash}{cd846333abeffcc6a828e9813cbffd58}
+      \strng{bibnamehash}{cd846333abeffcc6a828e9813cbffd58}
+      \strng{authorbibnamehash}{cd846333abeffcc6a828e9813cbffd58}
+      \strng{authornamehash}{cd846333abeffcc6a828e9813cbffd58}
+      \strng{authorfullhash}{cd846333abeffcc6a828e9813cbffd58}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computer Networks, Elsevier}
+      \field{month}{10}
+      \field{title}{The Internet of Things: A survey}
+      \field{year}{2010}
+    \endentry
+    \entry{postgresUsers}{url}{}
+      \name{author}{1}{}{%
+        {{hash=1d8b204c6a71e7100f0a1927ae66e9f0}{%
+           family={Postgres},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{1d8b204c6a71e7100f0a1927ae66e9f0}
+      \strng{fullhash}{1d8b204c6a71e7100f0a1927ae66e9f0}
+      \strng{bibnamehash}{1d8b204c6a71e7100f0a1927ae66e9f0}
+      \strng{authorbibnamehash}{1d8b204c6a71e7100f0a1927ae66e9f0}
+      \strng{authornamehash}{1d8b204c6a71e7100f0a1927ae66e9f0}
+      \strng{authorfullhash}{1d8b204c6a71e7100f0a1927ae66e9f0}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Postgres User}
+      \field{urlday}{20}
+      \field{urlmonth}{11}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://stackshare.io/postgresql
+      \endverb
+      \verb{url}
+      \verb https://stackshare.io/postgresql
+      \endverb
+    \endentry
+    \entry{socketioClients}{url}{}
+      \name{author}{1}{}{%
+        {{hash=ac99b8bddb61636ab3beb7b5f1eca3e6}{%
+           family={Socket.io},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{ac99b8bddb61636ab3beb7b5f1eca3e6}
+      \strng{fullhash}{ac99b8bddb61636ab3beb7b5f1eca3e6}
+      \strng{bibnamehash}{ac99b8bddb61636ab3beb7b5f1eca3e6}
+      \strng{authorbibnamehash}{ac99b8bddb61636ab3beb7b5f1eca3e6}
+      \strng{authornamehash}{ac99b8bddb61636ab3beb7b5f1eca3e6}
+      \strng{authorfullhash}{ac99b8bddb61636ab3beb7b5f1eca3e6}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Other Client Implementations}
+      \field{urlday}{20}
+      \field{urlmonth}{11}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://socket.io/docs/
+      \endverb
+      \verb{url}
+      \verb https://socket.io/docs/
+      \endverb
+    \endentry
+    \entry{stackOverflowSurvey}{url}{}
+      \name{author}{1}{}{%
+        {{hash=84d7dc19766c446f5e4084e8fce87f82}{%
+           family={StackOverflow},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{84d7dc19766c446f5e4084e8fce87f82}
+      \strng{fullhash}{84d7dc19766c446f5e4084e8fce87f82}
+      \strng{bibnamehash}{84d7dc19766c446f5e4084e8fce87f82}
+      \strng{authorbibnamehash}{84d7dc19766c446f5e4084e8fce87f82}
+      \strng{authornamehash}{84d7dc19766c446f5e4084e8fce87f82}
+      \strng{authorfullhash}{84d7dc19766c446f5e4084e8fce87f82}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Developer Survey Results 2018}
+      \field{urlday}{20}
+      \field{urlmonth}{11}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://insights.stackoverflow.com/survey/2018#technology
+      \endverb
+      \verb{url}
+      \verb https://insights.stackoverflow.com/survey/2018#technology
+      \endverb
+    \endentry
+    \entry{gogleTrendNode}{url}{}
+      \name{author}{1}{}{%
+        {{hash=8b36e9207c24c76e6719268e49201d94}{%
+           family={Google},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{fullhash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{bibnamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorbibnamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authornamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorfullhash}{8b36e9207c24c76e6719268e49201d94}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Google Trends Node.js}
+      \field{urlday}{20}
+      \field{urlmonth}{11}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://trends.google.com/trends/explore?q=nodejs&date=all
+      \endverb
+      \verb{url}
+      \verb https://trends.google.com/trends/explore?q=nodejs&date=all
+      \endverb
+    \endentry
     \entry{pg-promise}{url}{}
       \name{author}{1}{}{%
         {{hash=1938c653d2ee71d8e278aabac5592a48}{%
@@ -1019,8 +1215,8 @@
       \strng{authorbibnamehash}{1938c653d2ee71d8e278aabac5592a48}
       \strng{authornamehash}{1938c653d2ee71d8e278aabac5592a48}
       \strng{authorfullhash}{1938c653d2ee71d8e278aabac5592a48}
-      \field{sortinit}{3}
-      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{pg-promise}
@@ -1063,6 +1259,66 @@
       \verb https://docs.microsoft.com/de-de/dotnet/api/system.threading.thread?redirectedfrom=MSDN&view=netframework-4.7.2
       \endverb
     \endentry
+    \entry{benchmarkReact}{webpage}{}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \verb{urlraw}
+      \verb https://stefankrause.net/js-frameworks-benchmark8/table.html
+      \endverb
+      \verb{url}
+      \verb https://stefankrause.net/js-frameworks-benchmark8/table.html
+      \endverb
+    \endentry
+    \entry{reactjsUsers}{url}{}
+      \name{author}{1}{}{%
+        {{hash=ca2083cb55ef71f99892fe7ea062b47b}{%
+           family={stackshare},
+           familyi={s\bibinitperiod}}}%
+      }
+      \strng{namehash}{ca2083cb55ef71f99892fe7ea062b47b}
+      \strng{fullhash}{ca2083cb55ef71f99892fe7ea062b47b}
+      \strng{bibnamehash}{ca2083cb55ef71f99892fe7ea062b47b}
+      \strng{authorbibnamehash}{ca2083cb55ef71f99892fe7ea062b47b}
+      \strng{authornamehash}{ca2083cb55ef71f99892fe7ea062b47b}
+      \strng{authorfullhash}{ca2083cb55ef71f99892fe7ea062b47b}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Companies using React}
+      \field{urlday}{21}
+      \field{urlmonth}{11}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://stackshare.io/react
+      \endverb
+      \verb{url}
+      \verb https://stackshare.io/react
+      \endverb
+    \endentry
+    \entry{jsx2}{webpage}{}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \verb{urlraw}
+      \verb https://www.reactenlightenment.com/react-jsx/5.1.html
+      \endverb
+      \verb{url}
+      \verb https://www.reactenlightenment.com/react-jsx/5.1.html
+      \endverb
+    \endentry
+    \entry{jsx}{online}{}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labeltitlesource}{title}
+      \field{title}{JSX}
+      \verb{urlraw}
+      \verb https://jsx.github.io/
+      \endverb
+      \verb{url}
+      \verb https://jsx.github.io/
+      \endverb
+    \endentry
     \entry{createReactApp}{url}{}
       \name{author}{1}{}{%
         {{hash=50ce2da63bea6a618e7578fa50690040}{%
@@ -1075,8 +1331,8 @@
       \strng{authorbibnamehash}{50ce2da63bea6a618e7578fa50690040}
       \strng{authornamehash}{50ce2da63bea6a618e7578fa50690040}
       \strng{authorfullhash}{50ce2da63bea6a618e7578fa50690040}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Create React App}
@@ -1103,8 +1359,8 @@
       \strng{authorbibnamehash}{50ce2da63bea6a618e7578fa50690040}
       \strng{authornamehash}{50ce2da63bea6a618e7578fa50690040}
       \strng{authorfullhash}{50ce2da63bea6a618e7578fa50690040}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{File Structure}
@@ -1120,8 +1376,8 @@
       \endverb
     \endentry
     \entry{reactDND}{url}{}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labeltitlesource}{title}
       \field{title}{React DND}
       \field{urlday}{20}
@@ -1149,8 +1405,8 @@
       \strng{authorbibnamehash}{8d35a07e0e8908051e1aaae0b49efa51}
       \strng{authornamehash}{8d35a07e0e8908051e1aaae0b49efa51}
       \strng{authorfullhash}{8d35a07e0e8908051e1aaae0b49efa51}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Socket.IO for Unity}
@@ -1177,8 +1433,8 @@
       \strng{authorbibnamehash}{ee2d15425f020b4ccd3048877630a8f8}
       \strng{authornamehash}{ee2d15425f020b4ccd3048877630a8f8}
       \strng{authorfullhash}{ee2d15425f020b4ccd3048877630a8f8}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{socket.io-unity}
@@ -1205,8 +1461,8 @@
       \strng{authorbibnamehash}{7e6d70c6521ed8f2c1ae70630d35682f}
       \strng{authornamehash}{7e6d70c6521ed8f2c1ae70630d35682f}
       \strng{authorfullhash}{7e6d70c6521ed8f2c1ae70630d35682f}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{socket.io-client.unity3d}
@@ -1235,8 +1491,8 @@
       \strng{authorbibnamehash}{c67ad6b206238b8cdaa448bbae305375}
       \strng{authornamehash}{c67ad6b206238b8cdaa448bbae305375}
       \strng{authorfullhash}{c67ad6b206238b8cdaa448bbae305375}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Python RFM69 library for RaspberryPi}
@@ -1252,8 +1508,8 @@
       \endverb
     \endentry
     \entry{raspberrypiDoc}{url}{}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labeltitlesource}{title}
       \field{title}{RPI RFM69 documentation}
       \field{urlday}{23}
@@ -1268,10 +1524,12 @@
       \endverb
     \endentry
   \enddatalist
+  \missing{TTN}
   \missing{arduinoIDEDownload}
   \missing{edgeFog}
+  \missing{fritzingForum}
   \missing{noModel}
-  \missing{nodejssavescost}
+  \missing{pm2}
 \endrefsection
 \endinput
 

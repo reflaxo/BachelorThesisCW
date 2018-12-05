@@ -11,8 +11,9 @@ Therefore, possible architectures and practices to integrate to the project were
 In the following, research concerning the development of our project is listed and explained.
 
 \section{Design Thinking}
-Design thinking is one strategy to plan an innovation process. 
-It seemed to fit the working process and was a guide concerning the production phase, further explained in Chapter\ref{Chapter4}.
+Design thinking is one strategy to design a product or an innovation process.
+As an innovation process, Plattner, Meinel and Leifer describe this process as "re-defining the problem, needfinding and benchmarking, ideating, building, testing." \parencite{designThinkingBook}
+It seemed to fit the project and was a guide concerning the production phase, further explained in Chapter\ref{Chapter4}.
 In contrast to mechanical improvements, design thinking tries to emphatize with possible customer needs at all parts of the product.
 A few of design thinking's key principles are to 
 "engage in early exploration of selected ideas, rapidly modelling potential solutions to encourage learning 
@@ -20,7 +21,7 @@ while doing, and allow for gaining additional insight into the viability of
 solutions before too much time or money has been spent" and that it 
 "Iterates through the various stages, revisiting empathetic frames of mind and then redefining the challenge as new knowledge and insight is gained along the way." 
 \parencite{designThinking}
-The Stanford Design School, now known as the Hasso Plattner Institute of Design began teaching a design thinking process 
+The Stanford Design School, now known as the Hasso Plattner Institute of Design, began teaching a design thinking process 
 with the three steps of understanding, improving and applying a product. 
 
 Since then, their approach to design thinking moved on to a widely used, open-sourced 5 stage process \parencite{designThinkingCrashCourse}
@@ -73,20 +74,18 @@ and it's incompatibility with other shields it was not competitive against the N
 Two generally important concepts in a product lifecycle surrounding a development process 
 are the "Proof of Concept" and the "Minimal Viable Product".
 
-\subsection{Proof of Concept}
 The business dictionary defines a proof of concept as "Evidence which establishes that an idea, invention, process, or business model is feasible."
 \parencite{PoC}
 A proof of concept can take many forms depending on the product and the industry it develops in. 
 In a technological environment, proof of concept often take the form of prototypes defined by a set of goals.
 
-\subsection{Minimal Viable Product}
 A minimival viable product (MVP) is a product with "sufficient features to satisfy early adopters" \parencite{mvp}. 
 Only after considering feedback by customers is the product developed further. 
 MVPs allow companies to publish a product as early as possible which leads to early monitary profit and fast feedback. 
 On this basis, user
 The concept has been popularized by Eric Ries, a consultant of start-ups.
 
-\section{Architecture (2-3p)}
+\section{Architecture}
 
 As there is, at this point in time, no consensus reached for a layer model defined for IoT-architectures \parencite{noModel}
 different approaches can be used to analyze and structure an IoT-system. 
@@ -137,6 +136,8 @@ It offers an architecture as well as a taylored layer model.
     While the customer has access to the platform layer through the application layer, he doesn't get in touch with the platform layer directly.  %übersichtlich 
 \end{description}
 
+The following describes Gartner's proposed Layer model for IoT-systems.
+
 \begin{description}
     \item[Device Layer] \hfill \\
     The Device Layer is the phyiscal layer in this model. 
@@ -177,7 +178,7 @@ It offers an architecture as well as a taylored layer model.
 
 
 \subsection{Five-Layer architecture}
-One by \parencite{fiveLayer1,fiveLayer} proposed model is a five-layer-model consisting of the following layers.
+One by the authors of \parencite{fiveLayer1,fiveLayer} proposed model is a five-layer-model consisting of the following layers.
 \begin{description}
     \item [Perception layer] \hfill \\
     The perception layer is the physical layer of the architecture. Sensors and actuators exist in this layer.
@@ -217,128 +218,133 @@ Disciplines like UX (User Experience), UI(User Interface) and  IxD (Interaction 
 a "better" front-end-experience for many years. 
 
 Usually, a mixture of HTML, CSS and Javascript is used for front-end development. 
-In recent years, libaries that combine HTML and Javascript capabilities like React.js, Angular or Vue %\parencite{reactjsAngularVue} 
-have been designed to support a component based architecture. 
+In recent years, libaries and frameworks that encourage a component-based architecture are becoming increasingly popular.
+The most popular representatives are currently React.js, Angular and Vue \parencite{reactjsAngularVue} 
+, where the former two are established tools and the later has been on the rise for the last two years.
+The table in Figure \ref{fig:frontEndCompare} displays the differences and similarities between the three tools.
 
-For this project, React.js was used. React.js will further be called by it's commonly referred name "React".
-React is an Open-Source Javascript-Libary.
-After developing React in 2011, Facebook soon discovered that it's performance was faster than other implementations of its' kind \parencite{benchmarkReact}and made it Open-Source in 2015. 
-At present, React is used by major companies for their front-end like Airbnb, Netflix and Reddit \parencite{reactjsUsers}. 
-In this years' Stackoverflow-Survey, React came third in "Most Popular Framework, Libary or Tool" \parencite{stackOverflowSurvey}. 
-This year, over 100,000 developers participated in the survey. 
-A lot of libaries are available for React. 
-Its main concepts are:
+For choosing the right libary or framework, the displayed categories seemed important.
+The learning curve would enable the author to use the framwork fast, as there was no prior experience in any framework.
+The relative popularity could dertemine the amount of data one would have access to when researching for information on the framework.
+"Loved by developers" is an indicator for the long-term ease of use and how more advanced developments would affect especially future developers.
+Noteworthy users indicates what kind of traffic a website with the framework can handle and how the websites using these frameworks look like.
 
-
-\begin{description}
-    \item[Components] \hfill \\
-    React motivates its users to write encapsulated components with single responsibilities. Components combine the HTML-markup and Javscript-functionality of a responsibility. 
-    They are supposed to increase reusability. %erhöhen
-    \item[Composition] \hfill \\
-    The user can reuse and composite elements as he needs to. 
-    The isolated components make code easier to maintain. 
-    \item[Uni-Directional Dataflow] \hfill \\
-            Properties should not be changed in other components, but passed down as read-only variables. 
-            React doesn't want children to affect their parent components. That makes maintainability easier, as there's a clear downward structure in a well designed React project.
-            If a user needs to pass changes to a parent component, it's executed with callbacks.
-    \item[Virtual Dom]\hfill \\
-    A Document Object Model (DOM) is a logical structure of documents in HTML, XHTML, or XML formats. 
-    Web browsers are using layout engines to transform or parse the representation HTML-syntax into document object model that we can see in a web browser.
-    Usually, when one of these elements changes, the whole structure has to be calculated again. 
-    React uses a Virtual DOM as a negiator to enable calculating only the parts that need calculating. That's also possible because of Reacts' isolated component structure.
-    \item[JSX] \hfill \\
-    %ÜBERARBEITEN
-    //ÜBERARBEITEN 
-
-    Javascript XML (JSX), is a Javascript extension of Javascript which is usually used to write in ReactJs. 
-    It looks a lot like HTML but enables Javascript functionality. 
-    Javascript functionalities can be used by putting them in curly brackets ("{}").
-\end{description}
 \begin{figure}[b]
 	\centering
-    \includegraphics[width=125mm, scale=1.25]{Figures/ReactExampleFullsize}
+    \includegraphics[width=125mm, scale=1.25]{Figures/CompareFrontend}
 	\decoRule
-	\caption[React1]{React example code}
-	\label{fig:reactEx}
+	\caption[Front End Comparison]{Front-End Comparison}
+	\label{fig:frontEndCompare}
 \end{figure}
-
-\begin{figure}[t]
-    \centering
-	\includegraphics[width=75mm,scale=0.75]{Figures/EditExample1}
-	\decoRule
-	\caption[ReactEx]{Resulting Output of example code}
-	\label{fig:resultReact}
-\end{figure}
-
 
 \section{Communication}
-%Socket.io
-There are different ways to communicate between clients and middleware. 
-Communication on the web is usually unsynchronized. 
-That means that the client requests something and the server responds. 
-Problems arise if real-time communication is required. 
-Chat-applications e.g. shouldn't require the user to reload a page anytime he wants to see a new message.
+There are different ways to communicate between the client and the server of a website. 
+
+HTTP (Hypertext Transfer Protocol) is the most popular way to communicate between a client and a server.
+It can be used with different languages and frameworks and is usually implemented considering the REpresentational State Transfer (REST) architectural style.
+The REST style requires a communication to 
+\begin{enumerate}
+    \item Seperate the client (visuals) from the server (data storage)
+    \item 
+    Communication should be "stateless", which means every time the client requests data from the server, 
+    it needs to add every information necessary to send the data back to the client. 
+    This is comparable to having to send your phone number with every message while chatting,
+    so the person on the other end, who has no prior messages from you saved because they are immediately deleted once he or she answers, can text you back.
+    You (the client), are the only one who knows the other persons phone number and anytime you want to hear something from them, you have to initiate the conversation.
+    \item The incoming data should be cacheable. 
+    Messages coming from the server are tagged "cacheable" or "non-cacheable" so the client is given the right to 
+    reuse that response data for later or to delete it after usage.
+    \item A uniform interface. 
+    "REST is defined by four interface constraints: identification of resources; manipulation of resources through representations; self-descriptive messages; and, hypermedia as the engine of application state."
+    \parencite{restful}
+\end{enumerate}
+
+Due to its stateless nature, a RESTful HTTP approach always needs the client to request data from the server.
+There are different techniques to optimize this kind of communication. A Medium article
+\parencite{comSummary} explains the differences with a great analogy: waiting for cake to be ready.
+Either the client requests cake from the server every possible second (HTTP Short Polling) and asks for the next cake (data) as soon as it gets a response which would look like this in a conversation: 
+\textit{ C: "Is the cake ready?" C: "Is the cake ready?" C: "Is the cake ready?" S: "Yes" C: "Is the next cake ready?"} ,
+or the server holds the request open until the cake is ready (HTTP Long Polling) \textit{C: "Is the cake ready?" - pause -  S:"Yes" C:"Is the next cake ready?"}.
+A third option is "HTTP Periodic Polling" which requests new data in a set timeframe. 
+Essentially, it works like HTTP Short Polling but by increasing the time between the requests, less traffic is produced and the server is relieved.
+AJAX \parencite{ajax} is one of the most famous technologies developed to enable periodic polling.
+Still, this technique needs a client to request new content instead of listening 
+for new information from the server. 
+Chat-applications e.g. shouldn't require the user to wait for new messages longer than necessary.
 Those services demand a more reactive and immediate communication.
+Also, "sending the phone number" meaning the client information with every message creates overhead for every message.
 
-For this, web development techniques like AJAX \parencite{ajax} were invented. 
-Here, the client requests data automatically, establishing a new connection to the server.
-
-This technique needs a client to request new content instead of listening 
-for new information which creates unnessecary overhead and a higher latency than other communication enviroments like websockets.  
- 
 Websockets pursue this task by creating a bilateral environment for clint-server-exchange. 
-This way, the client doesn't need to connect again and again, but listens for events. 
+This way, the client doesn't need to connect again and again, but listens for events once a connection is established.
 Now-a-days, most browsers are websocket compatible.
+A study in 2013  \parencite{comAJAXvsWeb} discovered that a WebSockets server consumes 50 \% 
+less network bandwidth than an AJAX server.
+Furthermore, it stated that a WebSockets client consumes memory at constant rate, 
+in difference to AJAX which consumes memory at an increasing rate, and that WebSockets can send up to 215.44 \% 
+more data samples when consuming the same amount network bandwidth.
 
-For this project, Socket.io was used for client-middleware-communication.
+The table below compares RESTful HTTP with Websockets. 
 
-Socket.io is a Javascript-Libary designed for realtime communication build on top of a websocket-protocol.
-It enables a bi-directional communication channel between client and server and offers a fallback mechanism to long polling when websockets are not available.
-There are several fallback mechanisms available that are determined dynamically by Socket.io:
-\begin{itemize}
-    \item Websocket
-    \item Adobe Flash Socket
-    \item AJAX long polling
-    \item AJAX multipart streaming
-    \item Forever Iframe
-    \item JSONP Polling
-\end{itemize}
+\begin{figure}[b]
+	\centering
+    \includegraphics[width=125mm, scale=1.25]{Figures/CompareCom}
+	\decoRule
+	\caption[Communication Comparison]{REST vs Websocket Comparison}
+	\label{fig:CompareCom}
+\end{figure}
 
-The server-side of Socket.io is developed  specifically for Node.js wheras for the client different implementations (e.g. .Net, Swift, C++)\parencite{socketioClients} are available.
-Once a connections is established it's maintained and uses a diminishing small amount resources to communicate. 
-It uses an event-based system where one participant listens and another emits an event. 
-Both Client and Server can emit and listen for events.
+\section{Back-End}
 
-\section{Middleware}
-%Talk about Node.js
-Middleware is "software that acts as a bridge between an operating system or database 
-and applications, 
-especially on a network" \parencite{middlewaredef}. 
+According to the Oxford Dictionary, a back-end is 
+"The part of a computer system, piece of software, etc., where data is stored or processed rather 
+than the parts that are seen and directly used by the user" \parencite{backendDef}
 
-As happening in other contexts, 
-a Service Orientated Architecture (SOA) approach for middleware 
-was proposed in many IoT - architectures from the last few years \parencite{archsurv1}. 
-SOA encourages decomposition of a complex system into simpler and isolated components.
-Thus, reusability and changeability is increased. 
-Especially an IoT-scenario with flexible gateway components and on-going extensions can profit from such 
-architecture as changes are demanded frequently.
+The back-end can further be separated into the processing and the storing part of the system.
+The storing and retrieving of data is usually handled by a database management system (DBMS).
+Different frameworks further process the retrieved data and enable middleware functionalities to connect to other services (like the front-end).
+Middleware is "software that acts as a bridge between an operating 
+system or database 
+and applications, especially on a network" \parencite{middlewaredef}. 
+The Table in figure \ref{fig:CompareBackend} 
+compares the three most popular framework implementations currently used in web development.
+The catogries where chosen to match the front-end technologies' categories
+except for the "Packages available" and "Performance" category.
 
-\parencite{archsurv1}
-In this case, Node.js was used as middleware between our client front-end and the database-backend.
+Any of these frameworks possess a "package manager" which allows users to download external libaries directly into their project. 
+Those libaries are called "packages" and can be uploaded by every developer.
+Therefore, only a small percentage of packages are professionally well-designed. 
+The goal of a package is first and foremost to ease the development process of an else difficult to implement feature e.g. routing, translation or database-access.
+The frameworks also have different starting capabilities, Node.js e.g. relies a lot more on external packages than ASP.Net.
+Still, the "Packages available" indicates, additionally to the "Relative Popularity" category, how much community support is available.
 
-Node.js is an open-source, cross-plattform, javascript-runtime-enviroment. 
-With 49.6\% it is this years "Most Popular Framework, Libary or Tool" on this years Stackoverflow-survey \parencite{stackOverflowSurvey}.
-According to Google Trends, interest is rising since 2012\parencite{gogleTrendNode}.
-One explanation for that might be that it's written in Javascript. 
-The transition for front-end Javascript developers to developing back-end is eased, which saves companies learning costs \parencite{nodejssavescost}.
-It uses an event-driven architecture which operates on a single threaded event loop using non-blocking I/O calls.
-Commands use callbacks to signal they are completed or failed. 
-A downside is, that it doesn't allow vertical scaling by increasing the number of CPU cores of the machine it is running on. 
-On CPU-intensive applications, that might become a problem - but modules like IPC or pm2 can add that functionality.
-Node.js commands are non-blocking and execute concurrently or in parallel. 
-It's build on the Google V8 JavaScript engine which compiles Javascript to machine code instead of interpreting it in real time. 
-%Statistik zu schnelligkeit
-There are thousands of open-source libaries and web frameworks available for Node.js. 
+The performance category indicates how fast a framework can handle certain requests. 
+This is important for scalability of a project. 
+In this case, a benchmarking-test was utilized to estimate general performance \parencite{benchmarkNode.NET}.
+
+\begin{figure}[b]
+	\centering
+    \includegraphics[width=125mm, scale=1.25]{Figures/CompareBackend}
+	\decoRule
+	\caption[Backend Framework Comparison]{Backend Framework Comparison}
+	\label{fig:CompareBackend}
+\end{figure}
+
+\subsection{Database}
+A database stores the data, whereas a DataBase-Management-System (DBMS) makes the data accessible from elsewhere.
+Famous, established examples for DBMS are MySQL and Oracle.
+Most DBMS are heavily influenced by the standardised SQL-language which was first introduced in 1970 by Edgar F. Codd in context with the relational model.
+An important idea of the relational model is the concept of database normalization, where related records are linked by a key predicate common to all.
+Now-a-days, not relational (NoSQL) DBMS like MongoDB gain market share. 
+NoSQL DBMS are mainly used for retrieving and save documents with properties unfit for the SQL-scheme with more unorganized relationships (videos, e-mails, social-media posts).
+Table \ref{fig:CompareDb} shows different aspects of the 5 most popular DBMS systems.
+
+\begin{figure}[b]
+	\centering
+    \includegraphics[width=125mm, scale=1.25]{Figures/CompareDb}
+	\decoRule
+	\caption[DBMS Comparison]{DBMS Comparison}
+	\label{fig:CompareDb}
+\end{figure}
 
 \section{Device}
 %Talk about Arduino implementation
@@ -373,25 +379,15 @@ however due to it's popularity many libaries and instructions exist to introduce
 E.g. with additional hardware like a Wi-Fi shield and existing free apps like "Blynk"  \parencite{blynk}, 
 an Arduino can be tracked and controlled within 30 minutes of set-up.
 
-
-\section{Back-End}
-%Talk about postgres
-According to the Oxford Dictionary, a back-end is 
-"The part of a computer system, piece of software, etc., where data is stored or processed rather 
-than the parts that are seen and directly used by the user" \parencite{backendDef}
-
-If an architecture contains middleware, the back-end is usually responsible for storing and retrieving data for other parts of the system.
-Accordingly, a database and a database management system (DBMS) are introduced.
-The database stores the data, whereas the DBMS makes the data accessable from elsewhere.
-Famous, established examples for DBMS are MySQL and Oracle.
-Most DBMS are heavily influenced by the standardised SQL-language which was first introduced in 1970 by Edgar F. Codd in context with the relational model.
-An important idea of the relational model is the concept of database normalization, where related records are linked by a key predicate common to all.
-
-For this database, PostgreSQL was used.
-PostgreSQL is a light-weight open-source object-relational database system. 
-Companies like Netflix, Spotify or Instagram \parencite{postgresUsers} rely on the flexible database system which allows SQl and noSQL design.
-It is easy to set-up and maintain. 
-
+\section{Summary}
+As one can see, a lot of options are available when developing an IoT-project.
+Different architectures, protocols, devices, and software settings blow up the decision making process.
+Communication protocols and platforms available for other protocols weren't explained in further detail since they were not appliable to the current project settings.
+While there is no industry standart, it has to be mentioned that a lot of open source and commercial software is developed for different projects.
+A good example is "The Things Network" \parencite{ttn} which tries to make IoT accessible for everyone with LoRa-Wan.
+This technology needs only a few gateways within a city instead of every user having to build their own gateway.
+Even easier to integrate are IoT-devices using the MQTT protocol with e.g. Amazon Web Services \parencite{awsIOT} or the Microsoft Azure Cloud technology \parencite{msIOT}.
+For this use case, an integration platform had to be developed by scratch.
 
 %Even though, only 26\% of IoT-Projects in companies are judged to be a complete success 
 %\parencite{ciscoresearch}. The reasons are as numerous as they are diverse. 
