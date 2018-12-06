@@ -5,7 +5,7 @@
 
 \section{Evaluation}
 To evaluate the quality of the changes we made, 
-we evaluated the room with the same criterias we picked when judging the room before the changes.
+we evaluated the room with the same criteria we picked when judging the room before the changes.
 
 \subsection{Layer Analysis}
 Refering to Figure \ref{fig:gartnerIoT} again,the existing architecture of the escape room in respect to the changes we made was analyzed.
@@ -39,7 +39,7 @@ Refering to Figure \ref{fig:gartnerIoT} again,the existing architecture of the e
 \subsection{Workload Analysis}
 The changed amounts of workload were analyzed again. 
 As there wasn't an opportunity to test the findings, the listed views are highly subjective 
-and should only be interpeted as the authors impressions, backed by the research mentioned in Chapter \ref{Chapter2}.
+and should only be interpreted as the authors impressions, backed by the research mentioned in Chapter \ref{Chapter2}.
 \subsubsection{Cognitive Work}
 The cognitive work needed to develop parts 
 of the software and hardware is expected to be considerably lower with the changes applied.
@@ -56,7 +56,7 @@ In the following, prior concerns are compared to our perception now.
     \item Understand Arduino-coding 
     \item Understand working with the "Switch-Case"-communication-protocol used for communication (with instructions)
 \end{enumerate}  
-Process Layer:
+Process Layer/Function Layer:
 \begin{enumerate}
     \item Understand Javascript to make changes on the server (in a cleaned up, documented and component-based code with improved readability)
     \item Understand Javascript and HTML to make changes to the React-front-end (also component-based) 
@@ -65,13 +65,13 @@ Process Layer:
     It would be easier to change though, by replacing the TCP connection with a Socket.io connection. 
     There are multiple client implementations for Unity available \parencite{socketioUnity1, socketioUnity2,socketioUnity3}
     That reportedly work (at least) up to the current version of Unity. 
-    Since the Unity version in the escape room won't be upgraded regularily, deprecation issues should not arise.
+    Since the Unity version in the escape room won't be upgraded frequently, deprecation issues should not arise.
 \end{enumerate}  
 \subsubsection{Visual Work}
-There was little time to research web-design to an extend where the author could state confidentely that the project's design is especially user-friendly.
+There was little time to research web-design to an extend where the author could state confidently that the project's design is especially user-friendly.
 Alternatively though, the website offers an improved version of the prior window with an integrated translation of the incoming codes.
 Instead of coded strings, the strings are now depicted as readable messages if they are stored in the database.
-It also offers a lot more information and possibilites to interact with the enviroment, which reduces the workload in other areas.
+It also offers a lot more information and possibilities to interact with the environment, which reduces the workload in other areas.
 \subsubsection{Memory Work}
 The memory work is reduced immensely, especially for new riddles. 
 The developer has the possibility to save its values as buttons so that he only needs to interact with an abstraction of the machine-code.
@@ -85,7 +85,7 @@ The developer has the possibility to save its values as buttons so that he only 
     and starting the applications in the right order were automated.
 \end{description}
 \subsubsection{Physical Work}
-The web server reduced the physical interaction needed to work with the room  silghtly. 
+The web server reduced the physical interaction needed to work with the room  slightly. 
 A user can access the room remotely and doesn't need to start the applications manually.
 
 \begin{figure}[th]
@@ -104,18 +104,15 @@ We were working with an already existing project which we were instructed not to
 Instead of designing a new architecture by scratch, we acted therefore within the given frame. 
 An architecture from scratch would e.g. have used a simpler communication system for the Arduinos and would have changed 
 the Unity communication to an event-based, more dynamic protocol.  
-
-Due to the current Unity communication, resetting the riddles depending on their assignement
+Due to the current Unity communication, resetting the riddles depending on their assignment
 is currently not possible, and riddles might be involuntary resetted on activating a trigger in Unity.
 
 The code of the project was build within a 3-month period by the single, unexperienced author.
 The most thorough research can not replace hands-on experience, 
 just like the most motivated person can usually not substitute the intertwined ideas a team can develop over a course of time.
-
 Because of the tight schedule, there wasn't time to evaluate the user-experience with the new system so the value the framework produces can only be estimated.
 Also, lots of features are still missing, listed in the "Future Work"-section below.
 A more finished product would have been desirable.
-
 
 \subsection{Future Work}
 This section is meant to list possible ways to expand the built framework.
@@ -125,7 +122,7 @@ This section is meant to list possible ways to expand the built framework.
     one could take the entire processing to the Node.js server. 
     Since the Node.js server handles the database-queries,
     the events would scale dynamically. 
-    Developers wouldn't need to change the Unity code manually everytime a riddle is added. 
+    Developers wouldn't need to change the Unity code manually every time a riddle is added. 
     Possible use cases are:
     \begin{enumerate}
         \item Resetting the room could be implemented by selecting all riddle details with "Finish" as an infovalue when Unity sends a "resetRiddles" event.
@@ -140,7 +137,7 @@ This section is meant to list possible ways to expand the built framework.
     went beyond the scope of the project. 
     \item [Security] \hfill \\
     Within the scope of this project, security protection like password authentication and encryption was not included.
-    Since the web server is hosted in a local network in a password protected enviroment we didn't prioritize an authentication system.
+    Since the web server is hosted in a local network in a password protected environment we didn't prioritize an authentication system.
     Another aspect was that an escape room doesn't contain privacy sensitive data in our point of view.
     \item [Component Isolation]\hfill \\
     Though it was tried to keep the components separated, there is always room for improvement. 
@@ -153,11 +150,11 @@ This section is meant to list possible ways to expand the built framework.
     That's an avoidable bottleneck, if UART were replaced with SPI.
     Alternatively, the baud rate could be increased.
     A Raspberry Pi could be set up as a server with a Wi-Fi module. 
-    There is an regulary updatet (last update is 6 months old in a branch) python wrapper \parencite{raspberrypiLibRFM} with thorough documentation \parencite{raspberrypiDoc} available for connecting 
+    There is an frequently updated (last update is 6 months old in a branch) python wrapper \parencite{raspberrypiLibRFM} with thorough documentation \parencite{raspberrypiDoc} available for connecting 
     a Raspberry Pi to a RFM69 module running with the LowPowerLab library. 
     The Raspberry could host the websever in a local, protected Wi-Fi environment and 
     supply the server hosting Unity with the needed events within the closed network. 
-    Ideally, Unity would have an implemented Socket.Io connection by then.
+    Ideally, Unity would have an implemented Socket.io connection by then.
     This way, only authenticated users would have access to the escape rooms properties, 
     the architecture would be separated and therefore clearer for developers, and easier to change.
      \parencite{raspberrypiDoc}
@@ -166,51 +163,106 @@ This section is meant to list possible ways to expand the built framework.
      This introduces a whole new world riddles that could interact with the cellphone. 
      One could build an alternative front-end for customers, and e.g.
      let them scan something with their camera trough the webpage they access.
-     The database could provide further information to a riddle, if e.g. a code should be adressed.
+     The database could provide further information to a riddle, if e.g. a code should be addressed.
      \item[Smart Capabilities]\hfill \\
      A smart room with more riddles and tracking functionalities would be gratifying.
      Immersion in an escape room can be increased by tracking body functions,
      One could track body functions like heartbeat when controlling 
      the spaceship to start individual audio messages (approval, motivation, disapproval)
-     enviromental factors like the temperatue of the room could impact the story telling ("Brrr It's cold in here"/"It's getting hot in here" - audiomessages)
-
-
+     environmental factors like the temperature of the room could impact the story telling ("Brrr It's cold in here"/"It's getting hot in here" - audiomessages)
 \end{description}
 //Picture of Planned architecture (Raspberry, webserver to unity bla)
 
 \subsection{Big Picture}
-
 In the context of other IoT implementations, a rather unusual approach was taken, reasoned with the initial set-up of the room.
 Researching, little IoT-implementations apart from the LowPowerLab framework were found with the RFM69HCW module. 
-Though it serves it's purpose well, beeing cost-effective, consuming very little power and beeing fairly reliable,
+Though it serves it's purpose well, being cost-effective, consuming very little power and being fairly reliable,
 other communication protocols would have been easier to implement and are more flexible in the long-run.
 For example a related module which costs 5 euros more, the RFM9X, is becoming popular with the rise of LoRa-WAN in IoT technology. 
-LoRa-WAN enables easy access to a Web-Interface with The Things Network (TTN) \parencite{TTN}.
+LoRa-WAN enables easy access to a Web-Interface with The Things Network (ttn) \parencite{TTN}.
 It would also simplify testing, as any "Thing" integrated in TTN can access the gateway within a 2-5 mile range within a city. 
-Protocols like Zigbee and LowPower-Bluetooth are an alternative for short-range communication and offer other 
-advantages like ZigBees mesh-communication or BLE's easy cellphone communication.
+Protocols like Zigbee, MQTT and LowPower-Bluetooth are an alternative for short-range communication and offer other 
+advantages like ZigBees mesh-communication, BLE's easy cellphone communication or MQTT's broad framework support.
 More popular protocols offer more support by a community and are therefore easier to access and update.
+Knowing this, our implementation can't be separated from the architecture it resides in. 
+One could have changed the room's communication system from scratch, 
+which would have enabled the usage of open-source software and frameworks instead of building one in a limited timeframe.
+One could judge, that this project, too is just another iteration cycle of a project that is in need of deeper changes. 
+On the other hand, is this system untypical in the way it communicates with several clients, 
+e.g. the Unity application which might have lead to problems there.
 
 \section{Conclusion}
-%Summarize all main points and insights/discoveries
 This project extended the functionalities of an existing escape room.
-A framework which might help future developers in integrating new riddles was developed.
+A framework which might help future developers to integrate new riddles was developed.
+The software side of the escape room was remodeled to match current development standards.
+With these changes, there is hope that the escape room will be further developed in the future.
 We hoped to set a basis for a smart escape room with the new features.
-
-
-Struktur:
-"Why should anybody care"
-
-
-mobile integration would be possible by accessing the node.js server via socket.io
-Erster schritt richtung smart escape room
-
-Narration gets more immersive if a room can react to enviromental factors with sensors. 
+Narration gets more immersive if a room can react to environmental factors with sensors. 
 Body functions could be tracked for specific tasks, while the room could react to the general status of the room. 
 If the room "knows" how many riddles were done, the temperature of the room, 
 the number of people within the room, where everybody is with motion or touch detection, it can react appropriately.
-Currently, escape rooms need a supervisor to send hints to people within the room. 
-A fully developed smart escape room.
+Currently e.g. , escape rooms always need a supervisor to send hints to customers within the room if they get stuck. 
+A fully developed smart escape room wouldn't need a supervisor but could create hints automatically.
+Smart implementations like this will occur more and more in the future, 
+replacing foreseeable human workforce with machines and artificial intelligence. 
+That will enable humanity to focus on more creative tasks like research and development.
+Just now, with smart home becoming accessible at low cost and consumer-friendly \parencite{Ikea} , we can see how the combination of physical and virtual objects 
+eases daily life. 
+
+However good that may sound, one big hurdle still to take is the standardization of IoT-solutions. 
+Though consumer-friendly products are easy to implement within their scope, 
+it is difficult or impossible to connect devices from different brands, even if they use the same protocol
+(e.g. ZigBee in case of Philips Hue and Ikea Smart Home). 
+Often, they need a specific gateway, a specific app, and a stable environment to work properly. 
+That is inconvenient and does not reflect human intuition. 
+When so many decisions need to be made and so much needs to be researched without the time or resources to plan it through, 
+one of the decisions is doomed to affect a project negatively in the long run. 
+Standardized guides to planning IoT-solutions would help avoiding these mistakes.
+As long as IoT-solutions are distributed and isolated at the same time, 
+implementations, like the escape room, will cause problems for people interacting or working with them.
+
+While that may take a few years, one can avoid or estimate future problems considering a few steps.
+\begin{enumerate}
+    \item Quick research to determine popularity of a decision
+    \item Thorough documentation of the project
+    \item ?? Ich will drei punkte xD
+\end{enumerate}
+
+Popularity is not always an indicator for quality, but as long as there are no standards,
+community support and existing implementations can decrease the amount of work needed for a project immensely.
+Companies like Google, Amazon, Microsoft and Cisco 
+offer platforms for industry and partly free home automation usage, 
+projects like OpenHab, Home Assistant, Domoticz or TTN 
+enable people to build their IoT-system for free, sometimes open-source in an existing, documented infrastructure.
+Depending on the use case, one can quickly determine which infrastructure is suitable for their product.
+These existing tools help defining industry standards and can save time to develop an infrastructure from scratch.
+
+If an existing integration platform is not suitable for the use case, one can still decrease the amount of future problems by providing an extensive documentation.
+Researching the escape room's ways and extension possibilities from there took nearly as long as the actual implementation, 
+and new discoveries were made frequently until the very end of the project. 
+For this iteration cycle, a documentation was written, 
+explaining the communication and implementation of the room as it is, 
+that hopefully will be accessible to the next person working with the room.
+
+All in all, the escape room is a good example of current self-made IoT-systems, 
+that grow in time and become better with every iteration cycle.
+
+%not adapted to human needs.
+
+%compability can not be secured
+
+
+%//escape room changes
+%//What did we change
+%//How does it affect the workin environment
+%//why is it important
+%//Smart implementations impact on ilfe 
+%//General advice that can be taken from the project for other IoT implementations
+%//How ocul this process be eased 
+%//Future one sentence. Epic.
+
+
+
 
 %Since the layers of an IoT system are neither standartized nor clear depending on the things included in the network system,
 %a layered approach can only be striven for in the execution of a PoC.

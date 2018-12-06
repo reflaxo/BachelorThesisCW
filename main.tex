@@ -78,7 +78,29 @@ headsepline, % Uncomment to get a line under the header
 \usepackage{float}
 \usepackage{hyperref}
 \usepackage{amsmath}
+\usepackage{listings}
+\usepackage{color}
 
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+%Codestyle definition
+\lstset{frame=tb,
+  language=Java,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+}
 
 \usepackage[
     backend=biber,
@@ -90,7 +112,6 @@ headsepline, % Uncomment to get a line under the header
     doi=true,
 	eprint=true,
 ]{biblatex}
-
 
 \addbibresource{example.bib} % The filename of the bibliography
 
@@ -106,6 +127,8 @@ headsepline, % Uncomment to get a line under the header
         }
     }
 }
+
+\hyphenation{trans-cei-ver}
 
 
 %----------------------------------------------------------------------------------------
@@ -137,11 +160,10 @@ headsepline, % Uncomment to get a line under the header
 \author{Cara \textsc{Watermann}} % Your name, this is used in the title page and abstract, print it elsewhere with \authorname
 \addresses{} % Your address, this is not currently used anywhere in the template, print it elsewhere with \addressname
 
-\subject{Medientechnik} % Your subject area, this is not currently used anywhere in the template, print it elsewhere with \subjectname
+ % Your subject area, this is not currently used anywhere in the template, print it elsewhere with \subjectname
 \keywords{} % Keywords for your thesis, this is not currently used anywhere in the template, print it elsewhere with \keywordnames
-\university{\href{http://www.university.com}{Hochschule Düsseldorf}} % Your university's name and URL, this is used in the title page and abstract, print it elsewhere with \univname
-\department{\href{http://department.university.com}{Media Technology}} % Your department's name and URL, this is used in the title page and abstract, print it elsewhere with \deptname
-\group{\href{http://researchgroup.university.com}{Research Group Name}} % Your research group's name and URL, this is used in the title page, print it elsewhere with \groupname
+\university{\href{http://www.university.com}{University of Applied Sciences Düsseldorf}} % Your university's name and URL, this is used in the title page and abstract, print it elsewhere with \univname
+\department{\href{http://department.university.com}{Media Technology}} % Your department's name and URL, this is used in the title page and abstract, print it elsewhere with \deptname % Your research group's name and URL, this is used in the title page, print it elsewhere with \groupname
 \faculty{\href{http://faculty.university.com}{Media}} % Your faculty's name and URL, this is used in the title page and abstract, print it elsewhere with \facname
 
 \AtBeginDocument{
@@ -190,10 +212,9 @@ headsepline, % Uncomment to get a line under the header
 
 \large \textit{A thesis submitted in fulfillment of the requirements\\ for the degree of \degreename}\\[0.3cm] % University requirement text
 \textit{in the}\\[0.4cm]
-\groupname\\\deptname\\[2cm] % Research group name and department name
- 
+\deptname\\[2cm] % Research group name and department name
 \vfill
-\includegraphics{Logo} % University/department logo - uncomment to place it
+\includegraphics[width=100mm,scale=1]{Logo} % University/department logo - uncomment to place it
 {\large \today}\\[4cm] % Date
 
 \vfill
@@ -255,23 +276,32 @@ headsepline, % Uncomment to get a line under the header
 %----------------------------------------------------------------------------------------
 
 \begin{abstract}
-	\addchaptertocentry{\abstractname} % Add the abstract to the table of contents
-	The influence of the Internet of Things (IoT) in everyday life has been rising for years.
+    Was ist das Problem? Warum sind es und deine Lösung relevant?
+- Was ist der Kern deiner Arbeit? Was hast du getan? 
+- Was waren deine Ergebnisse?
+
+\addchaptertocentry{\abstractname} % Add the abstract to the table of contents
+The influence of the Internet of Things (IoT) in everyday life has been rising for years.
 Connected devices are expected to number 20 billion \parencite{gartner0} by 2020 in nearly every industry.
-
-According to Verizon \parencite{verizon} the use on digital devices in the media and entertainment industry increased by 120 \% in 2016 compared to 2013.
-The industry was third in terms of accepting IoT,
-with manufacturing (204\%) and finance and insurance (138\%) industries topping the chart.
-
-Within the entertainment industry, escape rooms have been a growing sector since the first escape room launched 2007 in Japan.
-Escape rooms generally follow the same structure: People are locked into a room, have to solve riddles
-and get out in a defined period of time or will be released by a supervisor who watches the process to support
-and assist in case of an emergency.
-
-This field offers lots of possibilities for technical development, be it the use of different sensors, the use of Virtual Reality or flexible story-telling (depending on the users actions).
-In this thesis, my goal was to create a suitable architecture and framework for further technical improvement for an existing escape room.
-
-	\end{abstract}
+Digital escape rooms in are one small, but interesting use case for connected devices.
+This field offers lots of possibilities for testing and defining new ways IoT-devices can influence an experience, 
+with immersive, interactive story-telling, depending on the users actions.
+In this thesis, the goal was to create a suitable architecture and framework for further technical improvement for an existing escape room.
+The digital escape room at hand was already functional, but used unstandardized, undocumented protocols and architectures. 
+Consequently, the project provided little and disencouraging possibilities for expansion.
+Developers therefore paused the project's bigger development plans 
+and had to take great lengths to implement any changes.
+The extensions we provided are a first step to easing the
+development processes for developers working with the escape room. 
+A remodeled GUI and a more flexible software infrastructure, 
+as well as instructions on easier device integration were created. 
+We discovered, that there are little industry standards concerning 
+all layers and the communication with each other within
+the IoT-scope available and coherent decision-making 
+for self-made IoT-projects is one of the biggest hurdles.
+This project can be seen as an example for self-made IoT-projects, 
+and analyzes what to look out for and what options are available when developing such.
+\end{abstract}
 
 
 

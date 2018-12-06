@@ -2,13 +2,16 @@
 \chapter{Project Overview} % Main chapter title
 %What is the problem and its effects?
 \label{Chapter3} % For referencing the chapter elsewhere, use \ref{Chapter1} 
+This Chapter analyzes the escape room project as it was before any 
+changes in the scope of the thesis were made.
+
 \section{Analysis}
 
 \subsection{Layer Analysis}
 %----------------------------------------------------------------------------------------
 %	SECTION 1
 %----------------------------------------------------------------------------------------
-Refering to Figure \ref{fig:gartnerIoT}, we analyzed the existing architecture of the escape room.
+Referring to Figure \ref{fig:gartnerIoT}, we analyzed the existing architecture of the escape room.
 
 \begin{description}
 	\item[Device Layer]\hfill \\
@@ -18,7 +21,7 @@ Refering to Figure \ref{fig:gartnerIoT}, we analyzed the existing architecture o
 	      The communication within the room was set-up with RFM69HCW transceiver modules.\parencite{radiorange}
           The RFM69HCW is a very cheap, easy to use and to set-up transceiver. They do packetization, error correction and auto-retransmit which makes them easy to handle.
 	      They are designed for point-to-multipoint communication with one transceiver set as a gateway node which sends data to the other transceivers in the room.
-	      There are two open-source libaries for the RFM69HCW, the LowPowerlab \parencite{LowPowerLab} and Radiohead \parencite{radiohead} library.
+	      There are two open-source libraries for the RFM69HCW, the LowPowerlab \parencite{LowPowerLab} and Radiohead \parencite{radiohead} library.
 	      The escape room used the LowPowerlab library since the architect who designed the room prior to our adjustments was familiar with the library.
           Now-a-days the Radiohead library is the recommended library \parencite{adafruitRecommends} since it's documented more thorough by an active community, kept up-to-date and is cross-platform friendly.
          
@@ -30,7 +33,7 @@ Refering to Figure \ref{fig:gartnerIoT}, we analyzed the existing architecture o
           Any node (riddle) within the room was recognized by a different nodeID and the gateway was detected with a specified "GatewayID". 
             For security-reasons, password-encryption was used between the nodes. 
 
-          The Arduinos within the room connected to the RFM69HCW via Serial Pheriphical Interface (SPI).
+          The Arduinos within the room connected to the RFM69HCW via Serial Peripheral Interface (SPI).
           SPI is a serial communication protocol common for micro-processor connection. 
           It uses an extra "Clock" (CLK) line to keep both sides in sync. 
           Only one side generates the clock signal (usually called the "master"). The other side is called the "slave".
@@ -41,7 +44,7 @@ Refering to Figure \ref{fig:gartnerIoT}, we analyzed the existing architecture o
           If the master wants to send data to a slave, it's send via a MOSI line, for “Master Out / Slave In”.
           If a slave wants to send data to the master the data will be put on a third line called MISO for "Master In/Slave Out".
           The master will continue to generate a prearranged number of clock cycles, before the message is read by the master.
-          As there is a MISO and a MOSI line, full-duplex communication where data is simultaniously send and received is possible with SPI.
+          As there is a MISO and a MOSI line, full-duplex communication where data is simultaneously send and received is possible with SPI.
           The fourth line needed to enable SPI communication is the "Slave Select"(SS) line which opens the communication channel. 
           If there is only one slave, the "SS" line is kept low (its active state) as long is the device is on. 
 
@@ -53,7 +56,7 @@ Refering to Figure \ref{fig:gartnerIoT}, we analyzed the existing architecture o
           
 	\item[Information Layer]\hfill \\
         The Information Layer was build around a simple event model: the transceivers would send and receive numeric codes in a "n1/n2/n3...\textbackslash n"-structure, e.g. "16/2/0\textbackslash n". 
-        A riddle could be identified through the string it sent, since the first number would be the riddle's adressing number. 
+        A riddle could be identified through the string it sent, since the first number would be the riddle's addressing number. 
         Further numbers, separated by a backslash, would show the active state of the device. 
         %% Immer wenn mit dem rätsel interagiert wird und sich der status ändert schickt das  rätsel  schickt einen string
         % Mit einem anderen befehl kann man die akion auslösen wenn modus aktiv ist können wir den befehl schicken 
@@ -140,7 +143,7 @@ It didn't offer needed functions for the user, like buttons for often used featu
 \subsubsection{Memory Work}
 Memory work is measured in how much a user has to remember to succeed in a task. 
 Typical examples are passwords, command names, and file names.
-In its former state, the architecture demanded a high amout of memory work from a developer:
+In its former state, the architecture demanded a high amount of memory work from a developer:
 \begin{enumerate}
     \item The developer has to translate "n1/n2/n3...\textbackslash n"-codes whenever he wants to understand the serialport-messages 
     \item The developer has to remember a different code when he wants to send an order to the device

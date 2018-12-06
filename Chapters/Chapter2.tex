@@ -3,22 +3,20 @@
 \chapter{Related Work} % Main chapter title
 
 \label{Chapter2} % Change X to a consecutive number; for referencing this chapter elsewhere, use \ref{ChapterX}
-
-%General explanation: We have an escape room that is currently a WSN with only little data processing, we watn to extend the middleware
 % to achieve a broader spectrum of integration possibilities.
 As explained in Chapter \ref{Chapter1}, the goal of this project was to extend an existing project.
 Therefore, possible architectures and practices to integrate to the project were investigated.
-In the following, research concerning the development of our project is listed and explained.
-
+In the following research concerning the development of the project is listed and explained.
 \section{Design Thinking}
 Design thinking is one strategy to design a product or an innovation process.
-As an innovation process, Plattner, Meinel and Leifer describe this process as "re-defining the problem, needfinding and benchmarking, ideating, building, testing." \parencite{designThinkingBook}
+As an innovation process, Plattner, Meinel and Leifer describe this process as 
+"re-defining the problem, needfinding and benchmarking, ideating, building, testing." \parencite{designThinkingBook}
 It seemed to fit the project and was a guide concerning the production phase, further explained in Chapter\ref{Chapter4}.
-In contrast to mechanical improvements, design thinking tries to emphatize with possible customer needs at all parts of the product.
+In contrast to mechanical improvements, design thinking tries to emphasize with possible customer needs at all parts of the product.
 A few of design thinking's key principles are to 
 "engage in early exploration of selected ideas, rapidly modelling potential solutions to encourage learning 
 while doing, and allow for gaining additional insight into the viability of 
-solutions before too much time or money has been spent" and that it 
+solutions before too much time or money has been spent". Also, it 
 "Iterates through the various stages, revisiting empathetic frames of mind and then redefining the challenge as new knowledge and insight is gained along the way." 
 \parencite{designThinking}
 The Stanford Design School, now known as the Hasso Plattner Institute of Design, began teaching a design thinking process 
@@ -27,10 +25,10 @@ with the three steps of understanding, improving and applying a product.
 Since then, their approach to design thinking moved on to a widely used, open-sourced 5 stage process \parencite{designThinkingCrashCourse}
 consisting of the following items:
 \begin{description}
-    \item [Empathise] \hfill \\
+    \item [Empathize] \hfill \\
     Emphatising relies on three principles: Observe, engage and immerse with your customers
     \item [Define] \hfill \\
-    Stanford recommends to unpack the priorly collected findings "to needs and insights and scope a meaningful challenge \parencite{designThinkingBootleg}
+    Stanford recommends to unpack the priory collected findings "to needs and insights and scope a meaningful challenge \parencite{designThinkingBootleg}
     \item [Ideate] \hfill \\
     Ideation is the stage one should explore ideas in a "wide open" \parencite{designThinkingBootleg}. The goal is to create ideas that some 
     can be picked from to create a prototype.
@@ -43,7 +41,7 @@ consisting of the following items:
         \item Inspiration
         \item Testing
     \end{itemize}
-    purposes. One can receive a deepend understanding by building a prototype (Empathy), explore multiple concepts faster (Exploration),
+    purposes. One can receive a deepened understanding by building a prototype (Empathy), explore multiple concepts faster (Exploration),
     inspire other people for one's ideas (Inspiration) test and refine (Testing). 
 
     \item [Test] \hfill \\
@@ -71,7 +69,7 @@ The same paper introduces .NET Gadgeteer, which was a rapid prototyping platform
 The idea of Gadgeteer was to introduce a plug-and-play mechanism to IoT-development, where the developer had to connect the devices on a visual interface and code would be generated automatically.
 Due to it's high initial cost (250\$ for a starter kit), 
 and it's incompatibility with other shields it was not competitive against the Netduino or the Arduino platform explained in the "Device"-section below.
-Two generally important concepts in a product lifecycle surrounding a development process 
+Two generally important concepts in a product life cycle surrounding a development process 
 are the "Proof of Concept" and the "Minimal Viable Product".
 
 The business dictionary defines a proof of concept as "Evidence which establishes that an idea, invention, process, or business model is feasible."
@@ -79,10 +77,9 @@ The business dictionary defines a proof of concept as "Evidence which establishe
 A proof of concept can take many forms depending on the product and the industry it develops in. 
 In a technological environment, proof of concept often take the form of prototypes defined by a set of goals.
 
-A minimival viable product (MVP) is a product with "sufficient features to satisfy early adopters" \parencite{mvp}. 
-Only after considering feedback by customers is the product developed further. 
-MVPs allow companies to publish a product as early as possible which leads to early monitary profit and fast feedback. 
-On this basis, user
+A minimal viable product (MVP) is a product with "sufficient features to satisfy early adopters" \parencite{mvp}. 
+Only after considering feedback by customers the product is developed further. 
+MVPs allow companies to publish a product as early as possible which supposedly leads to early monetary profit and fast feedback. 
 The concept has been popularized by Eric Ries, a consultant of start-ups.
 
 \section{Architecture}
@@ -95,7 +92,7 @@ The following describes three proposed layer-models.
 
 This project adapted Gartner's take on IoT architecture as it offers a powerful and complex overview about different 
 possibilities of IoT integration. 
-It offers an architecture as well as a taylored layer model.
+It offers an architecture as well as a tailored layer model.
 
 \begin{figure}[th]
 	\centering
@@ -109,11 +106,11 @@ It offers an architecture as well as a taylored layer model.
     \item[Edge Tier]\hfill \\ 
     The left part of Figure \ref{fig:gartnerIoT2} depicts the edge tier of an IoT-architecture.
     The "Edge Tier" is where sensors and actuators lie.
-    Wheras a sensor \textit{detects} interaction or changes in a physical environment, an actuator is
+    Whereas a sensor \textit{detects} interaction or changes in a physical environment, an actuator is
     "a device that is used to \textit{effect} a change in the environment" such as the temperature 
     controller of an air conditioner \parencite{archsurv4}. 
-    Sensors and actutators typically complement each other.
-    The figure describes 3 general forms the edge can take. 
+    Sensors and actuators typically complement each other.
+    The figure describes three general forms the edge can take. 
     It is always a combination of sensors/actuators with either:
     \begin{enumerate}
         \item A "smart" IoT device which pre-processes data before it sends data to the device gateway service
@@ -125,9 +122,9 @@ It offers an architecture as well as a taylored layer model.
     The middle part of Figure \ref{fig:gartnerIoT2} shows the platform tier of an IoT-architecture.
     According to Gartner, the pre-processed or raw data from the edge is processed here. %%verarbeitet
     Stream processing, event handling and database implementation take place.
-    Additionaly, edge devices can be overseen with monitoring tools integrated. 
-    If needed, further requirements for enterprise authentification and handling are also implemented at that layer.
-    Summing up, this layer is responisble for all data-managment tasks that might arise in an IoT-system.
+    Additionally, edge devices can be overseen with monitoring tools integrated. 
+    If needed, further requirements for enterprise authentication and handling are also implemented at that layer.
+    Summing up, this layer is responsible for all data-management tasks that might arise in an IoT-system.
 
 
     \item [Enterprise Tier] \hfill \\
@@ -140,7 +137,7 @@ The following describes Gartner's proposed Layer model for IoT-systems.
 
 \begin{description}
     \item[Device Layer] \hfill \\
-    The Device Layer is the phyiscal layer in this model. 
+    The Device Layer is the physical layer in this model. 
     It owns the Edge Tier properties, sensors, actuators and respectively one of the three extending devices. 
     According to Gartner, this is the recommended layer to start when planning an IoT-architecture, as it defines the bandwidth of devices that need 
     to communicate with a gateway and therefore the communication protocols that work with it in the long run.
@@ -163,7 +160,7 @@ The following describes Gartner's proposed Layer model for IoT-systems.
     It handles event processing, stream processing, analytics and possibly machine learning.
     Any middleware and back-end tasks are handled here.
     \item[Process Layer]   \hfill \\
-    The Process Layer is the front-end in this Layer Model. Proccessed data can be displayed and managed by a user. 
+    The Process Layer is the front-end in this Layer Model. Processed data can be displayed and managed by a user. 
     Depending on the use case, several process layers can belong to one IoT-system (e.g. one for a device manager, and one for displaying data).
 \end{description}
 
@@ -197,12 +194,12 @@ When talking about IoT-architectures, one should mention the difference between 
 
 Cloud based architectures assume that processing and analyzing of data should happen in an enviroment remote from the devices' location.
 The network below sends data to the cloud, and above the cloud lie applications working with the processed data with the cloud in the center of this architecture.
-In the last years, cloud computing has gained popularity, also in the context of IoT architectures \parencite{CloudComputing} because it provides great exibility and scalability.
+In the last years, cloud computing has gained popularity, also in the context of IoT architectures \parencite{CloudComputing} because it provides great extensibility and scalability.
 
 A newer trend instead are fog or edge based architectures, where the sensors and gateways do parts of the data processing and analytics.
 A fog architecture \parencite{FogComputing1, FogComp} presents a layered approach, inserting various layers between the physical (perception) and transport layers 
 (monitoring, pre-processing, storage, security). 
-Wheras fog computing refers to smart sensors and gateways, edge computing refers to not-smart objects like motors, pumps with 
+Whereas fog computing refers to smart sensors and gateways, edge computing refers to not-smart objects like motors, pumps with 
 smart data preprocessing capabilities \parencite{edgeFog}.
 
 
@@ -213,19 +210,17 @@ utilize back-end capabilities of the host system.
 It enables users to access and request the features and services of the underlying information system."  
 
 The front-end is the visual component of any application. 
-
 Disciplines like UX (User Experience), UI(User Interface) and  IxD (Interaction design) have been working on creating 
 a "better" front-end-experience for many years. 
-
 Usually, a mixture of HTML, CSS and Javascript is used for front-end development. 
-In recent years, libaries and frameworks that encourage a component-based architecture are becoming increasingly popular.
+In recent years, libraries and frameworks that encourage a component-based architecture are becoming increasingly popular.
 The most popular representatives are currently React.js, Angular and Vue \parencite{reactjsAngularVue} 
 , where the former two are established tools and the later has been on the rise for the last two years.
 The table in Figure \ref{fig:frontEndCompare} displays the differences and similarities between the three tools.
 
-For choosing the right libary or framework, the displayed categories seemed important.
-The learning curve would enable the author to use the framwork fast, as there was no prior experience in any framework.
-The relative popularity could dertemine the amount of data one would have access to when researching for information on the framework.
+For choosing the right library or framework, the displayed categories seemed important.
+The learning curve would enable the author to use the framework fast, as there was no prior experience in any framework.
+The relative popularity could determine the amount of data one would have access to when researching for information on the framework.
 "Loved by developers" is an indicator for the long-term ease of use and how more advanced developments would affect especially future developers.
 Noteworthy users indicates what kind of traffic a website with the framework can handle and how the websites using these frameworks look like.
 
@@ -244,7 +239,7 @@ HTTP (Hypertext Transfer Protocol) is the most popular way to communicate betwee
 It can be used with different languages and frameworks and is usually implemented considering the REpresentational State Transfer (REST) architectural style.
 The REST style requires a communication to 
 \begin{enumerate}
-    \item Seperate the client (visuals) from the server (data storage)
+    \item Separate the client (visuals) from the server (data storage)
     \item 
     Communication should be "stateless", which means every time the client requests data from the server, 
     it needs to add every information necessary to send the data back to the client. 
@@ -311,11 +306,11 @@ system or database
 and applications, especially on a network" \parencite{middlewaredef}. 
 The Table in figure \ref{fig:CompareBackend} 
 compares the three most popular framework implementations currently used in web development.
-The catogries where chosen to match the front-end technologies' categories
+The categories were chosen to match the front-end technologies' categories
 except for the "Packages available" and "Performance" category.
 
-Any of these frameworks possess a "package manager" which allows users to download external libaries directly into their project. 
-Those libaries are called "packages" and can be uploaded by every developer.
+Any of these frameworks possess a "package manager" which allows users to download external libraries directly into their project. 
+Those libraries are called "packages" and can be uploaded by every developer.
 Therefore, only a small percentage of packages are professionally well-designed. 
 The goal of a package is first and foremost to ease the development process of an else difficult to implement feature e.g. routing, translation or database-access.
 The frameworks also have different starting capabilities, Node.js e.g. relies a lot more on external packages than ASP.Net.
@@ -336,7 +331,7 @@ In this case, a benchmarking-test was utilized to estimate general performance \
 \subsection{Database}
 A database stores the data, whereas a DataBase-Management-System (DBMS) makes the data accessible from elsewhere.
 Famous, established examples for DBMS are MySQL and Oracle.
-Most DBMS are heavily influenced by the standardised SQL-language which was first introduced in 1970 by Edgar F. Codd in context with the relational model.
+Most DBMS are heavily influenced by the standardized SQL-language which was first introduced in 1970 by Edgar F. Codd in context with the relational model.
 An important idea of the relational model is the concept of database normalization, where related records are linked by a key predicate common to all.
 Now-a-days, not relational (NoSQL) DBMS like MongoDB gain market share. 
 NoSQL DBMS are mainly used for retrieving and save documents with properties unfit for the SQL-scheme with more unorganized relationships (videos, e-mails, social-media posts).
@@ -360,12 +355,12 @@ from motion detection for light automation, to tracking the productivity of a ma
 A popular choice for self-made technology projects is the Arduino microprocessor.
 
 Arduino is a microcontroller-company from italy which was founded in 2005. 
-It is completely open source and provides its own Integrated Development Enviroment(IDE) \parencite{arduinoIDEDownload}.
+It is completely open source and provides its own Integrated Development Environment(IDE) \parencite{arduinoIDEDownload}.
 The IDE works with nearly all microprocessors on the market. 
 The IDE recommends a structure for all Arduino programs:
 \begin{description}
     \item [Initialization]
-    Prior to any function, libaries and necessary variables are declared within an Arduino program.
+    Prior to any function, libraries and necessary variables are declared within an Arduino program.
     \item [setup()]
     The setup-function is the first function called in any Arduino-program. 
     This is were variables, supporting hardware or the serialport are initialized and pin modes are set. 
@@ -375,19 +370,19 @@ The IDE recommends a structure for all Arduino programs:
     Checking for changes usually happens here, 
     whereas consequences of those changes are implemented outside the loop-function.    
 \end{description}
-The Arduino (and comperable microprocessors) are programmed in C.
+The Arduino (and comparable microprocessors) are programmed in C.
 
 Right now, the Arduino is not the most typical choice for IoT-devices in particular as Arduinos 
 with included supporting hardware (e.g. Wi-Fi-modules) released just this year,
-however due to it's popularity many libaries and instructions exist to introduce an Arduino to an IoT-scope.
+however due to it's popularity many libraries and instructions exist to introduce an Arduino to an IoT-scope.
 E.g. with additional hardware like a Wi-Fi shield and existing free apps like "Blynk"  \parencite{blynk}, 
 an Arduino can be tracked and controlled within 30 minutes of set-up.
 
 \section{Summary}
 As one can see, a lot of options are available when developing an IoT-project.
 Different architectures, protocols, devices, and software settings blow up the decision making process.
-Communication protocols and platforms available for other protocols weren't explained in further detail since they were not appliable to the current project settings.
-While there is no industry standart, it can be mentioned that a lot of open source and commercial software is developed for different projects.
+Communication protocols and platforms available for other protocols weren't explained in further detail since they were not applicable to the current project settings.
+While there is no industry standard, it can be mentioned that a lot of open-source and commercial software is developed for different projects.
 A good example is "The Things Network" \parencite{ttn} which tries to make IoT accessible for everyone with LoRa-Wan.
 This technology needs only a few gateways within a city instead of every user having to build their own gateway.
 Even easier to integrate are IoT-devices using the MQTT protocol with e.g. Amazon Web Services \parencite{awsIOT} or the Microsoft Azure Cloud technology \parencite{msIOT}.
