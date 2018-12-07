@@ -1,28 +1,28 @@
-[0] Config.pm:302> INFO - This is Biber 2.11
-[1] Config.pm:305> INFO - Logfile is 'main.blg'
-[119] biber-darwin:313> INFO - === Thu Dec  6, 2018, 13:51:41
-[218] Biber.pm:371> INFO - Reading 'main.bcf'
-[534] Biber.pm:857> INFO - Found 62 citekeys in bib section 0
-[589] Biber.pm:3976> INFO - Processing section 0
-[623] Biber.pm:4136> INFO - Looking for bibtex format file 'example.bib' for section 0
-[638] bibtex.pm:1500> INFO - LaTeX decoding ...
-[1070] bibtex.pm:1316> INFO - Found BibTeX data source 'example.bib'
-[1212] Utils.pm:193> WARN - month field 'November' in entry 'ciscoresearch' is not an integer - this will probably not sort properly.
-[1933] Utils.pm:193> WARN - month field 'December' in entry 'restful' is not an integer - this will probably not sort properly.
-[1947] Utils.pm:193> WARN - Entry 'comSummary' (example.bib): Invalid format '3.12.2018' of date field 'urldate' - ignoring
-[2114] Utils.pm:193> WARN - Entry 'adafruitRecommends' (example.bib): Invalid format '2001-11-228' of date field 'urldate' - ignoring
-[2399] Utils.pm:193> WARN - Possible typo (case mismatch) between citation and datasource keys: 'TTN' and 'ttn' in file 'example.bib'
-[2402] Utils.pm:193> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
-[2402] Utils.pm:193> WARN - BibTeX subsystem: author, warning: comma(s) at end of name (removing)
-[2403] Utils.pm:193> WARN - I didn't find a database entry for 'noModel' (section 0)
-[2405] Utils.pm:193> WARN - I didn't find a database entry for 'edgeFog' (section 0)
-[2406] Utils.pm:193> WARN - I didn't find a database entry for 'fritzingForum' (section 0)
-[2406] Utils.pm:193> WARN - I didn't find a database entry for 'pm2' (section 0)
-[2406] Utils.pm:193> WARN - I didn't find a database entry for 'TTN' (section 0)
-[2550] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[2550] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[2551] Biber.pm:3804> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[2551] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
-[2673] bbl.pm:617> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[2726] bbl.pm:720> INFO - Output to main.bbl
-[2726] Biber.pm:110> INFO - WARNINGS: 12
+[1] Config.pm:302> INFO - This is Biber 2.11
+[2] Config.pm:305> INFO - Logfile is 'main.blg'
+[151] biber-darwin:313> INFO - === Fri Dec  7, 2018, 18:21:08
+[251] Biber.pm:371> INFO - Reading 'main.bcf'
+[1483] Biber.pm:857> INFO - Found 62 citekeys in bib section 0
+[1960] Biber.pm:3976> INFO - Processing section 0
+[2214] Biber.pm:4136> INFO - Looking for bibtex format file 'example.bib' for section 0
+[2278] bibtex.pm:1500> INFO - LaTeX decoding ...
+[3024] bibtex.pm:1316> INFO - Found BibTeX data source 'example.bib'
+[3296] Utils.pm:193> WARN - month field 'November' in entry 'ciscoresearch' is not an integer - this will probably not sort properly.
+[4443] Utils.pm:193> WARN - month field 'December' in entry 'restful' is not an integer - this will probably not sort properly.
+[4508] Utils.pm:193> WARN - Entry 'comSummary' (example.bib): Invalid format '3.12.2018' of date field 'urldate' - ignoring
+[4886] Utils.pm:193> WARN - Entry 'adafruitRecommends' (example.bib): Invalid format '2001-11-228' of date field 'urldate' - ignoring
+[5287] Utils.pm:193> WARN - Possible typo (case mismatch) between citation and datasource keys: 'TTN' and 'ttn' in file 'example.bib'
+[5289] Utils.pm:193> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
+[5289] Utils.pm:193> WARN - BibTeX subsystem: author, warning: comma(s) at end of name (removing)
+[5290] Utils.pm:193> WARN - I didn't find a database entry for 'noModel' (section 0)
+[5290] Utils.pm:193> WARN - I didn't find a database entry for 'edgeFog' (section 0)
+[5290] Utils.pm:193> WARN - I didn't find a database entry for 'fritzingForum' (section 0)
+[5290] Utils.pm:193> WARN - I didn't find a database entry for 'pm2' (section 0)
+[5291] Utils.pm:193> WARN - I didn't find a database entry for 'TTN' (section 0)
+[5556] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[5556] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[5556] Biber.pm:3804> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[5556] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
+[5966] bbl.pm:617> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[6120] bbl.pm:720> INFO - Output to main.bbl
+[6135] Biber.pm:110> INFO - WARNINGS: 12

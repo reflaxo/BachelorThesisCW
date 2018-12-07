@@ -465,6 +465,15 @@ Whenever "Riddle2" would now signal it's finished, the "Finish"-code of "Riddle1
 If a Riddle was newly registered, it would be named "NewRiddle" and appear in the "Unassigned Riddles"-List on the web interface.
 We designed an "Edit"-function which enabled changing the name of the riddle and deleting it in case it got corrupted (or deleted in real-life).
 
+\begin{figure}[t]
+    \centering
+	\includegraphics[width=125mm,scale=1.25]{Figures/RiddleView1}
+	\decoRule
+	\caption[Editor-Window]{View of the Editor-Window}
+	\label{fig:archFrontend}
+\end{figure}
+
+
 Another aspect was the popup-window for the riddles. It was planned to show enough information, yet keep it simple.
 Consequently, our layout for the popup-window was designed flexibly to adapt to a desirable output depending on the usecase:
 Each variable would be displayed in respect to its in the Arduino defined values.
@@ -472,11 +481,43 @@ If a variable was set "readonly", but didn't have a button value defined, the in
 If a variable was set "write", but didn't have a button value defined, the information would be listed plainly.
 Additionally, an input field would enable changing the defined value and sending it to the Arduino automatically next time the Server would start.
 
+\begin{figure}[b]
+	\centering
+	\includegraphics[width=100mm,scale=1]{Figures/CodeSubmitted}
+	\decoRule
+	\caption[Pop-up-Window]{Pop-up Window}
+	\label{fig:popup}
+\end{figure}
 If the microcontroller was programmed to interpret the incoming value, a variable could be changed that way (e.g. a password in a riddle).
 If a button component was set in a variable, a button would appear instead of plain information about the variable.
 The user would be able to click the button to send the code immediately to the riddle.
 This functionality was especially designed with "Finish" and "Start" functionalities in mind, where a supervisor of the escape room might want to trigger these functionalities during a game if customers get stuck.
 To increase the general overview for a supervisor, the color of a riddle would change to green once it's "Finish"-code arrived.
+Alternitevely, a second view was created which implemented the functionalities possibile prior to the changes with the C++-server: 
+un-translated communication to the devices and changing the serialport in case it changed. 
+Additionaly, this view offered a partly translated communication from the devices, 
+depending on weither the codes were saved and could be interpreted by the new database-mechanism. 
+For example, all messages from the prototype could be interpreted, 
+because the riddle would register which code would translate to which word within the registerRiddle-function set in the Arduino.
+Other codes, like the "Finish" and "Reset"-codes from the older riddles, were registered manually into the database, because they were deemed important and fit into the new scheme for translation.
+
+\begin{figure}[t]
+    \centering
+	\includegraphics[width=125mm,scale=1.25]{Figures/RiddleView2}
+	\decoRule
+	\caption[Chat-Window]{View of the Chat-Window}
+	\label{fig:RiddleView2}
+\end{figure}
+
+Figure \ref{fig:archFrontend} displays the front-ends software architecture. 
+
+\begin{figure}[t]
+    \centering
+	\includegraphics[width=125mm,scale=1.25]{Figures/archFrontend}
+	\decoRule
+	\caption[Front-End-Architecture]{Software-Architecture of the Front-End}
+	\label{fig:archFrontend}
+\end{figure}
 
 \begin{figure}[th]
 	\centering

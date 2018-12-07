@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.8.15)  6 DEC 2018 14:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.8.15)  7 DEC 2018 18:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1553,7 +1553,11 @@ File: english.lbx 2018/03/04 v3.11 biblatex localization (PK/MW)
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
- (./main.aux (./Chapters/Chapter1.aux) (./Chapters/Chapter2.aux) (./Chapters/Chapter3.aux) (./Chapters/Chapter4.aux) (./Chapters/Chapter5.aux))
+ (./main.aux (./Chapters/Chapter1.aux) (./Chapters/Chapter2.aux) (./Chapters/Chapter3.aux) (./Chapters/Chapter4.aux
+
+LaTeX Warning: Label `fig:archFrontend' multiply defined.
+
+) (./Chapters/Chapter5.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 177.
@@ -1895,9 +1899,9 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
  (./Chapters/Chapter2.tex
 Chapter 2.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 10.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 11.
 
-Overfull \hbox (9.2407pt too wide) in paragraph at lines 11--24
+Overfull \hbox (9.2407pt too wide) in paragraph at lines 12--25
 \T1/ppl/m/n/10.95 the prob-lem, needfind-ing and bench-mark-ing, ideat-ing, build-ing, test-ing." [[][]6[][]] It seemed
  []
 
@@ -1910,70 +1914,70 @@ Overfull \hbox (9.2407pt too wide) in paragraph at lines 11--24
 <Figures/designThinking.jpg, id=198, 707.64375pt x 404.26031pt>
 File: Figures/designThinking.jpg Graphic file (type jpg)
 <use Figures/designThinking.jpg>
-Package pdftex.def Info: Figures/designThinking.jpg  used on input line 54.
+Package pdftex.def Info: Figures/designThinking.jpg  used on input line 55.
 (pdftex.def)             Requested size: 530.73152pt x 303.19449pt.
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 54.
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 55.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    Try loading font information for OMS+cmss on input line 54.
-LaTeX Font Info:    No file OMScmss.fd. on input line 54.
+LaTeX Font Info:    Try loading font information for OMS+cmss on input line 55.
+LaTeX Font Info:    No file OMScmss.fd. on input line 55.
 
 
 LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
-(Font)              using `OMS/cmsy/m/n' instead on input line 54.
+(Font)              using `OMS/cmsy/m/n' instead on input line 55.
 
 [4 <./Figures/designThinking.jpg>] [5]
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 91.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 92.
 <Figures/gartnerIoT2.png, id=218, 1269.74374pt x 660.4675pt>
 File: Figures/gartnerIoT2.png Graphic file (type png)
 <use Figures/gartnerIoT2.png>
-Package pdftex.def Info: Figures/gartnerIoT2.png  used on input line 99.
+Package pdftex.def Info: Figures/gartnerIoT2.png  used on input line 100.
 (pdftex.def)             Requested size: 1269.74065pt x 660.46588pt.
  [6 <./Figures/gartnerIoT2.png>]
-Overfull \hbox (2.38649pt too wide) in paragraph at lines 145--152
+Overfull \hbox (2.38649pt too wide) in paragraph at lines 146--153
 \T1/ppl/m/n/10.95 This layer de-fines how the com-mu-ni-ca-tion is tak-ing place within an IoT-system.
  []
 
 <Figures/gartnerIoT.png, id=234, 690.58pt x 682.55pt>
 File: Figures/gartnerIoT.png Graphic file (type png)
 <use Figures/gartnerIoT.png>
-Package pdftex.def Info: Figures/gartnerIoT.png  used on input line 169.
+Package pdftex.def Info: Figures/gartnerIoT.png  used on input line 170.
 (pdftex.def)             Requested size: 690.57831pt x 682.54834pt.
 [7] [8 <./Figures/gartnerIoT.png>]
-Overfull \hbox (11.6934pt too wide) in paragraph at lines 199--204
+Overfull \hbox (11.6934pt too wide) in paragraph at lines 200--205
 \T1/ppl/m/n/10.95 smart ob-jects like mo-tors, pumps with smart data pre-pro-cess-ing ca-pa-bil-i-ties [[]]. 
  []
 
 <Figures/CompareFrontend.jpg, id=256, 816.04875pt x 485.815pt>
 File: Figures/CompareFrontend.jpg Graphic file (type jpg)
 <use Figures/CompareFrontend.jpg>
-Package pdftex.def Info: Figures/CompareFrontend.jpg  used on input line 229.
+Package pdftex.def Info: Figures/CompareFrontend.jpg  used on input line 230.
 (pdftex.def)             Requested size: 1020.05846pt x 607.26726pt.
 [9] [10]
 <Figures/CompareCom.jpg, id=283, 418.56375pt x 876.27374pt>
 File: Figures/CompareCom.jpg Graphic file (type jpg)
 <use Figures/CompareCom.jpg>
-Package pdftex.def Info: Figures/CompareCom.jpg  used on input line 289.
+Package pdftex.def Info: Figures/CompareCom.jpg  used on input line 290.
 (pdftex.def)             Requested size: 418.56271pt x 876.27159pt.
 <Figures/CompareBackend.jpg, id=288, 1235.61626pt x 995.72pt>
 File: Figures/CompareBackend.jpg Graphic file (type jpg)
 <use Figures/CompareBackend.jpg>
-Package pdftex.def Info: Figures/CompareBackend.jpg  used on input line 325.
+Package pdftex.def Info: Figures/CompareBackend.jpg  used on input line 326.
 (pdftex.def)             Requested size: 1544.51656pt x 1244.64696pt.
  [11]
-Overfull \hbox (4.89305pt too wide) in paragraph at lines 332--339
+Overfull \hbox (4.89305pt too wide) in paragraph at lines 333--340
 \T1/ppl/m/n/10.95 Now-a-days, not re-la-tional (NoSQL) DBMS like Mon-goDB gain mar-ket share. NoSQL
  []
 
 <Figures/CompareDb.jpg, id=299, 1223.57124pt x 595.22375pt>
 File: Figures/CompareDb.jpg Graphic file (type jpg)
 <use Figures/CompareDb.jpg>
-Package pdftex.def Info: Figures/CompareDb.jpg  used on input line 342.
+Package pdftex.def Info: Figures/CompareDb.jpg  used on input line 343.
 (pdftex.def)             Requested size: 1529.46033pt x 744.02788pt.
 
-Overfull \hbox (1.1826pt too wide) in paragraph at lines 368--372
+Overfull \hbox (1.1826pt too wide) in paragraph at lines 369--373
 \T1/ppl/m/n/10.95 and re-spond on run-time. Check-ing for changes usu-ally hap-pens here, whereas
  []
 
@@ -2124,13 +2128,33 @@ Overfull \hbox (13.80742pt too wide) in paragraph at lines 457--467
 \T1/ppl/m/n/10.95 command would be re-as-signed on in-put to the cor-re-spond-ing Video-Trigger-command.
  []
 
+<Figures/RiddleView1.png, id=575, 1251.67625pt x 689.57625pt>
+File: Figures/RiddleView1.png Graphic file (type png)
+<use Figures/RiddleView1.png>
+Package pdftex.def Info: Figures/RiddleView1.png  used on input line 470.
+(pdftex.def)             Requested size: 1564.59149pt x 861.96819pt.
+<Figures/CodeSubmitted.png, id=576, 560.0925pt x 468.75125pt>
+File: Figures/CodeSubmitted.png Graphic file (type png)
+<use Figures/CodeSubmitted.png>
+Package pdftex.def Info: Figures/CodeSubmitted.png  used on input line 486.
+(pdftex.def)             Requested size: 560.09113pt x 468.75009pt.
 [38 <./Figures/EditExample1.png>]
-<Figures/tableFrontend.jpg, id=584, 1137.24875pt x 1002.74625pt>
+<Figures/RiddleView2.png, id=586, 1258.7025pt x 693.59125pt>
+File: Figures/RiddleView2.png Graphic file (type png)
+<use Figures/RiddleView2.png>
+Package pdftex.def Info: Figures/RiddleView2.png  used on input line 506.
+(pdftex.def)             Requested size: 1573.37428pt x 866.98694pt.
+<Figures/archFrontend.png, id=588, 933.2466pt x 810.3876pt>
+File: Figures/archFrontend.png Graphic file (type png)
+<use Figures/archFrontend.png>
+Package pdftex.def Info: Figures/archFrontend.png  used on input line 516.
+(pdftex.def)             Requested size: 1166.5554pt x 1012.98204pt.
+<Figures/tableFrontend.jpg, id=589, 1137.24875pt x 1002.74625pt>
 File: Figures/tableFrontend.jpg Graphic file (type jpg)
 <use Figures/tableFrontend.jpg>
-Package pdftex.def Info: Figures/tableFrontend.jpg  used on input line 483.
+Package pdftex.def Info: Figures/tableFrontend.jpg  used on input line 524.
 (pdftex.def)             Requested size: 1137.24599pt x 1002.7438pt.
-) [39 <./Figures/tableFrontend.jpg>]
+) [39 <./Figures/RiddleView1.png>] [40 <./Figures/CodeSubmitted.png> <./Figures/RiddleView2.png>] [41 <./Figures/archFrontend.png> <./Figures/tableFrontend.jpg>]
 \openout2 = `Chapters/Chapter5.aux'.
 
  (./Chapters/Chapter5.tex
@@ -2146,7 +2170,7 @@ Overfull \hbox (0.93065pt too wide) in paragraph at lines 21--25
  []
 
 1: section
-[40
+[42
 
 
 
@@ -2155,24 +2179,24 @@ Overfull \hbox (0.59071pt too wide) in paragraph at lines 57--58
 []\T1/ppl/m/n/10.95 Understand work-ing with the "Switch-Case"-communication-protocol used for
  []
 
-[41] [42]
-<Figures/workTable.jpg, id=625, 690.58pt x 1082.0425pt>
+[43] [44]
+<Figures/workTable.jpg, id=646, 690.58pt x 1082.0425pt>
 File: Figures/workTable.jpg Graphic file (type jpg)
 <use Figures/workTable.jpg>
 Package pdftex.def Info: Figures/workTable.jpg  used on input line 93.
 (pdftex.def)             Requested size: 690.57831pt x 1082.03986pt.
- [43 <./Figures/workTable.jpg>]
+ [45 <./Figures/workTable.jpg>]
 Overfull \hbox (2.35309pt too wide) in paragraph at lines 130--132
 []\T1/ppl/m/n/10.95 Resetting the rid-dle that ac-ti-vated an event in Unity could be im-ple-mented
  []
 
-[44] [45] [46] [47]) [48] (./main.lof)
+[46] [47] [48] [49]) [50] (./main.lof)
 \tf@lof=\write8
 \openout8 = `main.lof'.
 
 
 1: section
-[49
+[51
 
 
 ]
@@ -2236,7 +2260,7 @@ Overfull \hbox (8.66489pt too wide) in paragraph at lines 345--345
  []
 
 1: section
-[50
+[52
 
 ]
 Overfull \hbox (3.27328pt too wide) in paragraph at lines 345--345
@@ -2255,7 +2279,7 @@ Package biblatex Warning: No driver for entry type 'webpage'.
 Package biblatex Warning: No driver for entry type 'webpage'.
 (biblatex)                Using fallback driver on input line 345.
 
-[51]
+[53]
 
 Package biblatex Warning: No driver for entry type 'url'.
 (biblatex)                Using fallback driver on input line 345.
@@ -2316,7 +2340,7 @@ Package biblatex Warning: No driver for entry type 'url'.
 Package biblatex Warning: No driver for entry type 'url'.
 (biblatex)                Using fallback driver on input line 345.
 
-[52]
+[54]
 
 Package biblatex Warning: No driver for entry type 'webpage'.
 (biblatex)                Using fallback driver on input line 345.
@@ -2357,35 +2381,38 @@ Package biblatex Warning: No driver for entry type 'url'.
 Package biblatex Warning: No driver for entry type 'url'.
 (biblatex)                Using fallback driver on input line 345.
 
-[53]
+[55]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 349.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 349.
  (./main.aux (./Chapters/Chapter1.aux) (./Chapters/Chapter2.aux) (./Chapters/Chapter3.aux) (./Chapters/Chapter4.aux) (./Chapters/Chapter5.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 349.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 349.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 9399A4306217F69FAB0B86FA5CA60DCB;2780.
+(rerunfilecheck)             Checksum: 1D5CE6964D5F42F350A628AE3A1D9616;2780.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were multiply-defined labels.
 
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46528 strings out of 492649
- 946275 string characters out of 6129622
- 1381755 words of memory out of 5000000
- 49532 multiletter control sequences out of 15000+600000
+ 46557 strings out of 492649
+ 946926 string characters out of 6129622
+ 1381950 words of memory out of 5000000
+ 49551 multiletter control sequences out of 15000+600000
  584510 words of font info for 114 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
  73i,20n,84p,10413b,2934s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sfss0900.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (57 pages, 3696037 bytes).
+Output written on main.pdf (59 pages, 6882372 bytes).
 PDF statistics:
- 910 PDF objects out of 1000 (max. 8388607)
- 802 compressed objects within 9 object streams
- 271 named destinations out of 1000 (max. 500000)
- 318 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 936 PDF objects out of 1000 (max. 8388607)
+ 818 compressed objects within 9 object streams
+ 277 named destinations out of 1000 (max. 500000)
+ 338 words of extra memory for PDF output out of 10000 (max. 10000000)
 
